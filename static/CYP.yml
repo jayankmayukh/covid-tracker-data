@@ -2,10 +2,12 @@
   weekly_hosp_admissions: 0.986
   weekly_hosp_admissions_per_million: 1.126
   stringency_index: 0
+  excess_mortality: 14.44
 - date: '2020-03-08'
   weekly_hosp_admissions: 0.986
   weekly_hosp_admissions_per_million: 1.126
   stringency_index: 11.11
+  excess_mortality: -4.8
 - date: '2020-03-09'
   total_cases: 2
   new_cases: 2
@@ -86,6 +88,7 @@
   weekly_hosp_admissions: 7.891
   weekly_hosp_admissions_per_million: 9.009
   stringency_index: 44.44
+  excess_mortality: 5.35
 - date: '2020-03-16'
   total_cases: 33
   new_cases: 7
@@ -192,6 +195,7 @@
   weekly_hosp_admissions: 22.686
   weekly_hosp_admissions_per_million: 25.901
   stringency_index: 51.85
+  excess_mortality: 14.82
 - date: '2020-03-23'
   total_cases: 116
   new_cases: 21
@@ -336,6 +340,7 @@
   new_tests_per_thousand: 0.605
   tests_units: tests performed
   stringency_index: 92.59
+  excess_mortality: 21.24
 - date: '2020-03-30'
   total_cases: 230
   new_cases: 16
@@ -373,7 +378,7 @@
   total_deaths_per_million: 9.133
   new_deaths_per_million: 1.142
   new_deaths_smoothed_per_million: 0.815
-  reproduction_rate: 1.32
+  reproduction_rate: 1.33
   icu_patients: 11
   icu_patients_per_million: 12.559
   hosp_patients: 40
@@ -445,7 +450,7 @@
   total_deaths_per_million: 12.559
   new_deaths_per_million: 1.142
   new_deaths_smoothed_per_million: 0.979
-  reproduction_rate: 1.24
+  reproduction_rate: 1.25
   icu_patients: 12
   icu_patients_per_million: 13.7
   hosp_patients: 55
@@ -516,6 +521,7 @@
   tests_per_case: 19.3
   tests_units: tests performed
   stringency_index: 92.59
+  excess_mortality: 14.36
 - date: '2020-04-06'
   total_cases: 465
   new_cases: 19
@@ -529,7 +535,7 @@
   total_deaths_per_million: 10.275
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.326
-  reproduction_rate: 1.1
+  reproduction_rate: 1.11
   icu_patients: 11
   icu_patients_per_million: 12.559
   hosp_patients: 48
@@ -613,7 +619,7 @@
   total_deaths_per_million: 11.417
   new_deaths_per_million: 1.142
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.02
+  reproduction_rate: 1.03
   icu_patients: 12
   icu_patients_per_million: 13.7
   hosp_patients: 51
@@ -716,6 +722,7 @@
   tests_per_case: 37.3
   tests_units: tests performed
   stringency_index: 92.59
+  excess_mortality: -3.2
 - date: '2020-04-13'
   total_cases: 662
   new_cases: 29
@@ -785,7 +792,7 @@
   total_deaths_per_million: 13.7
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.489
-  reproduction_rate: 0.81
+  reproduction_rate: 0.8
   icu_patients: 12
   icu_patients_per_million: 13.7
   hosp_patients: 40
@@ -841,7 +848,7 @@
   total_deaths_per_million: 13.7
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.326
-  reproduction_rate: 0.73
+  reproduction_rate: 0.72
   icu_patients: 13
   icu_patients_per_million: 14.842
   hosp_patients: 40
@@ -897,7 +904,7 @@
   total_deaths_per_million: 13.7
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.163
-  reproduction_rate: 0.66
+  reproduction_rate: 0.65
   icu_patients: 12
   icu_patients_per_million: 13.7
   hosp_patients: 36
@@ -916,6 +923,7 @@
   tests_per_case: 119.9
   tests_units: tests performed
   stringency_index: 94.44
+  excess_mortality: 8.58
 - date: '2020-04-20'
   total_cases: 772
   new_cases: 5
@@ -929,7 +937,7 @@
   total_deaths_per_million: 13.7
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.64
+  reproduction_rate: 0.63
   icu_patients: 13
   icu_patients_per_million: 14.842
   hosp_patients: 33
@@ -957,7 +965,7 @@
   total_deaths_per_million: 13.7
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.63
+  reproduction_rate: 0.62
   icu_patients: 12
   icu_patients_per_million: 13.7
   hosp_patients: 36
@@ -985,7 +993,7 @@
   total_deaths_per_million: 14.842
   new_deaths_per_million: 1.142
   new_deaths_smoothed_per_million: 0.163
-  reproduction_rate: 0.62
+  reproduction_rate: 0.61
   icu_patients: 11
   icu_patients_per_million: 12.559
   hosp_patients: 34
@@ -1013,7 +1021,7 @@
   total_deaths_per_million: 14.842
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.163
-  reproduction_rate: 0.62
+  reproduction_rate: 0.61
   icu_patients: 10
   icu_patients_per_million: 11.417
   hosp_patients: 31
@@ -1069,7 +1077,7 @@
   total_deaths_per_million: 15.984
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.326
-  reproduction_rate: 0.63
+  reproduction_rate: 0.62
   icu_patients: 9
   icu_patients_per_million: 10.275
   hosp_patients: 33
@@ -1116,6 +1124,7 @@
   tests_per_case: 286.7
   tests_units: tests performed
   stringency_index: 94.44
+  excess_mortality: -0.68
 - date: '2020-04-27'
   total_cases: 822
   new_cases: 5
@@ -1129,7 +1138,7 @@
   total_deaths_per_million: 17.125
   new_deaths_per_million: 1.142
   new_deaths_smoothed_per_million: 0.489
-  reproduction_rate: 0.65
+  reproduction_rate: 0.64
   icu_patients: 7
   icu_patients_per_million: 7.992
   hosp_patients: 29
@@ -1185,7 +1194,7 @@
   total_deaths_per_million: 17.125
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.326
-  reproduction_rate: 0.66
+  reproduction_rate: 0.65
   icu_patients: 6
   icu_patients_per_million: 6.85
   hosp_patients: 27
@@ -1213,7 +1222,7 @@
   total_deaths_per_million: 17.125
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.326
-  reproduction_rate: 0.66
+  reproduction_rate: 0.65
   icu_patients: 6
   icu_patients_per_million: 6.85
   hosp_patients: 25
@@ -1297,7 +1306,7 @@
   total_deaths_per_million: 17.125
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.163
-  reproduction_rate: 0.64
+  reproduction_rate: 0.63
   icu_patients: 6
   icu_patients_per_million: 6.85
   hosp_patients: 23
@@ -1316,6 +1325,7 @@
   tests_per_case: 287.5
   tests_units: tests performed
   stringency_index: 94.44
+  excess_mortality: 5.03
 - date: '2020-05-04'
   total_cases: 874
   new_cases: 2
@@ -1516,6 +1526,7 @@
   tests_per_case: 458
   tests_units: tests performed
   stringency_index: 92.59
+  excess_mortality: 8.74
 - date: '2020-05-11'
   total_cases: 901
   new_cases: 3
@@ -1557,7 +1568,7 @@
   total_deaths_per_million: 18.267
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.163
-  reproduction_rate: 0.63
+  reproduction_rate: 0.62
   icu_patients: 4
   icu_patients_per_million: 4.567
   hosp_patients: 15
@@ -1585,7 +1596,7 @@
   total_deaths_per_million: 19.409
   new_deaths_per_million: 1.142
   new_deaths_smoothed_per_million: 0.326
-  reproduction_rate: 0.64
+  reproduction_rate: 0.63
   icu_patients: 3
   icu_patients_per_million: 3.425
   hosp_patients: 12
@@ -1714,6 +1725,7 @@
   tests_per_case: 634
   tests_units: tests performed
   stringency_index: 92.59
+  excess_mortality: 44.63
 - date: '2020-05-18'
   total_cases: 917
   new_cases: 1
@@ -1867,7 +1879,7 @@
   total_deaths_per_million: 19.409
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.85
+  reproduction_rate: 0.86
   icu_patients: 4
   icu_patients_per_million: 4.567
   hosp_patients: 9
@@ -1914,6 +1926,7 @@
   tests_per_case: 744.3
   tests_units: tests performed
   stringency_index: 76.85
+  excess_mortality: 71.32
 - date: '2020-05-25'
   total_cases: 937
   new_cases: 2
@@ -1927,7 +1940,7 @@
   total_deaths_per_million: 19.409
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.86
+  reproduction_rate: 0.87
   icu_patients: 3
   icu_patients_per_million: 3.425
   hosp_patients: 8
@@ -1955,7 +1968,7 @@
   total_deaths_per_million: 19.409
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.85
+  reproduction_rate: 0.86
   icu_patients: 3
   icu_patients_per_million: 3.425
   hosp_patients: 9
@@ -1983,7 +1996,7 @@
   total_deaths_per_million: 19.409
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.84
+  reproduction_rate: 0.85
   icu_patients: 3
   icu_patients_per_million: 3.425
   hosp_patients: 8
@@ -2011,7 +2024,7 @@
   total_deaths_per_million: 19.409
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.86
+  reproduction_rate: 0.87
   icu_patients: 3
   icu_patients_per_million: 3.425
   hosp_patients: 7
@@ -2112,6 +2125,7 @@
   tests_per_case: 1746.5
   tests_units: tests performed
   stringency_index: 76.85
+  excess_mortality: 6.3
 - date: '2020-06-01'
   total_cases: 949
   new_cases: 5
@@ -2153,7 +2167,7 @@
   total_deaths_per_million: 19.409
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.01
+  reproduction_rate: 1.02
   icu_patients: 3
   icu_patients_per_million: 3.425
   hosp_patients: 6
@@ -2310,6 +2324,7 @@
   tests_per_case: 707.7
   tests_units: tests performed
   stringency_index: 76.85
+  excess_mortality: 32.7
 - date: '2020-06-08'
   total_cases: 970
   new_cases: 6
@@ -2323,7 +2338,7 @@
   total_deaths_per_million: 20.55
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.163
-  reproduction_rate: 0.99
+  reproduction_rate: 1
   icu_patients: 2
   icu_patients_per_million: 2.283
   hosp_patients: 5
@@ -2508,6 +2523,7 @@
   tests_per_case: 490.8
   tests_units: tests performed
   stringency_index: 62.96
+  excess_mortality: 3.75
 - date: '2020-06-15'
   total_cases: 985
   new_cases: 2
@@ -2661,7 +2677,7 @@
   total_deaths_per_million: 21.692
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.163
-  reproduction_rate: 0.76
+  reproduction_rate: 0.75
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 1
@@ -2706,6 +2722,7 @@
   tests_per_case: 1993
   tests_units: tests performed
   stringency_index: 62.96
+  excess_mortality: -3.17
 - date: '2020-06-22'
   total_cases: 988
   new_cases: 2
@@ -2775,7 +2792,7 @@
   total_deaths_per_million: 21.692
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.163
-  reproduction_rate: 0.92
+  reproduction_rate: 0.91
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 0
@@ -2904,6 +2921,7 @@
   tests_per_case: 1008.7
   tests_units: tests performed
   stringency_index: 53.7
+  excess_mortality: 4.54
 - date: '2020-06-29'
   total_cases: 996
   new_cases: 2
@@ -3057,7 +3075,7 @@
   total_deaths_per_million: 21.692
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.23
+  reproduction_rate: 1.22
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 1
@@ -3085,7 +3103,7 @@
   total_deaths_per_million: 21.692
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.25
+  reproduction_rate: 1.24
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 1
@@ -3100,6 +3118,7 @@
   tests_per_case: 1056.8
   tests_units: tests performed
   stringency_index: 50
+  excess_mortality: 12.22
 - date: '2020-07-06'
   total_cases: 1004
   new_cases: 1
@@ -3141,7 +3160,7 @@
   total_deaths_per_million: 21.692
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.32
+  reproduction_rate: 1.33
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 0
@@ -3296,6 +3315,7 @@
   tests_per_case: 526.3
   tests_units: tests performed
   stringency_index: 47.22
+  excess_mortality: -3.51
 - date: '2020-07-13'
   total_cases: 1022
   new_cases: 1
@@ -3494,6 +3514,7 @@
   tests_per_case: 594.1
   tests_units: tests performed
   stringency_index: 47.22
+  excess_mortality: 7.29
 - date: '2020-07-20'
   total_cases: 1038
   new_cases: 0
@@ -3692,6 +3713,7 @@
   tests_per_case: 563
   tests_units: tests performed
   stringency_index: 47.22
+  excess_mortality: 15.69
 - date: '2020-07-27'
   total_cases: 1060
   new_cases: 3
@@ -3705,7 +3727,7 @@
   total_deaths_per_million: 21.692
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.73
+  reproduction_rate: 1.74
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 0
@@ -3761,7 +3783,7 @@
   total_deaths_per_million: 21.692
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.85
+  reproduction_rate: 1.86
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 0
@@ -3789,7 +3811,7 @@
   total_deaths_per_million: 21.692
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.86
+  reproduction_rate: 1.87
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 6
@@ -3873,7 +3895,7 @@
   total_deaths_per_million: 21.692
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.73
+  reproduction_rate: 1.74
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 4
@@ -3890,6 +3912,7 @@
   tests_per_case: 165.4
   tests_units: tests performed
   stringency_index: 47.22
+  excess_mortality: 10.89
 - date: '2020-08-03'
   total_cases: 1155
   new_cases: 5
@@ -3903,7 +3926,7 @@
   total_deaths_per_million: 21.692
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.64
+  reproduction_rate: 1.65
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 4
@@ -4088,6 +4111,7 @@
   tests_per_case: 249.6
   tests_units: tests performed
   stringency_index: 47.22
+  excess_mortality: -16.82
 - date: '2020-08-10'
   total_cases: 1252
   new_cases: 10
@@ -4286,6 +4310,7 @@
   tests_per_case: 237.6
   tests_units: tests performed
   stringency_index: 47.22
+  excess_mortality: 7.61
 - date: '2020-08-17'
   total_cases: 1351
   new_cases: 12
@@ -4486,6 +4511,7 @@
   tests_per_case: 297.6
   tests_units: tests performed
   stringency_index: 50
+  excess_mortality: 8.35
 - date: '2020-08-24'
   total_cases: 1451
   new_cases: 30
@@ -4611,7 +4637,7 @@
   total_deaths_per_million: 22.834
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.79
+  reproduction_rate: 0.78
   icu_patients: 1
   icu_patients_per_million: 1.142
   hosp_patients: 5
@@ -4639,7 +4665,7 @@
   total_deaths_per_million: 22.834
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.74
+  reproduction_rate: 0.73
   icu_patients: 1
   icu_patients_per_million: 1.142
   hosp_patients: 7
@@ -4684,6 +4710,7 @@
   tests_per_case: 316
   tests_units: tests performed
   stringency_index: 50
+  excess_mortality: 2.61
 - date: '2020-08-31'
   total_cases: 1488
   new_cases: 1
@@ -4837,7 +4864,7 @@
   total_deaths_per_million: 23.975
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.163
-  reproduction_rate: 0.72
+  reproduction_rate: 0.71
   icu_patients: 2
   icu_patients_per_million: 2.283
   hosp_patients: 4
@@ -4884,6 +4911,7 @@
   tests_per_case: 742.9
   tests_units: tests performed
   stringency_index: 50
+  excess_mortality: -2.06
 - date: '2020-09-07'
   total_cases: 1510
   new_cases: 1
@@ -4953,7 +4981,7 @@
   total_deaths_per_million: 25.117
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.163
-  reproduction_rate: 0.86
+  reproduction_rate: 0.85
   icu_patients: 1
   icu_patients_per_million: 1.142
   hosp_patients: 4
@@ -4981,7 +5009,7 @@
   total_deaths_per_million: 25.117
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.163
-  reproduction_rate: 0.93
+  reproduction_rate: 0.92
   icu_patients: 1
   icu_patients_per_million: 1.142
   hosp_patients: 4
@@ -5037,7 +5065,7 @@
   total_deaths_per_million: 25.117
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.163
-  reproduction_rate: 1.08
+  reproduction_rate: 1.07
   icu_patients: 1
   icu_patients_per_million: 1.142
   hosp_patients: 4
@@ -5084,6 +5112,7 @@
   tests_per_case: 1046.1
   tests_units: tests performed
   stringency_index: 55.56
+  excess_mortality: 17.87
 - date: '2020-09-14'
   total_cases: 1534
   new_cases: 8
@@ -5097,7 +5126,7 @@
   total_deaths_per_million: 25.117
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.26
+  reproduction_rate: 1.27
   icu_patients: 1
   icu_patients_per_million: 1.142
   hosp_patients: 5
@@ -5153,7 +5182,7 @@
   total_deaths_per_million: 25.117
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.39
+  reproduction_rate: 1.4
   icu_patients: 1
   icu_patients_per_million: 1.142
   hosp_patients: 6
@@ -5209,7 +5238,7 @@
   total_deaths_per_million: 25.117
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.5
+  reproduction_rate: 1.51
   icu_patients: 1
   icu_patients_per_million: 1.142
   hosp_patients: 7
@@ -5237,7 +5266,7 @@
   total_deaths_per_million: 25.117
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.55
+  reproduction_rate: 1.56
   icu_patients: 1
   icu_patients_per_million: 1.142
   hosp_patients: 7
@@ -5265,7 +5294,7 @@
   total_deaths_per_million: 25.117
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.53
+  reproduction_rate: 1.54
   icu_patients: 1
   icu_patients_per_million: 1.142
   hosp_patients: 6
@@ -5282,6 +5311,7 @@
   tests_per_case: 238.8
   tests_units: tests performed
   stringency_index: 53.7
+  excess_mortality: 4.17
 - date: '2020-09-21'
   total_cases: 1603
   new_cases: 3
@@ -5463,7 +5493,7 @@
   total_deaths_per_million: 25.117
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.43
+  reproduction_rate: 1.42
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 17
@@ -5482,6 +5512,7 @@
   tests_per_case: 220.1
   tests_units: tests performed
   stringency_index: 53.7
+  excess_mortality: 3.27
 - date: '2020-09-28'
   total_cases: 1713
   new_cases: 17
@@ -5682,6 +5713,7 @@
   tests_per_case: 154.8
   tests_units: tests performed
   stringency_index: 53.7
+  excess_mortality: 15.54
 - date: '2020-10-05'
   total_cases: 1847
   new_cases: 23
@@ -5880,6 +5912,7 @@
   tests_per_case: 124.2
   tests_units: tests performed
   stringency_index: 50
+  excess_mortality: 5.21
 - date: '2020-10-12'
   total_cases: 2047
   new_cases: 41
@@ -5893,7 +5926,7 @@
   total_deaths_per_million: 28.542
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.489
-  reproduction_rate: 1.71
+  reproduction_rate: 1.72
   icu_patients: 2
   icu_patients_per_million: 2.283
   hosp_patients: 7
@@ -5977,7 +6010,7 @@
   total_deaths_per_million: 28.542
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.163
-  reproduction_rate: 1.8
+  reproduction_rate: 1.81
   icu_patients: 2
   icu_patients_per_million: 2.283
   hosp_patients: 9
@@ -6005,7 +6038,7 @@
   total_deaths_per_million: 28.542
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.79
+  reproduction_rate: 1.8
   icu_patients: 2
   icu_patients_per_million: 2.283
   hosp_patients: 12
@@ -6033,7 +6066,7 @@
   total_deaths_per_million: 28.542
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.77
+  reproduction_rate: 1.78
   icu_patients: 2
   icu_patients_per_million: 2.283
   hosp_patients: 21
@@ -6080,6 +6113,7 @@
   tests_per_case: 37.9
   tests_units: tests performed
   stringency_index: 46.3
+  excess_mortality: 10.89
 - date: '2020-10-19'
   total_cases: 2687
   new_cases: 43
@@ -6149,7 +6183,7 @@
   total_deaths_per_million: 28.542
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.59
+  reproduction_rate: 1.6
   icu_patients: 2
   icu_patients_per_million: 2.283
   hosp_patients: 23
@@ -6205,7 +6239,7 @@
   total_deaths_per_million: 28.542
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.51
+  reproduction_rate: 1.5
   icu_patients: 2
   icu_patients_per_million: 2.283
   hosp_patients: 26
@@ -6280,6 +6314,7 @@
   tests_per_case: 28.8
   tests_units: tests performed
   stringency_index: 63.89
+  excess_mortality: 20.12
 - date: '2020-10-26'
   total_cases: 3636
   new_cases: 91
@@ -6480,6 +6515,7 @@
   tests_per_case: 22.6
   tests_units: tests performed
   stringency_index: 63.89
+  excess_mortality: 3.38
 - date: '2020-11-02'
   total_cases: 4760
   new_cases: 197
@@ -6521,7 +6557,7 @@
   total_deaths_per_million: 30.825
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.326
-  reproduction_rate: 1.27
+  reproduction_rate: 1.26
   icu_patients: 5
   icu_patients_per_million: 5.708
   hosp_patients: 42
@@ -6549,7 +6585,7 @@
   total_deaths_per_million: 30.825
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.326
-  reproduction_rate: 1.26
+  reproduction_rate: 1.25
   icu_patients: 5
   icu_patients_per_million: 5.708
   hosp_patients: 57
@@ -6605,7 +6641,7 @@
   total_deaths_per_million: 30.825
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.326
-  reproduction_rate: 1.23
+  reproduction_rate: 1.22
   icu_patients: 6
   icu_patients_per_million: 6.85
   hosp_patients: 70
@@ -6680,6 +6716,7 @@
   tests_per_case: 17.4
   tests_units: tests performed
   stringency_index: 69.44
+  excess_mortality: 12.77
 - date: '2020-11-09'
   total_cases: 6098
   new_cases: 111
@@ -6880,6 +6917,7 @@
   tests_per_case: 19.3
   tests_units: tests performed
   stringency_index: 72.22
+  excess_mortality: 12.37
 - date: '2020-11-16'
   total_cases: 7285
   new_cases: 107
@@ -6921,7 +6959,7 @@
   total_deaths_per_million: 45.667
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 1.794
-  reproduction_rate: 1.13
+  reproduction_rate: 1.12
   icu_patients: 10
   icu_patients_per_million: 11.417
   hosp_patients: 74
@@ -7033,7 +7071,7 @@
   total_deaths_per_million: 49.092
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.652
-  reproduction_rate: 1.16
+  reproduction_rate: 1.15
   icu_patients: 9
   icu_patients_per_million: 10.275
   hosp_patients: 91
@@ -7080,6 +7118,7 @@
   tests_per_case: 52.5
   tests_units: tests performed
   stringency_index: 72.22
+  excess_mortality: 6.18
 - date: '2020-11-23'
   total_cases: 8947
   new_cases: 304
@@ -7121,7 +7160,7 @@
   total_deaths_per_million: 52.517
   new_deaths_per_million: 2.283
   new_deaths_smoothed_per_million: 0.979
-  reproduction_rate: 1.16
+  reproduction_rate: 1.15
   icu_patients: 11
   icu_patients_per_million: 12.559
   hosp_patients: 101
@@ -7177,7 +7216,7 @@
   total_deaths_per_million: 54.801
   new_deaths_per_million: 1.142
   new_deaths_smoothed_per_million: 1.142
-  reproduction_rate: 1.15
+  reproduction_rate: 1.14
   icu_patients: 17
   icu_patients_per_million: 19.409
   hosp_patients: 109
@@ -7205,7 +7244,7 @@
   total_deaths_per_million: 54.801
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.815
-  reproduction_rate: 1.15
+  reproduction_rate: 1.14
   icu_patients: 16
   icu_patients_per_million: 18.267
   hosp_patients: 108
@@ -7233,7 +7272,7 @@
   total_deaths_per_million: 54.801
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.815
-  reproduction_rate: 1.14
+  reproduction_rate: 1.13
   icu_patients: 16
   icu_patients_per_million: 18.267
   hosp_patients: 114
@@ -7261,7 +7300,7 @@
   total_deaths_per_million: 54.801
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.652
-  reproduction_rate: 1.14
+  reproduction_rate: 1.13
   icu_patients: 15
   icu_patients_per_million: 17.125
   hosp_patients: 119
@@ -7280,6 +7319,7 @@
   tests_per_case: 46.7
   tests_units: tests performed
   stringency_index: 72.22
+  excess_mortality: 13.87
 - date: '2020-11-30'
   total_cases: 10565
   new_cases: 182
@@ -7480,6 +7520,7 @@
   tests_per_case: 31
   tests_units: tests performed
   stringency_index: 69.44
+  excess_mortality: 18.1
 - date: '2020-12-07'
   total_cases: 12867
   new_cases: 416
@@ -7680,6 +7721,7 @@
   tests_per_case: 30.9
   tests_units: tests performed
   stringency_index: 69.44
+  excess_mortality: 35.33
 - date: '2020-12-14'
   total_cases: 15450
   new_cases: 349
@@ -7880,6 +7922,7 @@
   tests_per_case: 29
   tests_units: tests performed
   stringency_index: 69.44
+  excess_mortality: 16.97
 - date: '2020-12-21'
   total_cases: 18004
   new_cases: 316
@@ -8080,6 +8123,7 @@
   tests_per_case: 30.1
   tests_units: tests performed
   stringency_index: 77.78
+  excess_mortality: 14.19
 - date: '2020-12-28'
   total_cases: 20408
   new_cases: 751
@@ -8205,7 +8249,7 @@
   total_deaths_per_million: 144.994
   new_deaths_per_million: 9.133
   new_deaths_smoothed_per_million: 2.936
-  reproduction_rate: 1.15
+  reproduction_rate: 1.16
   icu_patients: 28
   icu_patients_per_million: 31.967
   hosp_patients: 168
@@ -8280,6 +8324,7 @@
   tests_per_case: 20.6
   tests_units: tests performed
   stringency_index: 74.07
+  excess_mortality: 37.85
 - date: '2021-01-04'
   total_cases: 24639
   new_cases: 665
@@ -8411,7 +8456,7 @@
   total_deaths_per_million: 160.977
   new_deaths_per_million: 1.142
   new_deaths_smoothed_per_million: 2.283
-  reproduction_rate: 0.9
+  reproduction_rate: 0.89
   icu_patients: 34
   icu_patients_per_million: 38.817
   hosp_patients: 198
@@ -8496,6 +8541,7 @@
   people_vaccinated_per_hundred: 0.69
   new_vaccinations_smoothed_per_million: 610
   stringency_index: 84.26
+  excess_mortality: 27.68
 - date: '2021-01-11'
   total_cases: 27638
   new_cases: 288
@@ -8509,7 +8555,7 @@
   total_deaths_per_million: 174.678
   new_deaths_per_million: 5.708
   new_deaths_smoothed_per_million: 3.262
-  reproduction_rate: 0.79
+  reproduction_rate: 0.78
   icu_patients: 35
   icu_patients_per_million: 39.959
   hosp_patients: 205
@@ -8599,7 +8645,7 @@
   total_deaths_per_million: 186.095
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 3.751
-  reproduction_rate: 0.73
+  reproduction_rate: 0.72
   icu_patients: 37
   icu_patients_per_million: 42.242
   hosp_patients: 202
@@ -8693,7 +8739,7 @@
   total_deaths_per_million: 194.086
   new_deaths_per_million: 3.425
   new_deaths_smoothed_per_million: 3.588
-  reproduction_rate: 0.7
+  reproduction_rate: 0.69
   icu_patients: 39
   icu_patients_per_million: 44.526
   hosp_patients: 208
@@ -8714,6 +8760,7 @@
   new_vaccinations_smoothed: 752
   new_vaccinations_smoothed_per_million: 859
   stringency_index: 84.26
+  excess_mortality: -8.96
 - date: '2021-01-18'
   total_cases: 29130
   new_cases: 162
@@ -8727,7 +8774,7 @@
   total_deaths_per_million: 199.795
   new_deaths_per_million: 5.708
   new_deaths_smoothed_per_million: 3.588
-  reproduction_rate: 0.69
+  reproduction_rate: 0.68
   icu_patients: 38
   icu_patients_per_million: 43.384
   hosp_patients: 199
@@ -8877,7 +8924,7 @@
   total_deaths_per_million: 208.928
   new_deaths_per_million: 4.567
   new_deaths_smoothed_per_million: 2.61
-  reproduction_rate: 0.69
+  reproduction_rate: 0.68
   icu_patients: 35
   icu_patients_per_million: 39.959
   hosp_patients: 174
@@ -8934,6 +8981,7 @@
   new_vaccinations_smoothed: 1079
   new_vaccinations_smoothed_per_million: 1232
   stringency_index: 84.26
+  excess_mortality: 1.31
 - date: '2021-01-25'
   total_cases: 30143
   new_cases: 126
@@ -8977,7 +9025,7 @@
   total_deaths_per_million: 216.92
   new_deaths_per_million: 2.283
   new_deaths_smoothed_per_million: 2.283
-  reproduction_rate: 0.72
+  reproduction_rate: 0.71
   icu_patients: 35
   icu_patients_per_million: 39.959
   hosp_patients: 160
@@ -9154,6 +9202,7 @@
   new_vaccinations_smoothed: 1102
   new_vaccinations_smoothed_per_million: 1258
   stringency_index: 84.26
+  excess_mortality: 14.54
 - date: '2021-02-01'
   total_cases: 30996
   new_cases: 120
@@ -9167,7 +9216,7 @@
   total_deaths_per_million: 230.62
   new_deaths_per_million: 3.425
   new_deaths_smoothed_per_million: 2.283
-  reproduction_rate: 0.8
+  reproduction_rate: 0.81
   icu_patients: 30
   icu_patients_per_million: 34.251
   hosp_patients: 129
@@ -9374,6 +9423,7 @@
   new_vaccinations_smoothed: 1133
   new_vaccinations_smoothed_per_million: 1294
   stringency_index: 80.56
+  excess_mortality: 4.22
 - date: '2021-02-08'
   total_cases: 31864
   new_cases: 105
@@ -9387,7 +9437,7 @@
   total_deaths_per_million: 244.32
   new_deaths_per_million: 2.283
   new_deaths_smoothed_per_million: 1.957
-  reproduction_rate: 0.89
+  reproduction_rate: 0.88
   icu_patients: 24
   icu_patients_per_million: 27.4
   hosp_patients: 103
@@ -9594,6 +9644,7 @@
   new_vaccinations_smoothed: 1672
   new_vaccinations_smoothed_per_million: 1909
   stringency_index: 80.56
+  excess_mortality: -23.86
 - date: '2021-02-15'
   total_cases: 32626
   new_cases: 113
@@ -9757,7 +9808,7 @@
   total_deaths_per_million: 261.446
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 1.468
-  reproduction_rate: 1.12
+  reproduction_rate: 1.13
   icu_patients: 15
   icu_patients_per_million: 17.125
   hosp_patients: 77
@@ -9814,6 +9865,7 @@
   new_vaccinations_smoothed: 1884
   new_vaccinations_smoothed_per_million: 2151
   stringency_index: 80.56
+  excess_mortality: 2.17
 - date: '2021-02-22'
   total_cases: 33391
   new_cases: 131
@@ -9893,7 +9945,7 @@
   total_deaths_per_million: 263.729
   new_deaths_per_million: 1.142
   new_deaths_smoothed_per_million: 0.652
-  reproduction_rate: 1.28
+  reproduction_rate: 1.29
   icu_patients: 16
   icu_patients_per_million: 18.267
   hosp_patients: 81
@@ -9923,7 +9975,7 @@
   total_deaths_per_million: 263.729
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.489
-  reproduction_rate: 1.32
+  reproduction_rate: 1.33
   icu_patients: 13
   icu_patients_per_million: 14.842
   hosp_patients: 82
@@ -9953,7 +10005,7 @@
   total_deaths_per_million: 263.729
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.326
-  reproduction_rate: 1.35
+  reproduction_rate: 1.36
   icu_patients: 13
   icu_patients_per_million: 14.842
   hosp_patients: 80
@@ -10040,6 +10092,7 @@
   new_vaccinations_smoothed: 3133
   new_vaccinations_smoothed_per_million: 3577
   stringency_index: 80.56
+  excess_mortality: 2.76
 - date: '2021-03-01'
   total_cases: 35009
   new_cases: 302
@@ -10260,6 +10313,7 @@
   people_fully_vaccinated_per_hundred: 3.28
   new_vaccinations_smoothed_per_million: 2931
   stringency_index: 75
+  excess_mortality: -8.69
 - date: '2021-03-08'
   total_cases: 37230
   new_cases: 352
@@ -10474,6 +10528,7 @@
   new_vaccinations_smoothed: 2320
   new_vaccinations_smoothed_per_million: 2649
   stringency_index: 75
+  excess_mortality: -1.6
 - date: '2021-03-15'
   total_cases: 39869
   new_cases: 218
@@ -10694,6 +10749,7 @@
   new_vaccinations_smoothed: 2316
   new_vaccinations_smoothed_per_million: 2644
   stringency_index: 71.3
+  excess_mortality: 9.4
 - date: '2021-03-22'
   total_cases: 42628
   new_cases: 410
@@ -10827,7 +10883,7 @@
   total_deaths_per_million: 283.138
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 1.142
-  reproduction_rate: 1.06
+  reproduction_rate: 1.07
   icu_patients: 31
   icu_patients_per_million: 35.392
   hosp_patients: 196
@@ -10857,7 +10913,7 @@
   total_deaths_per_million: 285.421
   new_deaths_per_million: 2.283
   new_deaths_smoothed_per_million: 1.305
-  reproduction_rate: 1.07
+  reproduction_rate: 1.08
   icu_patients: 30
   icu_patients_per_million: 34.251
   hosp_patients: 193
@@ -10908,6 +10964,7 @@
   new_vaccinations_smoothed: 2292
   new_vaccinations_smoothed_per_million: 2617
   stringency_index: 71.3
+  excess_mortality: 1.79
 - date: '2021-03-29'
   total_cases: 44991
   new_cases: 360
@@ -11128,6 +11185,7 @@
   new_vaccinations_smoothed: 2432
   new_vaccinations_smoothed_per_million: 2777
   stringency_index: 69.44
+  excess_mortality: 15.93
 - date: '2021-04-05'
   total_cases: 48278
   new_cases: 565
@@ -11333,7 +11391,7 @@
   total_deaths_per_million: 310.538
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 1.794
-  reproduction_rate: 1.16
+  reproduction_rate: 1.15
   icu_patients: 33
   icu_patients_per_million: 37.676
   hosp_patients: 225
@@ -11354,6 +11412,7 @@
   new_vaccinations_smoothed: 3416
   new_vaccinations_smoothed_per_million: 3900
   stringency_index: 69.44
+  excess_mortality: 23.54
 - date: '2021-04-12'
   total_cases: 52033
   new_cases: 528
@@ -11397,7 +11456,7 @@
   total_deaths_per_million: 312.821
   new_deaths_per_million: 1.142
   new_deaths_smoothed_per_million: 1.631
-  reproduction_rate: 1.16
+  reproduction_rate: 1.17
   icu_patients: 38
   icu_patients_per_million: 43.384
   hosp_patients: 228
@@ -11574,6 +11633,7 @@
   new_vaccinations_smoothed: 3126
   new_vaccinations_smoothed_per_million: 3569
   stringency_index: 69.44
+  excess_mortality: 41.21
 - date: '2021-04-19'
   total_cases: 57081
   new_cases: 822
@@ -11697,7 +11757,7 @@
   total_deaths_per_million: 337.939
   new_deaths_per_million: 1.142
   new_deaths_smoothed_per_million: 2.12
-  reproduction_rate: 1.1
+  reproduction_rate: 1.11
   icu_patients: 38
   icu_patients_per_million: 43.384
   hosp_patients: 296
@@ -11763,7 +11823,7 @@
   total_deaths_per_million: 340.222
   new_deaths_per_million: 1.142
   new_deaths_smoothed_per_million: 1.631
-  reproduction_rate: 1.04
+  reproduction_rate: 1.05
   icu_patients: 36
   icu_patients_per_million: 41.101
   hosp_patients: 292
@@ -11814,6 +11874,7 @@
   new_vaccinations_smoothed: 5508
   new_vaccinations_smoothed_per_million: 6288
   stringency_index: 69.44
+  excess_mortality: 17.34
 - date: '2021-04-26'
   total_cases: 62960
   new_cases: 611
@@ -12034,6 +12095,7 @@
   new_vaccinations_smoothed: 6798
   new_vaccinations_smoothed_per_million: 7761
   stringency_index: 75
+  excess_mortality: 4.41
 - date: '2021-05-03'
   total_cases: 66911
   new_cases: 539
@@ -12254,6 +12316,7 @@
   new_vaccinations_smoothed: 9277
   new_vaccinations_smoothed_per_million: 10591
   stringency_index: 75
+  excess_mortality: 12.85
 - date: '2021-05-10'
   total_cases: 69708
   new_cases: 276
@@ -12587,7 +12650,7 @@
   total_deaths_per_million: 397.306
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 1.142
-  reproduction_rate: 0.53
+  reproduction_rate: 0.54
   icu_patients: 33
   icu_patients_per_million: 37.676
   hosp_patients: 148
@@ -12690,7 +12753,7 @@
   total_deaths_per_million: 403.015
   new_deaths_per_million: 1.142
   new_deaths_smoothed_per_million: 1.142
-  reproduction_rate: 0.52
+  reproduction_rate: 0.53
   icu_patients: 30
   icu_patients_per_million: 34.251
   hosp_patients: 115
@@ -12797,7 +12860,7 @@
   total_deaths_per_million: 407.581
   new_deaths_per_million: 1.142
   new_deaths_smoothed_per_million: 1.468
-  reproduction_rate: 0.52
+  reproduction_rate: 0.53
   icu_patients: 29
   icu_patients_per_million: 33.109
   hosp_patients: 97
@@ -12827,7 +12890,7 @@
   total_deaths_per_million: 407.581
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 1.468
-  reproduction_rate: 0.52
+  reproduction_rate: 0.53
   icu_patients: 27
   icu_patients_per_million: 30.825
   hosp_patients: 95
@@ -12863,7 +12926,7 @@
   total_deaths_per_million: 407.581
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 1.142
-  reproduction_rate: 0.52
+  reproduction_rate: 0.54
   icu_patients: 24
   icu_patients_per_million: 27.4
   hosp_patients: 82
@@ -12900,7 +12963,7 @@
   total_deaths_per_million: 411.006
   new_deaths_per_million: 3.425
   new_deaths_smoothed_per_million: 1.305
-  reproduction_rate: 0.53
+  reproduction_rate: 0.54
   icu_patients: 23
   icu_patients_per_million: 26.259
   hosp_patients: 78
@@ -12930,7 +12993,7 @@
   total_deaths_per_million: 411.006
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 1.142
-  reproduction_rate: 0.53
+  reproduction_rate: 0.55
   icu_patients: 23
   icu_patients_per_million: 26.259
   hosp_patients: 74
@@ -12960,7 +13023,7 @@
   total_deaths_per_million: 411.006
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.979
-  reproduction_rate: 0.54
+  reproduction_rate: 0.56
   icu_patients: 23
   icu_patients_per_million: 26.259
   hosp_patients: 73
@@ -13000,7 +13063,7 @@
   total_deaths_per_million: 411.006
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.652
-  reproduction_rate: 0.55
+  reproduction_rate: 0.57
   icu_patients: 22
   icu_patients_per_million: 25.117
   hosp_patients: 70
@@ -13030,7 +13093,7 @@
   total_deaths_per_million: 411.006
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.489
-  reproduction_rate: 0.56
+  reproduction_rate: 0.58
   icu_patients: 19
   icu_patients_per_million: 21.692
   hosp_patients: 66
@@ -13066,7 +13129,7 @@
   total_deaths_per_million: 412.148
   new_deaths_per_million: 1.142
   new_deaths_smoothed_per_million: 0.652
-  reproduction_rate: 0.57
+  reproduction_rate: 0.6
   new_tests: 39568
   total_tests: 7097163
   total_tests_per_thousand: 8102.718
@@ -13099,7 +13162,7 @@
   total_deaths_per_million: 413.29
   new_deaths_per_million: 1.142
   new_deaths_smoothed_per_million: 0.815
-  reproduction_rate: 0.58
+  reproduction_rate: 0.62
   new_tests: 43163
   total_tests: 7140326
   total_tests_per_thousand: 8151.997
@@ -13132,7 +13195,7 @@
   total_deaths_per_million: 414.431
   new_deaths_per_million: 1.142
   new_deaths_smoothed_per_million: 0.489
-  reproduction_rate: 0.58
+  reproduction_rate: 0.63
   new_tests: 54217
   total_tests: 7194543
   total_tests_per_thousand: 8213.896
@@ -13158,7 +13221,7 @@
   total_deaths_per_million: 414.431
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.489
-  reproduction_rate: 0.58
+  reproduction_rate: 0.64
   new_tests: 49462
   total_tests: 7244005
   total_tests_per_thousand: 8270.366
@@ -13184,7 +13247,7 @@
   total_deaths_per_million: 414.431
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.489
-  reproduction_rate: 0.58
+  reproduction_rate: 0.64
   new_tests: 46276
   total_tests: 7290281
   total_tests_per_thousand: 8323.198
@@ -13216,6 +13279,7 @@
   total_deaths_per_million: 415.573
   new_deaths_per_million: 1.142
   new_deaths_smoothed_per_million: 0.652
+  reproduction_rate: 0.65
   new_tests: 46611
   total_tests: 7336892
   total_tests_per_thousand: 8376.413
@@ -13235,3 +13299,25 @@
   people_fully_vaccinated_per_hundred: 28.61
   new_vaccinations_smoothed_per_million: 8042
   stringency_index: 56.48
+- date: '2021-06-08'
+  total_cases: 72919
+  new_cases: 60
+  new_cases_smoothed: 57.714
+  total_deaths: 365
+  new_deaths: 1
+  new_deaths_smoothed: 0.714
+  total_cases_per_million: 83250.466
+  new_cases_per_million: 68.501
+  new_cases_smoothed_per_million: 65.891
+  total_deaths_per_million: 416.715
+  new_deaths_per_million: 1.142
+  new_deaths_smoothed_per_million: 0.815
+  total_vaccinations: 662063
+  people_vaccinated: 408513
+  people_fully_vaccinated: 253550
+  new_vaccinations: 7167
+  new_vaccinations_smoothed: 6686
+  total_vaccinations_per_hundred: 75.59
+  people_vaccinated_per_hundred: 46.64
+  people_fully_vaccinated_per_hundred: 28.95
+  new_vaccinations_smoothed_per_million: 7633
