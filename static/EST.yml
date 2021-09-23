@@ -27,7 +27,8 @@
 - date: '2020-02-09'
   tests_units: tests performed
   stringency_index: 0
-  excess_mortality: -20.48
+  excess_mortality_cumulative: -12.23
+  excess_mortality: -21.29
 - date: '2020-02-10'
   tests_units: tests performed
   stringency_index: 0
@@ -63,7 +64,8 @@
   new_tests_smoothed_per_thousand: 0
   tests_units: tests performed
   stringency_index: 0
-  excess_mortality: 0.12
+  excess_mortality_cumulative: -10.69
+  excess_mortality: -0.95
 - date: '2020-02-17'
   new_tests_smoothed: 0
   new_tests_smoothed_per_thousand: 0
@@ -101,7 +103,8 @@
   new_tests_smoothed_per_thousand: 0
   tests_units: tests performed
   stringency_index: 0
-  excess_mortality: -2.24
+  excess_mortality_cumulative: -9.75
+  excess_mortality: -3.24
 - date: '2020-02-24'
   new_tests_smoothed: 0
   new_tests_smoothed_per_thousand: 0
@@ -197,7 +200,8 @@
   new_tests_smoothed_per_thousand: 0.006
   tests_units: tests performed
   stringency_index: 0
-  excess_mortality: -5.52
+  excess_mortality_cumulative: -9.39
+  excess_mortality: -6.5
 - date: '2020-03-02'
   total_cases: 1
   new_cases: 0
@@ -355,7 +359,8 @@
   tests_per_case: 27.2
   tests_units: tests performed
   stringency_index: 0
-  excess_mortality: -12.38
+  excess_mortality_cumulative: -9.78
+  excess_mortality: -13.29
 - date: '2020-03-09'
   total_cases: 10
   new_cases: 0
@@ -503,7 +508,7 @@
   new_cases_per_million: 42.258
   new_cases_smoothed_per_million: 17.356
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.7
+  reproduction_rate: 1.69
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 4
@@ -520,7 +525,8 @@
   tests_per_case: 7.6
   tests_units: tests performed
   stringency_index: 33.33
-  excess_mortality: 5.07
+  excess_mortality_cumulative: -8.58
+  excess_mortality: 3.94
 - date: '2020-03-16'
   total_cases: 205
   new_cases: 34
@@ -530,7 +536,7 @@
   new_cases_per_million: 25.657
   new_cases_smoothed_per_million: 21.021
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.62
+  reproduction_rate: 1.6
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 6
@@ -554,7 +560,7 @@
   new_cases_per_million: 15.092
   new_cases_smoothed_per_million: 22.962
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.52
+  reproduction_rate: 1.51
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 10
@@ -578,7 +584,7 @@
   new_cases_per_million: 24.902
   new_cases_smoothed_per_million: 26.088
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.43
+  reproduction_rate: 1.42
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 14
@@ -602,7 +608,7 @@
   new_cases_per_million: 6.791
   new_cases_smoothed_per_million: 27.058
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.34
+  reproduction_rate: 1.33
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 20
@@ -626,7 +632,7 @@
   new_cases_per_million: 12.074
   new_cases_smoothed_per_million: 21.991
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.33
+  reproduction_rate: 1.32
   icu_patients: 2
   icu_patients_per_million: 1.509
   hosp_patients: 24
@@ -650,7 +656,7 @@
   new_cases_per_million: 17.356
   new_cases_smoothed_per_million: 20.59
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.35
+  reproduction_rate: 1.34
   icu_patients: 4
   icu_patients_per_million: 3.018
   hosp_patients: 25
@@ -674,7 +680,7 @@
   new_cases_per_million: 15.092
   new_cases_smoothed_per_million: 16.709
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.39
+  reproduction_rate: 1.38
   icu_patients: 6
   icu_patients_per_million: 4.528
   hosp_patients: 28
@@ -691,7 +697,8 @@
   tests_per_case: 17.3
   tests_units: tests performed
   stringency_index: 50
-  excess_mortality: -0.26
+  excess_mortality_cumulative: -8.01
+  excess_mortality: -1.36
 - date: '2020-03-23'
   total_cases: 352
   new_cases: 26
@@ -753,7 +760,7 @@
   total_deaths_per_million: 0.755
   new_deaths_per_million: 0.755
   new_deaths_smoothed_per_million: 0.108
-  reproduction_rate: 1.57
+  reproduction_rate: 1.58
   icu_patients: 7
   icu_patients_per_million: 5.282
   hosp_patients: 47
@@ -781,7 +788,7 @@
   total_deaths_per_million: 0.755
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.108
-  reproduction_rate: 1.63
+  reproduction_rate: 1.64
   icu_patients: 7
   icu_patients_per_million: 5.282
   hosp_patients: 52
@@ -809,7 +816,7 @@
   total_deaths_per_million: 0.755
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.108
-  reproduction_rate: 1.54
+  reproduction_rate: 1.55
   icu_patients: 10
   icu_patients_per_million: 7.546
   hosp_patients: 59
@@ -837,7 +844,7 @@
   total_deaths_per_million: 0.755
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.108
-  reproduction_rate: 1.47
+  reproduction_rate: 1.48
   icu_patients: 10
   icu_patients_per_million: 7.546
   hosp_patients: 72
@@ -884,7 +891,8 @@
   tests_per_case: 21
   tests_units: tests performed
   stringency_index: 77.78
-  excess_mortality: 2.59
+  excess_mortality_cumulative: -7.32
+  excess_mortality: 1.47
 - date: '2020-03-30'
   total_cases: 715
   new_cases: 36
@@ -1083,7 +1091,8 @@
   tests_per_case: 26.8
   tests_units: tests performed
   stringency_index: 77.78
-  excess_mortality: 4.28
+  excess_mortality_cumulative: -6.64
+  excess_mortality: 3.07
 - date: '2020-04-06'
   total_cases: 1108
   new_cases: 11
@@ -1209,7 +1218,7 @@
   total_deaths_per_million: 18.111
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 1.294
-  reproduction_rate: 0.86
+  reproduction_rate: 0.85
   icu_patients: 11
   icu_patients_per_million: 8.301
   hosp_patients: 143
@@ -1237,7 +1246,7 @@
   total_deaths_per_million: 18.111
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 1.186
-  reproduction_rate: 0.84
+  reproduction_rate: 0.83
   icu_patients: 11
   icu_patients_per_million: 8.301
   hosp_patients: 150
@@ -1282,7 +1291,8 @@
   tests_per_case: 45.7
   tests_units: tests performed
   stringency_index: 77.78
-  excess_mortality: 1.97
+  excess_mortality_cumulative: -6.18
+  excess_mortality: 0.81
 - date: '2020-04-13'
   total_cases: 1332
   new_cases: 23
@@ -1481,7 +1491,8 @@
   tests_per_case: 51.3
   tests_units: tests performed
   stringency_index: 77.78
-  excess_mortality: 3.21
+  excess_mortality_cumulative: -5.71
+  excess_mortality: 2.01
 - date: '2020-04-20'
   total_cases: 1535
   new_cases: 7
@@ -1523,7 +1534,7 @@
   total_deaths_per_million: 32.448
   new_deaths_per_million: 2.264
   new_deaths_smoothed_per_million: 1.294
-  reproduction_rate: 0.69
+  reproduction_rate: 0.68
   icu_patients: 13
   icu_patients_per_million: 9.81
   hosp_patients: 109
@@ -1551,7 +1562,7 @@
   total_deaths_per_million: 33.203
   new_deaths_per_million: 0.755
   new_deaths_smoothed_per_million: 0.97
-  reproduction_rate: 0.67
+  reproduction_rate: 0.66
   icu_patients: 12
   icu_patients_per_million: 9.055
   hosp_patients: 109
@@ -1579,7 +1590,7 @@
   total_deaths_per_million: 33.957
   new_deaths_per_million: 0.755
   new_deaths_smoothed_per_million: 0.97
-  reproduction_rate: 0.66
+  reproduction_rate: 0.65
   icu_patients: 11
   icu_patients_per_million: 8.301
   hosp_patients: 107
@@ -1663,7 +1674,7 @@
   total_deaths_per_million: 36.976
   new_deaths_per_million: 2.264
   new_deaths_smoothed_per_million: 0.97
-  reproduction_rate: 0.63
+  reproduction_rate: 0.62
   icu_patients: 11
   icu_patients_per_million: 8.301
   hosp_patients: 94
@@ -1682,7 +1693,8 @@
   tests_per_case: 75.6
   tests_units: tests performed
   stringency_index: 77.78
-  excess_mortality: 11.85
+  excess_mortality_cumulative: -4.87
+  excess_mortality: 10.5
 - date: '2020-04-27'
   total_cases: 1647
   new_cases: 4
@@ -1883,7 +1895,8 @@
   tests_per_case: 154
   tests_units: tests performed
   stringency_index: 75
-  excess_mortality: 5.04
+  excess_mortality_cumulative: -4.44
+  excess_mortality: 3.79
 - date: '2020-05-04'
   total_cases: 1703
   new_cases: 3
@@ -2065,7 +2078,7 @@
   total_deaths_per_million: 45.277
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.539
-  reproduction_rate: 0.7
+  reproduction_rate: 0.69
   icu_patients: 6
   icu_patients_per_million: 4.528
   hosp_patients: 46
@@ -2084,7 +2097,8 @@
   tests_per_case: 249.5
   tests_units: tests performed
   stringency_index: 66.67
-  excess_mortality: 6.75
+  excess_mortality_cumulative: -3.97
+  excess_mortality: 5.46
 - date: '2020-05-11'
   total_cases: 1741
   new_cases: 2
@@ -2126,7 +2140,7 @@
   total_deaths_per_million: 46.031
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.647
-  reproduction_rate: 0.75
+  reproduction_rate: 0.74
   icu_patients: 6
   icu_patients_per_million: 4.528
   hosp_patients: 44
@@ -2285,7 +2299,8 @@
   tests_per_case: 220.8
   tests_units: tests performed
   stringency_index: 55.56
-  excess_mortality: -6.62
+  excess_mortality_cumulative: -4.15
+  excess_mortality: -7.68
 - date: '2020-05-18'
   total_cases: 1784
   new_cases: 10
@@ -2327,7 +2342,7 @@
   total_deaths_per_million: 48.295
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.323
-  reproduction_rate: 0.95
+  reproduction_rate: 0.96
   icu_patients: 5
   icu_patients_per_million: 3.773
   hosp_patients: 38
@@ -2486,7 +2501,8 @@
   tests_per_case: 160.9
   tests_units: tests performed
   stringency_index: 50
-  excess_mortality: -3
+  excess_mortality_cumulative: -4.15
+  excess_mortality: -4.17
 - date: '2020-05-25'
   total_cases: 1824
   new_cases: 1
@@ -2687,7 +2703,8 @@
   tests_per_case: 199.5
   tests_units: tests performed
   stringency_index: 50
-  excess_mortality: 9.69
+  excess_mortality_cumulative: -3.65
+  excess_mortality: 8.31
 - date: '2020-06-01'
   total_cases: 1870
   new_cases: 1
@@ -2729,7 +2746,7 @@
   total_deaths_per_million: 51.313
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.323
-  reproduction_rate: 1.07
+  reproduction_rate: 1.08
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 21
@@ -2757,7 +2774,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0.755
   new_deaths_smoothed_per_million: 0.323
-  reproduction_rate: 1.15
+  reproduction_rate: 1.16
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 21
@@ -2813,7 +2830,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.216
-  reproduction_rate: 1.23
+  reproduction_rate: 1.24
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 14
@@ -2841,7 +2858,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.216
-  reproduction_rate: 1.19
+  reproduction_rate: 1.2
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 14
@@ -2888,7 +2905,8 @@
   tests_per_case: 114.1
   tests_units: tests performed
   stringency_index: 37.96
-  excess_mortality: -3.79
+  excess_mortality_cumulative: -3.7
+  excess_mortality: -4.98
 - date: '2020-06-08'
   total_cases: 1940
   new_cases: 1
@@ -2986,7 +3004,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.74
+  reproduction_rate: 0.75
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 15
@@ -3042,7 +3060,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.6
+  reproduction_rate: 0.59
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 15
@@ -3089,7 +3107,8 @@
   tests_per_case: 230.2
   tests_units: tests performed
   stringency_index: 37.96
-  excess_mortality: 1.56
+  excess_mortality_cumulative: -3.56
+  excess_mortality: 0.26
 - date: '2020-06-15'
   total_cases: 1974
   new_cases: 1
@@ -3103,7 +3122,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.52
+  reproduction_rate: 0.51
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 13
@@ -3131,7 +3150,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.47
+  reproduction_rate: 0.46
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 11
@@ -3243,7 +3262,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.42
+  reproduction_rate: 0.41
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 7
@@ -3288,7 +3307,8 @@
   tests_per_case: 998.3
   tests_units: tests performed
   stringency_index: 37.96
-  excess_mortality: 2.57
+  excess_mortality_cumulative: -3.39
+  excess_mortality: 1.27
 - date: '2020-06-22'
   total_cases: 1981
   new_cases: 0
@@ -3330,7 +3350,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.46
+  reproduction_rate: 0.45
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 5
@@ -3358,7 +3378,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.47
+  reproduction_rate: 0.46
   icu_patients: 2
   icu_patients_per_million: 1.509
   hosp_patients: 6
@@ -3386,7 +3406,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.49
+  reproduction_rate: 0.48
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 4
@@ -3414,7 +3434,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.52
+  reproduction_rate: 0.51
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 3
@@ -3489,7 +3509,8 @@
   tests_per_case: 606.8
   tests_units: tests performed
   stringency_index: 37.96
-  excess_mortality: 9.21
+  excess_mortality_cumulative: -3.03
+  excess_mortality: 7.77
 - date: '2020-06-29'
   total_cases: 1987
   new_cases: 0
@@ -3531,7 +3552,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.68
+  reproduction_rate: 0.67
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 3
@@ -3587,7 +3608,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.72
+  reproduction_rate: 0.71
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 1
@@ -3643,7 +3664,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.84
+  reproduction_rate: 0.83
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 2
@@ -3690,7 +3711,8 @@
   tests_per_case: 731.6
   tests_units: tests performed
   stringency_index: 35.19
-  excess_mortality: 2.21
+  excess_mortality_cumulative: -2.9
+  excess_mortality: 0.87
 - date: '2020-07-06'
   total_cases: 1994
   new_cases: 1
@@ -3732,7 +3754,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.95
+  reproduction_rate: 0.94
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 2
@@ -3760,7 +3782,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.98
+  reproduction_rate: 0.97
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 2
@@ -3816,7 +3838,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.92
+  reproduction_rate: 0.91
   icu_patients: 2
   icu_patients_per_million: 1.509
   hosp_patients: 4
@@ -3872,7 +3894,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.84
+  reproduction_rate: 0.83
   icu_patients: 2
   icu_patients_per_million: 1.509
   hosp_patients: 4
@@ -3891,7 +3913,8 @@
   tests_per_case: 172.7
   tests_units: tests performed
   stringency_index: 35.19
-  excess_mortality: 1.73
+  excess_mortality_cumulative: -2.8
+  excess_mortality: 0.41
 - date: '2020-07-13'
   total_cases: 2014
   new_cases: 0
@@ -3905,7 +3928,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.83
+  reproduction_rate: 0.82
   icu_patients: 2
   icu_patients_per_million: 1.509
   hosp_patients: 4
@@ -3989,7 +4012,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 0.87
+  reproduction_rate: 0.86
   icu_patients: 2
   icu_patients_per_million: 1.509
   hosp_patients: 4
@@ -4092,7 +4115,8 @@
   tests_per_case: 420
   tests_units: tests performed
   stringency_index: 35.19
-  excess_mortality: 5.19
+  excess_mortality_cumulative: -2.6
+  excess_mortality: 3.84
 - date: '2020-07-20'
   total_cases: 2021
   new_cases: 0
@@ -4134,7 +4158,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.18
+  reproduction_rate: 1.17
   icu_patients: 2
   icu_patients_per_million: 1.509
   hosp_patients: 4
@@ -4293,7 +4317,8 @@
   tests_per_case: 231
   tests_units: tests performed
   stringency_index: 35.19
-  excess_mortality: 5.49
+  excess_mortality_cumulative: -2.39
+  excess_mortality: 4.19
 - date: '2020-07-27'
   total_cases: 2034
   new_cases: 0
@@ -4363,7 +4388,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.86
+  reproduction_rate: 1.87
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 4
@@ -4391,7 +4416,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.95
+  reproduction_rate: 1.96
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 4
@@ -4419,7 +4444,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.96
+  reproduction_rate: 1.97
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 4
@@ -4447,7 +4472,7 @@
   total_deaths_per_million: 52.068
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.88
+  reproduction_rate: 1.89
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 5
@@ -4494,7 +4519,8 @@
   tests_per_case: 89
   tests_units: tests performed
   stringency_index: 32.41
-  excess_mortality: 13.43
+  excess_mortality_cumulative: -1.98
+  excess_mortality: 11.97
 - date: '2020-08-03'
   total_cases: 2080
   new_cases: 1
@@ -4564,7 +4590,7 @@
   total_deaths_per_million: 47.54
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: -0.647
-  reproduction_rate: 1.69
+  reproduction_rate: 1.7
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 9
@@ -4695,7 +4721,8 @@
   tests_per_case: 105.4
   tests_units: tests performed
   stringency_index: 32.41
-  excess_mortality: -1.82
+  excess_mortality_cumulative: -2.01
+  excess_mortality: -3
 - date: '2020-08-10'
   total_cases: 2158
   new_cases: 6
@@ -4765,7 +4792,7 @@
   total_deaths_per_million: 47.54
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.07
+  reproduction_rate: 1.06
   icu_patients: 2
   icu_patients_per_million: 1.509
   hosp_patients: 8
@@ -4793,7 +4820,7 @@
   total_deaths_per_million: 47.54
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.02
+  reproduction_rate: 1.01
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 8
@@ -4821,7 +4848,7 @@
   total_deaths_per_million: 47.54
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.04
+  reproduction_rate: 1.03
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 8
@@ -4849,7 +4876,7 @@
   total_deaths_per_million: 47.54
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.09
+  reproduction_rate: 1.08
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 7
@@ -4896,7 +4923,8 @@
   tests_per_case: 254.6
   tests_units: tests performed
   stringency_index: 32.41
-  excess_mortality: 6.04
+  excess_mortality_cumulative: -1.82
+  excess_mortality: 4.72
 - date: '2020-08-17'
   total_cases: 2192
   new_cases: 2
@@ -4966,7 +4994,7 @@
   total_deaths_per_million: 47.54
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.32
+  reproduction_rate: 1.33
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 10
@@ -5097,7 +5125,8 @@
   tests_per_case: 90.7
   tests_units: tests performed
   stringency_index: 32.41
-  excess_mortality: 0.3
+  excess_mortality_cumulative: -1.8
+  excess_mortality: -1.01
 - date: '2020-08-24'
   total_cases: 2275
   new_cases: 3
@@ -5298,7 +5327,8 @@
   tests_per_case: 89.2
   tests_units: tests performed
   stringency_index: 32.41
-  excess_mortality: 9.48
+  excess_mortality_cumulative: -1.54
+  excess_mortality: 8.09
 - date: '2020-08-31'
   total_cases: 2375
   new_cases: 2
@@ -5499,7 +5529,8 @@
   tests_per_case: 105.3
   tests_units: tests performed
   stringency_index: 32.41
-  excess_mortality: 5.34
+  excess_mortality_cumulative: -1.4
+  excess_mortality: 3.97
 - date: '2020-09-07'
   total_cases: 2532
   new_cases: 16
@@ -5513,7 +5544,7 @@
   total_deaths_per_million: 48.295
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.33
+  reproduction_rate: 1.32
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 7
@@ -5700,7 +5731,8 @@
   tests_per_case: 103.2
   tests_units: tests performed
   stringency_index: 32.41
-  excess_mortality: -6.09
+  excess_mortality_cumulative: -1.55
+  excess_mortality: -7.28
 - date: '2020-09-14'
   total_cases: 2698
   new_cases: 22
@@ -5742,7 +5774,7 @@
   total_deaths_per_million: 48.295
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.26
+  reproduction_rate: 1.27
   icu_patients: 2
   icu_patients_per_million: 1.509
   hosp_patients: 19
@@ -5798,7 +5830,7 @@
   total_deaths_per_million: 48.295
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.28
+  reproduction_rate: 1.29
   icu_patients: 4
   icu_patients_per_million: 3.018
   hosp_patients: 22
@@ -5901,7 +5933,8 @@
   tests_per_case: 84.2
   tests_units: tests performed
   stringency_index: 35.19
-  excess_mortality: 10.8
+  excess_mortality_cumulative: -1.28
+  excess_mortality: 9.44
 - date: '2020-09-21'
   total_cases: 2941
   new_cases: 17
@@ -5971,7 +6004,7 @@
   total_deaths_per_million: 48.295
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.28
+  reproduction_rate: 1.29
   icu_patients: 3
   icu_patients_per_million: 2.264
   hosp_patients: 32
@@ -6102,7 +6135,8 @@
   tests_per_case: 90
   tests_units: tests performed
   stringency_index: 35.19
-  excess_mortality: 15.14
+  excess_mortality_cumulative: -0.9
+  excess_mortality: 13.75
 - date: '2020-09-28'
   total_cases: 3267
   new_cases: 67
@@ -6200,7 +6234,7 @@
   total_deaths_per_million: 49.05
   new_deaths_per_million: 0.755
   new_deaths_smoothed_per_million: 0.108
-  reproduction_rate: 1.16
+  reproduction_rate: 1.17
   icu_patients: 2
   icu_patients_per_million: 1.509
   hosp_patients: 37
@@ -6303,7 +6337,8 @@
   tests_per_case: 52.5
   tests_units: tests performed
   stringency_index: 35.19
-  excess_mortality: 4.95
+  excess_mortality_cumulative: -0.79
+  excess_mortality: 3.69
 - date: '2020-10-05'
   total_cases: 3617
   new_cases: 10
@@ -6504,7 +6539,8 @@
   tests_per_case: 70.4
   tests_units: tests performed
   stringency_index: 35.19
-  excess_mortality: -3.99
+  excess_mortality_cumulative: -0.9
+  excess_mortality: -5.16
 - date: '2020-10-12'
   total_cases: 3883
   new_cases: 18
@@ -6602,7 +6638,7 @@
   total_deaths_per_million: 51.313
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.108
-  reproduction_rate: 0.94
+  reproduction_rate: 0.93
   icu_patients: 3
   icu_patients_per_million: 2.264
   hosp_patients: 37
@@ -6705,7 +6741,8 @@
   tests_per_case: 79.1
   tests_units: tests performed
   stringency_index: 35.19
-  excess_mortality: 5.68
+  excess_mortality_cumulative: -0.77
+  excess_mortality: 4.43
 - date: '2020-10-19'
   total_cases: 4085
   new_cases: 7
@@ -6906,7 +6943,8 @@
   tests_per_case: 48.1
   tests_units: tests performed
   stringency_index: 35.19
-  excess_mortality: 2.84
+  excess_mortality_cumulative: -0.71
+  excess_mortality: 1.64
 - date: '2020-10-26'
   total_cases: 4428
   new_cases: 17
@@ -7107,7 +7145,8 @@
   tests_per_case: 34.1
   tests_units: tests performed
   stringency_index: 35.19
-  excess_mortality: -9.31
+  excess_mortality_cumulative: -0.93
+  excess_mortality: -10.37
 - date: '2020-11-02'
   total_cases: 5046
   new_cases: 61
@@ -7149,7 +7188,7 @@
   total_deaths_per_million: 55.087
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.56
+  reproduction_rate: 1.57
   icu_patients: 4
   icu_patients_per_million: 3.018
   hosp_patients: 46
@@ -7308,7 +7347,8 @@
   tests_per_case: 24.4
   tests_units: tests performed
   stringency_index: 35.19
-  excess_mortality: 2.57
+  excess_mortality_cumulative: -0.89
+  excess_mortality: 1.31
 - date: '2020-11-09'
   total_cases: 6250
   new_cases: 125
@@ -7509,7 +7549,8 @@
   tests_per_case: 22.4
   tests_units: tests performed
   stringency_index: 35.19
-  excess_mortality: 0
+  excess_mortality_cumulative: -0.89
+  excess_mortality: -1.19
 - date: '2020-11-16'
   total_cases: 7848
   new_cases: 211
@@ -7710,7 +7751,8 @@
   tests_per_case: 18.7
   tests_units: tests performed
   stringency_index: 43.52
-  excess_mortality: 12.97
+  excess_mortality_cumulative: -0.64
+  excess_mortality: 11.58
 - date: '2020-11-23'
   total_cases: 9956
   new_cases: 232
@@ -7836,7 +7878,7 @@
   total_deaths_per_million: 78.479
   new_deaths_per_million: 3.773
   new_deaths_smoothed_per_million: 1.833
-  reproduction_rate: 1.21
+  reproduction_rate: 1.2
   icu_patients: 18
   icu_patients_per_million: 13.583
   hosp_patients: 199
@@ -7911,7 +7953,8 @@
   tests_per_case: 15.4
   tests_units: tests performed
   stringency_index: 43.52
-  excess_mortality: 14.07
+  excess_mortality_cumulative: -0.36
+  excess_mortality: 12.72
 - date: '2020-11-30'
   total_cases: 12308
   new_cases: 256
@@ -8112,7 +8155,8 @@
   tests_per_case: 12.3
   tests_units: tests performed
   stringency_index: 43.52
-  excess_mortality: 14.45
+  excess_mortality_cumulative: -0.09
+  excess_mortality: 13.11
 - date: '2020-12-07'
   total_cases: 15226
   new_cases: 248
@@ -8313,7 +8357,8 @@
   tests_per_case: 11.2
   tests_units: tests performed
   stringency_index: 48.15
-  excess_mortality: 15.69
+  excess_mortality_cumulative: 0.21
+  excess_mortality: 14.36
 - date: '2020-12-14'
   total_cases: 18385
   new_cases: 330
@@ -8327,7 +8372,7 @@
   total_deaths_per_million: 116.21
   new_deaths_per_million: 3.773
   new_deaths_smoothed_per_million: 2.156
-  reproduction_rate: 1.15
+  reproduction_rate: 1.14
   icu_patients: 29
   icu_patients_per_million: 21.884
   hosp_patients: 323
@@ -8514,7 +8559,8 @@
   tests_per_case: 10
   tests_units: tests performed
   stringency_index: 55.56
-  excess_mortality: 10.9
+  excess_mortality_cumulative: 0.4
+  excess_mortality: 9.66
 - date: '2020-12-21'
   total_cases: 22083
   new_cases: 289
@@ -8719,7 +8765,8 @@
   total_vaccinations_per_hundred: 0.01
   people_vaccinated_per_hundred: 0.01
   stringency_index: 55.56
-  excess_mortality: 14.5
+  excess_mortality_cumulative: 0.66
+  excess_mortality: 13.24
 - date: '2020-12-28'
   total_cases: 25808
   new_cases: 416
@@ -8768,7 +8815,7 @@
   total_deaths_per_million: 166.769
   new_deaths_per_million: 6.037
   new_deaths_smoothed_per_million: 3.665
-  reproduction_rate: 1.07
+  reproduction_rate: 1.06
   icu_patients: 45
   icu_patients_per_million: 33.957
   hosp_patients: 431
@@ -8969,7 +9016,8 @@
   people_vaccinated_per_hundred: 0.19
   new_vaccinations_smoothed_per_million: 251
   stringency_index: 55.56
-  excess_mortality: 17.05
+  excess_mortality_cumulative: 0.96
+  excess_mortality: 15.76
 - date: '2021-01-04'
   total_cases: 29521
   new_cases: 390
@@ -9129,7 +9177,7 @@
   total_deaths_per_million: 203.745
   new_deaths_per_million: 3.773
   new_deaths_smoothed_per_million: 3.881
-  reproduction_rate: 1.06
+  reproduction_rate: 1.07
   icu_patients: 42
   icu_patients_per_million: 31.694
   hosp_patients: 403
@@ -9231,7 +9279,8 @@
   people_fully_vaccinated_per_hundred: 0
   new_vaccinations_smoothed_per_million: 905
   stringency_index: 55.56
-  excess_mortality: 10.53
+  excess_mortality_cumulative: 1.14
+  excess_mortality: 9.42
 - date: '2021-01-11'
   total_cases: 33805
   new_cases: 289
@@ -9495,7 +9544,8 @@
   people_fully_vaccinated_per_hundred: 0.01
   new_vaccinations_smoothed_per_million: 776
   stringency_index: 50
-  excess_mortality: 14.56
+  excess_mortality_cumulative: 1.4
+  excess_mortality: 13.41
 - date: '2021-01-18'
   total_cases: 37344
   new_cases: 265
@@ -9546,7 +9596,7 @@
   total_deaths_per_million: 259.586
   new_deaths_per_million: 8.301
   new_deaths_smoothed_per_million: 5.606
-  reproduction_rate: 0.99
+  reproduction_rate: 0.98
   icu_patients: 46
   icu_patients_per_million: 34.712
   hosp_patients: 415
@@ -9583,7 +9633,7 @@
   total_deaths_per_million: 263.359
   new_deaths_per_million: 3.773
   new_deaths_smoothed_per_million: 5.174
-  reproduction_rate: 0.98
+  reproduction_rate: 0.97
   icu_patients: 45
   icu_patients_per_million: 33.957
   hosp_patients: 409
@@ -9759,7 +9809,8 @@
   people_fully_vaccinated_per_hundred: 0.18
   new_vaccinations_smoothed_per_million: 838
   stringency_index: 44.44
-  excess_mortality: 22.73
+  excess_mortality_cumulative: 1.8
+  excess_mortality: 21.45
 - date: '2021-01-25'
   total_cases: 40975
   new_cases: 259
@@ -10023,7 +10074,8 @@
   people_fully_vaccinated_per_hundred: 0.79
   new_vaccinations_smoothed_per_million: 1363
   stringency_index: 42.59
-  excess_mortality: 4.89
+  excess_mortality_cumulative: 1.84
+  excess_mortality: 3.8
 - date: '2021-02-01'
   total_cases: 44575
   new_cases: 367
@@ -10074,7 +10126,7 @@
   total_deaths_per_million: 319.955
   new_deaths_per_million: 1.509
   new_deaths_smoothed_per_million: 3.45
-  reproduction_rate: 1.04
+  reproduction_rate: 1.03
   icu_patients: 32
   icu_patients_per_million: 24.148
   hosp_patients: 445
@@ -10111,7 +10163,7 @@
   total_deaths_per_million: 326.746
   new_deaths_per_million: 6.791
   new_deaths_smoothed_per_million: 3.773
-  reproduction_rate: 1.05
+  reproduction_rate: 1.04
   icu_patients: 33
   icu_patients_per_million: 24.902
   hosp_patients: 457
@@ -10259,7 +10311,7 @@
   total_deaths_per_million: 347.875
   new_deaths_per_million: 3.773
   new_deaths_smoothed_per_million: 4.528
-  reproduction_rate: 1.08
+  reproduction_rate: 1.07
   icu_patients: 31
   icu_patients_per_million: 23.393
   hosp_patients: 477
@@ -10287,7 +10339,8 @@
   people_fully_vaccinated_per_hundred: 1.33
   new_vaccinations_smoothed_per_million: 1601
   stringency_index: 41.67
-  excess_mortality: 3.95
+  excess_mortality_cumulative: 1.86
+  excess_mortality: 2.89
 - date: '2021-02-08'
   total_cases: 48267
   new_cases: 339
@@ -10551,7 +10604,8 @@
   people_fully_vaccinated_per_hundred: 1.69
   new_vaccinations_smoothed_per_million: 1618
   stringency_index: 41.67
-  excess_mortality: 11.21
+  excess_mortality_cumulative: 2.02
+  excess_mortality: 10.08
 - date: '2021-02-15'
   total_cases: 52827
   new_cases: 411
@@ -10676,7 +10730,7 @@
   total_deaths_per_million: 387.869
   new_deaths_per_million: 3.018
   new_deaths_smoothed_per_million: 3.665
-  reproduction_rate: 1.21
+  reproduction_rate: 1.2
   icu_patients: 37
   icu_patients_per_million: 27.921
   hosp_patients: 503
@@ -10815,7 +10869,8 @@
   people_fully_vaccinated_per_hundred: 1.99
   new_vaccinations_smoothed_per_million: 2188
   stringency_index: 41.67
-  excess_mortality: 8.21
+  excess_mortality_cumulative: 2.1
+  excess_mortality: 7.04
 - date: '2021-02-22'
   total_cases: 58445
   new_cases: 829
@@ -10977,7 +11032,7 @@
   total_deaths_per_million: 433.901
   new_deaths_per_million: 6.037
   new_deaths_smoothed_per_million: 6.145
-  reproduction_rate: 1.27
+  reproduction_rate: 1.28
   icu_patients: 41
   icu_patients_per_million: 30.939
   hosp_patients: 509
@@ -11079,7 +11134,8 @@
   people_fully_vaccinated_per_hundred: 2.57
   new_vaccinations_smoothed_per_million: 2588
   stringency_index: 41.67
-  excess_mortality: 19.61
+  excess_mortality_cumulative: 2.4
+  excess_mortality: 18.39
 - date: '2021-03-01'
   total_cases: 66628
   new_cases: 1028
@@ -11343,7 +11399,8 @@
   people_fully_vaccinated_per_hundred: 3.32
   new_vaccinations_smoothed_per_million: 3612
   stringency_index: 41.67
-  excess_mortality: 26.27
+  excess_mortality_cumulative: 2.8
+  excess_mortality: 24.96
 - date: '2021-03-08'
   total_cases: 76183
   new_cases: 1180
@@ -11607,7 +11664,8 @@
   people_fully_vaccinated_per_hundred: 3.98
   new_vaccinations_smoothed_per_million: 4827
   stringency_index: 67.59
-  excess_mortality: 25.6
+  excess_mortality_cumulative: 3.18
+  excess_mortality: 24.3
 - date: '2021-03-15'
   total_cases: 86086
   new_cases: 1279
@@ -11871,7 +11929,8 @@
   people_fully_vaccinated_per_hundred: 4.31
   new_vaccinations_smoothed_per_million: 3584
   stringency_index: 61.11
-  excess_mortality: 31.03
+  excess_mortality_cumulative: 3.62
+  excess_mortality: 29.62
 - date: '2021-03-22'
   total_cases: 96394
   new_cases: 993
@@ -11885,7 +11944,7 @@
   total_deaths_per_million: 601.424
   new_deaths_per_million: 7.546
   new_deaths_smoothed_per_million: 7.438
-  reproduction_rate: 0.95
+  reproduction_rate: 0.94
   icu_patients: 68
   icu_patients_per_million: 51.313
   hosp_patients: 706
@@ -12135,7 +12194,8 @@
   people_fully_vaccinated_per_hundred: 4.6
   new_vaccinations_smoothed_per_million: 3310
   stringency_index: 61.11
-  excess_mortality: 29.57
+  excess_mortality_cumulative: 4.01
+  excess_mortality: 28.13
 - date: '2021-03-29'
   total_cases: 104214
   new_cases: 584
@@ -12149,7 +12209,7 @@
   total_deaths_per_million: 663.302
   new_deaths_per_million: 8.301
   new_deaths_smoothed_per_million: 8.84
-  reproduction_rate: 0.83
+  reproduction_rate: 0.82
   icu_patients: 72
   icu_patients_per_million: 54.332
   hosp_patients: 718
@@ -12163,10 +12223,10 @@
   positive_rate: 0.183
   tests_per_case: 5.5
   tests_units: tests performed
-  total_vaccinations: 257198
-  people_vaccinated: 195959
+  total_vaccinations: 257197
+  people_vaccinated: 195958
   people_fully_vaccinated: 61239
-  new_vaccinations: 2285
+  new_vaccinations: 2284
   new_vaccinations_smoothed: 4357
   total_vaccinations_per_hundred: 19.41
   people_vaccinated_per_hundred: 14.79
@@ -12200,8 +12260,8 @@
   positive_rate: 0.195
   tests_per_case: 5.1
   tests_units: tests performed
-  total_vaccinations: 260761
-  people_vaccinated: 198546
+  total_vaccinations: 260760
+  people_vaccinated: 198545
   people_fully_vaccinated: 62215
   new_vaccinations: 3563
   new_vaccinations_smoothed: 4448
@@ -12237,8 +12297,8 @@
   positive_rate: 0.186
   tests_per_case: 5.4
   tests_units: tests performed
-  total_vaccinations: 266736
-  people_vaccinated: 203005
+  total_vaccinations: 266735
+  people_vaccinated: 203004
   people_fully_vaccinated: 63731
   new_vaccinations: 5975
   new_vaccinations_smoothed: 4494
@@ -12274,8 +12334,8 @@
   positive_rate: 0.17
   tests_per_case: 5.9
   tests_units: tests performed
-  total_vaccinations: 278683
-  people_vaccinated: 210996
+  total_vaccinations: 278682
+  people_vaccinated: 210995
   people_fully_vaccinated: 67687
   new_vaccinations: 11947
   new_vaccinations_smoothed: 4767
@@ -12311,8 +12371,8 @@
   positive_rate: 0.194
   tests_per_case: 5.2
   tests_units: tests performed
-  total_vaccinations: 282616
-  people_vaccinated: 214548
+  total_vaccinations: 282615
+  people_vaccinated: 214547
   people_fully_vaccinated: 68068
   new_vaccinations: 3933
   new_vaccinations_smoothed: 4375
@@ -12348,8 +12408,8 @@
   positive_rate: 0.18
   tests_per_case: 5.6
   tests_units: tests performed
-  total_vaccinations: 291038
-  people_vaccinated: 222346
+  total_vaccinations: 291037
+  people_vaccinated: 222345
   people_fully_vaccinated: 68692
   new_vaccinations: 8422
   new_vaccinations_smoothed: 5237
@@ -12387,17 +12447,18 @@
   positive_rate: 0.167
   tests_per_case: 6
   tests_units: tests performed
-  total_vaccinations: 295186
-  people_vaccinated: 226355
+  total_vaccinations: 295185
+  people_vaccinated: 226354
   people_fully_vaccinated: 68831
   new_vaccinations: 4148
   new_vaccinations_smoothed: 5753
-  total_vaccinations_per_hundred: 22.28
+  total_vaccinations_per_hundred: 22.27
   people_vaccinated_per_hundred: 17.08
   people_fully_vaccinated_per_hundred: 5.19
   new_vaccinations_smoothed_per_million: 4341
   stringency_index: 61.11
-  excess_mortality: 30.37
+  excess_mortality_cumulative: 4.4
+  excess_mortality: 28.94
 - date: '2021-04-05'
   total_cases: 109781
   new_cases: 382
@@ -12425,8 +12486,8 @@
   positive_rate: 0.165
   tests_per_case: 6.1
   tests_units: tests performed
-  total_vaccinations: 298683
-  people_vaccinated: 228861
+  total_vaccinations: 298682
+  people_vaccinated: 228860
   people_fully_vaccinated: 69822
   new_vaccinations: 3497
   new_vaccinations_smoothed: 5926
@@ -12462,8 +12523,8 @@
   positive_rate: 0.151
   tests_per_case: 6.6
   tests_units: tests performed
-  total_vaccinations: 302297
-  people_vaccinated: 231338
+  total_vaccinations: 302296
+  people_vaccinated: 231337
   people_fully_vaccinated: 70959
   new_vaccinations: 3614
   new_vaccinations_smoothed: 5934
@@ -12499,8 +12560,8 @@
   positive_rate: 0.157
   tests_per_case: 6.4
   tests_units: tests performed
-  total_vaccinations: 308312
-  people_vaccinated: 236234
+  total_vaccinations: 308311
+  people_vaccinated: 236233
   people_fully_vaccinated: 72078
   new_vaccinations: 6015
   new_vaccinations_smoothed: 5939
@@ -12536,8 +12597,8 @@
   positive_rate: 0.155
   tests_per_case: 6.5
   tests_units: tests performed
-  total_vaccinations: 321216
-  people_vaccinated: 247869
+  total_vaccinations: 321215
+  people_vaccinated: 247868
   people_fully_vaccinated: 73347
   new_vaccinations: 12904
   new_vaccinations_smoothed: 6076
@@ -12573,8 +12634,8 @@
   positive_rate: 0.13
   tests_per_case: 7.7
   tests_units: tests performed
-  total_vaccinations: 331848
-  people_vaccinated: 257437
+  total_vaccinations: 331847
+  people_vaccinated: 257436
   people_fully_vaccinated: 74411
   new_vaccinations: 10632
   new_vaccinations_smoothed: 7033
@@ -12596,7 +12657,7 @@
   total_deaths_per_million: 769.702
   new_deaths_per_million: 10.565
   new_deaths_smoothed_per_million: 9.594
-  reproduction_rate: 0.75
+  reproduction_rate: 0.76
   icu_patients: 73
   icu_patients_per_million: 55.087
   hosp_patients: 592
@@ -12610,8 +12671,8 @@
   positive_rate: 0.133
   tests_per_case: 7.5
   tests_units: tests performed
-  total_vaccinations: 333476
-  people_vaccinated: 258661
+  total_vaccinations: 333475
+  people_vaccinated: 258660
   people_fully_vaccinated: 74815
   new_vaccinations: 1628
   new_vaccinations_smoothed: 6063
@@ -12651,8 +12712,8 @@
   positive_rate: 0.134
   tests_per_case: 7.5
   tests_units: tests performed
-  total_vaccinations: 333806
-  people_vaccinated: 258946
+  total_vaccinations: 333805
+  people_vaccinated: 258945
   people_fully_vaccinated: 74860
   new_vaccinations: 330
   new_vaccinations_smoothed: 5517
@@ -12661,7 +12722,8 @@
   people_fully_vaccinated_per_hundred: 5.65
   new_vaccinations_smoothed_per_million: 4163
   stringency_index: 61.11
-  excess_mortality: 33.02
+  excess_mortality_cumulative: 4.8
+  excess_mortality: 31.48
 - date: '2021-04-12'
   total_cases: 114443
   new_cases: 269
@@ -12689,10 +12751,10 @@
   positive_rate: 0.131
   tests_per_case: 7.7
   tests_units: tests performed
-  total_vaccinations: 335723
-  people_vaccinated: 260415
+  total_vaccinations: 335721
+  people_vaccinated: 260413
   people_fully_vaccinated: 75308
-  new_vaccinations: 1917
+  new_vaccinations: 1916
   new_vaccinations_smoothed: 5291
   total_vaccinations_per_hundred: 25.33
   people_vaccinated_per_hundred: 19.65
@@ -12726,8 +12788,8 @@
   positive_rate: 0.127
   tests_per_case: 7.9
   tests_units: tests performed
-  total_vaccinations: 338581
-  people_vaccinated: 262696
+  total_vaccinations: 338579
+  people_vaccinated: 262694
   people_fully_vaccinated: 75885
   new_vaccinations: 2858
   new_vaccinations_smoothed: 5183
@@ -12763,8 +12825,8 @@
   positive_rate: 0.113
   tests_per_case: 8.9
   tests_units: tests performed
-  total_vaccinations: 345804
-  people_vaccinated: 268044
+  total_vaccinations: 345802
+  people_vaccinated: 268042
   people_fully_vaccinated: 77760
   new_vaccinations: 7223
   new_vaccinations_smoothed: 5356
@@ -12800,8 +12862,8 @@
   positive_rate: 0.109
   tests_per_case: 9.2
   tests_units: tests performed
-  total_vaccinations: 358323
-  people_vaccinated: 277356
+  total_vaccinations: 358321
+  people_vaccinated: 277354
   people_fully_vaccinated: 80967
   new_vaccinations: 12519
   new_vaccinations_smoothed: 5301
@@ -12837,8 +12899,8 @@
   positive_rate: 0.104
   tests_per_case: 9.6
   tests_units: tests performed
-  total_vaccinations: 369849
-  people_vaccinated: 285580
+  total_vaccinations: 369847
+  people_vaccinated: 285578
   people_fully_vaccinated: 84269
   new_vaccinations: 11526
   new_vaccinations_smoothed: 5429
@@ -12874,8 +12936,8 @@
   positive_rate: 0.087
   tests_per_case: 11.5
   tests_units: tests performed
-  total_vaccinations: 371912
-  people_vaccinated: 286904
+  total_vaccinations: 371910
+  people_vaccinated: 286902
   people_fully_vaccinated: 85008
   new_vaccinations: 2063
   new_vaccinations_smoothed: 5491
@@ -12915,8 +12977,8 @@
   positive_rate: 0.09
   tests_per_case: 11.1
   tests_units: tests performed
-  total_vaccinations: 373319
-  people_vaccinated: 287879
+  total_vaccinations: 373317
+  people_vaccinated: 287877
   people_fully_vaccinated: 85440
   new_vaccinations: 1407
   new_vaccinations_smoothed: 5645
@@ -12925,7 +12987,8 @@
   people_fully_vaccinated_per_hundred: 6.45
   new_vaccinations_smoothed_per_million: 4260
   stringency_index: 61.11
-  excess_mortality: 26.97
+  excess_mortality_cumulative: 5.11
+  excess_mortality: 25.53
 - date: '2021-04-19'
   total_cases: 117782
   new_cases: 228
@@ -12953,8 +13016,8 @@
   positive_rate: 0.088
   tests_per_case: 11.3
   tests_units: tests performed
-  total_vaccinations: 375934
-  people_vaccinated: 289120
+  total_vaccinations: 375932
+  people_vaccinated: 289118
   people_fully_vaccinated: 86814
   new_vaccinations: 2615
   new_vaccinations_smoothed: 5744
@@ -12990,8 +13053,8 @@
   positive_rate: 0.087
   tests_per_case: 11.4
   tests_units: tests performed
-  total_vaccinations: 380157
-  people_vaccinated: 291058
+  total_vaccinations: 380155
+  people_vaccinated: 291056
   people_fully_vaccinated: 89099
   new_vaccinations: 4223
   new_vaccinations_smoothed: 5939
@@ -13027,8 +13090,8 @@
   positive_rate: 0.085
   tests_per_case: 11.8
   tests_units: tests performed
-  total_vaccinations: 385257
-  people_vaccinated: 295344
+  total_vaccinations: 385255
+  people_vaccinated: 295342
   people_fully_vaccinated: 89913
   new_vaccinations: 5100
   new_vaccinations_smoothed: 5636
@@ -13064,8 +13127,8 @@
   positive_rate: 0.081
   tests_per_case: 12.3
   tests_units: tests performed
-  total_vaccinations: 396846
-  people_vaccinated: 303551
+  total_vaccinations: 396844
+  people_vaccinated: 303549
   people_fully_vaccinated: 93295
   new_vaccinations: 11589
   new_vaccinations_smoothed: 5503
@@ -13101,8 +13164,8 @@
   positive_rate: 0.081
   tests_per_case: 12.4
   tests_units: tests performed
-  total_vaccinations: 405758
-  people_vaccinated: 309252
+  total_vaccinations: 405756
+  people_vaccinated: 309250
   people_fully_vaccinated: 96506
   new_vaccinations: 8912
   new_vaccinations_smoothed: 5130
@@ -13124,7 +13187,7 @@
   total_deaths_per_million: 857.991
   new_deaths_per_million: 8.301
   new_deaths_smoothed_per_million: 5.929
-  reproduction_rate: 0.78
+  reproduction_rate: 0.79
   icu_patients: 58
   icu_patients_per_million: 43.767
   hosp_patients: 408
@@ -13138,8 +13201,8 @@
   positive_rate: 0.09
   tests_per_case: 11.1
   tests_units: tests performed
-  total_vaccinations: 408827
-  people_vaccinated: 310117
+  total_vaccinations: 408825
+  people_vaccinated: 310115
   people_fully_vaccinated: 98710
   new_vaccinations: 3069
   new_vaccinations_smoothed: 5274
@@ -13179,8 +13242,8 @@
   positive_rate: 0.082
   tests_per_case: 12.1
   tests_units: tests performed
-  total_vaccinations: 411219
-  people_vaccinated: 311325
+  total_vaccinations: 411217
+  people_vaccinated: 311323
   people_fully_vaccinated: 99894
   new_vaccinations: 2392
   new_vaccinations_smoothed: 5414
@@ -13189,7 +13252,8 @@
   people_fully_vaccinated_per_hundred: 7.54
   new_vaccinations_smoothed_per_million: 4085
   stringency_index: 61.11
-  excess_mortality: 20.24
+  excess_mortality_cumulative: 5.3
+  excess_mortality: 18.85
 - date: '2021-04-26'
   total_cases: 120378
   new_cases: 163
@@ -13217,8 +13281,8 @@
   positive_rate: 0.083
   tests_per_case: 12
   tests_units: tests performed
-  total_vaccinations: 414450
-  people_vaccinated: 312778
+  total_vaccinations: 414448
+  people_vaccinated: 312776
   people_fully_vaccinated: 101672
   new_vaccinations: 3231
   new_vaccinations_smoothed: 5502
@@ -13254,8 +13318,8 @@
   positive_rate: 0.08
   tests_per_case: 12.5
   tests_units: tests performed
-  total_vaccinations: 421287
-  people_vaccinated: 316261
+  total_vaccinations: 421285
+  people_vaccinated: 316259
   people_fully_vaccinated: 105026
   new_vaccinations: 6837
   new_vaccinations_smoothed: 5876
@@ -13291,8 +13355,8 @@
   positive_rate: 0.081
   tests_per_case: 12.3
   tests_units: tests performed
-  total_vaccinations: 432502
-  people_vaccinated: 322909
+  total_vaccinations: 432500
+  people_vaccinated: 322907
   people_fully_vaccinated: 109593
   new_vaccinations: 11215
   new_vaccinations_smoothed: 6749
@@ -13328,8 +13392,8 @@
   positive_rate: 0.083
   tests_per_case: 12.1
   tests_units: tests performed
-  total_vaccinations: 447279
-  people_vaccinated: 331127
+  total_vaccinations: 447277
+  people_vaccinated: 331125
   people_fully_vaccinated: 116152
   new_vaccinations: 14777
   new_vaccinations_smoothed: 7205
@@ -13365,8 +13429,8 @@
   positive_rate: 0.081
   tests_per_case: 12.3
   tests_units: tests performed
-  total_vaccinations: 459142
-  people_vaccinated: 336750
+  total_vaccinations: 459140
+  people_vaccinated: 336748
   people_fully_vaccinated: 122392
   new_vaccinations: 11863
   new_vaccinations_smoothed: 7626
@@ -13402,8 +13466,8 @@
   positive_rate: 0.084
   tests_per_case: 11.9
   tests_units: tests performed
-  total_vaccinations: 462157
-  people_vaccinated: 337701
+  total_vaccinations: 462155
+  people_vaccinated: 337699
   people_fully_vaccinated: 124456
   new_vaccinations: 3015
   new_vaccinations_smoothed: 7619
@@ -13443,8 +13507,8 @@
   positive_rate: 0.082
   tests_per_case: 12.2
   tests_units: tests performed
-  total_vaccinations: 464599
-  people_vaccinated: 339261
+  total_vaccinations: 464597
+  people_vaccinated: 339259
   people_fully_vaccinated: 125338
   new_vaccinations: 2442
   new_vaccinations_smoothed: 7626
@@ -13453,7 +13517,8 @@
   people_fully_vaccinated_per_hundred: 9.46
   new_vaccinations_smoothed_per_million: 5755
   stringency_index: 58.33
-  excess_mortality: 10.45
+  excess_mortality_cumulative: 5.35
+  excess_mortality: 9.11
 - date: '2021-05-03'
   total_cases: 122943
   new_cases: 258
@@ -13481,8 +13546,8 @@
   positive_rate: 0.085
   tests_per_case: 11.8
   tests_units: tests performed
-  total_vaccinations: 470345
-  people_vaccinated: 341588
+  total_vaccinations: 470343
+  people_vaccinated: 341586
   people_fully_vaccinated: 128757
   new_vaccinations: 5746
   new_vaccinations_smoothed: 7985
@@ -13518,8 +13583,8 @@
   positive_rate: 0.083
   tests_per_case: 12.1
   tests_units: tests performed
-  total_vaccinations: 479049
-  people_vaccinated: 346552
+  total_vaccinations: 479047
+  people_vaccinated: 346550
   people_fully_vaccinated: 132497
   new_vaccinations: 8704
   new_vaccinations_smoothed: 8252
@@ -13555,8 +13620,8 @@
   positive_rate: 0.084
   tests_per_case: 11.9
   tests_units: tests performed
-  total_vaccinations: 492149
-  people_vaccinated: 353821
+  total_vaccinations: 492147
+  people_vaccinated: 353819
   people_fully_vaccinated: 138328
   new_vaccinations: 13100
   new_vaccinations_smoothed: 8521
@@ -13592,8 +13657,8 @@
   positive_rate: 0.081
   tests_per_case: 12.3
   tests_units: tests performed
-  total_vaccinations: 509722
-  people_vaccinated: 362439
+  total_vaccinations: 509720
+  people_vaccinated: 362437
   people_fully_vaccinated: 147283
   new_vaccinations: 17573
   new_vaccinations_smoothed: 8920
@@ -13615,7 +13680,7 @@
   total_deaths_per_million: 900.25
   new_deaths_per_million: 4.528
   new_deaths_smoothed_per_million: 3.45
-  reproduction_rate: 0.89
+  reproduction_rate: 0.88
   icu_patients: 44
   icu_patients_per_million: 33.203
   hosp_patients: 289
@@ -13629,8 +13694,8 @@
   positive_rate: 0.082
   tests_per_case: 12.2
   tests_units: tests performed
-  total_vaccinations: 523494
-  people_vaccinated: 368725
+  total_vaccinations: 523492
+  people_vaccinated: 368723
   people_fully_vaccinated: 154769
   new_vaccinations: 13772
   new_vaccinations_smoothed: 9193
@@ -13666,8 +13731,8 @@
   positive_rate: 0.08
   tests_per_case: 12.5
   tests_units: tests performed
-  total_vaccinations: 529002
-  people_vaccinated: 371791
+  total_vaccinations: 529000
+  people_vaccinated: 371789
   people_fully_vaccinated: 157211
   new_vaccinations: 5508
   new_vaccinations_smoothed: 9549
@@ -13707,8 +13772,8 @@
   positive_rate: 0.079
   tests_per_case: 12.6
   tests_units: tests performed
-  total_vaccinations: 532197
-  people_vaccinated: 372958
+  total_vaccinations: 532195
+  people_vaccinated: 372956
   people_fully_vaccinated: 159239
   new_vaccinations: 3195
   new_vaccinations_smoothed: 9657
@@ -13717,7 +13782,8 @@
   people_fully_vaccinated_per_hundred: 12.02
   new_vaccinations_smoothed_per_million: 7287
   stringency_index: 42.59
-  excess_mortality: 21.29
+  excess_mortality_cumulative: 5.55
+  excess_mortality: 19.84
 - date: '2021-05-10'
   total_cases: 125337
   new_cases: 211
@@ -13745,8 +13811,8 @@
   positive_rate: 0.078
   tests_per_case: 12.8
   tests_units: tests performed
-  total_vaccinations: 536515
-  people_vaccinated: 375149
+  total_vaccinations: 536513
+  people_vaccinated: 375147
   people_fully_vaccinated: 161366
   new_vaccinations: 4318
   new_vaccinations_smoothed: 9453
@@ -13782,8 +13848,8 @@
   positive_rate: 0.077
   tests_per_case: 13
   tests_units: tests performed
-  total_vaccinations: 542722
-  people_vaccinated: 378889
+  total_vaccinations: 542720
+  people_vaccinated: 378887
   people_fully_vaccinated: 163833
   new_vaccinations: 6207
   new_vaccinations_smoothed: 9096
@@ -13819,8 +13885,8 @@
   positive_rate: 0.075
   tests_per_case: 13.3
   tests_units: tests performed
-  total_vaccinations: 552838
-  people_vaccinated: 384892
+  total_vaccinations: 552836
+  people_vaccinated: 384890
   people_fully_vaccinated: 167946
   new_vaccinations: 10116
   new_vaccinations_smoothed: 8670
@@ -13856,8 +13922,8 @@
   positive_rate: 0.072
   tests_per_case: 13.8
   tests_units: tests performed
-  total_vaccinations: 565780
-  people_vaccinated: 390718
+  total_vaccinations: 565778
+  people_vaccinated: 390716
   people_fully_vaccinated: 175062
   new_vaccinations: 12942
   new_vaccinations_smoothed: 8008
@@ -13879,7 +13945,7 @@
   total_deaths_per_million: 918.36
   new_deaths_per_million: 3.773
   new_deaths_smoothed_per_million: 2.587
-  reproduction_rate: 0.82
+  reproduction_rate: 0.81
   icu_patients: 34
   icu_patients_per_million: 25.657
   hosp_patients: 209
@@ -13893,8 +13959,8 @@
   positive_rate: 0.069
   tests_per_case: 14.6
   tests_units: tests performed
-  total_vaccinations: 574556
-  people_vaccinated: 396837
+  total_vaccinations: 574554
+  people_vaccinated: 396835
   people_fully_vaccinated: 177719
   new_vaccinations: 8776
   new_vaccinations_smoothed: 7295
@@ -13930,8 +13996,8 @@
   positive_rate: 0.065
   tests_per_case: 15.3
   tests_units: tests performed
-  total_vaccinations: 578007
-  people_vaccinated: 399968
+  total_vaccinations: 578005
+  people_vaccinated: 399966
   people_fully_vaccinated: 178039
   new_vaccinations: 3451
   new_vaccinations_smoothed: 7001
@@ -13971,8 +14037,8 @@
   positive_rate: 0.062
   tests_per_case: 16.1
   tests_units: tests performed
-  total_vaccinations: 578968
-  people_vaccinated: 400900
+  total_vaccinations: 578966
+  people_vaccinated: 400898
   people_fully_vaccinated: 178068
   new_vaccinations: 961
   new_vaccinations_smoothed: 6682
@@ -13981,7 +14047,8 @@
   people_fully_vaccinated_per_hundred: 13.44
   new_vaccinations_smoothed_per_million: 5042
   stringency_index: 42.59
-  excess_mortality: 21
+  excess_mortality_cumulative: 5.73
+  excess_mortality: 19.55
 - date: '2021-05-17'
   total_cases: 127206
   new_cases: 153
@@ -13995,7 +14062,7 @@
   total_deaths_per_million: 922.888
   new_deaths_per_million: 0.755
   new_deaths_smoothed_per_million: 2.048
-  reproduction_rate: 0.8
+  reproduction_rate: 0.79
   icu_patients: 32
   icu_patients_per_million: 24.148
   hosp_patients: 222
@@ -14009,8 +14076,8 @@
   positive_rate: 0.059
   tests_per_case: 16.8
   tests_units: tests performed
-  total_vaccinations: 585908
-  people_vaccinated: 406788
+  total_vaccinations: 585906
+  people_vaccinated: 406786
   people_fully_vaccinated: 179120
   new_vaccinations: 6940
   new_vaccinations_smoothed: 7056
@@ -14046,8 +14113,8 @@
   positive_rate: 0.057
   tests_per_case: 17.5
   tests_units: tests performed
-  total_vaccinations: 593824
-  people_vaccinated: 412645
+  total_vaccinations: 593822
+  people_vaccinated: 412643
   people_fully_vaccinated: 181179
   new_vaccinations: 7916
   new_vaccinations_smoothed: 7300
@@ -14083,8 +14150,8 @@
   positive_rate: 0.053
   tests_per_case: 18.7
   tests_units: tests performed
-  total_vaccinations: 602809
-  people_vaccinated: 417872
+  total_vaccinations: 602807
+  people_vaccinated: 417870
   people_fully_vaccinated: 184937
   new_vaccinations: 8985
   new_vaccinations_smoothed: 7139
@@ -14120,8 +14187,8 @@
   positive_rate: 0.055
   tests_per_case: 18.2
   tests_units: tests performed
-  total_vaccinations: 617525
-  people_vaccinated: 423202
+  total_vaccinations: 617523
+  people_vaccinated: 423200
   people_fully_vaccinated: 194323
   new_vaccinations: 14716
   new_vaccinations_smoothed: 7392
@@ -14157,13 +14224,13 @@
   positive_rate: 0.054
   tests_per_case: 18.6
   tests_units: tests performed
-  total_vaccinations: 631820
-  people_vaccinated: 429825
+  total_vaccinations: 631817
+  people_vaccinated: 429822
   people_fully_vaccinated: 201995
-  new_vaccinations: 14295
-  new_vaccinations_smoothed: 8181
+  new_vaccinations: 14294
+  new_vaccinations_smoothed: 8180
   total_vaccinations_per_hundred: 47.68
-  people_vaccinated_per_hundred: 32.44
+  people_vaccinated_per_hundred: 32.43
   people_fully_vaccinated_per_hundred: 15.24
   new_vaccinations_smoothed_per_million: 6173
   stringency_index: 41.67
@@ -14194,15 +14261,15 @@
   positive_rate: 0.05
   tests_per_case: 19.8
   tests_units: tests performed
-  total_vaccinations: 636678
-  people_vaccinated: 433925
+  total_vaccinations: 636675
+  people_vaccinated: 433922
   people_fully_vaccinated: 202753
   new_vaccinations: 4858
-  new_vaccinations_smoothed: 8382
+  new_vaccinations_smoothed: 8381
   total_vaccinations_per_hundred: 48.04
   people_vaccinated_per_hundred: 32.74
   people_fully_vaccinated_per_hundred: 15.3
-  new_vaccinations_smoothed_per_million: 6325
+  new_vaccinations_smoothed_per_million: 6324
   stringency_index: 41.67
 - date: '2021-05-23'
   total_cases: 128592
@@ -14235,8 +14302,8 @@
   positive_rate: 0.05
   tests_per_case: 20
   tests_units: tests performed
-  total_vaccinations: 640407
-  people_vaccinated: 437257
+  total_vaccinations: 640404
+  people_vaccinated: 437254
   people_fully_vaccinated: 203150
   new_vaccinations: 3729
   new_vaccinations_smoothed: 8777
@@ -14245,7 +14312,8 @@
   people_fully_vaccinated_per_hundred: 15.33
   new_vaccinations_smoothed_per_million: 6623
   stringency_index: 41.67
-  excess_mortality: 4.19
+  excess_mortality_cumulative: 5.7
+  excess_mortality: 3.01
 - date: '2021-05-24'
   total_cases: 128669
   new_cases: 77
@@ -14273,8 +14341,8 @@
   positive_rate: 0.049
   tests_per_case: 20.4
   tests_units: tests performed
-  total_vaccinations: 645906
-  people_vaccinated: 441639
+  total_vaccinations: 645903
+  people_vaccinated: 441636
   people_fully_vaccinated: 204267
   new_vaccinations: 5499
   new_vaccinations_smoothed: 8571
@@ -14310,8 +14378,8 @@
   positive_rate: 0.046
   tests_per_case: 22
   tests_units: tests performed
-  total_vaccinations: 652925
-  people_vaccinated: 446621
+  total_vaccinations: 652922
+  people_vaccinated: 446618
   people_fully_vaccinated: 206304
   new_vaccinations: 7019
   new_vaccinations_smoothed: 8443
@@ -14347,8 +14415,8 @@
   positive_rate: 0.044
   tests_per_case: 22.8
   tests_units: tests performed
-  total_vaccinations: 664334
-  people_vaccinated: 452407
+  total_vaccinations: 664331
+  people_vaccinated: 452404
   people_fully_vaccinated: 211927
   new_vaccinations: 11409
   new_vaccinations_smoothed: 8789
@@ -14384,15 +14452,15 @@
   positive_rate: 0.038
   tests_per_case: 26.1
   tests_units: tests performed
-  total_vaccinations: 680501
-  people_vaccinated: 458146
+  total_vaccinations: 680498
+  people_vaccinated: 458143
   people_fully_vaccinated: 222355
   new_vaccinations: 16167
-  new_vaccinations_smoothed: 8997
+  new_vaccinations_smoothed: 8996
   total_vaccinations_per_hundred: 51.35
   people_vaccinated_per_hundred: 34.57
   people_fully_vaccinated_per_hundred: 16.78
-  new_vaccinations_smoothed_per_million: 6789
+  new_vaccinations_smoothed_per_million: 6788
   stringency_index: 41.67
 - date: '2021-05-28'
   total_cases: 129297
@@ -14421,8 +14489,8 @@
   positive_rate: 0.036
   tests_per_case: 27.6
   tests_units: tests performed
-  total_vaccinations: 692995
-  people_vaccinated: 462899
+  total_vaccinations: 692992
+  people_vaccinated: 462896
   people_fully_vaccinated: 230096
   new_vaccinations: 12494
   new_vaccinations_smoothed: 8739
@@ -14458,8 +14526,8 @@
   positive_rate: 0.035
   tests_per_case: 28.9
   tests_units: tests performed
-  total_vaccinations: 698204
-  people_vaccinated: 466733
+  total_vaccinations: 698201
+  people_vaccinated: 466730
   people_fully_vaccinated: 231471
   new_vaccinations: 5209
   new_vaccinations_smoothed: 8789
@@ -14499,8 +14567,8 @@
   positive_rate: 0.033
   tests_per_case: 30.5
   tests_units: tests performed
-  total_vaccinations: 702741
-  people_vaccinated: 470265
+  total_vaccinations: 702738
+  people_vaccinated: 470262
   people_fully_vaccinated: 232476
   new_vaccinations: 4537
   new_vaccinations_smoothed: 8905
@@ -14509,7 +14577,8 @@
   people_fully_vaccinated_per_hundred: 17.54
   new_vaccinations_smoothed_per_million: 6720
   stringency_index: 41.67
-  excess_mortality: 11.3
+  excess_mortality_cumulative: 5.75
+  excess_mortality: 9.96
 - date: '2021-05-31'
   total_cases: 129544
   new_cases: 58
@@ -14537,8 +14606,8 @@
   positive_rate: 0.033
   tests_per_case: 30.6
   tests_units: tests performed
-  total_vaccinations: 706457
-  people_vaccinated: 472567
+  total_vaccinations: 706454
+  people_vaccinated: 472564
   people_fully_vaccinated: 233890
   new_vaccinations: 3716
   new_vaccinations_smoothed: 8650
@@ -14574,8 +14643,8 @@
   positive_rate: 0.029
   tests_per_case: 34
   tests_units: tests performed
-  total_vaccinations: 715028
-  people_vaccinated: 478316
+  total_vaccinations: 715025
+  people_vaccinated: 478313
   people_fully_vaccinated: 236712
   new_vaccinations: 8571
   new_vaccinations_smoothed: 8872
@@ -14597,7 +14666,7 @@
   total_deaths_per_million: 950.054
   new_deaths_per_million: 0.755
   new_deaths_smoothed_per_million: 1.833
-  reproduction_rate: 0.64
+  reproduction_rate: 0.65
   icu_patients: 12
   icu_patients_per_million: 9.055
   hosp_patients: 113
@@ -14611,8 +14680,8 @@
   positive_rate: 0.027
   tests_per_case: 36.4
   tests_units: tests performed
-  total_vaccinations: 726008
-  people_vaccinated: 484079
+  total_vaccinations: 726005
+  people_vaccinated: 484076
   people_fully_vaccinated: 241929
   new_vaccinations: 10980
   new_vaccinations_smoothed: 8811
@@ -14648,8 +14717,8 @@
   positive_rate: 0.026
   tests_per_case: 38.6
   tests_units: tests performed
-  total_vaccinations: 740017
-  people_vaccinated: 490198
+  total_vaccinations: 740014
+  people_vaccinated: 490195
   people_fully_vaccinated: 249819
   new_vaccinations: 14009
   new_vaccinations_smoothed: 8502
@@ -14685,10 +14754,10 @@
   positive_rate: 0.024
   tests_per_case: 40.8
   tests_units: tests performed
-  total_vaccinations: 751658
-  people_vaccinated: 495228
+  total_vaccinations: 751654
+  people_vaccinated: 495224
   people_fully_vaccinated: 256430
-  new_vaccinations: 11641
+  new_vaccinations: 11640
   new_vaccinations_smoothed: 8380
   total_vaccinations_per_hundred: 56.72
   people_vaccinated_per_hundred: 37.37
@@ -14722,15 +14791,15 @@
   positive_rate: 0.023
   tests_per_case: 44.3
   tests_units: tests performed
-  total_vaccinations: 756861
-  people_vaccinated: 498682
+  total_vaccinations: 756857
+  people_vaccinated: 498678
   people_fully_vaccinated: 258179
   new_vaccinations: 5203
-  new_vaccinations_smoothed: 8380
+  new_vaccinations_smoothed: 8379
   total_vaccinations_per_hundred: 57.11
   people_vaccinated_per_hundred: 37.63
   people_fully_vaccinated_per_hundred: 19.48
-  new_vaccinations_smoothed_per_million: 6324
+  new_vaccinations_smoothed_per_million: 6323
   stringency_index: 41.67
 - date: '2021-06-06'
   total_cases: 130119
@@ -14745,7 +14814,7 @@
   total_deaths_per_million: 953.072
   new_deaths_per_million: 0.755
   new_deaths_smoothed_per_million: 1.294
-  reproduction_rate: 0.63
+  reproduction_rate: 0.62
   icu_patients: 10
   icu_patients_per_million: 7.546
   hosp_patients: 98
@@ -14763,8 +14832,8 @@
   positive_rate: 0.022
   tests_per_case: 44.6
   tests_units: tests performed
-  total_vaccinations: 762079
-  people_vaccinated: 500301
+  total_vaccinations: 762075
+  people_vaccinated: 500297
   people_fully_vaccinated: 261778
   new_vaccinations: 5218
   new_vaccinations_smoothed: 8477
@@ -14773,7 +14842,8 @@
   people_fully_vaccinated_per_hundred: 19.75
   new_vaccinations_smoothed_per_million: 6397
   stringency_index: 41.67
-  excess_mortality: 6.78
+  excess_mortality_cumulative: 5.75
+  excess_mortality: 5.43
 - date: '2021-06-07'
   total_cases: 130156
   new_cases: 37
@@ -14801,8 +14871,8 @@
   positive_rate: 0.022
   tests_per_case: 45.6
   tests_units: tests performed
-  total_vaccinations: 768359
-  people_vaccinated: 503279
+  total_vaccinations: 768355
+  people_vaccinated: 503275
   people_fully_vaccinated: 265080
   new_vaccinations: 6280
   new_vaccinations_smoothed: 8843
@@ -14824,7 +14894,7 @@
   total_deaths_per_million: 953.827
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.647
-  reproduction_rate: 0.62
+  reproduction_rate: 0.61
   icu_patients: 10
   icu_patients_per_million: 7.546
   hosp_patients: 75
@@ -14838,8 +14908,8 @@
   positive_rate: 0.022
   tests_per_case: 45.2
   tests_units: tests performed
-  total_vaccinations: 777937
-  people_vaccinated: 507506
+  total_vaccinations: 777933
+  people_vaccinated: 507502
   people_fully_vaccinated: 270431
   new_vaccinations: 9578
   new_vaccinations_smoothed: 8987
@@ -14875,8 +14945,8 @@
   positive_rate: 0.02
   tests_per_case: 49.8
   tests_units: tests performed
-  total_vaccinations: 791409
-  people_vaccinated: 511853
+  total_vaccinations: 791405
+  people_vaccinated: 511849
   people_fully_vaccinated: 279556
   new_vaccinations: 13472
   new_vaccinations_smoothed: 9343
@@ -14912,8 +14982,8 @@
   positive_rate: 0.018
   tests_per_case: 54.1
   tests_units: tests performed
-  total_vaccinations: 806350
-  people_vaccinated: 516183
+  total_vaccinations: 806346
+  people_vaccinated: 516179
   people_fully_vaccinated: 290167
   new_vaccinations: 14941
   new_vaccinations_smoothed: 9476
@@ -14949,8 +15019,8 @@
   positive_rate: 0.017
   tests_per_case: 59.2
   tests_units: tests performed
-  total_vaccinations: 818234
-  people_vaccinated: 519610
+  total_vaccinations: 818230
+  people_vaccinated: 519606
   people_fully_vaccinated: 298624
   new_vaccinations: 11884
   new_vaccinations_smoothed: 9511
@@ -14986,8 +15056,8 @@
   positive_rate: 0.017
   tests_per_case: 60.3
   tests_units: tests performed
-  total_vaccinations: 825066
-  people_vaccinated: 521813
+  total_vaccinations: 825062
+  people_vaccinated: 521809
   people_fully_vaccinated: 303253
   new_vaccinations: 6832
   new_vaccinations_smoothed: 9744
@@ -15027,8 +15097,8 @@
   positive_rate: 0.016
   tests_per_case: 61.9
   tests_units: tests performed
-  total_vaccinations: 829642
-  people_vaccinated: 523502
+  total_vaccinations: 829638
+  people_vaccinated: 523498
   people_fully_vaccinated: 306140
   new_vaccinations: 4576
   new_vaccinations_smoothed: 9652
@@ -15037,7 +15107,8 @@
   people_fully_vaccinated_per_hundred: 23.1
   new_vaccinations_smoothed_per_million: 7283
   stringency_index: 38.89
-  excess_mortality: 8.01
+  excess_mortality_cumulative: 5.76
+  excess_mortality: 6.68
 - date: '2021-06-14'
   total_cases: 130538
   new_cases: 28
@@ -15065,8 +15136,8 @@
   positive_rate: 0.015
   tests_per_case: 65.1
   tests_units: tests performed
-  total_vaccinations: 837402
-  people_vaccinated: 526659
+  total_vaccinations: 837398
+  people_vaccinated: 526655
   people_fully_vaccinated: 310743
   new_vaccinations: 7760
   new_vaccinations_smoothed: 9863
@@ -15102,8 +15173,8 @@
   positive_rate: 0.014
   tests_per_case: 70.3
   tests_units: tests performed
-  total_vaccinations: 847959
-  people_vaccinated: 530105
+  total_vaccinations: 847955
+  people_vaccinated: 530101
   people_fully_vaccinated: 317854
   new_vaccinations: 10557
   new_vaccinations_smoothed: 10003
@@ -15139,15 +15210,15 @@
   positive_rate: 0.013
   tests_per_case: 74.2
   tests_units: tests performed
-  total_vaccinations: 861203
-  people_vaccinated: 533031
+  total_vaccinations: 861198
+  people_vaccinated: 533026
   people_fully_vaccinated: 328172
-  new_vaccinations: 13244
-  new_vaccinations_smoothed: 9971
+  new_vaccinations: 13243
+  new_vaccinations_smoothed: 9970
   total_vaccinations_per_hundred: 64.99
   people_vaccinated_per_hundred: 40.22
   people_fully_vaccinated_per_hundred: 24.76
-  new_vaccinations_smoothed_per_million: 7524
+  new_vaccinations_smoothed_per_million: 7523
   stringency_index: 35.19
 - date: '2021-06-17'
   total_cases: 130695
@@ -15176,8 +15247,8 @@
   positive_rate: 0.013
   tests_per_case: 78.5
   tests_units: tests performed
-  total_vaccinations: 875329
-  people_vaccinated: 535946
+  total_vaccinations: 875324
+  people_vaccinated: 535941
   people_fully_vaccinated: 339383
   new_vaccinations: 14126
   new_vaccinations_smoothed: 9854
@@ -15213,8 +15284,8 @@
   positive_rate: 0.013
   tests_per_case: 78.2
   tests_units: tests performed
-  total_vaccinations: 889373
-  people_vaccinated: 540426
+  total_vaccinations: 889368
+  people_vaccinated: 540421
   people_fully_vaccinated: 348947
   new_vaccinations: 14044
   new_vaccinations_smoothed: 10163
@@ -15250,15 +15321,15 @@
   positive_rate: 0.012
   tests_per_case: 85.1
   tests_units: tests performed
-  total_vaccinations: 895637
-  people_vaccinated: 542052
+  total_vaccinations: 895632
+  people_vaccinated: 542047
   people_fully_vaccinated: 353585
   new_vaccinations: 6264
-  new_vaccinations_smoothed: 10082
+  new_vaccinations_smoothed: 10081
   total_vaccinations_per_hundred: 67.59
   people_vaccinated_per_hundred: 40.9
   people_fully_vaccinated_per_hundred: 26.68
-  new_vaccinations_smoothed_per_million: 7608
+  new_vaccinations_smoothed_per_million: 7607
   stringency_index: 35.19
 - date: '2021-06-20'
   total_cases: 130806
@@ -15273,7 +15344,7 @@
   total_deaths_per_million: 956.845
   new_deaths_per_million: 0.755
   new_deaths_smoothed_per_million: 0.216
-  reproduction_rate: 0.65
+  reproduction_rate: 0.64
   icu_patients: 5
   icu_patients_per_million: 3.773
   hosp_patients: 55
@@ -15291,8 +15362,8 @@
   positive_rate: 0.011
   tests_per_case: 87.7
   tests_units: tests performed
-  total_vaccinations: 899680
-  people_vaccinated: 543826
+  total_vaccinations: 899675
+  people_vaccinated: 543821
   people_fully_vaccinated: 355854
   new_vaccinations: 4043
   new_vaccinations_smoothed: 10005
@@ -15301,7 +15372,8 @@
   people_fully_vaccinated_per_hundred: 26.85
   new_vaccinations_smoothed_per_million: 7550
   stringency_index: 35.19
-  excess_mortality: 10.49
+  excess_mortality_cumulative: 5.8
+  excess_mortality: 9.07
 - date: '2021-06-21'
   total_cases: 130818
   new_cases: 12
@@ -15315,7 +15387,7 @@
   total_deaths_per_million: 956.845
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.216
-  reproduction_rate: 0.65
+  reproduction_rate: 0.64
   icu_patients: 4
   icu_patients_per_million: 3.018
   hosp_patients: 47
@@ -15329,11 +15401,11 @@
   positive_rate: 0.011
   tests_per_case: 88.6
   tests_units: tests performed
-  total_vaccinations: 908302
-  people_vaccinated: 546725
+  total_vaccinations: 908297
+  people_vaccinated: 546720
   people_fully_vaccinated: 361577
   new_vaccinations: 8622
-  new_vaccinations_smoothed: 10129
+  new_vaccinations_smoothed: 10128
   total_vaccinations_per_hundred: 68.54
   people_vaccinated_per_hundred: 41.26
   people_fully_vaccinated_per_hundred: 27.28
@@ -15352,7 +15424,7 @@
   total_deaths_per_million: 957.6
   new_deaths_per_million: 0.755
   new_deaths_smoothed_per_million: 0.323
-  reproduction_rate: 0.65
+  reproduction_rate: 0.64
   icu_patients: 4
   icu_patients_per_million: 3.018
   hosp_patients: 40
@@ -15366,8 +15438,8 @@
   positive_rate: 0.011
   tests_per_case: 92.4
   tests_units: tests performed
-  total_vaccinations: 914168
-  people_vaccinated: 548549
+  total_vaccinations: 914163
+  people_vaccinated: 548544
   people_fully_vaccinated: 365619
   new_vaccinations: 5866
   new_vaccinations_smoothed: 9458
@@ -15403,8 +15475,8 @@
   positive_rate: 0.01
   tests_per_case: 96.2
   tests_units: tests performed
-  total_vaccinations: 914294
-  people_vaccinated: 548552
+  total_vaccinations: 914289
+  people_vaccinated: 548547
   people_fully_vaccinated: 365742
   new_vaccinations: 126
   new_vaccinations_smoothed: 7584
@@ -15440,8 +15512,8 @@
   positive_rate: 0.01
   tests_per_case: 96
   tests_units: tests performed
-  total_vaccinations: 914470
-  people_vaccinated: 548588
+  total_vaccinations: 914465
+  people_vaccinated: 548583
   people_fully_vaccinated: 365882
   new_vaccinations: 176
   new_vaccinations_smoothed: 5592
@@ -15463,7 +15535,7 @@
   total_deaths_per_million: 957.6
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.216
-  reproduction_rate: 0.71
+  reproduction_rate: 0.7
   icu_patients: 3
   icu_patients_per_million: 2.264
   hosp_patients: 31
@@ -15477,8 +15549,8 @@
   positive_rate: 0.008
   tests_per_case: 121.4
   tests_units: tests performed
-  total_vaccinations: 922115
-  people_vaccinated: 550599
+  total_vaccinations: 922110
+  people_vaccinated: 550594
   people_fully_vaccinated: 371516
   new_vaccinations: 7645
   new_vaccinations_smoothed: 4677
@@ -15514,13 +15586,13 @@
   positive_rate: 0.009
   tests_per_case: 116.6
   tests_units: tests performed
-  total_vaccinations: 926572
-  people_vaccinated: 551747
+  total_vaccinations: 926567
+  people_vaccinated: 551742
   people_fully_vaccinated: 374825
   new_vaccinations: 4457
   new_vaccinations_smoothed: 4419
   total_vaccinations_per_hundred: 69.92
-  people_vaccinated_per_hundred: 41.64
+  people_vaccinated_per_hundred: 41.63
   people_fully_vaccinated_per_hundred: 28.28
   new_vaccinations_smoothed_per_million: 3335
   stringency_index: 32.41
@@ -15555,8 +15627,8 @@
   positive_rate: 0.009
   tests_per_case: 115.2
   tests_units: tests performed
-  total_vaccinations: 930997
-  people_vaccinated: 552970
+  total_vaccinations: 930992
+  people_vaccinated: 552965
   people_fully_vaccinated: 378027
   new_vaccinations: 4425
   new_vaccinations_smoothed: 4474
@@ -15565,7 +15637,8 @@
   people_fully_vaccinated_per_hundred: 28.53
   new_vaccinations_smoothed_per_million: 3376
   stringency_index: 32.41
-  excess_mortality: 44.49
+  excess_mortality_cumulative: 6.22
+  excess_mortality: 42.65
 - date: '2021-06-28'
   total_cases: 130983
   new_cases: 15
@@ -15593,10 +15666,10 @@
   positive_rate: 0.009
   tests_per_case: 114.3
   tests_units: tests performed
-  total_vaccinations: 938479
-  people_vaccinated: 554894
+  total_vaccinations: 938473
+  people_vaccinated: 554888
   people_fully_vaccinated: 383585
-  new_vaccinations: 7482
+  new_vaccinations: 7481
   new_vaccinations_smoothed: 4311
   total_vaccinations_per_hundred: 70.82
   people_vaccinated_per_hundred: 41.87
@@ -15630,8 +15703,8 @@
   positive_rate: 0.009
   tests_per_case: 109.7
   tests_units: tests performed
-  total_vaccinations: 946889
-  people_vaccinated: 557077
+  total_vaccinations: 946883
+  people_vaccinated: 557071
   people_fully_vaccinated: 389812
   new_vaccinations: 8410
   new_vaccinations_smoothed: 4674
@@ -15667,8 +15740,8 @@
   positive_rate: 0.009
   tests_per_case: 108.2
   tests_units: tests performed
-  total_vaccinations: 955753
-  people_vaccinated: 559509
+  total_vaccinations: 955747
+  people_vaccinated: 559503
   people_fully_vaccinated: 396244
   new_vaccinations: 8864
   new_vaccinations_smoothed: 5923
@@ -15704,8 +15777,8 @@
   positive_rate: 0.009
   tests_per_case: 111.8
   tests_units: tests performed
-  total_vaccinations: 963141
-  people_vaccinated: 561899
+  total_vaccinations: 963135
+  people_vaccinated: 561893
   people_fully_vaccinated: 401242
   new_vaccinations: 7388
   new_vaccinations_smoothed: 6953
@@ -15741,8 +15814,8 @@
   positive_rate: 0.011
   tests_per_case: 94.7
   tests_units: tests performed
-  total_vaccinations: 970543
-  people_vaccinated: 564244
+  total_vaccinations: 970537
+  people_vaccinated: 564238
   people_fully_vaccinated: 406299
   new_vaccinations: 7402
   new_vaccinations_smoothed: 6918
@@ -15778,8 +15851,8 @@
   positive_rate: 0.011
   tests_per_case: 90.8
   tests_units: tests performed
-  total_vaccinations: 975574
-  people_vaccinated: 565584
+  total_vaccinations: 975568
+  people_vaccinated: 565578
   people_fully_vaccinated: 409990
   new_vaccinations: 5031
   new_vaccinations_smoothed: 7000
@@ -15819,17 +15892,18 @@
   positive_rate: 0.011
   tests_per_case: 88.6
   tests_units: tests performed
-  total_vaccinations: 981100
-  people_vaccinated: 566937
+  total_vaccinations: 981094
+  people_vaccinated: 566931
   people_fully_vaccinated: 414163
   new_vaccinations: 5526
-  new_vaccinations_smoothed: 7158
+  new_vaccinations_smoothed: 7157
   total_vaccinations_per_hundred: 74.03
   people_vaccinated_per_hundred: 42.78
   people_fully_vaccinated_per_hundred: 31.25
   new_vaccinations_smoothed_per_million: 5401
   stringency_index: 37.96
-  excess_mortality: 19.1
+  excess_mortality_cumulative: 6.35
+  excess_mortality: 17.54
 - date: '2021-07-05'
   total_cases: 131207
   new_cases: 19
@@ -15857,8 +15931,8 @@
   positive_rate: 0.012
   tests_per_case: 83.1
   tests_units: tests performed
-  total_vaccinations: 985717
-  people_vaccinated: 569471
+  total_vaccinations: 985711
+  people_vaccinated: 569465
   people_fully_vaccinated: 416246
   new_vaccinations: 4617
   new_vaccinations_smoothed: 6748
@@ -15894,8 +15968,8 @@
   positive_rate: 0.013
   tests_per_case: 79.2
   tests_units: tests performed
-  total_vaccinations: 994063
-  people_vaccinated: 572043
+  total_vaccinations: 994057
+  people_vaccinated: 572037
   people_fully_vaccinated: 422020
   new_vaccinations: 8346
   new_vaccinations_smoothed: 6739
@@ -15931,8 +16005,8 @@
   positive_rate: 0.013
   tests_per_case: 76.1
   tests_units: tests performed
-  total_vaccinations: 1000666
-  people_vaccinated: 574551
+  total_vaccinations: 1000660
+  people_vaccinated: 574545
   people_fully_vaccinated: 426115
   new_vaccinations: 6603
   new_vaccinations_smoothed: 6416
@@ -15968,8 +16042,8 @@
   positive_rate: 0.015
   tests_per_case: 67.2
   tests_units: tests performed
-  total_vaccinations: 1008773
-  people_vaccinated: 577206
+  total_vaccinations: 1008767
+  people_vaccinated: 577200
   people_fully_vaccinated: 431567
   new_vaccinations: 8107
   new_vaccinations_smoothed: 6519
@@ -16005,8 +16079,8 @@
   positive_rate: 0.014
   tests_per_case: 71.3
   tests_units: tests performed
-  total_vaccinations: 1015401
-  people_vaccinated: 580080
+  total_vaccinations: 1015395
+  people_vaccinated: 580074
   people_fully_vaccinated: 435321
   new_vaccinations: 6628
   new_vaccinations_smoothed: 6408
@@ -16042,8 +16116,8 @@
   positive_rate: 0.015
   tests_per_case: 67.2
   tests_units: tests performed
-  total_vaccinations: 1018674
-  people_vaccinated: 581634
+  total_vaccinations: 1018668
+  people_vaccinated: 581628
   people_fully_vaccinated: 437040
   new_vaccinations: 3273
   new_vaccinations_smoothed: 6157
@@ -16083,8 +16157,8 @@
   positive_rate: 0.014
   tests_per_case: 69.4
   tests_units: tests performed
-  total_vaccinations: 1023420
-  people_vaccinated: 583203
+  total_vaccinations: 1023414
+  people_vaccinated: 583197
   people_fully_vaccinated: 440217
   new_vaccinations: 4746
   new_vaccinations_smoothed: 6046
@@ -16093,7 +16167,8 @@
   people_fully_vaccinated_per_hundred: 33.22
   new_vaccinations_smoothed_per_million: 4562
   stringency_index: 23.15
-  excess_mortality: 40.73
+  excess_mortality_cumulative: 6.71
+  excess_mortality: 38.88
 - date: '2021-07-12'
   total_cases: 131508
   new_cases: 21
@@ -16121,12 +16196,12 @@
   positive_rate: 0.014
   tests_per_case: 71
   tests_units: tests performed
-  total_vaccinations: 1027883
-  people_vaccinated: 585046
+  total_vaccinations: 1027877
+  people_vaccinated: 585040
   people_fully_vaccinated: 442837
   new_vaccinations: 4463
   new_vaccinations_smoothed: 6024
-  total_vaccinations_per_hundred: 77.57
+  total_vaccinations_per_hundred: 77.56
   people_vaccinated_per_hundred: 44.15
   people_fully_vaccinated_per_hundred: 33.42
   new_vaccinations_smoothed_per_million: 4546
@@ -16144,7 +16219,7 @@
   total_deaths_per_million: 958.355
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.22
+  reproduction_rate: 1.23
   icu_patients: 2
   icu_patients_per_million: 1.509
   hosp_patients: 22
@@ -16158,10 +16233,10 @@
   positive_rate: 0.014
   tests_per_case: 71.2
   tests_units: tests performed
-  total_vaccinations: 1034522
-  people_vaccinated: 587493
+  total_vaccinations: 1034515
+  people_vaccinated: 587486
   people_fully_vaccinated: 447029
-  new_vaccinations: 6639
+  new_vaccinations: 6638
   new_vaccinations_smoothed: 5780
   total_vaccinations_per_hundred: 78.07
   people_vaccinated_per_hundred: 44.33
@@ -16195,8 +16270,8 @@
   positive_rate: 0.015
   tests_per_case: 68.6
   tests_units: tests performed
-  total_vaccinations: 1041658
-  people_vaccinated: 589755
+  total_vaccinations: 1041651
+  people_vaccinated: 589748
   people_fully_vaccinated: 451903
   new_vaccinations: 7136
   new_vaccinations_smoothed: 5856
@@ -16232,15 +16307,15 @@
   positive_rate: 0.015
   tests_per_case: 68.4
   tests_units: tests performed
-  total_vaccinations: 1049160
-  people_vaccinated: 592737
+  total_vaccinations: 1049153
+  people_vaccinated: 592730
   people_fully_vaccinated: 456423
   new_vaccinations: 7502
-  new_vaccinations_smoothed: 5770
+  new_vaccinations_smoothed: 5769
   total_vaccinations_per_hundred: 79.17
   people_vaccinated_per_hundred: 44.73
   people_fully_vaccinated_per_hundred: 34.44
-  new_vaccinations_smoothed_per_million: 4354
+  new_vaccinations_smoothed_per_million: 4353
   stringency_index: 23.15
 - date: '2021-07-16'
   total_cases: 131743
@@ -16255,7 +16330,7 @@
   total_deaths_per_million: 959.109
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.108
-  reproduction_rate: 1.29
+  reproduction_rate: 1.3
   icu_patients: 1
   icu_patients_per_million: 0.755
   hosp_patients: 16
@@ -16269,8 +16344,8 @@
   positive_rate: 0.016
   tests_per_case: 60.9
   tests_units: tests performed
-  total_vaccinations: 1054154
-  people_vaccinated: 594735
+  total_vaccinations: 1054147
+  people_vaccinated: 594728
   people_fully_vaccinated: 459419
   new_vaccinations: 4994
   new_vaccinations_smoothed: 5536
@@ -16292,7 +16367,7 @@
   total_deaths_per_million: 959.109
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.108
-  reproduction_rate: 1.31
+  reproduction_rate: 1.32
   icu_patients: 2
   icu_patients_per_million: 1.509
   hosp_patients: 17
@@ -16306,13 +16381,13 @@
   positive_rate: 0.016
   tests_per_case: 63.1
   tests_units: tests performed
-  total_vaccinations: 1056031
-  people_vaccinated: 596007
+  total_vaccinations: 1056024
+  people_vaccinated: 596000
   people_fully_vaccinated: 460024
   new_vaccinations: 1877
   new_vaccinations_smoothed: 5337
   total_vaccinations_per_hundred: 79.69
-  people_vaccinated_per_hundred: 44.98
+  people_vaccinated_per_hundred: 44.97
   people_fully_vaccinated_per_hundred: 34.71
   new_vaccinations_smoothed_per_million: 4027
   stringency_index: 23.15
@@ -16347,8 +16422,8 @@
   positive_rate: 0.017
   tests_per_case: 59.9
   tests_units: tests performed
-  total_vaccinations: 1060364
-  people_vaccinated: 599051
+  total_vaccinations: 1060357
+  people_vaccinated: 599044
   people_fully_vaccinated: 461313
   new_vaccinations: 4333
   new_vaccinations_smoothed: 5278
@@ -16357,7 +16432,8 @@
   people_fully_vaccinated_per_hundred: 34.81
   new_vaccinations_smoothed_per_million: 3983
   stringency_index: 23.15
-  excess_mortality: 20.57
+  excess_mortality_cumulative: 6.84
+  excess_mortality: 19
 - date: '2021-07-19'
   total_cases: 131882
   new_cases: 34
@@ -16385,8 +16461,8 @@
   positive_rate: 0.018
   tests_per_case: 56.8
   tests_units: tests performed
-  total_vaccinations: 1066216
-  people_vaccinated: 602170
+  total_vaccinations: 1066209
+  people_vaccinated: 602163
   people_fully_vaccinated: 464046
   new_vaccinations: 5852
   new_vaccinations_smoothed: 5476
@@ -16422,8 +16498,8 @@
   positive_rate: 0.019
   tests_per_case: 52.4
   tests_units: tests performed
-  total_vaccinations: 1074371
-  people_vaccinated: 605472
+  total_vaccinations: 1074364
+  people_vaccinated: 605465
   people_fully_vaccinated: 468899
   new_vaccinations: 8155
   new_vaccinations_smoothed: 5693
@@ -16459,8 +16535,8 @@
   positive_rate: 0.021
   tests_per_case: 47.5
   tests_units: tests performed
-  total_vaccinations: 1081270
-  people_vaccinated: 608529
+  total_vaccinations: 1081263
+  people_vaccinated: 608522
   people_fully_vaccinated: 472741
   new_vaccinations: 6899
   new_vaccinations_smoothed: 5659
@@ -16496,13 +16572,13 @@
   positive_rate: 0.025
   tests_per_case: 40.4
   tests_units: tests performed
-  total_vaccinations: 1089007
-  people_vaccinated: 612306
+  total_vaccinations: 1089000
+  people_vaccinated: 612299
   people_fully_vaccinated: 476701
   new_vaccinations: 7737
   new_vaccinations_smoothed: 5692
   total_vaccinations_per_hundred: 82.18
-  people_vaccinated_per_hundred: 46.21
+  people_vaccinated_per_hundred: 46.2
   people_fully_vaccinated_per_hundred: 35.97
   new_vaccinations_smoothed_per_million: 4295
   stringency_index: 23.15
@@ -16533,8 +16609,8 @@
   positive_rate: 0.026
   tests_per_case: 38.7
   tests_units: tests performed
-  total_vaccinations: 1096433
-  people_vaccinated: 616487
+  total_vaccinations: 1096426
+  people_vaccinated: 616480
   people_fully_vaccinated: 479946
   new_vaccinations: 7426
   new_vaccinations_smoothed: 6040
@@ -16570,8 +16646,8 @@
   positive_rate: 0.03
   tests_per_case: 33.3
   tests_units: tests performed
-  total_vaccinations: 1099779
-  people_vaccinated: 618839
+  total_vaccinations: 1099772
+  people_vaccinated: 618832
   people_fully_vaccinated: 480940
   new_vaccinations: 3346
   new_vaccinations_smoothed: 6250
@@ -16593,7 +16669,7 @@
   total_deaths_per_million: 959.109
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.51
+  reproduction_rate: 1.52
   icu_patients: 3
   icu_patients_per_million: 2.264
   hosp_patients: 33
@@ -16611,8 +16687,8 @@
   positive_rate: 0.033
   tests_per_case: 30.3
   tests_units: tests performed
-  total_vaccinations: 1102997
-  people_vaccinated: 621105
+  total_vaccinations: 1102990
+  people_vaccinated: 621098
   people_fully_vaccinated: 481892
   new_vaccinations: 3218
   new_vaccinations_smoothed: 6090
@@ -16621,7 +16697,8 @@
   people_fully_vaccinated_per_hundred: 36.36
   new_vaccinations_smoothed_per_million: 4596
   stringency_index: 23.15
-  excess_mortality: 1.11
+  excess_mortality_cumulative: 6.76
+  excess_mortality: -0.18
 - date: '2021-07-26'
   total_cases: 132524
   new_cases: 66
@@ -16635,7 +16712,7 @@
   total_deaths_per_million: 959.109
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
-  reproduction_rate: 1.53
+  reproduction_rate: 1.54
   icu_patients: 3
   icu_patients_per_million: 2.264
   hosp_patients: 37
@@ -16649,12 +16726,12 @@
   positive_rate: 0.034
   tests_per_case: 29
   tests_units: tests performed
-  total_vaccinations: 1108590
-  people_vaccinated: 624333
+  total_vaccinations: 1108583
+  people_vaccinated: 624326
   people_fully_vaccinated: 484257
   new_vaccinations: 5593
   new_vaccinations_smoothed: 6053
-  total_vaccinations_per_hundred: 83.66
+  total_vaccinations_per_hundred: 83.65
   people_vaccinated_per_hundred: 47.11
   people_fully_vaccinated_per_hundred: 36.54
   new_vaccinations_smoothed_per_million: 4568
@@ -16686,8 +16763,8 @@
   positive_rate: 0.04
   tests_per_case: 25.2
   tests_units: tests performed
-  total_vaccinations: 1114725
-  people_vaccinated: 626990
+  total_vaccinations: 1114718
+  people_vaccinated: 626983
   people_fully_vaccinated: 487735
   new_vaccinations: 6135
   new_vaccinations_smoothed: 5765
@@ -16723,8 +16800,8 @@
   positive_rate: 0.043
   tests_per_case: 23.4
   tests_units: tests performed
-  total_vaccinations: 1120245
-  people_vaccinated: 630058
+  total_vaccinations: 1120238
+  people_vaccinated: 630051
   people_fully_vaccinated: 490187
   new_vaccinations: 5520
   new_vaccinations_smoothed: 5568
@@ -16760,8 +16837,8 @@
   positive_rate: 0.047
   tests_per_case: 21.4
   tests_units: tests performed
-  total_vaccinations: 1125467
-  people_vaccinated: 633463
+  total_vaccinations: 1125460
+  people_vaccinated: 633456
   people_fully_vaccinated: 492004
   new_vaccinations: 5222
   new_vaccinations_smoothed: 5209
@@ -16797,8 +16874,8 @@
   positive_rate: 0.051
   tests_per_case: 19.5
   tests_units: tests performed
-  total_vaccinations: 1130607
-  people_vaccinated: 636683
+  total_vaccinations: 1130600
+  people_vaccinated: 636676
   people_fully_vaccinated: 493924
   new_vaccinations: 5140
   new_vaccinations_smoothed: 4882
@@ -16820,7 +16897,7 @@
   total_deaths_per_million: 959.864
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.108
-  reproduction_rate: 1.48
+  reproduction_rate: 1.49
   icu_patients: 2
   icu_patients_per_million: 1.509
   hosp_patients: 45
@@ -16834,8 +16911,8 @@
   positive_rate: 0.058
   tests_per_case: 17.3
   tests_units: tests performed
-  total_vaccinations: 1133571
-  people_vaccinated: 638739
+  total_vaccinations: 1133564
+  people_vaccinated: 638732
   people_fully_vaccinated: 494832
   new_vaccinations: 2964
   new_vaccinations_smoothed: 4827
@@ -16875,8 +16952,8 @@
   positive_rate: 0.06
   tests_per_case: 16.8
   tests_units: tests performed
-  total_vaccinations: 1136361
-  people_vaccinated: 640719
+  total_vaccinations: 1136354
+  people_vaccinated: 640712
   people_fully_vaccinated: 495642
   new_vaccinations: 2790
   new_vaccinations_smoothed: 4766
@@ -16885,7 +16962,8 @@
   people_fully_vaccinated_per_hundred: 37.4
   new_vaccinations_smoothed_per_million: 3596
   stringency_index: 23.15
-  excess_mortality: 0.5
+  excess_mortality_cumulative: 6.68
+  excess_mortality: -0.74
 - date: '2021-08-02'
   total_cases: 133771
   new_cases: 86
@@ -16913,8 +16991,8 @@
   positive_rate: 0.059
   tests_per_case: 17
   tests_units: tests performed
-  total_vaccinations: 1142266
-  people_vaccinated: 644550
+  total_vaccinations: 1142259
+  people_vaccinated: 644543
   people_fully_vaccinated: 497716
   new_vaccinations: 5905
   new_vaccinations_smoothed: 4811
@@ -16950,10 +17028,10 @@
   positive_rate: 0.058
   tests_per_case: 17.2
   tests_units: tests performed
-  total_vaccinations: 1148522
-  people_vaccinated: 648847
+  total_vaccinations: 1148514
+  people_vaccinated: 648839
   people_fully_vaccinated: 499675
-  new_vaccinations: 6256
+  new_vaccinations: 6255
   new_vaccinations_smoothed: 4828
   total_vaccinations_per_hundred: 86.67
   people_vaccinated_per_hundred: 48.96
@@ -16987,8 +17065,8 @@
   positive_rate: 0.06
   tests_per_case: 16.6
   tests_units: tests performed
-  total_vaccinations: 1154680
-  people_vaccinated: 653565
+  total_vaccinations: 1154672
+  people_vaccinated: 653557
   people_fully_vaccinated: 501115
   new_vaccinations: 6158
   new_vaccinations_smoothed: 4919
@@ -17010,7 +17088,7 @@
   total_deaths_per_million: 962.882
   new_deaths_per_million: 2.264
   new_deaths_smoothed_per_million: 0.431
-  reproduction_rate: 1.35
+  reproduction_rate: 1.34
   icu_patients: 3
   icu_patients_per_million: 2.264
   hosp_patients: 49
@@ -17024,8 +17102,8 @@
   positive_rate: 0.061
   tests_per_case: 16.5
   tests_units: tests performed
-  total_vaccinations: 1160078
-  people_vaccinated: 657511
+  total_vaccinations: 1160070
+  people_vaccinated: 657503
   people_fully_vaccinated: 502567
   new_vaccinations: 5398
   new_vaccinations_smoothed: 4944
@@ -17061,8 +17139,8 @@
   positive_rate: 0.051
   tests_per_case: 19.7
   tests_units: tests performed
-  total_vaccinations: 1166826
-  people_vaccinated: 662476
+  total_vaccinations: 1166818
+  people_vaccinated: 662468
   people_fully_vaccinated: 504350
   new_vaccinations: 6748
   new_vaccinations_smoothed: 5174
@@ -17098,8 +17176,8 @@
   positive_rate: 0.049
   tests_per_case: 20.5
   tests_units: tests performed
-  total_vaccinations: 1170371
-  people_vaccinated: 665106
+  total_vaccinations: 1170363
+  people_vaccinated: 665098
   people_fully_vaccinated: 505265
   new_vaccinations: 3545
   new_vaccinations_smoothed: 5257
@@ -17139,8 +17217,8 @@
   positive_rate: 0.047
   tests_per_case: 21.1
   tests_units: tests performed
-  total_vaccinations: 1172438
-  people_vaccinated: 666825
+  total_vaccinations: 1172430
+  people_vaccinated: 666817
   people_fully_vaccinated: 505613
   new_vaccinations: 2067
   new_vaccinations_smoothed: 5154
@@ -17149,7 +17227,8 @@
   people_fully_vaccinated_per_hundred: 38.15
   new_vaccinations_smoothed_per_million: 3889
   stringency_index: 23.15
-  excess_mortality: 13.43
+  excess_mortality_cumulative: 6.73
+  excess_mortality: 11.97
 - date: '2021-08-09'
   total_cases: 135223
   new_cases: 147
@@ -17163,7 +17242,7 @@
   total_deaths_per_million: 963.637
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.539
-  reproduction_rate: 1.29
+  reproduction_rate: 1.3
   icu_patients: 6
   icu_patients_per_million: 4.528
   hosp_patients: 65
@@ -17177,10 +17256,10 @@
   positive_rate: 0.044
   tests_per_case: 22.9
   tests_units: tests performed
-  total_vaccinations: 1177948
-  people_vaccinated: 670716
+  total_vaccinations: 1177939
+  people_vaccinated: 670707
   people_fully_vaccinated: 507232
-  new_vaccinations: 5510
+  new_vaccinations: 5509
   new_vaccinations_smoothed: 5097
   total_vaccinations_per_hundred: 88.89
   people_vaccinated_per_hundred: 50.61
@@ -17214,11 +17293,11 @@
   positive_rate: 0.042
   tests_per_case: 23.7
   tests_units: tests performed
-  total_vaccinations: 1184109
-  people_vaccinated: 674943
-  people_fully_vaccinated: 509166
-  new_vaccinations: 6161
-  new_vaccinations_smoothed: 5084
+  total_vaccinations: 1184095
+  people_vaccinated: 674930
+  people_fully_vaccinated: 509165
+  new_vaccinations: 6156
+  new_vaccinations_smoothed: 5083
   total_vaccinations_per_hundred: 89.35
   people_vaccinated_per_hundred: 50.93
   people_fully_vaccinated_per_hundred: 38.42
@@ -17251,15 +17330,15 @@
   positive_rate: 0.042
   tests_per_case: 23.8
   tests_units: tests performed
-  total_vaccinations: 1189836
-  people_vaccinated: 678884
-  people_fully_vaccinated: 510952
+  total_vaccinations: 1189822
+  people_vaccinated: 678871
+  people_fully_vaccinated: 510951
   new_vaccinations: 5727
-  new_vaccinations_smoothed: 5022
+  new_vaccinations_smoothed: 5021
   total_vaccinations_per_hundred: 89.79
   people_vaccinated_per_hundred: 51.23
   people_fully_vaccinated_per_hundred: 38.56
-  new_vaccinations_smoothed_per_million: 3790
+  new_vaccinations_smoothed_per_million: 3789
   stringency_index: 23.15
 - date: '2021-08-12'
   total_cases: 136228
@@ -17288,15 +17367,15 @@
   positive_rate: 0.041
   tests_per_case: 24.5
   tests_units: tests performed
-  total_vaccinations: 1195535
-  people_vaccinated: 682656
-  people_fully_vaccinated: 512879
-  new_vaccinations: 5699
-  new_vaccinations_smoothed: 5065
+  total_vaccinations: 1195520
+  people_vaccinated: 682642
+  people_fully_vaccinated: 512878
+  new_vaccinations: 5698
+  new_vaccinations_smoothed: 5064
   total_vaccinations_per_hundred: 90.22
   people_vaccinated_per_hundred: 51.51
   people_fully_vaccinated_per_hundred: 38.7
-  new_vaccinations_smoothed_per_million: 3822
+  new_vaccinations_smoothed_per_million: 3821
   stringency_index: 23.15
 - date: '2021-08-13'
   total_cases: 136500
@@ -17325,15 +17404,15 @@
   positive_rate: 0.046
   tests_per_case: 21.5
   tests_units: tests performed
-  total_vaccinations: 1201463
-  people_vaccinated: 686625
-  people_fully_vaccinated: 514838
-  new_vaccinations: 5928
-  new_vaccinations_smoothed: 4948
+  total_vaccinations: 1201447
+  people_vaccinated: 686610
+  people_fully_vaccinated: 514837
+  new_vaccinations: 5927
+  new_vaccinations_smoothed: 4947
   total_vaccinations_per_hundred: 90.66
   people_vaccinated_per_hundred: 51.81
   people_fully_vaccinated_per_hundred: 38.85
-  new_vaccinations_smoothed_per_million: 3734
+  new_vaccinations_smoothed_per_million: 3733
   stringency_index: 23.15
 - date: '2021-08-14'
   total_cases: 136790
@@ -17362,15 +17441,15 @@
   positive_rate: 0.046
   tests_per_case: 21.7
   tests_units: tests performed
-  total_vaccinations: 1206050
-  people_vaccinated: 689445
-  people_fully_vaccinated: 516605
+  total_vaccinations: 1206034
+  people_vaccinated: 689430
+  people_fully_vaccinated: 516604
   new_vaccinations: 4587
-  new_vaccinations_smoothed: 5097
+  new_vaccinations_smoothed: 5096
   total_vaccinations_per_hundred: 91.01
   people_vaccinated_per_hundred: 52.03
   people_fully_vaccinated_per_hundred: 38.98
-  new_vaccinations_smoothed_per_million: 3846
+  new_vaccinations_smoothed_per_million: 3845
   stringency_index: 23.15
 - date: '2021-08-15'
   total_cases: 136992
@@ -17403,17 +17482,18 @@
   positive_rate: 0.048
   tests_per_case: 20.7
   tests_units: tests performed
-  total_vaccinations: 1208428
-  people_vaccinated: 691022
-  people_fully_vaccinated: 517406
-  new_vaccinations: 2378
-  new_vaccinations_smoothed: 5141
+  total_vaccinations: 1208411
+  people_vaccinated: 691006
+  people_fully_vaccinated: 517405
+  new_vaccinations: 2377
+  new_vaccinations_smoothed: 5140
   total_vaccinations_per_hundred: 91.19
-  people_vaccinated_per_hundred: 52.15
+  people_vaccinated_per_hundred: 52.14
   people_fully_vaccinated_per_hundred: 39.04
   new_vaccinations_smoothed_per_million: 3879
   stringency_index: 23.15
-  excess_mortality: 6.92
+  excess_mortality_cumulative: 6.72
+  excess_mortality: 5.63
 - date: '2021-08-16'
   total_cases: 137155
   new_cases: 163
@@ -17441,15 +17521,15 @@
   positive_rate: 0.052
   tests_per_case: 19.1
   tests_units: tests performed
-  total_vaccinations: 1213837
-  people_vaccinated: 694264
-  people_fully_vaccinated: 519573
+  total_vaccinations: 1213820
+  people_vaccinated: 694248
+  people_fully_vaccinated: 519572
   new_vaccinations: 5409
-  new_vaccinations_smoothed: 5127
+  new_vaccinations_smoothed: 5126
   total_vaccinations_per_hundred: 91.6
   people_vaccinated_per_hundred: 52.39
   people_fully_vaccinated_per_hundred: 39.21
-  new_vaccinations_smoothed_per_million: 3869
+  new_vaccinations_smoothed_per_million: 3868
   stringency_index: 23.15
 - date: '2021-08-17'
   total_cases: 137514
@@ -17478,15 +17558,15 @@
   positive_rate: 0.058
   tests_per_case: 17.2
   tests_units: tests performed
-  total_vaccinations: 1218738
-  people_vaccinated: 697158
-  people_fully_vaccinated: 521580
-  new_vaccinations: 4901
-  new_vaccinations_smoothed: 4947
+  total_vaccinations: 1218720
+  people_vaccinated: 697141
+  people_fully_vaccinated: 521579
+  new_vaccinations: 4900
+  new_vaccinations_smoothed: 4946
   total_vaccinations_per_hundred: 91.97
   people_vaccinated_per_hundred: 52.61
   people_fully_vaccinated_per_hundred: 39.36
-  new_vaccinations_smoothed_per_million: 3733
+  new_vaccinations_smoothed_per_million: 3732
   stringency_index: 23.15
 - date: '2021-08-18'
   total_cases: 137800
@@ -17515,15 +17595,15 @@
   positive_rate: 0.059
   tests_per_case: 17
   tests_units: tests performed
-  total_vaccinations: 1224023
-  people_vaccinated: 700416
-  people_fully_vaccinated: 523607
+  total_vaccinations: 1224005
+  people_vaccinated: 700399
+  people_fully_vaccinated: 523606
   new_vaccinations: 5285
-  new_vaccinations_smoothed: 4884
-  total_vaccinations_per_hundred: 92.37
+  new_vaccinations_smoothed: 4883
+  total_vaccinations_per_hundred: 92.36
   people_vaccinated_per_hundred: 52.85
   people_fully_vaccinated_per_hundred: 39.51
-  new_vaccinations_smoothed_per_million: 3686
+  new_vaccinations_smoothed_per_million: 3685
   stringency_index: 23.15
 - date: '2021-08-19'
   total_cases: 138157
@@ -17552,15 +17632,15 @@
   positive_rate: 0.065
   tests_per_case: 15.4
   tests_units: tests performed
-  total_vaccinations: 1229805
-  people_vaccinated: 703686
-  people_fully_vaccinated: 526119
+  total_vaccinations: 1229787
+  people_vaccinated: 703669
+  people_fully_vaccinated: 526118
   new_vaccinations: 5782
-  new_vaccinations_smoothed: 4896
+  new_vaccinations_smoothed: 4895
   total_vaccinations_per_hundred: 92.8
   people_vaccinated_per_hundred: 53.1
   people_fully_vaccinated_per_hundred: 39.7
-  new_vaccinations_smoothed_per_million: 3695
+  new_vaccinations_smoothed_per_million: 3694
   stringency_index: 23.15
 - date: '2021-08-20'
   total_cases: 138488
@@ -17575,7 +17655,7 @@
   total_deaths_per_million: 966.655
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.216
-  reproduction_rate: 1.15
+  reproduction_rate: 1.14
   icu_patients: 13
   icu_patients_per_million: 9.81
   hosp_patients: 98
@@ -17589,10 +17669,10 @@
   positive_rate: 0.07
   tests_per_case: 14.4
   tests_units: tests performed
-  total_vaccinations: 1231227
-  people_vaccinated: 704527
-  people_fully_vaccinated: 526700
-  new_vaccinations: 1422
+  total_vaccinations: 1231208
+  people_vaccinated: 704509
+  people_fully_vaccinated: 526699
+  new_vaccinations: 1421
   new_vaccinations_smoothed: 4252
   total_vaccinations_per_hundred: 92.91
   people_vaccinated_per_hundred: 53.16
@@ -17626,15 +17706,15 @@
   positive_rate: 0.072
   tests_per_case: 13.8
   tests_units: tests performed
-  total_vaccinations: 1234028
-  people_vaccinated: 706376
-  people_fully_vaccinated: 527652
-  new_vaccinations: 2801
-  new_vaccinations_smoothed: 3997
+  total_vaccinations: 1234007
+  people_vaccinated: 706356
+  people_fully_vaccinated: 527651
+  new_vaccinations: 2799
+  new_vaccinations_smoothed: 3996
   total_vaccinations_per_hundred: 93.12
   people_vaccinated_per_hundred: 53.3
   people_fully_vaccinated_per_hundred: 39.82
-  new_vaccinations_smoothed_per_million: 3016
+  new_vaccinations_smoothed_per_million: 3015
   stringency_index: 23.15
 - date: '2021-08-22'
   total_cases: 138807
@@ -17649,7 +17729,7 @@
   total_deaths_per_million: 966.655
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.216
-  reproduction_rate: 1.15
+  reproduction_rate: 1.14
   icu_patients: 13
   icu_patients_per_million: 9.81
   hosp_patients: 102
@@ -17667,17 +17747,18 @@
   positive_rate: 0.066
   tests_per_case: 15.1
   tests_units: tests performed
-  total_vaccinations: 1235432
-  people_vaccinated: 707562
-  people_fully_vaccinated: 527870
+  total_vaccinations: 1235411
+  people_vaccinated: 707542
+  people_fully_vaccinated: 527869
   new_vaccinations: 1404
-  new_vaccinations_smoothed: 3858
+  new_vaccinations_smoothed: 3857
   total_vaccinations_per_hundred: 93.23
   people_vaccinated_per_hundred: 53.39
   people_fully_vaccinated_per_hundred: 39.83
   new_vaccinations_smoothed_per_million: 2911
   stringency_index: 23.15
-  excess_mortality: 2.08
+  excess_mortality_cumulative: 6.66
+  excess_mortality: 0.82
 - date: '2021-08-23'
   total_cases: 139126
   new_cases: 319
@@ -17705,15 +17786,15 @@
   positive_rate: 0.072
   tests_per_case: 13.9
   tests_units: tests performed
-  total_vaccinations: 1239562
-  people_vaccinated: 709955
-  people_fully_vaccinated: 529607
-  new_vaccinations: 4130
-  new_vaccinations_smoothed: 3675
+  total_vaccinations: 1239540
+  people_vaccinated: 709934
+  people_fully_vaccinated: 529606
+  new_vaccinations: 4129
+  new_vaccinations_smoothed: 3674
   total_vaccinations_per_hundred: 93.54
   people_vaccinated_per_hundred: 53.57
   people_fully_vaccinated_per_hundred: 39.96
-  new_vaccinations_smoothed_per_million: 2773
+  new_vaccinations_smoothed_per_million: 2772
   stringency_index: 23.15
 - date: '2021-08-24'
   total_cases: 139500
@@ -17742,11 +17823,11 @@
   positive_rate: 0.07
   tests_per_case: 14.3
   tests_units: tests performed
-  total_vaccinations: 1243741
-  people_vaccinated: 712264
-  people_fully_vaccinated: 531477
+  total_vaccinations: 1243719
+  people_vaccinated: 712243
+  people_fully_vaccinated: 531476
   new_vaccinations: 4179
-  new_vaccinations_smoothed: 3572
+  new_vaccinations_smoothed: 3571
   total_vaccinations_per_hundred: 93.85
   people_vaccinated_per_hundred: 53.75
   people_fully_vaccinated_per_hundred: 40.11
@@ -17779,11 +17860,11 @@
   positive_rate: 0.074
   tests_per_case: 13.4
   tests_units: tests performed
-  total_vaccinations: 1248283
-  people_vaccinated: 714844
-  people_fully_vaccinated: 533439
+  total_vaccinations: 1248261
+  people_vaccinated: 714823
+  people_fully_vaccinated: 533438
   new_vaccinations: 4542
-  new_vaccinations_smoothed: 3466
+  new_vaccinations_smoothed: 3465
   total_vaccinations_per_hundred: 94.2
   people_vaccinated_per_hundred: 53.94
   people_fully_vaccinated_per_hundred: 40.25
@@ -17816,11 +17897,11 @@
   positive_rate: 0.076
   tests_per_case: 13.2
   tests_units: tests performed
-  total_vaccinations: 1252014
-  people_vaccinated: 716923
-  people_fully_vaccinated: 535091
+  total_vaccinations: 1251992
+  people_vaccinated: 716902
+  people_fully_vaccinated: 535090
   new_vaccinations: 3731
-  new_vaccinations_smoothed: 3173
+  new_vaccinations_smoothed: 3172
   total_vaccinations_per_hundred: 94.48
   people_vaccinated_per_hundred: 54.1
   people_fully_vaccinated_per_hundred: 40.38
@@ -17853,9 +17934,9 @@
   positive_rate: 0.073
   tests_per_case: 13.7
   tests_units: tests performed
-  total_vaccinations: 1256828
-  people_vaccinated: 719806
-  people_fully_vaccinated: 537022
+  total_vaccinations: 1256806
+  people_vaccinated: 719785
+  people_fully_vaccinated: 537021
   new_vaccinations: 4814
   new_vaccinations_smoothed: 3657
   total_vaccinations_per_hundred: 94.84
@@ -17890,15 +17971,15 @@
   positive_rate: 0.071
   tests_per_case: 14
   tests_units: tests performed
-  total_vaccinations: 1260499
-  people_vaccinated: 722079
-  people_fully_vaccinated: 538420
+  total_vaccinations: 1260477
+  people_vaccinated: 722058
+  people_fully_vaccinated: 538419
   new_vaccinations: 3671
-  new_vaccinations_smoothed: 3782
+  new_vaccinations_smoothed: 3781
   total_vaccinations_per_hundred: 95.12
   people_vaccinated_per_hundred: 54.49
   people_fully_vaccinated_per_hundred: 40.63
-  new_vaccinations_smoothed_per_million: 2854
+  new_vaccinations_smoothed_per_million: 2853
   stringency_index: 28.7
 - date: '2021-08-29'
   total_cases: 141344
@@ -17931,17 +18012,18 @@
   positive_rate: 0.081
   tests_per_case: 12.4
   tests_units: tests performed
-  total_vaccinations: 1264263
-  people_vaccinated: 723962
-  people_fully_vaccinated: 540301
-  new_vaccinations: 3764
-  new_vaccinations_smoothed: 4119
+  total_vaccinations: 1264240
+  people_vaccinated: 723940
+  people_fully_vaccinated: 540300
+  new_vaccinations: 3763
+  new_vaccinations_smoothed: 4118
   total_vaccinations_per_hundred: 95.4
   people_vaccinated_per_hundred: 54.63
   people_fully_vaccinated_per_hundred: 40.77
-  new_vaccinations_smoothed_per_million: 3108
+  new_vaccinations_smoothed_per_million: 3107
   stringency_index: 28.7
-  excess_mortality: 9.01
+  excess_mortality_cumulative: 6.67
+  excess_mortality: 7.58
 - date: '2021-08-30'
   total_cases: 141599
   new_cases: 255
@@ -17969,15 +18051,15 @@
   positive_rate: 0.078
   tests_per_case: 12.9
   tests_units: tests performed
-  total_vaccinations: 1268126
-  people_vaccinated: 725772
-  people_fully_vaccinated: 542354
+  total_vaccinations: 1268103
+  people_vaccinated: 725750
+  people_fully_vaccinated: 542353
   new_vaccinations: 3863
-  new_vaccinations_smoothed: 4081
+  new_vaccinations_smoothed: 4080
   total_vaccinations_per_hundred: 95.69
   people_vaccinated_per_hundred: 54.77
   people_fully_vaccinated_per_hundred: 40.93
-  new_vaccinations_smoothed_per_million: 3080
+  new_vaccinations_smoothed_per_million: 3079
   stringency_index: 28.7
 - date: '2021-08-31'
   total_cases: 141956
@@ -18006,15 +18088,15 @@
   positive_rate: 0.078
   tests_per_case: 12.8
   tests_units: tests performed
-  total_vaccinations: 1273201
-  people_vaccinated: 727599
-  people_fully_vaccinated: 545602
+  total_vaccinations: 1273178
+  people_vaccinated: 727577
+  people_fully_vaccinated: 545601
   new_vaccinations: 5075
-  new_vaccinations_smoothed: 4209
+  new_vaccinations_smoothed: 4208
   total_vaccinations_per_hundred: 96.08
-  people_vaccinated_per_hundred: 54.91
+  people_vaccinated_per_hundred: 54.9
   people_fully_vaccinated_per_hundred: 41.17
-  new_vaccinations_smoothed_per_million: 3176
+  new_vaccinations_smoothed_per_million: 3175
   stringency_index: 28.7
 - date: '2021-09-01'
   total_cases: 142363
@@ -18029,7 +18111,7 @@
   total_deaths_per_million: 975.711
   new_deaths_per_million: 0.755
   new_deaths_smoothed_per_million: 0.862
-  reproduction_rate: 1.11
+  reproduction_rate: 1.1
   icu_patients: 16
   icu_patients_per_million: 12.074
   hosp_patients: 142
@@ -18043,12 +18125,12 @@
   positive_rate: 0.078
   tests_per_case: 12.8
   tests_units: tests performed
-  total_vaccinations: 1275566
-  people_vaccinated: 728622
-  people_fully_vaccinated: 546944
+  total_vaccinations: 1275543
+  people_vaccinated: 728600
+  people_fully_vaccinated: 546943
   new_vaccinations: 2365
-  new_vaccinations_smoothed: 3898
-  total_vaccinations_per_hundred: 96.26
+  new_vaccinations_smoothed: 3897
+  total_vaccinations_per_hundred: 96.25
   people_vaccinated_per_hundred: 54.98
   people_fully_vaccinated_per_hundred: 41.27
   new_vaccinations_smoothed_per_million: 2941
@@ -18080,9 +18162,9 @@
   positive_rate: 0.079
   tests_per_case: 12.7
   tests_units: tests performed
-  total_vaccinations: 1279090
-  people_vaccinated: 730285
-  people_fully_vaccinated: 548805
+  total_vaccinations: 1279067
+  people_vaccinated: 730263
+  people_fully_vaccinated: 548804
   new_vaccinations: 3524
   new_vaccinations_smoothed: 3868
   total_vaccinations_per_hundred: 96.52
@@ -18103,7 +18185,7 @@
   total_deaths_per_million: 977.974
   new_deaths_per_million: 0.755
   new_deaths_smoothed_per_million: 0.97
-  reproduction_rate: 1.1
+  reproduction_rate: 1.09
   icu_patients: 17
   icu_patients_per_million: 12.828
   hosp_patients: 146
@@ -18117,9 +18199,9 @@
   positive_rate: 0.077
   tests_per_case: 12.9
   tests_units: tests performed
-  total_vaccinations: 1282406
-  people_vaccinated: 731777
-  people_fully_vaccinated: 550629
+  total_vaccinations: 1282383
+  people_vaccinated: 731755
+  people_fully_vaccinated: 550628
   new_vaccinations: 3316
   new_vaccinations_smoothed: 3654
   total_vaccinations_per_hundred: 96.77
@@ -18154,13 +18236,13 @@
   positive_rate: 0.081
   tests_per_case: 12.3
   tests_units: tests performed
-  total_vaccinations: 1285585
-  people_vaccinated: 732913
-  people_fully_vaccinated: 552672
+  total_vaccinations: 1285562
+  people_vaccinated: 732891
+  people_fully_vaccinated: 552671
   new_vaccinations: 3179
   new_vaccinations_smoothed: 3584
   total_vaccinations_per_hundred: 97.01
-  people_vaccinated_per_hundred: 55.31
+  people_vaccinated_per_hundred: 55.3
   people_fully_vaccinated_per_hundred: 41.71
   new_vaccinations_smoothed_per_million: 2705
   stringency_index: 28.7
@@ -18195,9 +18277,9 @@
   positive_rate: 0.077
   tests_per_case: 12.9
   tests_units: tests performed
-  total_vaccinations: 1287931
-  people_vaccinated: 733373
-  people_fully_vaccinated: 554558
+  total_vaccinations: 1287908
+  people_vaccinated: 733351
+  people_fully_vaccinated: 554557
   new_vaccinations: 2346
   new_vaccinations_smoothed: 3381
   total_vaccinations_per_hundred: 97.19
@@ -18205,7 +18287,8 @@
   people_fully_vaccinated_per_hundred: 41.85
   new_vaccinations_smoothed_per_million: 2551
   stringency_index: 28.7
-  excess_mortality: 15.72
+  excess_mortality_cumulative: 6.75
+  excess_mortality: 14.25
 - date: '2021-09-06'
   total_cases: 144001
   new_cases: 213
@@ -18233,9 +18316,9 @@
   positive_rate: 0.076
   tests_per_case: 13.1
   tests_units: tests performed
-  total_vaccinations: 1291632
-  people_vaccinated: 734667
-  people_fully_vaccinated: 556965
+  total_vaccinations: 1291609
+  people_vaccinated: 734645
+  people_fully_vaccinated: 556964
   new_vaccinations: 3701
   new_vaccinations_smoothed: 3358
   total_vaccinations_per_hundred: 97.47
@@ -18270,9 +18353,9 @@
   positive_rate: 0.075
   tests_per_case: 13.4
   tests_units: tests performed
-  total_vaccinations: 1295248
-  people_vaccinated: 736016
-  people_fully_vaccinated: 559232
+  total_vaccinations: 1295225
+  people_vaccinated: 735994
+  people_fully_vaccinated: 559231
   new_vaccinations: 3616
   new_vaccinations_smoothed: 3150
   total_vaccinations_per_hundred: 97.74
@@ -18307,9 +18390,9 @@
   positive_rate: 0.075
   tests_per_case: 13.3
   tests_units: tests performed
-  total_vaccinations: 1298641
-  people_vaccinated: 737183
-  people_fully_vaccinated: 561458
+  total_vaccinations: 1298618
+  people_vaccinated: 737161
+  people_fully_vaccinated: 561457
   new_vaccinations: 3393
   new_vaccinations_smoothed: 3296
   total_vaccinations_per_hundred: 98
@@ -18344,15 +18427,15 @@
   positive_rate: 0.072
   tests_per_case: 13.9
   tests_units: tests performed
-  total_vaccinations: 1302089
-  people_vaccinated: 738325
-  people_fully_vaccinated: 563764
-  new_vaccinations: 3448
-  new_vaccinations_smoothed: 3286
+  total_vaccinations: 1302065
+  people_vaccinated: 738302
+  people_fully_vaccinated: 563763
+  new_vaccinations: 3447
+  new_vaccinations_smoothed: 3285
   total_vaccinations_per_hundred: 98.26
   people_vaccinated_per_hundred: 55.71
   people_fully_vaccinated_per_hundred: 42.54
-  new_vaccinations_smoothed_per_million: 2480
+  new_vaccinations_smoothed_per_million: 2479
   stringency_index: 28.7
 - date: '2021-09-10'
   total_cases: 145885
@@ -18381,10 +18464,10 @@
   positive_rate: 0.075
   tests_per_case: 13.3
   tests_units: tests performed
-  total_vaccinations: 1305690
-  people_vaccinated: 739473
-  people_fully_vaccinated: 566217
-  new_vaccinations: 3601
+  total_vaccinations: 1305663
+  people_vaccinated: 739448
+  people_fully_vaccinated: 566215
+  new_vaccinations: 3598
   new_vaccinations_smoothed: 3326
   total_vaccinations_per_hundred: 98.53
   people_vaccinated_per_hundred: 55.8
@@ -18404,7 +18487,7 @@
   total_deaths_per_million: 988.539
   new_deaths_per_million: 0.755
   new_deaths_smoothed_per_million: 1.401
-  reproduction_rate: 1.13
+  reproduction_rate: 1.14
   icu_patients: 14
   icu_patients_per_million: 10.565
   hosp_patients: 175
@@ -18418,15 +18501,15 @@
   positive_rate: 0.076
   tests_per_case: 13.2
   tests_units: tests performed
-  total_vaccinations: 1308417
-  people_vaccinated: 740336
-  people_fully_vaccinated: 568081
+  total_vaccinations: 1308390
+  people_vaccinated: 740311
+  people_fully_vaccinated: 568079
   new_vaccinations: 2727
-  new_vaccinations_smoothed: 3262
+  new_vaccinations_smoothed: 3261
   total_vaccinations_per_hundred: 98.73
-  people_vaccinated_per_hundred: 55.87
+  people_vaccinated_per_hundred: 55.86
   people_fully_vaccinated_per_hundred: 42.87
-  new_vaccinations_smoothed_per_million: 2462
+  new_vaccinations_smoothed_per_million: 2461
   stringency_index: 28.7
 - date: '2021-09-12'
   total_cases: 146707
@@ -18459,15 +18542,15 @@
   positive_rate: 0.077
   tests_per_case: 13
   tests_units: tests performed
-  total_vaccinations: 1310547
-  people_vaccinated: 740782
-  people_fully_vaccinated: 569765
+  total_vaccinations: 1310520
+  people_vaccinated: 740757
+  people_fully_vaccinated: 569763
   new_vaccinations: 2130
-  new_vaccinations_smoothed: 3231
-  total_vaccinations_per_hundred: 98.9
+  new_vaccinations_smoothed: 3230
+  total_vaccinations_per_hundred: 98.89
   people_vaccinated_per_hundred: 55.9
-  people_fully_vaccinated_per_hundred: 43
-  new_vaccinations_smoothed_per_million: 2438
+  people_fully_vaccinated_per_hundred: 42.99
+  new_vaccinations_smoothed_per_million: 2437
   stringency_index: 28.7
 - date: '2021-09-13'
   total_cases: 146884
@@ -18482,7 +18565,7 @@
   total_deaths_per_million: 990.803
   new_deaths_per_million: 0.755
   new_deaths_smoothed_per_million: 1.186
-  reproduction_rate: 1.11
+  reproduction_rate: 1.12
   new_tests: 6116
   total_tests: 1828312
   total_tests_per_thousand: 1379.662
@@ -18492,12 +18575,12 @@
   positive_rate: 0.074
   tests_per_case: 13.5
   tests_units: tests performed
-  total_vaccinations: 1314267
-  people_vaccinated: 741730
-  people_fully_vaccinated: 572537
+  total_vaccinations: 1314240
+  people_vaccinated: 741705
+  people_fully_vaccinated: 572535
   new_vaccinations: 3720
-  new_vaccinations_smoothed: 3234
-  total_vaccinations_per_hundred: 99.18
+  new_vaccinations_smoothed: 3233
+  total_vaccinations_per_hundred: 99.17
   people_vaccinated_per_hundred: 55.97
   people_fully_vaccinated_per_hundred: 43.2
   new_vaccinations_smoothed_per_million: 2440
@@ -18525,15 +18608,15 @@
   positive_rate: 0.076
   tests_per_case: 13.2
   tests_units: tests performed
-  total_vaccinations: 1318387
-  people_vaccinated: 742879
-  people_fully_vaccinated: 575508
-  new_vaccinations: 4120
-  new_vaccinations_smoothed: 3306
-  total_vaccinations_per_hundred: 99.49
+  total_vaccinations: 1318361
+  people_vaccinated: 742854
+  people_fully_vaccinated: 575507
+  new_vaccinations: 4121
+  new_vaccinations_smoothed: 3305
+  total_vaccinations_per_hundred: 99.48
   people_vaccinated_per_hundred: 56.06
   people_fully_vaccinated_per_hundred: 43.43
-  new_vaccinations_smoothed_per_million: 2495
+  new_vaccinations_smoothed_per_million: 2494
   stringency_index: 28.7
 - date: '2021-09-15'
   total_cases: 147881
@@ -18548,6 +18631,7 @@
   total_deaths_per_million: 992.312
   new_deaths_per_million: 1.509
   new_deaths_smoothed_per_million: 1.078
+  reproduction_rate: 1.11
   new_tests: 7150
   total_tests: 1841545
   total_tests_per_thousand: 1389.648
@@ -18557,9 +18641,9 @@
   positive_rate: 0.074
   tests_per_case: 13.6
   tests_units: tests performed
-  total_vaccinations: 1322297
-  people_vaccinated: 743965
-  people_fully_vaccinated: 578332
+  total_vaccinations: 1322271
+  people_vaccinated: 743940
+  people_fully_vaccinated: 578331
   new_vaccinations: 3910
   new_vaccinations_smoothed: 3379
   total_vaccinations_per_hundred: 99.78
@@ -18580,6 +18664,7 @@
   total_deaths_per_million: 996.085
   new_deaths_per_million: 3.773
   new_deaths_smoothed_per_million: 1.401
+  reproduction_rate: 1.12
   new_tests: 6452
   total_tests: 1847997
   total_tests_per_thousand: 1394.517
@@ -18589,8 +18674,8 @@
   positive_rate: 0.075
   tests_per_case: 13.4
   tests_units: tests performed
-  total_vaccinations: 1326079
-  people_vaccinated: 745148
+  total_vaccinations: 1326053
+  people_vaccinated: 745122
   people_fully_vaccinated: 580931
   new_vaccinations: 3782
   new_vaccinations_smoothed: 3427
@@ -18612,6 +18697,7 @@
   total_deaths_per_million: 997.594
   new_deaths_per_million: 1.509
   new_deaths_smoothed_per_million: 1.401
+  reproduction_rate: 1.12
   new_tests: 7026
   total_tests: 1855023
   total_tests_per_thousand: 1399.819
@@ -18621,8 +18707,8 @@
   positive_rate: 0.073
   tests_per_case: 13.7
   tests_units: tests performed
-  total_vaccinations: 1330131
-  people_vaccinated: 746585
+  total_vaccinations: 1330105
+  people_vaccinated: 746559
   people_fully_vaccinated: 583546
   new_vaccinations: 4052
   new_vaccinations_smoothed: 3492
@@ -18644,6 +18730,7 @@
   total_deaths_per_million: 999.858
   new_deaths_per_million: 2.264
   new_deaths_smoothed_per_million: 1.617
+  reproduction_rate: 1.13
   new_tests: 5901
   total_tests: 1860924
   total_tests_per_thousand: 1404.272
@@ -18653,13 +18740,13 @@
   positive_rate: 0.069
   tests_per_case: 14.5
   tests_units: tests performed
-  total_vaccinations: 1333136
-  people_vaccinated: 747619
-  people_fully_vaccinated: 585517
+  total_vaccinations: 1333110
+  people_vaccinated: 747592
+  people_fully_vaccinated: 585518
   new_vaccinations: 3005
   new_vaccinations_smoothed: 3531
   total_vaccinations_per_hundred: 100.6
-  people_vaccinated_per_hundred: 56.42
+  people_vaccinated_per_hundred: 56.41
   people_fully_vaccinated_per_hundred: 44.18
   new_vaccinations_smoothed_per_million: 2665
   stringency_index: 28.7
@@ -18676,6 +18763,7 @@
   total_deaths_per_million: 1000.613
   new_deaths_per_million: 0.755
   new_deaths_smoothed_per_million: 1.509
+  reproduction_rate: 1.14
   new_tests: 4423
   total_tests: 1865347
   total_tests_per_thousand: 1407.609
@@ -18685,9 +18773,9 @@
   positive_rate: 0.071
   tests_per_case: 14.1
   tests_units: tests performed
-  total_vaccinations: 1334887
-  people_vaccinated: 748320
-  people_fully_vaccinated: 586567
+  total_vaccinations: 1334861
+  people_vaccinated: 748293
+  people_fully_vaccinated: 586568
   new_vaccinations: 1751
   new_vaccinations_smoothed: 3477
   total_vaccinations_per_hundred: 100.73
@@ -18717,13 +18805,35 @@
   positive_rate: 0.075
   tests_per_case: 13.4
   tests_units: tests performed
-  total_vaccinations: 1338040
-  people_vaccinated: 749179
-  people_fully_vaccinated: 588861
-  new_vaccinations: 3153
+  total_vaccinations: 1338012
+  people_vaccinated: 749152
+  people_fully_vaccinated: 588860
+  new_vaccinations: 3151
   new_vaccinations_smoothed: 3396
   total_vaccinations_per_hundred: 100.97
   people_vaccinated_per_hundred: 56.53
   people_fully_vaccinated_per_hundred: 44.44
   new_vaccinations_smoothed_per_million: 2563
   stringency_index: 28.7
+- date: '2021-09-21'
+  total_cases: 150605
+  new_cases: 463
+  new_cases_smoothed: 464
+  total_deaths: 1333
+  new_deaths: 5
+  new_deaths_smoothed: 2.857
+  total_cases_per_million: 113648.026
+  new_cases_per_million: 349.384
+  new_cases_smoothed_per_million: 350.139
+  total_deaths_per_million: 1005.895
+  new_deaths_per_million: 3.773
+  new_deaths_smoothed_per_million: 2.156
+  total_vaccinations: 1342009
+  people_vaccinated: 750012
+  people_fully_vaccinated: 591997
+  new_vaccinations: 3997
+  new_vaccinations_smoothed: 3378
+  total_vaccinations_per_hundred: 101.27
+  people_vaccinated_per_hundred: 56.6
+  people_fully_vaccinated_per_hundred: 44.67
+  new_vaccinations_smoothed_per_million: 2549

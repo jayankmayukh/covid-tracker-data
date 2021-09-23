@@ -10,7 +10,8 @@
   total_cases_per_million: 0.106
   new_cases_per_million: 0
   stringency_index: 0
-  excess_mortality: -2.74
+  excess_mortality_cumulative: -5.19
+  excess_mortality: -3.33
 - date: '2020-03-01'
   total_cases: 1
   new_cases: 0
@@ -445,7 +446,8 @@
   tests_per_case: 107.1
   tests_units: tests performed
   stringency_index: 8.33
-  excess_mortality: -0.83
+  excess_mortality_cumulative: -3.92
+  excess_mortality: -1.39
 - date: '2020-04-01'
   total_cases: 163
   new_cases: 11
@@ -483,7 +485,7 @@
   total_deaths_per_million: 0.424
   new_deaths_per_million: 0.212
   new_deaths_smoothed_per_million: 0.061
-  reproduction_rate: 2.63
+  reproduction_rate: 2.62
   new_tests_smoothed: 1143
   new_tests_smoothed_per_thousand: 0.121
   positive_rate: 0.027
@@ -503,7 +505,7 @@
   total_deaths_per_million: 0.424
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.061
-  reproduction_rate: 2.63
+  reproduction_rate: 2.62
   new_tests_smoothed: 1214
   new_tests_smoothed_per_thousand: 0.129
   positive_rate: 0.03
@@ -523,7 +525,7 @@
   total_deaths_per_million: 0.53
   new_deaths_per_million: 0.106
   new_deaths_smoothed_per_million: 0.076
-  reproduction_rate: 2.65
+  reproduction_rate: 2.64
   new_tests_smoothed: 1286
   new_tests_smoothed_per_thousand: 0.136
   positive_rate: 0.038
@@ -543,7 +545,7 @@
   total_deaths_per_million: 0.847
   new_deaths_per_million: 0.318
   new_deaths_smoothed_per_million: 0.121
-  reproduction_rate: 2.66
+  reproduction_rate: 2.65
   new_tests_smoothed: 1357
   new_tests_smoothed_per_thousand: 0.144
   positive_rate: 0.049
@@ -563,7 +565,7 @@
   total_deaths_per_million: 1.377
   new_deaths_per_million: 0.53
   new_deaths_smoothed_per_million: 0.197
-  reproduction_rate: 2.66
+  reproduction_rate: 2.64
   total_tests: 40000
   total_tests_per_thousand: 4.236
   new_tests_smoothed: 1429
@@ -585,7 +587,7 @@
   total_deaths_per_million: 1.377
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.182
-  reproduction_rate: 2.65
+  reproduction_rate: 2.63
   new_tests_smoothed: 1714
   new_tests_smoothed_per_thousand: 0.182
   positive_rate: 0.059
@@ -605,7 +607,7 @@
   total_deaths_per_million: 1.377
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.166
-  reproduction_rate: 2.59
+  reproduction_rate: 2.57
   total_tests: 46000
   total_tests_per_thousand: 4.871
   new_tests_smoothed: 2000
@@ -627,7 +629,7 @@
   total_deaths_per_million: 1.694
   new_deaths_per_million: 0.318
   new_deaths_smoothed_per_million: 0.182
-  reproduction_rate: 2.48
+  reproduction_rate: 2.47
   new_tests: 3000
   total_tests: 49000
   total_tests_per_thousand: 5.189
@@ -651,7 +653,7 @@
   total_deaths_per_million: 2.012
   new_deaths_per_million: 0.318
   new_deaths_smoothed_per_million: 0.227
-  reproduction_rate: 2.38
+  reproduction_rate: 2.37
   new_tests_smoothed: 2686
   new_tests_smoothed_per_thousand: 0.284
   positive_rate: 0.087
@@ -671,7 +673,7 @@
   total_deaths_per_million: 2.436
   new_deaths_per_million: 0.424
   new_deaths_smoothed_per_million: 0.272
-  reproduction_rate: 2.22
+  reproduction_rate: 2.21
   new_tests_smoothed: 3171
   new_tests_smoothed_per_thousand: 0.336
   positive_rate: 0.08
@@ -737,7 +739,7 @@
   total_deaths_per_million: 3.495
   new_deaths_per_million: 0.424
   new_deaths_smoothed_per_million: 0.303
-  reproduction_rate: 1.86
+  reproduction_rate: 1.87
   new_tests: 3875
   total_tests: 71875
   total_tests_per_thousand: 7.612
@@ -761,7 +763,7 @@
   total_deaths_per_million: 3.812
   new_deaths_per_million: 0.318
   new_deaths_smoothed_per_million: 0.348
-  reproduction_rate: 1.76
+  reproduction_rate: 1.77
   new_tests: 4323
   total_tests: 76198
   total_tests_per_thousand: 8.069
@@ -785,7 +787,7 @@
   total_deaths_per_million: 4.236
   new_deaths_per_million: 0.424
   new_deaths_smoothed_per_million: 0.363
-  reproduction_rate: 1.65
+  reproduction_rate: 1.67
   new_tests_smoothed: 4644
   new_tests_smoothed_per_thousand: 0.492
   positive_rate: 0.084
@@ -805,7 +807,7 @@
   total_deaths_per_million: 4.448
   new_deaths_per_million: 0.212
   new_deaths_smoothed_per_million: 0.348
-  reproduction_rate: 1.61
+  reproduction_rate: 1.62
   total_tests: 86813
   total_tests_per_thousand: 9.194
   new_tests_smoothed: 4688
@@ -827,7 +829,7 @@
   total_deaths_per_million: 4.766
   new_deaths_per_million: 0.318
   new_deaths_smoothed_per_million: 0.333
-  reproduction_rate: 1.58
+  reproduction_rate: 1.59
   new_tests: 5896
   total_tests: 92709
   total_tests_per_thousand: 9.818
@@ -851,7 +853,7 @@
   total_deaths_per_million: 4.977
   new_deaths_per_million: 0.212
   new_deaths_smoothed_per_million: 0.318
-  reproduction_rate: 1.54
+  reproduction_rate: 1.55
   new_tests: 5522
   total_tests: 98231
   total_tests_per_thousand: 10.403
@@ -875,7 +877,7 @@
   total_deaths_per_million: 5.401
   new_deaths_per_million: 0.424
   new_deaths_smoothed_per_million: 0.333
-  reproduction_rate: 1.5
+  reproduction_rate: 1.51
   new_tests: 4335
   total_tests: 102566
   total_tests_per_thousand: 10.862
@@ -899,7 +901,7 @@
   total_deaths_per_million: 5.825
   new_deaths_per_million: 0.424
   new_deaths_smoothed_per_million: 0.333
-  reproduction_rate: 1.48
+  reproduction_rate: 1.49
   new_tests: 5979
   total_tests: 108545
   total_tests_per_thousand: 11.495
@@ -923,7 +925,7 @@
   total_deaths_per_million: 6.142
   new_deaths_per_million: 0.318
   new_deaths_smoothed_per_million: 0.333
-  reproduction_rate: 1.46
+  reproduction_rate: 1.47
   new_tests: 6410
   total_tests: 114955
   total_tests_per_thousand: 12.174
@@ -971,7 +973,7 @@
   total_deaths_per_million: 6.672
   new_deaths_per_million: 0.318
   new_deaths_smoothed_per_million: 0.318
-  reproduction_rate: 1.45
+  reproduction_rate: 1.46
   new_tests: 8281
   total_tests: 130824
   total_tests_per_thousand: 13.854
@@ -1043,7 +1045,7 @@
   total_deaths_per_million: 7.943
   new_deaths_per_million: 0.318
   new_deaths_smoothed_per_million: 0.363
-  reproduction_rate: 1.43
+  reproduction_rate: 1.42
   new_tests: 6275
   total_tests: 153800
   total_tests_per_thousand: 16.287
@@ -1067,7 +1069,7 @@
   total_deaths_per_million: 8.366
   new_deaths_per_million: 0.424
   new_deaths_smoothed_per_million: 0.363
-  reproduction_rate: 1.39
+  reproduction_rate: 1.38
   new_tests: 7228
   total_tests: 161028
   total_tests_per_thousand: 17.053
@@ -1091,7 +1093,7 @@
   total_deaths_per_million: 8.896
   new_deaths_per_million: 0.53
   new_deaths_smoothed_per_million: 0.393
-  reproduction_rate: 1.34
+  reproduction_rate: 1.33
   new_tests: 7958
   total_tests: 168986
   total_tests_per_thousand: 17.896
@@ -1126,7 +1128,8 @@
   tests_per_case: 9
   tests_units: tests performed
   stringency_index: 31.48
-  excess_mortality: 6.33
+  excess_mortality_cumulative: -1.59
+  excess_mortality: 5.7
 - date: '2020-05-01'
   total_cases: 14917
   new_cases: 890
@@ -1188,7 +1191,7 @@
   total_deaths_per_million: 10.484
   new_deaths_per_million: 0.212
   new_deaths_smoothed_per_million: 0.408
-  reproduction_rate: 1.18
+  reproduction_rate: 1.19
   new_tests: 8809
   total_tests: 204239
   total_tests_per_thousand: 21.629
@@ -1212,7 +1215,7 @@
   total_deaths_per_million: 10.908
   new_deaths_per_million: 0.424
   new_deaths_smoothed_per_million: 0.424
-  reproduction_rate: 1.16
+  reproduction_rate: 1.17
   new_tests: 7130
   total_tests: 211369
   total_tests_per_thousand: 22.384
@@ -1236,7 +1239,7 @@
   total_deaths_per_million: 11.331
   new_deaths_per_million: 0.424
   new_deaths_smoothed_per_million: 0.424
-  reproduction_rate: 1.14
+  reproduction_rate: 1.15
   new_tests_smoothed: 8053
   new_tests_smoothed_per_thousand: 0.853
   positive_rate: 0.109
@@ -1632,7 +1635,7 @@
   total_deaths_per_million: 20.545
   new_deaths_per_million: 0.424
   new_deaths_smoothed_per_million: 0.514
-  reproduction_rate: 1.01
+  reproduction_rate: 1
   new_tests: 15614
   total_tests: 434618
   total_tests_per_thousand: 46.026
@@ -1722,7 +1725,7 @@
   total_deaths_per_million: 22.663
   new_deaths_per_million: 0.635
   new_deaths_smoothed_per_million: 0.53
-  reproduction_rate: 0.99
+  reproduction_rate: 0.98
   new_tests_smoothed: 14092
   new_tests_smoothed_per_thousand: 1.492
   positive_rate: 0.066
@@ -1815,7 +1818,8 @@
   tests_per_case: 14.5
   tests_units: tests performed
   stringency_index: 31.48
-  excess_mortality: 16.4
+  excess_mortality_cumulative: 1.79
+  excess_mortality: 15.71
 - date: '2020-06-01'
   total_cases: 43403
   new_cases: 847
@@ -1979,7 +1983,7 @@
   total_deaths_per_million: 29.228
   new_deaths_per_million: 0.741
   new_deaths_smoothed_per_million: 0.545
-  reproduction_rate: 0.94
+  reproduction_rate: 0.93
   new_tests: 10680
   total_tests: 632993
   total_tests_per_thousand: 67.034
@@ -2433,7 +2437,7 @@
   total_deaths_per_million: 40.983
   new_deaths_per_million: 0.424
   new_deaths_smoothed_per_million: 0.545
-  reproduction_rate: 0.68
+  reproduction_rate: 0.69
   total_tests: 992007
   total_tests_per_thousand: 105.054
   new_tests_smoothed: 16481
@@ -2462,7 +2466,8 @@
   tests_per_case: 44
   tests_units: tests performed
   stringency_index: 31.48
-  excess_mortality: 39.56
+  excess_mortality_cumulative: 7.34
+  excess_mortality: 38.65
 - date: '2020-07-01'
   total_cases: 62424
   new_cases: 306
@@ -2762,7 +2767,7 @@
   total_deaths_per_million: 50.832
   new_deaths_per_million: 0.635
   new_deaths_smoothed_per_million: 0.56
-  reproduction_rate: 0.72
+  reproduction_rate: 0.73
   total_tests: 1144696
   total_tests_per_thousand: 121.223
   new_tests_smoothed: 7188
@@ -3048,7 +3053,7 @@
   total_deaths_per_million: 57.504
   new_deaths_per_million: 0.53
   new_deaths_smoothed_per_million: 0.545
-  reproduction_rate: 0.86
+  reproduction_rate: 0.85
   new_tests_smoothed: 9414
   new_tests_smoothed_per_thousand: 0.997
   positive_rate: 0.015
@@ -3125,7 +3130,8 @@
   tests_per_case: 71.5
   tests_units: tests performed
   stringency_index: 31.48
-  excess_mortality: 13.24
+  excess_mortality_cumulative: 8.03
+  excess_mortality: 12.51
 - date: '2020-08-01'
   total_cases: 67946
   new_cases: 138
@@ -3285,7 +3291,7 @@
   total_deaths_per_million: 61.952
   new_deaths_per_million: 0.212
   new_deaths_smoothed_per_million: 0.333
-  reproduction_rate: 0.86
+  reproduction_rate: 0.87
   total_tests: 1363011
   total_tests_per_thousand: 144.343
   new_tests_smoothed: 7616
@@ -3307,7 +3313,7 @@
   total_deaths_per_million: 62.163
   new_deaths_per_million: 0.212
   new_deaths_smoothed_per_million: 0.303
-  reproduction_rate: 0.85
+  reproduction_rate: 0.86
   new_tests_smoothed: 6840
   new_tests_smoothed_per_thousand: 0.724
   positive_rate: 0.016
@@ -3347,7 +3353,7 @@
   total_deaths_per_million: 62.693
   new_deaths_per_million: 0.318
   new_deaths_smoothed_per_million: 0.272
-  reproduction_rate: 0.86
+  reproduction_rate: 0.87
   total_tests: 1377540
   total_tests_per_thousand: 145.882
   new_tests_smoothed: 7395
@@ -3369,7 +3375,7 @@
   total_deaths_per_million: 63.011
   new_deaths_per_million: 0.318
   new_deaths_smoothed_per_million: 0.272
-  reproduction_rate: 0.87
+  reproduction_rate: 0.88
   new_tests: 6486
   total_tests: 1384026
   total_tests_per_thousand: 146.568
@@ -3393,7 +3399,7 @@
   total_deaths_per_million: 63.434
   new_deaths_per_million: 0.424
   new_deaths_smoothed_per_million: 0.287
-  reproduction_rate: 0.89
+  reproduction_rate: 0.9
   new_tests_smoothed: 6839
   new_tests_smoothed_per_thousand: 0.724
   positive_rate: 0.015
@@ -3473,7 +3479,7 @@
   total_deaths_per_million: 64.917
   new_deaths_per_million: 0.318
   new_deaths_smoothed_per_million: 0.363
-  reproduction_rate: 1.08
+  reproduction_rate: 1.07
   new_tests_smoothed: 7442
   new_tests_smoothed_per_thousand: 0.788
   positive_rate: 0.012
@@ -3533,7 +3539,7 @@
   total_deaths_per_million: 66.399
   new_deaths_per_million: 0.53
   new_deaths_smoothed_per_million: 0.424
-  reproduction_rate: 1.21
+  reproduction_rate: 1.2
   new_tests_smoothed: 8153
   new_tests_smoothed_per_thousand: 0.863
   positive_rate: 0.013
@@ -3553,7 +3559,7 @@
   total_deaths_per_million: 66.929
   new_deaths_per_million: 0.53
   new_deaths_smoothed_per_million: 0.439
-  reproduction_rate: 1.24
+  reproduction_rate: 1.23
   new_tests_smoothed: 8153
   new_tests_smoothed_per_thousand: 0.863
   positive_rate: 0.014
@@ -3573,7 +3579,7 @@
   total_deaths_per_million: 67.458
   new_deaths_per_million: 0.53
   new_deaths_smoothed_per_million: 0.514
-  reproduction_rate: 1.26
+  reproduction_rate: 1.25
   total_tests: 1465555
   total_tests_per_thousand: 155.202
   new_tests_smoothed: 8153
@@ -3595,7 +3601,7 @@
   total_deaths_per_million: 67.988
   new_deaths_per_million: 0.53
   new_deaths_smoothed_per_million: 0.484
-  reproduction_rate: 1.26
+  reproduction_rate: 1.25
   new_tests: 8520
   total_tests: 1474075
   total_tests_per_thousand: 156.105
@@ -3619,7 +3625,7 @@
   total_deaths_per_million: 68.411
   new_deaths_per_million: 0.424
   new_deaths_smoothed_per_million: 0.499
-  reproduction_rate: 1.25
+  reproduction_rate: 1.24
   new_tests_smoothed: 7467
   new_tests_smoothed_per_thousand: 0.791
   positive_rate: 0.02
@@ -3639,7 +3645,7 @@
   total_deaths_per_million: 69.047
   new_deaths_per_million: 0.635
   new_deaths_smoothed_per_million: 0.53
-  reproduction_rate: 1.24
+  reproduction_rate: 1.23
   total_tests: 1480047
   total_tests_per_thousand: 156.737
   new_tests_smoothed: 6729
@@ -3661,7 +3667,7 @@
   total_deaths_per_million: 69.576
   new_deaths_per_million: 0.53
   new_deaths_smoothed_per_million: 0.53
-  reproduction_rate: 1.23
+  reproduction_rate: 1.22
   new_tests_smoothed: 6805
   new_tests_smoothed_per_thousand: 0.721
   positive_rate: 0.025
@@ -3703,7 +3709,7 @@
   total_deaths_per_million: 70.635
   new_deaths_per_million: 0.53
   new_deaths_smoothed_per_million: 0.53
-  reproduction_rate: 1.17
+  reproduction_rate: 1.16
   new_tests_smoothed: 6785
   new_tests_smoothed_per_thousand: 0.719
   positive_rate: 0.026
@@ -3763,14 +3769,15 @@
   total_deaths_per_million: 72.118
   new_deaths_per_million: 0.53
   new_deaths_smoothed_per_million: 0.53
-  reproduction_rate: 1.08
+  reproduction_rate: 1.09
   new_tests_smoothed: 7180
   new_tests_smoothed_per_thousand: 0.76
   positive_rate: 0.024
   tests_per_case: 42
   tests_units: tests performed
   stringency_index: 31.48
-  excess_mortality: 12.63
+  excess_mortality_cumulative: 8.47
+  excess_mortality: 11.89
 - date: '2020-09-01'
   total_cases: 71962
   new_cases: 119
@@ -3784,7 +3791,7 @@
   total_deaths_per_million: 72.647
   new_deaths_per_million: 0.53
   new_deaths_smoothed_per_million: 0.514
-  reproduction_rate: 1.07
+  reproduction_rate: 1.08
   total_tests: 1534792
   total_tests_per_thousand: 162.535
   new_tests_smoothed: 7821
@@ -4264,7 +4271,7 @@
   total_deaths_per_million: 84.932
   new_deaths_per_million: 0.635
   new_deaths_smoothed_per_million: 0.469
-  reproduction_rate: 1.24
+  reproduction_rate: 1.23
   new_tests_smoothed: 12855
   new_tests_smoothed_per_thousand: 1.361
   positive_rate: 0.018
@@ -4284,7 +4291,7 @@
   total_deaths_per_million: 85.461
   new_deaths_per_million: 0.53
   new_deaths_smoothed_per_million: 0.514
-  reproduction_rate: 1.26
+  reproduction_rate: 1.25
   total_tests: 1792426
   total_tests_per_thousand: 189.818
   new_tests_smoothed: 13091
@@ -4326,7 +4333,7 @@
   total_deaths_per_million: 86.626
   new_deaths_per_million: 0.53
   new_deaths_smoothed_per_million: 0.575
-  reproduction_rate: 1.28
+  reproduction_rate: 1.27
   new_tests_smoothed: 13476
   new_tests_smoothed_per_thousand: 1.427
   positive_rate: 0.021
@@ -4395,7 +4402,8 @@
   tests_per_case: 44
   tests_units: tests performed
   stringency_index: 31.48
-  excess_mortality: 16.79
+  excess_mortality_cumulative: 9.24
+  excess_mortality: 16.01
 - date: '2020-10-01'
   total_cases: 79019
   new_cases: 388
@@ -4491,7 +4499,7 @@
   total_deaths_per_million: 91.286
   new_deaths_per_million: 1.165
   new_deaths_smoothed_per_million: 0.605
-  reproduction_rate: 1.32
+  reproduction_rate: 1.31
   new_tests_smoothed: 17542
   new_tests_smoothed_per_thousand: 1.858
   positive_rate: 0.022
@@ -4511,7 +4519,7 @@
   total_deaths_per_million: 91.921
   new_deaths_per_million: 0.635
   new_deaths_smoothed_per_million: 0.605
-  reproduction_rate: 1.31
+  reproduction_rate: 1.3
   new_tests_smoothed: 18016
   new_tests_smoothed_per_thousand: 1.908
   positive_rate: 0.022
@@ -4779,7 +4787,7 @@
   total_deaths_per_million: 98.805
   new_deaths_per_million: 0.424
   new_deaths_smoothed_per_million: 0.484
-  reproduction_rate: 1.21
+  reproduction_rate: 1.22
   new_tests_smoothed: 19910
   new_tests_smoothed_per_thousand: 2.108
   positive_rate: 0.031
@@ -4881,7 +4889,7 @@
   total_deaths_per_million: 100.923
   new_deaths_per_million: 0.847
   new_deaths_smoothed_per_million: 0.424
-  reproduction_rate: 1.25
+  reproduction_rate: 1.24
   total_tests: 2347375
   total_tests_per_thousand: 248.587
   new_tests_smoothed: 21600
@@ -4943,7 +4951,7 @@
   total_deaths_per_million: 102.194
   new_deaths_per_million: 0.424
   new_deaths_smoothed_per_million: 0.424
-  reproduction_rate: 1.24
+  reproduction_rate: 1.23
   new_tests_smoothed: 22333
   new_tests_smoothed_per_thousand: 2.365
   positive_rate: 0.036
@@ -4963,7 +4971,7 @@
   total_deaths_per_million: 102.617
   new_deaths_per_million: 0.424
   new_deaths_smoothed_per_million: 0.424
-  reproduction_rate: 1.23
+  reproduction_rate: 1.22
   total_tests: 2418399
   total_tests_per_thousand: 256.109
   new_tests_smoothed: 21189
@@ -5005,7 +5013,7 @@
   total_deaths_per_million: 103.464
   new_deaths_per_million: 0.424
   new_deaths_smoothed_per_million: 0.484
-  reproduction_rate: 1.2
+  reproduction_rate: 1.19
   new_tests_smoothed: 21180
   new_tests_smoothed_per_thousand: 2.243
   positive_rate: 0.043
@@ -5034,7 +5042,8 @@
   tests_per_case: 22.8
   tests_units: tests performed
   stringency_index: 37.04
-  excess_mortality: 22.22
+  excess_mortality_cumulative: 10.51
+  excess_mortality: 21.51
 - date: '2020-11-01'
   total_cases: 99459
   new_cases: 977
@@ -5190,7 +5199,7 @@
   total_deaths_per_million: 106.641
   new_deaths_per_million: 0.318
   new_deaths_smoothed_per_million: 0.333
-  reproduction_rate: 1.1
+  reproduction_rate: 1.11
   new_tests_smoothed: 23624
   new_tests_smoothed_per_thousand: 2.502
   positive_rate: 0.041
@@ -5374,7 +5383,7 @@
   total_deaths_per_million: 112.254
   new_deaths_per_million: 0.741
   new_deaths_smoothed_per_million: 0.666
-  reproduction_rate: 1.18
+  reproduction_rate: 1.17
   new_tests_smoothed: 27447
   new_tests_smoothed_per_thousand: 2.907
   positive_rate: 0.044
@@ -5456,7 +5465,7 @@
   total_deaths_per_million: 115.325
   new_deaths_per_million: 0.847
   new_deaths_smoothed_per_million: 0.756
-  reproduction_rate: 1.18
+  reproduction_rate: 1.17
   new_tests_smoothed: 26470
   new_tests_smoothed_per_thousand: 2.803
   positive_rate: 0.052
@@ -5538,7 +5547,7 @@
   total_deaths_per_million: 118.502
   new_deaths_per_million: 0.741
   new_deaths_smoothed_per_million: 0.787
-  reproduction_rate: 1.15
+  reproduction_rate: 1.14
   new_tests_smoothed: 27484
   new_tests_smoothed_per_thousand: 2.911
   positive_rate: 0.054
@@ -5645,7 +5654,8 @@
   tests_per_case: 15.3
   tests_units: tests performed
   stringency_index: 37.04
-  excess_mortality: 63.21
+  excess_mortality_cumulative: 15
+  excess_mortality: 62.17
 - date: '2020-12-01'
   total_cases: 138219
   new_cases: 1572
@@ -5741,7 +5751,7 @@
   total_deaths_per_million: 126.868
   new_deaths_per_million: 0.847
   new_deaths_smoothed_per_million: 0.832
-  reproduction_rate: 1.11
+  reproduction_rate: 1.1
   new_tests_smoothed: 24578
   new_tests_smoothed_per_thousand: 2.603
   positive_rate: 0.069
@@ -5841,7 +5851,7 @@
   total_deaths_per_million: 131.104
   new_deaths_per_million: 0.847
   new_deaths_smoothed_per_million: 0.862
-  reproduction_rate: 1.09
+  reproduction_rate: 1.08
   new_tests_smoothed: 24884
   new_tests_smoothed_per_thousand: 2.635
   positive_rate: 0.073
@@ -5901,7 +5911,7 @@
   total_deaths_per_million: 133.752
   new_deaths_per_million: 0.953
   new_deaths_smoothed_per_million: 0.847
-  reproduction_rate: 1.07
+  reproduction_rate: 1.06
   new_tests_smoothed: 24884
   new_tests_smoothed_per_thousand: 2.635
   positive_rate: 0.075
@@ -6282,7 +6292,8 @@
   new_vaccinations_smoothed: 403
   new_vaccinations_smoothed_per_million: 43
   stringency_index: 42.59
-  excess_mortality: 72.45
+  excess_mortality_cumulative: 19.78
+  excess_mortality: 71.42
 - date: '2021-01-01'
   total_cases: 196223
   new_cases: 1939
@@ -6540,7 +6551,7 @@
   total_deaths_per_million: 162.557
   new_deaths_per_million: 0.953
   new_deaths_smoothed_per_million: 0.968
-  reproduction_rate: 1.02
+  reproduction_rate: 1.01
   new_tests_smoothed: 15842
   new_tests_smoothed_per_thousand: 1.678
   positive_rate: 0.114
@@ -6584,7 +6595,7 @@
   total_deaths_per_million: 164.569
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 0.983
-  reproduction_rate: 1.01
+  reproduction_rate: 1
   new_tests_smoothed: 15439
   new_tests_smoothed_per_thousand: 1.635
   positive_rate: 0.119
@@ -6630,7 +6641,7 @@
   total_deaths_per_million: 166.581
   new_deaths_per_million: 0.953
   new_deaths_smoothed_per_million: 0.998
-  reproduction_rate: 1
+  reproduction_rate: 0.99
   new_tests_smoothed: 15508
   new_tests_smoothed_per_thousand: 1.642
   positive_rate: 0.121
@@ -6740,7 +6751,7 @@
   total_deaths_per_million: 171.452
   new_deaths_per_million: 0.953
   new_deaths_smoothed_per_million: 0.983
-  reproduction_rate: 0.93
+  reproduction_rate: 0.94
   new_tests_smoothed: 15849
   new_tests_smoothed_per_thousand: 1.678
   positive_rate: 0.114
@@ -6784,7 +6795,7 @@
   total_deaths_per_million: 173.57
   new_deaths_per_million: 1.165
   new_deaths_smoothed_per_million: 0.998
-  reproduction_rate: 0.91
+  reproduction_rate: 0.92
   new_tests_smoothed: 15917
   new_tests_smoothed_per_thousand: 1.686
   positive_rate: 0.111
@@ -6852,7 +6863,7 @@
   total_deaths_per_million: 176.641
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.014
-  reproduction_rate: 0.91
+  reproduction_rate: 0.92
   new_tests_smoothed: 15365
   new_tests_smoothed_per_thousand: 1.627
   positive_rate: 0.1
@@ -6874,7 +6885,7 @@
   total_deaths_per_million: 177.7
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.029
-  reproduction_rate: 0.92
+  reproduction_rate: 0.93
   total_tests: 4399367
   total_tests_per_thousand: 465.893
   new_tests_smoothed: 14812
@@ -6898,7 +6909,7 @@
   total_deaths_per_million: 178.759
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.044
-  reproduction_rate: 0.93
+  reproduction_rate: 0.94
   new_tests_smoothed: 15092
   new_tests_smoothed_per_thousand: 1.598
   positive_rate: 0.1
@@ -6966,7 +6977,7 @@
   total_deaths_per_million: 181.936
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.044
-  reproduction_rate: 0.94
+  reproduction_rate: 0.95
   new_tests_smoothed: 14408
   new_tests_smoothed_per_thousand: 1.526
   positive_rate: 0.106
@@ -6975,7 +6986,8 @@
   new_vaccinations_smoothed: 403
   new_vaccinations_smoothed_per_million: 43
   stringency_index: 42.59
-  excess_mortality: 40.9
+  excess_mortality_cumulative: 21.55
+  excess_mortality: 40.15
 - date: '2021-02-01'
   total_cases: 249295
   new_cases: 959
@@ -6989,7 +7001,7 @@
   total_deaths_per_million: 182.995
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.059
-  reproduction_rate: 0.94
+  reproduction_rate: 0.95
   total_tests: 4472745
   total_tests_per_thousand: 473.664
   new_tests_smoothed: 13926
@@ -7035,7 +7047,7 @@
   total_deaths_per_million: 184.901
   new_deaths_per_million: 0.953
   new_deaths_smoothed_per_million: 1.029
-  reproduction_rate: 0.95
+  reproduction_rate: 0.96
   total_tests: 4502730
   total_tests_per_thousand: 476.839
   new_tests_smoothed: 14766
@@ -7171,7 +7183,7 @@
   total_deaths_per_million: 190.726
   new_deaths_per_million: 0.953
   new_deaths_smoothed_per_million: 0.968
-  reproduction_rate: 0.96
+  reproduction_rate: 0.97
   new_tests_smoothed: 15098
   new_tests_smoothed_per_thousand: 1.599
   positive_rate: 0.095
@@ -7513,7 +7525,7 @@
   total_deaths_per_million: 205.34
   new_deaths_per_million: 0.953
   new_deaths_smoothed_per_million: 0.953
-  reproduction_rate: 0.93
+  reproduction_rate: 0.94
   new_tests_smoothed: 15498
   new_tests_smoothed_per_thousand: 1.641
   positive_rate: 0.087
@@ -7612,7 +7624,8 @@
   new_vaccinations_smoothed: 455
   new_vaccinations_smoothed_per_million: 48
   stringency_index: 42.59
-  excess_mortality: 26.9
+  excess_mortality_cumulative: 21.87
+  excess_mortality: 26.12
 - date: '2021-03-01'
   total_cases: 288267
   new_cases: 961
@@ -7832,7 +7845,7 @@
   total_deaths_per_million: 218.472
   new_deaths_per_million: 0.847
   new_deaths_smoothed_per_million: 0.923
-  reproduction_rate: 0.87
+  reproduction_rate: 0.88
   new_tests_smoothed: 14226
   new_tests_smoothed_per_thousand: 1.507
   positive_rate: 0.077
@@ -7854,7 +7867,7 @@
   total_deaths_per_million: 219.213
   new_deaths_per_million: 0.741
   new_deaths_smoothed_per_million: 0.893
-  reproduction_rate: 0.88
+  reproduction_rate: 0.89
   new_tests_smoothed: 14024
   new_tests_smoothed_per_thousand: 1.485
   positive_rate: 0.075
@@ -7876,7 +7889,7 @@
   total_deaths_per_million: 220.06
   new_deaths_per_million: 0.847
   new_deaths_smoothed_per_million: 0.877
-  reproduction_rate: 0.9
+  reproduction_rate: 0.91
   total_tests: 5063251
   total_tests_per_thousand: 536.198
   new_tests_smoothed: 13107
@@ -7996,7 +8009,7 @@
   total_deaths_per_million: 224.614
   new_deaths_per_million: 0.953
   new_deaths_smoothed_per_million: 0.877
-  reproduction_rate: 1.03
+  reproduction_rate: 1.02
   new_tests_smoothed: 14710
   new_tests_smoothed_per_thousand: 1.558
   positive_rate: 0.069
@@ -8040,7 +8053,7 @@
   total_deaths_per_million: 226.52
   new_deaths_per_million: 0.953
   new_deaths_smoothed_per_million: 0.923
-  reproduction_rate: 1.05
+  reproduction_rate: 1.04
   total_tests: 5178695
   total_tests_per_thousand: 548.424
   new_tests_smoothed: 16492
@@ -8174,7 +8187,7 @@
   total_deaths_per_million: 232.239
   new_deaths_per_million: 0.953
   new_deaths_smoothed_per_million: 0.953
-  reproduction_rate: 1.02
+  reproduction_rate: 1.03
   total_tests: 5272490
   total_tests_per_thousand: 558.357
   new_tests_smoothed: 16163
@@ -8198,7 +8211,7 @@
   total_deaths_per_million: 233.192
   new_deaths_per_million: 0.953
   new_deaths_smoothed_per_million: 0.953
-  reproduction_rate: 1.01
+  reproduction_rate: 1.02
   new_tests_smoothed: 15608
   new_tests_smoothed_per_thousand: 1.653
   positive_rate: 0.078
@@ -8325,7 +8338,8 @@
   new_vaccinations_smoothed: 3355
   new_vaccinations_smoothed_per_million: 355
   stringency_index: 42.59
-  excess_mortality: 2.38
+  excess_mortality_cumulative: 20.45
+  excess_mortality: 1.8
 - date: '2021-04-01'
   total_cases: 323043
   new_cases: 1236
@@ -8639,7 +8653,7 @@
   total_deaths_per_million: 252.36
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.044
-  reproduction_rate: 0.98
+  reproduction_rate: 0.99
   new_tests_smoothed: 15955
   new_tests_smoothed_per_thousand: 1.69
   positive_rate: 0.074
@@ -8871,7 +8885,7 @@
   total_deaths_per_million: 262.95
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.059
-  reproduction_rate: 1.02
+  reproduction_rate: 1.01
   new_tests_smoothed: 15448
   new_tests_smoothed_per_thousand: 1.636
   positive_rate: 0.081
@@ -8965,7 +8979,7 @@
   total_deaths_per_million: 267.08
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.044
-  reproduction_rate: 0.98
+  reproduction_rate: 0.99
   new_tests_smoothed: 15324
   new_tests_smoothed_per_thousand: 1.623
   positive_rate: 0.08
@@ -9011,7 +9025,7 @@
   total_deaths_per_million: 269.198
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.044
-  reproduction_rate: 0.96
+  reproduction_rate: 0.97
   new_tests_smoothed: 15851
   new_tests_smoothed_per_thousand: 1.679
   positive_rate: 0.077
@@ -9197,7 +9211,7 @@
   total_deaths_per_million: 277.67
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.059
-  reproduction_rate: 0.97
+  reproduction_rate: 0.98
   new_tests_smoothed: 15322
   new_tests_smoothed_per_thousand: 1.623
   positive_rate: 0.072
@@ -9263,7 +9277,7 @@
   total_deaths_per_million: 280.847
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.059
-  reproduction_rate: 0.96
+  reproduction_rate: 0.97
   new_tests_smoothed: 14164
   new_tests_smoothed_per_thousand: 1.5
   positive_rate: 0.08
@@ -9307,7 +9321,7 @@
   total_deaths_per_million: 282.859
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.044
-  reproduction_rate: 0.98
+  reproduction_rate: 0.99
   total_tests: 6036143
   total_tests_per_thousand: 639.228
   new_tests_smoothed: 13394
@@ -9353,7 +9367,7 @@
   total_deaths_per_million: 284.977
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.044
-  reproduction_rate: 1.07
+  reproduction_rate: 1.06
   new_tests_smoothed: 14226
   new_tests_smoothed_per_thousand: 1.507
   positive_rate: 0.071
@@ -9375,7 +9389,7 @@
   total_deaths_per_million: 286.036
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.044
-  reproduction_rate: 1.11
+  reproduction_rate: 1.1
   new_tests_smoothed: 14834
   new_tests_smoothed_per_thousand: 1.571
   positive_rate: 0.072
@@ -9421,7 +9435,7 @@
   total_deaths_per_million: 288.154
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.044
-  reproduction_rate: 1.13
+  reproduction_rate: 1.12
   new_tests_smoothed: 15911
   new_tests_smoothed_per_thousand: 1.685
   positive_rate: 0.074
@@ -9465,7 +9479,7 @@
   total_deaths_per_million: 290.378
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.074
-  reproduction_rate: 1.1
+  reproduction_rate: 1.09
   total_tests: 6154084
   total_tests_per_thousand: 651.718
   new_tests_smoothed: 16849
@@ -9489,7 +9503,7 @@
   total_deaths_per_million: 291.437
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.074
-  reproduction_rate: 1.07
+  reproduction_rate: 1.06
   new_tests: 20066
   total_tests: 6174150
   total_tests_per_thousand: 653.843
@@ -9823,7 +9837,7 @@
   total_deaths_per_million: 306.263
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.074
-  reproduction_rate: 0.85
+  reproduction_rate: 0.86
   new_tests_smoothed: 15310
   new_tests_smoothed_per_thousand: 1.621
   positive_rate: 0.06
@@ -10059,7 +10073,7 @@
   total_deaths_per_million: 316.323
   new_deaths_per_million: 0.953
   new_deaths_smoothed_per_million: 1.029
-  reproduction_rate: 0.92
+  reproduction_rate: 0.91
   total_tests: 6544800
   total_tests_per_thousand: 693.095
   new_tests_smoothed: 15197
@@ -10127,7 +10141,7 @@
   total_deaths_per_million: 319.289
   new_deaths_per_million: 0.953
   new_deaths_smoothed_per_million: 0.998
-  reproduction_rate: 0.87
+  reproduction_rate: 0.88
   total_tests: 6593438
   total_tests_per_thousand: 698.245
   new_tests_smoothed: 15510
@@ -10151,7 +10165,7 @@
   total_deaths_per_million: 320.348
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.014
-  reproduction_rate: 0.86
+  reproduction_rate: 0.87
   new_tests_smoothed: 15519
   new_tests_smoothed_per_thousand: 1.643
   positive_rate: 0.051
@@ -10173,7 +10187,7 @@
   total_deaths_per_million: 321.407
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 0.998
-  reproduction_rate: 0.86
+  reproduction_rate: 0.87
   new_tests_smoothed: 15623
   new_tests_smoothed_per_thousand: 1.654
   positive_rate: 0.049
@@ -10217,7 +10231,7 @@
   total_deaths_per_million: 323.313
   new_deaths_per_million: 0.953
   new_deaths_smoothed_per_million: 0.998
-  reproduction_rate: 0.88
+  reproduction_rate: 0.89
   total_tests: 6655621
   total_tests_per_thousand: 704.831
   new_tests_smoothed: 15832
@@ -10287,7 +10301,7 @@
   total_deaths_per_million: 326.384
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.014
-  reproduction_rate: 0.93
+  reproduction_rate: 0.94
   new_tests_smoothed: 15532
   new_tests_smoothed_per_thousand: 1.645
   positive_rate: 0.042
@@ -10399,7 +10413,7 @@
   total_deaths_per_million: 331.679
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.044
-  reproduction_rate: 1.07
+  reproduction_rate: 1.06
   new_tests_smoothed: 15725
   new_tests_smoothed_per_thousand: 1.665
   positive_rate: 0.043
@@ -10421,7 +10435,7 @@
   total_deaths_per_million: 332.844
   new_deaths_per_million: 1.165
   new_deaths_smoothed_per_million: 1.074
-  reproduction_rate: 1.1
+  reproduction_rate: 1.09
   new_tests_smoothed: 15860
   new_tests_smoothed_per_thousand: 1.68
   positive_rate: 0.044
@@ -10443,7 +10457,7 @@
   total_deaths_per_million: 333.903
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.074
-  reproduction_rate: 1.13
+  reproduction_rate: 1.12
   total_tests: 6813944
   total_tests_per_thousand: 721.597
   new_tests_smoothed: 15968
@@ -10467,7 +10481,7 @@
   total_deaths_per_million: 335.068
   new_deaths_per_million: 1.165
   new_deaths_smoothed_per_million: 1.074
-  reproduction_rate: 1.14
+  reproduction_rate: 1.13
   new_tests_smoothed: 15935
   new_tests_smoothed_per_thousand: 1.688
   positive_rate: 0.048
@@ -10489,7 +10503,7 @@
   total_deaths_per_million: 336.233
   new_deaths_per_million: 1.165
   new_deaths_smoothed_per_million: 1.089
-  reproduction_rate: 1.14
+  reproduction_rate: 1.13
   new_tests_smoothed: 15901
   new_tests_smoothed_per_thousand: 1.684
   positive_rate: 0.051
@@ -10879,7 +10893,7 @@
   total_deaths_per_million: 354.13
   new_deaths_per_million: 1.059
   new_deaths_smoothed_per_million: 1.029
-  reproduction_rate: 1.02
+  reproduction_rate: 1.01
   new_tests_smoothed: 16898
   new_tests_smoothed_per_thousand: 1.789
   positive_rate: 0.054
@@ -10945,7 +10959,7 @@
   total_deaths_per_million: 357.519
   new_deaths_per_million: 1.165
   new_deaths_smoothed_per_million: 1.059
-  reproduction_rate: 0.99
+  reproduction_rate: 1
   total_tests: 7168204
   total_tests_per_thousand: 759.113
   new_tests_smoothed: 16338
@@ -10969,7 +10983,7 @@
   total_deaths_per_million: 358.472
   new_deaths_per_million: 0.953
   new_deaths_smoothed_per_million: 1.044
-  reproduction_rate: 0.99
+  reproduction_rate: 1
   new_tests_smoothed: 16277
   new_tests_smoothed_per_thousand: 1.724
   positive_rate: 0.056
@@ -10991,7 +11005,7 @@
   total_deaths_per_million: 359.425
   new_deaths_per_million: 0.953
   new_deaths_smoothed_per_million: 1.029
-  reproduction_rate: 0.99
+  reproduction_rate: 1
   new_tests_smoothed: 16215
   new_tests_smoothed_per_thousand: 1.717
   positive_rate: 0.056
@@ -11111,7 +11125,7 @@
   total_deaths_per_million: 364.826
   new_deaths_per_million: 1.165
   new_deaths_smoothed_per_million: 1.044
-  reproduction_rate: 1.01
+  reproduction_rate: 1.02
   new_tests_smoothed: 14850
   new_tests_smoothed_per_thousand: 1.573
   positive_rate: 0.06
@@ -11593,7 +11607,7 @@
   total_deaths_per_million: 386.429
   new_deaths_per_million: 1.271
   new_deaths_smoothed_per_million: 1.165
-  reproduction_rate: 1.13
+  reproduction_rate: 1.12
   new_tests: 20457
   total_tests: 7603034
   total_tests_per_thousand: 805.162
@@ -11873,7 +11887,7 @@
   total_deaths_per_million: 399.031
   new_deaths_per_million: 1.165
   new_deaths_smoothed_per_million: 1.165
-  reproduction_rate: 1.15
+  reproduction_rate: 1.14
   total_tests: 7777175
   total_tests_per_thousand: 823.603
   new_tests_smoothed: 16649
@@ -11897,7 +11911,7 @@
   total_deaths_per_million: 400.302
   new_deaths_per_million: 1.271
   new_deaths_smoothed_per_million: 1.195
-  reproduction_rate: 1.16
+  reproduction_rate: 1.15
   new_tests: 19825
   total_tests: 7797000
   total_tests_per_thousand: 825.703
@@ -12068,7 +12082,7 @@
   total_deaths_per_million: 408.668
   new_deaths_per_million: 1.271
   new_deaths_smoothed_per_million: 1.195
-  reproduction_rate: 1.13
+  reproduction_rate: 1.12
   new_tests: 21873
   total_tests: 7921679
   total_tests_per_thousand: 838.906
@@ -12143,7 +12157,7 @@
   total_deaths_per_million: 412.269
   new_deaths_per_million: 1.165
   new_deaths_smoothed_per_million: 1.195
-  reproduction_rate: 1.1
+  reproduction_rate: 1.09
   new_tests_smoothed: 17742
   new_tests_smoothed_per_thousand: 1.879
   positive_rate: 0.099
@@ -12164,7 +12178,7 @@
   total_deaths_per_million: 413.54
   new_deaths_per_million: 1.271
   new_deaths_smoothed_per_million: 1.195
-  reproduction_rate: 1.1
+  reproduction_rate: 1.09
   new_tests_smoothed: 18434
   new_tests_smoothed_per_thousand: 1.952
   positive_rate: 0.095
@@ -12185,7 +12199,7 @@
   total_deaths_per_million: 414.81
   new_deaths_per_million: 1.271
   new_deaths_smoothed_per_million: 1.21
-  reproduction_rate: 1.12
+  reproduction_rate: 1.09
   new_tests_smoothed: 19125
   new_tests_smoothed_per_thousand: 2.025
   positive_rate: 0.091
@@ -12212,7 +12226,7 @@
   total_deaths_per_million: 416.081
   new_deaths_per_million: 1.271
   new_deaths_smoothed_per_million: 1.241
-  reproduction_rate: 1.13
+  reproduction_rate: 1.1
   total_tests: 8038526
   total_tests_per_thousand: 851.28
   new_tests_smoothed: 19817
@@ -12233,7 +12247,7 @@
   total_deaths_per_million: 417.352
   new_deaths_per_million: 1.271
   new_deaths_smoothed_per_million: 1.241
-  reproduction_rate: 1.13
+  reproduction_rate: 1.09
   new_tests: 18329
   total_tests: 8056855
   total_tests_per_thousand: 853.221
@@ -12256,6 +12270,7 @@
   total_deaths_per_million: 418.623
   new_deaths_per_million: 1.271
   new_deaths_smoothed_per_million: 1.241
+  reproduction_rate: 1.08
   new_tests_smoothed: 20609
   new_tests_smoothed_per_thousand: 2.182
   positive_rate: 0.09
@@ -12274,6 +12289,7 @@
   total_deaths_per_million: 420
   new_deaths_per_million: 1.377
   new_deaths_smoothed_per_million: 1.271
+  reproduction_rate: 1.07
   total_tests: 8118970
   total_tests_per_thousand: 859.799
   new_tests_smoothed: 21962
@@ -12294,6 +12310,7 @@
   total_deaths_per_million: 421.27
   new_deaths_per_million: 1.271
   new_deaths_smoothed_per_million: 1.286
+  reproduction_rate: 1.06
 - date: '2021-09-18'
   total_cases: 514446
   new_cases: 1986
@@ -12307,6 +12324,7 @@
   total_deaths_per_million: 422.647
   new_deaths_per_million: 1.377
   new_deaths_smoothed_per_million: 1.301
+  reproduction_rate: 1.06
 - date: '2021-09-19'
   total_cases: 516428
   new_cases: 1982
@@ -12320,6 +12338,7 @@
   total_deaths_per_million: 424.024
   new_deaths_per_million: 1.377
   new_deaths_smoothed_per_million: 1.316
+  reproduction_rate: 1.06
 - date: '2021-09-20'
   total_cases: 518369
   new_cases: 1941
@@ -12331,5 +12350,18 @@
   new_cases_per_million: 205.552
   new_cases_smoothed_per_million: 202.844
   total_deaths_per_million: 425.295
+  new_deaths_per_million: 1.271
+  new_deaths_smoothed_per_million: 1.316
+- date: '2021-09-21'
+  total_cases: 520286
+  new_cases: 1917
+  new_cases_smoothed: 1956.429
+  total_deaths: 4028
+  new_deaths: 12
+  new_deaths_smoothed: 12.429
+  total_cases_per_million: 55098.309
+  new_cases_per_million: 203.01
+  new_cases_smoothed_per_million: 207.186
+  total_deaths_per_million: 426.565
   new_deaths_per_million: 1.271
   new_deaths_smoothed_per_million: 1.316
