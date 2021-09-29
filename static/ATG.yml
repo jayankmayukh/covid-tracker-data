@@ -152,6 +152,7 @@
   excess_mortality_cumulative_absolute: 8.7
   excess_mortality_cumulative: 3.53
   excess_mortality: -8.07
+  excess_mortality_cumulative_per_million: 88.1208978202739
 - date: '2020-04-01'
   total_cases: 7
   new_cases: 0
@@ -521,6 +522,7 @@
   excess_mortality_cumulative_absolute: 17.2
   excess_mortality_cumulative: 5.45
   excess_mortality: 12.23
+  excess_mortality_cumulative_per_million: 174.216027874564
 - date: '2020-05-01'
   total_cases: 25
   new_cases: 1
@@ -927,6 +929,7 @@
   excess_mortality_cumulative_absolute: 30.3
   excess_mortality_cumulative: 7.82
   excess_mortality: 18.22
+  excess_mortality_cumulative_per_million: 306.903816546471
 - date: '2020-06-01'
   total_cases: 26
   new_cases: 0
@@ -1320,6 +1323,7 @@
   excess_mortality_cumulative_absolute: 38.4
   excess_mortality_cumulative: 8.25
   excess_mortality: 10.4
+  excess_mortality_cumulative_per_million: 388.947411068795
 - date: '2020-07-01'
   total_cases: 69
   new_cases: 0
@@ -1726,6 +1730,7 @@
   excess_mortality_cumulative_absolute: 41.5
   excess_mortality_cumulative: 7.69
   excess_mortality: 4.19
+  excess_mortality_cumulative_per_million: 420.346811441536
 - date: '2020-08-01'
   total_cases: 91
   new_cases: 0
@@ -2132,6 +2137,7 @@
   excess_mortality_cumulative_absolute: 43
   excess_mortality_cumulative: 6.86
   excess_mortality: 1.71
+  excess_mortality_cumulative_per_million: 435.540069686411
 - date: '2020-09-01'
   total_cases: 94
   new_cases: 0
@@ -2528,6 +2534,7 @@
   excess_mortality_cumulative_absolute: 64.7
   excess_mortality_cumulative: 8.97
   excess_mortality: 23.01
+  excess_mortality_cumulative_per_million: 655.3358722956
 - date: '2020-10-01'
   total_cases: 101
   new_cases: 0
@@ -2965,6 +2972,7 @@
   excess_mortality_cumulative_absolute: 92.4
   excess_mortality_cumulative: 11.23
   excess_mortality: 27.34
+  excess_mortality_cumulative_per_million: 935.904707884288
 - date: '2020-11-01'
   total_cases: 128
   new_cases: 0
@@ -3388,6 +3396,7 @@
   excess_mortality_cumulative_absolute: 100.1
   excess_mortality_cumulative: 10.8
   excess_mortality: 7.38
+  excess_mortality_cumulative_per_million: 1013.89676687465
 - date: '2020-12-01'
   total_cases: 142
   new_cases: 1
@@ -3825,6 +3834,7 @@
   excess_mortality_cumulative_absolute: 110.8
   excess_mortality_cumulative: 10.76
   excess_mortality: 10.36
+  excess_mortality_cumulative_per_million: 1122.27534235475
 - date: '2021-01-01'
   total_cases: 159
   new_cases: 0
@@ -8241,6 +8251,8 @@
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 10.129
   reproduction_rate: 1.48
+  new_vaccinations_smoothed: 485
+  new_vaccinations_smoothed_per_million: 4912
 - date: '2021-09-19'
   total_cases: 2603
   new_cases: 0
@@ -8255,6 +8267,8 @@
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 10.129
   reproduction_rate: 1.46
+  new_vaccinations_smoothed: 610
+  new_vaccinations_smoothed_per_million: 6179
 - date: '2021-09-20'
   total_cases: 2603
   new_cases: 0
@@ -8269,6 +8283,8 @@
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 10.129
   reproduction_rate: 1.45
+  new_vaccinations_smoothed: 734
+  new_vaccinations_smoothed_per_million: 7435
 - date: '2021-09-21'
   total_cases: 2603
   new_cases: 0
@@ -8283,6 +8299,8 @@
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 10.129
   reproduction_rate: 1.45
+  new_vaccinations_smoothed: 812
+  new_vaccinations_smoothed_per_million: 8225
 - date: '2021-09-22'
   total_cases: 2625
   new_cases: 22
@@ -8296,6 +8314,8 @@
   total_deaths_per_million: 577.344
   new_deaths_per_million: 20.258
   new_deaths_smoothed_per_million: 13.023
+  new_vaccinations_smoothed: 891
+  new_vaccinations_smoothed_per_million: 9025
 - date: '2021-09-23'
   total_cases: 2815
   new_cases: 190
@@ -8309,6 +8329,8 @@
   total_deaths_per_million: 638.117
   new_deaths_per_million: 60.773
   new_deaths_smoothed_per_million: 21.705
+  new_vaccinations_smoothed: 970
+  new_vaccinations_smoothed_per_million: 9825
 - date: '2021-09-24'
   total_cases: 2815
   new_cases: 0
@@ -8322,6 +8344,14 @@
   total_deaths_per_million: 638.117
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 11.576
+  total_vaccinations: 89252
+  people_vaccinated: 48580
+  people_fully_vaccinated: 40672
+  new_vaccinations_smoothed: 1048
+  total_vaccinations_per_hundred: 90.4
+  people_vaccinated_per_hundred: 49.21
+  people_fully_vaccinated_per_hundred: 41.2
+  new_vaccinations_smoothed_per_million: 10615
 - date: '2021-09-25'
   total_cases: 2902
   new_cases: 87
@@ -8344,6 +8374,19 @@
   new_deaths_smoothed: 1.286
   total_cases_per_million: 29606.596
   new_cases_per_million: 212.706
+  new_cases_smoothed_per_million: 463.033
+  total_deaths_per_million: 648.246
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 13.023
+- date: '2021-09-27'
+  total_cases: 2923
+  new_cases: 0
+  new_cases_smoothed: 45.714
+  total_deaths: 64
+  new_deaths: 0
+  new_deaths_smoothed: 1.286
+  total_cases_per_million: 29606.596
+  new_cases_per_million: 0
   new_cases_smoothed_per_million: 463.033
   total_deaths_per_million: 648.246
   new_deaths_per_million: 0
