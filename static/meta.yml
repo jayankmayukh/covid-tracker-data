@@ -6140,6 +6140,96 @@ timeseries:
     - VNM
     - ZMB
     - ZWE
+  total_boosters:
+    - ALB
+    - AUS
+    - AUT
+    - BEL
+    - BRA
+    - BGR
+    - KHM
+    - CAN
+    - CHL
+    - CRI
+    - CYP
+    - CZE
+    - DOM
+    - SLV
+    - FRA
+    - DEU
+    - GIB
+    - GRC
+    - HUN
+    - ISL
+    - IRN
+    - ISR
+    - ITA
+    - LTU
+    - LUX
+    - MYS
+    - MLT
+    - MKD
+    - PSE
+    - PRY
+    - PER
+    - POL
+    - RUS
+    - SRB
+    - SGP
+    - KOR
+    - ESP
+    - THA
+    - TUN
+    - TUR
+    - ARE
+    - GBR
+    - USA
+    - URY
+  total_boosters_per_hundred:
+    - ALB
+    - AUS
+    - AUT
+    - BEL
+    - BRA
+    - BGR
+    - KHM
+    - CAN
+    - CHL
+    - CRI
+    - CYP
+    - CZE
+    - DOM
+    - SLV
+    - FRA
+    - DEU
+    - GIB
+    - GRC
+    - HUN
+    - ISL
+    - IRN
+    - ISR
+    - ITA
+    - LTU
+    - LUX
+    - MYS
+    - MLT
+    - MKD
+    - PSE
+    - PRY
+    - PER
+    - POL
+    - RUS
+    - SRB
+    - SGP
+    - KOR
+    - ESP
+    - THA
+    - TUN
+    - TUR
+    - ARE
+    - GBR
+    - USA
+    - URY
   icu_patients:
     - DZA
     - AUT
@@ -6198,94 +6288,6 @@ timeseries:
     - CHE
     - GBR
     - USA
-  total_boosters:
-    - AUS
-    - AUT
-    - BEL
-    - BRA
-    - BGR
-    - KHM
-    - CAN
-    - CHL
-    - CRI
-    - CYP
-    - CZE
-    - DOM
-    - SLV
-    - FRA
-    - DEU
-    - GIB
-    - GRC
-    - HUN
-    - ISL
-    - IRN
-    - ISR
-    - ITA
-    - LTU
-    - LUX
-    - MYS
-    - MLT
-    - MKD
-    - PSE
-    - PRY
-    - PER
-    - POL
-    - RUS
-    - SRB
-    - SGP
-    - KOR
-    - ESP
-    - THA
-    - TUN
-    - TUR
-    - ARE
-    - GBR
-    - USA
-    - URY
-  total_boosters_per_hundred:
-    - AUS
-    - AUT
-    - BEL
-    - BRA
-    - BGR
-    - KHM
-    - CAN
-    - CHL
-    - CRI
-    - CYP
-    - CZE
-    - DOM
-    - SLV
-    - FRA
-    - DEU
-    - GIB
-    - GRC
-    - HUN
-    - ISL
-    - IRN
-    - ISR
-    - ITA
-    - LTU
-    - LUX
-    - MYS
-    - MLT
-    - MKD
-    - PSE
-    - PRY
-    - PER
-    - POL
-    - RUS
-    - SRB
-    - SGP
-    - KOR
-    - ESP
-    - THA
-    - TUN
-    - TUR
-    - ARE
-    - GBR
-    - USA
-    - URY
   hosp_patients:
     - AUT
     - BEL
@@ -6363,7 +6365,6 @@ timeseries:
     - EST
     - FRA
     - DEU
-    - GRC
     - ISL
     - IRL
     - ISR
@@ -6391,7 +6392,6 @@ timeseries:
     - EST
     - FRA
     - DEU
-    - GRC
     - ISL
     - IRL
     - ISR
@@ -6485,7 +6485,7 @@ countries:
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
       - new_vaccinations
-    total_cases: 156323
+    total_cases: 156363
   ALB:
     values:
       - continent
@@ -6541,7 +6541,9 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 186793
+      - total_boosters
+      - total_boosters_per_hundred
+    total_cases: 187363
   DZA:
     values:
       - continent
@@ -6587,7 +6589,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 206754
+    total_cases: 206878
   AND:
     values:
       - continent
@@ -6635,7 +6637,7 @@ countries:
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
       - new_vaccinations
-    total_cases: 15572
+    total_cases: 15618
   AGO:
     values:
       - continent
@@ -6674,7 +6676,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 64533
+    total_cases: 64583
   AIA:
     values:
       - continent
@@ -6737,7 +6739,7 @@ countries:
       - total_tests
       - total_tests_per_thousand
       - tests_units
-    total_cases: 4069
+    total_cases: 4072
   ARG:
     values:
       - continent
@@ -6793,7 +6795,7 @@ countries:
       - people_vaccinated_per_hundred
       - people_fully_vaccinated_per_hundred
       - new_vaccinations
-    total_cases: 5292549
+    total_cases: 5293989
   ARM:
     values:
       - continent
@@ -6848,7 +6850,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 312674
+    total_cases: 315004
   ABW:
     values:
       - continent
@@ -6930,7 +6932,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 175813
+    total_cases: 177393
   AUT:
     values:
       - continent
@@ -6992,7 +6994,7 @@ countries:
       - total_boosters_per_hundred
       - positive_rate
       - tests_per_case
-    total_cases: 847408
+    total_cases: 856002
   AZE:
     values:
       - continent
@@ -7048,7 +7050,7 @@ countries:
       - new_tests_smoothed_per_thousand
       - positive_rate
       - tests_per_case
-    total_cases: 537004
+    total_cases: 539710
   BHS:
     values:
       - continent
@@ -7099,7 +7101,7 @@ countries:
       - new_tests_smoothed_per_thousand
       - positive_rate
       - tests_per_case
-    total_cases: 22429
+    total_cases: 22485
   BHR:
     values:
       - continent
@@ -7150,7 +7152,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 276956
+    total_cases: 276983
   BGD:
     values:
       - continent
@@ -7203,7 +7205,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 1570238
+    total_cases: 1570485
   BRB:
     values:
       - continent
@@ -7246,7 +7248,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 18852
+    total_cases: 19188
   BLR:
     values:
       - continent
@@ -7300,7 +7302,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 606033
+    total_cases: 608031
   BEL:
     values:
       - continent
@@ -7364,7 +7366,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1393358
+    total_cases: 1403548
   BLZ:
     values:
       - continent
@@ -7418,7 +7420,7 @@ countries:
       - tests_per_case
       - new_tests
       - new_tests_per_thousand
-    total_cases: 27523
+    total_cases: 27673
   BEN:
     values:
       - continent
@@ -7591,7 +7593,7 @@ countries:
       - people_fully_vaccinated
       - people_vaccinated_per_hundred
       - people_fully_vaccinated_per_hundred
-    total_cases: 514679
+    total_cases: 515373
   BES:
     values:
       - continent
@@ -7664,7 +7666,7 @@ countries:
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
       - new_vaccinations
-    total_cases: 256307
+    total_cases: 257401
   BWA:
     values:
       - continent
@@ -7769,7 +7771,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 21835785
+    total_cases: 21849137
   VGB:
     values:
       - continent
@@ -7829,7 +7831,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 13446
+    total_cases: 13545
   BGR:
     values:
       - continent
@@ -7891,7 +7893,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 619284
+    total_cases: 623946
   BFA:
     values:
       - continent
@@ -8028,7 +8030,7 @@ countries:
       - tests_per_case
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 118787
+    total_cases: 118870
   CMR:
     values:
       - continent
@@ -8132,7 +8134,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1730818
+    total_cases: 1733440
   CPV:
     values:
       - continent
@@ -8181,7 +8183,7 @@ countries:
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
       - new_vaccinations
-    total_cases: 38228
+    total_cases: 38233
   CYM:
     values:
       - continent
@@ -8340,7 +8342,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1699427
+    total_cases: 1701316
   CHN:
     values:
       - continent
@@ -8386,7 +8388,7 @@ countries:
       - people_vaccinated_per_hundred
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 97604
+    total_cases: 97682
   COL:
     values:
       - continent
@@ -8443,7 +8445,7 @@ countries:
       - people_fully_vaccinated
       - people_vaccinated_per_hundred
       - people_fully_vaccinated_per_hundred
-    total_cases: 5007099
+    total_cases: 5009007
   COM:
     values:
       - continent
@@ -8485,7 +8487,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 4281
+    total_cases: 4291
   COG:
     values:
       - continent
@@ -8528,7 +8530,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 17670
+    total_cases: 17944
   COK:
     values:
       - continent
@@ -8602,7 +8604,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 561432
+    total_cases: 561829
   CIV:
     values:
       - continent
@@ -8652,7 +8654,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 61330
+    total_cases: 61370
   HRV:
     values:
       - continent
@@ -8712,7 +8714,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 476832
+    total_cases: 483142
   CUB:
     values:
       - continent
@@ -8767,7 +8769,7 @@ countries:
       - new_vaccinations
       - new_vaccinations_smoothed
       - new_vaccinations_smoothed_per_million
-    total_cases: 953750
+    total_cases: 954342
   CUW:
     values:
       - continent
@@ -8854,7 +8856,7 @@ countries:
       - new_vaccinations
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 124973
+    total_cases: 125161
   CZE:
     values:
       - continent
@@ -8917,7 +8919,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1783227
+    total_cases: 1792707
   COD:
     values:
       - continent
@@ -8964,7 +8966,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 57582
+    total_cases: 57587
   DNK:
     values:
       - continent
@@ -9026,7 +9028,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 396407
+    total_cases: 399127
   DJI:
     values:
       - continent
@@ -9068,7 +9070,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 13487
+    total_cases: 13489
   DMA:
     values:
       - continent
@@ -9105,7 +9107,7 @@ countries:
       - new_deaths
       - total_deaths_per_million
       - new_deaths_per_million
-    total_cases: 4823
+    total_cases: 4961
   DOM:
     values:
       - continent
@@ -9160,7 +9162,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 384208
+    total_cases: 385181
   ECU:
     values:
       - continent
@@ -9217,7 +9219,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 515859
+    total_cases: 518274
   EGY:
     values:
       - continent
@@ -9265,7 +9267,7 @@ countries:
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
       - new_vaccinations
-    total_cases: 333840
+    total_cases: 334751
   SLV:
     values:
       - continent
@@ -9373,7 +9375,7 @@ countries:
       - positive_rate
       - tests_per_case
       - new_vaccinations
-    total_cases: 13377
+    total_cases: 13407
   ERI:
     values:
       - continent
@@ -9406,7 +9408,7 @@ countries:
       - new_deaths
       - total_deaths_per_million
       - new_deaths_per_million
-    total_cases: 6881
+    total_cases: 6910
   EST:
     values:
       - continent
@@ -9470,7 +9472,7 @@ countries:
       - new_vaccinations_smoothed
       - people_fully_vaccinated_per_hundred
       - new_vaccinations_smoothed_per_million
-    total_cases: 199251
+    total_cases: 201194
   SWZ:
     values:
       - continent
@@ -9513,7 +9515,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 46447
+    total_cases: 46454
   ETH:
     values:
       - continent
@@ -9566,7 +9568,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 366097
+    total_cases: 366424
   FRO:
     values:
       - continent
@@ -9716,7 +9718,7 @@ countries:
       - people_fully_vaccinated
       - people_vaccinated_per_hundred
       - people_fully_vaccinated_per_hundred
-    total_cases: 160948
+    total_cases: 161688
   FRA:
     values:
       - continent
@@ -9779,7 +9781,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 7282823
+    total_cases: 7292220
   PYF:
     values:
       - continent
@@ -9958,7 +9960,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 732965
+    total_cases: 738171
   DEU:
     values:
       - continent
@@ -10017,7 +10019,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 4684462
+    total_cases: 4722102
   GHA:
     values:
       - continent
@@ -10143,8 +10145,6 @@ countries:
       - new_tests
       - new_tests_per_thousand
       - reproduction_rate
-      - weekly_hosp_admissions
-      - weekly_hosp_admissions_per_million
       - total_vaccinations
       - people_vaccinated
       - total_vaccinations_per_hundred
@@ -10156,7 +10156,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 760592
+    total_cases: 767376
   GRL:
     values:
       - continent
@@ -10216,7 +10216,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 5850
+    total_cases: 5857
   GTM:
     values:
       - continent
@@ -10271,7 +10271,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 602575
+    total_cases: 603641
   GGY:
     values:
       - continent
@@ -10368,7 +10368,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 6137
+    total_cases: 6149
   GUY:
     values:
       - continent
@@ -10409,7 +10409,7 @@ countries:
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
       - new_vaccinations
-    total_cases: 35800
+    total_cases: 35929
   HTI:
     values:
       - continent
@@ -10453,7 +10453,7 @@ countries:
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
       - new_vaccinations
-    total_cases: 24004
+    total_cases: 24032
   HND:
     values:
       - continent
@@ -10544,7 +10544,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 12352
+    total_cases: 12359
   HUN:
     values:
       - continent
@@ -10604,7 +10604,7 @@ countries:
       - new_vaccinations
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 879092
+    total_cases: 885360
   ISL:
     values:
       - continent
@@ -10666,7 +10666,7 @@ countries:
       - weekly_icu_admissions_per_million
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 13923
+    total_cases: 14087
   IND:
     values:
       - continent
@@ -10719,7 +10719,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 34321025
+    total_cases: 34333754
   IDN:
     values:
       - continent
@@ -10772,7 +10772,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 4246174
+    total_cases: 4246802
   IRN:
     values:
       - continent
@@ -10830,7 +10830,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 5954962
+    total_cases: 5964824
   IRQ:
     values:
       - continent
@@ -10881,7 +10881,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 2058914
+    total_cases: 2060066
   IRL:
     values:
       - continent
@@ -10945,7 +10945,7 @@ countries:
       - new_vaccinations
       - new_vaccinations_smoothed
       - new_vaccinations_smoothed_per_million
-    total_cases: 455346
+    total_cases: 458370
   IMN:
     values:
       - continent
@@ -11029,7 +11029,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1332247
+    total_cases: 1332801
   ITA:
     values:
       - continent
@@ -11093,7 +11093,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 4782802
+    total_cases: 4788704
   JAM:
     values:
       - continent
@@ -11149,7 +11149,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 89216
+    total_cases: 89349
   JPN:
     values:
       - continent
@@ -11204,7 +11204,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 1724128
+    total_cases: 1723070
   JEY:
     values:
       - continent
@@ -11269,7 +11269,7 @@ countries:
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
       - new_vaccinations
-    total_cases: 868493
+    total_cases: 870505
   KAZ:
     values:
       - continent
@@ -11326,7 +11326,7 @@ countries:
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
       - new_vaccinations
-    total_cases: 1024449
+    total_cases: 1025990
   KEN:
     values:
       - continent
@@ -11379,7 +11379,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 253512
+    total_cases: 253661
   KIR:
     values:
       - continent
@@ -11465,7 +11465,7 @@ countries:
       - people_fully_vaccinated
       - people_vaccinated_per_hundred
       - people_fully_vaccinated_per_hundred
-    total_cases: 412752
+    total_cases: 412768
   KGZ:
     values:
       - continent
@@ -11513,7 +11513,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 181499
+    total_cases: 181590
   LAO:
     values:
       - continent
@@ -11566,7 +11566,7 @@ countries:
       - new_tests_smoothed_per_thousand
       - positive_rate
       - tests_per_case
-    total_cases: 42891
+    total_cases: 44061
   LVA:
     values:
       - continent
@@ -11628,7 +11628,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 224513
+    total_cases: 226860
   LBN:
     values:
       - continent
@@ -11681,7 +11681,7 @@ countries:
       - new_tests_per_thousand
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
-    total_cases: 643749
+    total_cases: 644391
   LSO:
     values:
       - continent
@@ -11723,7 +11723,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 21643
+    total_cases: 21672
   LBR:
     values:
       - continent
@@ -11814,7 +11814,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 359019
+    total_cases: 359667
   LIE:
     values:
       - continent
@@ -11864,7 +11864,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - weekly_hosp_admissions
       - weekly_hosp_admissions_per_million
-    total_cases: 3699
+    total_cases: 3708
   LTU:
     values:
       - continent
@@ -11924,7 +11924,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 414817
+    total_cases: 418078
   LUX:
     values:
       - continent
@@ -11956,8 +11956,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - weekly_hosp_admissions
-      - weekly_hosp_admissions_per_million
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -11970,6 +11968,8 @@ countries:
       - new_deaths_smoothed_per_million
       - positive_rate
       - tests_per_case
+      - weekly_hosp_admissions
+      - weekly_hosp_admissions_per_million
       - total_deaths
       - new_deaths
       - total_deaths_per_million
@@ -11988,7 +11988,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 82190
+    total_cases: 82623
   MAC:
     values:
       - continent
@@ -12181,7 +12181,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 2486630
+    total_cases: 2492343
   MDV:
     values:
       - continent
@@ -12231,7 +12231,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 88277
+    total_cases: 88386
   MLI:
     values:
       - continent
@@ -12273,7 +12273,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 16195
+    total_cases: 16233
   MLT:
     values:
       - continent
@@ -12339,7 +12339,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 37736
+    total_cases: 37773
   MHL:
     values:
       - continent
@@ -12410,7 +12410,7 @@ countries:
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
       - new_vaccinations
-    total_cases: 37489
+    total_cases: 37535
   MUS:
     values:
       - continent
@@ -12456,7 +12456,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 18205
+    total_cases: 18314
   MEX:
     values:
       - continent
@@ -12513,7 +12513,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 3811793
+    total_cases: 3814453
   FSM:
     values:
       - continent
@@ -12595,7 +12595,7 @@ countries:
       - new_tests_smoothed_per_thousand
       - positive_rate
       - tests_per_case
-    total_cases: 341675
+    total_cases: 343261
   MCO:
     values:
       - continent
@@ -12689,7 +12689,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 362772
+    total_cases: 364051
   MNE:
     values:
       - continent
@@ -12735,7 +12735,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 145936
+    total_cases: 146663
   MSR:
     values:
       - continent
@@ -12803,7 +12803,7 @@ countries:
       - people_fully_vaccinated
       - people_vaccinated_per_hundred
       - people_fully_vaccinated_per_hundred
-    total_cases: 946766
+    total_cases: 946957
   MOZ:
     values:
       - continent
@@ -12855,7 +12855,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 151325
+    total_cases: 151339
   MMR:
     values:
       - continent
@@ -12908,7 +12908,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 502979
+    total_cases: 503981
   NAM:
     values:
       - continent
@@ -12960,7 +12960,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 128963
+    total_cases: 128967
   NRU:
     values:
       - continent
@@ -13036,7 +13036,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 813828
+    total_cases: 814115
   NLD:
     values:
       - continent
@@ -13097,7 +13097,7 @@ countries:
       - people_vaccinated_per_hundred
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 2196598
+    total_cases: 2206853
   NCL:
     values:
       - continent
@@ -13173,7 +13173,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 6973
+    total_cases: 7139
   NIC:
     values:
       - continent
@@ -13260,7 +13260,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 6399
+    total_cases: 6434
   NGA:
     values:
       - continent
@@ -13311,7 +13311,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 212359
+    total_cases: 212446
   NIU:
     values:
       - continent
@@ -13382,7 +13382,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 203866
+    total_cases: 204416
   NOR:
     values:
       - continent
@@ -13444,7 +13444,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 211755
+    total_cases: 213289
   OMN:
     values:
       - continent
@@ -13498,7 +13498,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 304318
+    total_cases: 304329
   PAK:
     values:
       - continent
@@ -13551,7 +13551,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 1275158
+    total_cases: 1275673
   PLW:
     values:
       - continent
@@ -13623,7 +13623,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 454509
+    total_cases: 454799
   PAN:
     values:
       - continent
@@ -13679,7 +13679,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 473005
+    total_cases: 473089
   PNG:
     values:
       - continent
@@ -13785,7 +13785,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 461184
+    total_cases: 461225
   PER:
     values:
       - continent
@@ -13842,7 +13842,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 2203310
+    total_cases: 2204424
   PHL:
     values:
       - continent
@@ -13898,7 +13898,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 2793898
+    total_cases: 2795642
   PCN:
     values:
       - continent
@@ -13974,7 +13974,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 3045102
+    total_cases: 3060613
   PRT:
     values:
       - continent
@@ -14036,7 +14036,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 1092666
+    total_cases: 1094048
   QAT:
     values:
       - continent
@@ -14089,7 +14089,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 239646
+    total_cases: 239752
   ROU:
     values:
       - continent
@@ -14147,7 +14147,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 1676293
+    total_cases: 1685264
   RUS:
     values:
       - continent
@@ -14205,7 +14205,7 @@ countries:
       - new_vaccinations
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 8494589
+    total_cases: 8533706
   RWA:
     values:
       - continent
@@ -14257,7 +14257,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 99820
+    total_cases: 99854
   SHN:
     values:
       - continent
@@ -14317,7 +14317,7 @@ countries:
       - new_tests_smoothed_per_thousand
       - positive_rate
       - tests_per_case
-    total_cases: 2696
+    total_cases: 2701
   LCA:
     values:
       - continent
@@ -14357,7 +14357,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 12610
+    total_cases: 12645
   VCT:
     values:
       - continent
@@ -14399,7 +14399,7 @@ countries:
       - total_tests
       - total_tests_per_thousand
       - tests_units
-    total_cases: 5050
+    total_cases: 5073
   WSM:
     values:
       - continent
@@ -14472,7 +14472,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 5569
+    total_cases: 5582
   STP:
     values:
       - continent
@@ -14512,7 +14512,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 3715
+    total_cases: 3718
   SAU:
     values:
       - continent
@@ -14563,7 +14563,7 @@ countries:
       - people_fully_vaccinated
       - people_vaccinated_per_hundred
       - people_fully_vaccinated_per_hundred
-    total_cases: 548760
+    total_cases: 548805
   SEN:
     values:
       - continent
@@ -14615,7 +14615,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 73926
+    total_cases: 73931
   SRB:
     values:
       - continent
@@ -14676,7 +14676,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1162482
+    total_cases: 1168608
   SYC:
     values:
       - continent
@@ -14723,7 +14723,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 22301
+    total_cases: 22336
   SLE:
     values:
       - continent
@@ -14821,7 +14821,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 207975
+    total_cases: 210978
   SXM:
     values:
       - continent
@@ -14901,7 +14901,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 493277
+    total_cases: 499990
   SVN:
     values:
       - continent
@@ -14964,7 +14964,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 341699
+    total_cases: 346220
   SLB:
     values:
       - continent
@@ -15096,7 +15096,7 @@ countries:
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
       - new_vaccinations
-    total_cases: 2922735
+    total_cases: 2923054
   KOR:
     values:
       - continent
@@ -15154,7 +15154,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 373120
+    total_cases: 375464
   SSD:
     values:
       - continent
@@ -15201,7 +15201,7 @@ countries:
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
       - new_vaccinations
-    total_cases: 12436
+    total_cases: 12448
   ESP:
     values:
       - continent
@@ -15265,7 +15265,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 5019255
+    total_cases: 5022546
   LKA:
     values:
       - continent
@@ -15317,7 +15317,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 542793
+    total_cases: 543385
   SDN:
     values:
       - continent
@@ -15401,7 +15401,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 49257
+    total_cases: 49362
   SWE:
     values:
       - continent
@@ -15461,7 +15461,7 @@ countries:
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
       - new_vaccinations
-    total_cases: 1175425
+    total_cases: 1176269
   CHE:
     values:
       - continent
@@ -15522,7 +15522,7 @@ countries:
       - new_vaccinations
       - new_vaccinations_smoothed
       - new_vaccinations_smoothed_per_million
-    total_cases: 881660
+    total_cases: 884597
   SYR:
     values:
       - continent
@@ -15605,7 +15605,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 16428
+    total_cases: 16430
   TJK:
     values:
       - continent
@@ -15690,7 +15690,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - new_vaccinations_smoothed
       - new_vaccinations_smoothed_per_million
-    total_cases: 26154
+    total_cases: 26196
   THA:
     values:
       - continent
@@ -15749,7 +15749,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1935442
+    total_cases: 1951572
   TLS:
     values:
       - continent
@@ -15802,7 +15802,7 @@ countries:
       - positive_rate
       - tests_per_case
       - new_vaccinations
-    total_cases: 19790
+    total_cases: 19794
   TGO:
     values:
       - continent
@@ -15854,7 +15854,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 26096
+    total_cases: 26102
   TKL:
     values:
       - continent
@@ -15956,7 +15956,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 58106
+    total_cases: 58441
   TUN:
     values:
       - continent
@@ -16015,7 +16015,7 @@ countries:
       - tests_per_case
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 712982
+    total_cases: 713071
   TUR:
     values:
       - continent
@@ -16069,7 +16069,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 8121196
+    total_cases: 8150678
   TKM:
     values:
       - continent
@@ -16186,7 +16186,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 126321
+    total_cases: 126348
   UKR:
     values:
       - continent
@@ -16242,7 +16242,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 3118140
+    total_cases: 3146617
   ARE:
     values:
       - continent
@@ -16295,7 +16295,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 740136
+    total_cases: 740209
   GBR:
     values:
       - continent
@@ -16359,7 +16359,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 9215683
+    total_cases: 9252646
   USA:
     values:
       - continent
@@ -16423,7 +16423,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 46252795
+    total_cases: 46334856
   URY:
     values:
       - continent
@@ -16481,7 +16481,7 @@ countries:
       - total_boosters_per_hundred
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 394443
+    total_cases: 394679
   UZB:
     values:
       - continent
@@ -16527,7 +16527,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 186793
+    total_cases: 187085
   VUT:
     values:
       - continent
@@ -16623,7 +16623,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 409695
+    total_cases: 410648
   VNM:
     values:
       - continent
@@ -16676,7 +16676,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 939463
+    total_cases: 946043
   WLF:
     values:
       - continent
@@ -16735,7 +16735,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 9810
+    total_cases: 9831
   ZMB:
     values:
       - continent
@@ -16788,7 +16788,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 209781
+    total_cases: 209815
   ZWE:
     values:
       - continent
@@ -16841,4 +16841,4 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 133091
+    total_cases: 133112
