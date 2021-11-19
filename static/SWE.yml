@@ -17402,10 +17402,14 @@
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.45
   reproduction_rate: 1.14
-  new_vaccinations_smoothed: 45327
-  new_vaccinations_smoothed_per_million: 4461
-  new_people_vaccinated_smoothed: 2314
-  new_people_vaccinated_smoothed_per_hundred: 0.023
+  icu_patients: 37
+  icu_patients_per_million: 3.642
+  hosp_patients: 253
+  hosp_patients_per_million: 24.901
+  new_vaccinations_smoothed: 33296
+  new_vaccinations_smoothed_per_million: 3277
+  new_people_vaccinated_smoothed: 2123
+  new_people_vaccinated_smoothed_per_hundred: 0.021
   stringency_index: 19.44
 - date: '2021-11-09'
   total_cases: 1179192
@@ -17421,16 +17425,14 @@
   new_deaths_per_million: 0.787
   new_deaths_smoothed_per_million: 0.352
   reproduction_rate: 1.13
-  total_vaccinations: 14761049
-  people_vaccinated: 7269640
-  people_fully_vaccinated: 6947143
-  new_vaccinations_smoothed: 84918
-  total_vaccinations_per_hundred: 145.28
-  people_vaccinated_per_hundred: 71.55
-  people_fully_vaccinated_per_hundred: 68.38
-  new_vaccinations_smoothed_per_million: 8358
-  new_people_vaccinated_smoothed: 2972
-  new_people_vaccinated_smoothed_per_hundred: 0.029
+  icu_patients: 37
+  icu_patients_per_million: 3.642
+  hosp_patients: 289
+  hosp_patients_per_million: 28.444
+  new_vaccinations_smoothed: 60855
+  new_vaccinations_smoothed_per_million: 5990
+  new_people_vaccinated_smoothed: 2590
+  new_people_vaccinated_smoothed_per_hundred: 0.025
   stringency_index: 19.44
 - date: '2021-11-10'
   total_cases: 1180518
@@ -17446,10 +17448,13 @@
   new_deaths_per_million: 1.083
   new_deaths_smoothed_per_million: 0.464
   reproduction_rate: 1.14
+  icu_patients: 37
+  icu_patients_per_million: 3.642
+  hosp_patients: 275
+  hosp_patients_per_million: 27.067
   total_vaccinations: 14791265
   people_vaccinated: 7271889
   people_fully_vaccinated: 6951829
-  new_vaccinations: 30216
   new_vaccinations_smoothed: 88415
   total_vaccinations_per_hundred: 145.58
   people_vaccinated_per_hundred: 71.57
@@ -17471,6 +17476,10 @@
   total_deaths_per_million: 1484.032
   new_deaths_per_million: 0.197
   new_deaths_smoothed_per_million: 0.394
+  icu_patients: 38
+  icu_patients_per_million: 3.74
+  hosp_patients: 269
+  hosp_patients_per_million: 26.476
   total_vaccinations: 14839396
   people_vaccinated: 7274072
   people_fully_vaccinated: 6958721
@@ -17496,6 +17505,10 @@
   total_deaths_per_million: 1484.426
   new_deaths_per_million: 0.394
   new_deaths_smoothed_per_million: 0.352
+  icu_patients: 37
+  icu_patients_per_million: 3.642
+  hosp_patients: 277
+  hosp_patients_per_million: 27.263
   total_vaccinations: 14898408
   people_vaccinated: 7276486
   people_fully_vaccinated: 6964838
@@ -17521,6 +17534,10 @@
   total_deaths_per_million: 1484.426
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.352
+  icu_patients: 37
+  icu_patients_per_million: 3.642
+  hosp_patients: 277
+  hosp_patients_per_million: 27.263
   new_vaccinations_smoothed: 106630
   new_vaccinations_smoothed_per_million: 10495
   new_people_vaccinated_smoothed: 3237
@@ -17539,6 +17556,12 @@
   total_deaths_per_million: 1484.426
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.352
+  icu_patients: 38
+  icu_patients_per_million: 3.74
+  hosp_patients: 274
+  hosp_patients_per_million: 26.968
+  weekly_icu_admissions: 18.692
+  weekly_icu_admissions_per_million: 1.84
   new_vaccinations_smoothed: 111178
   new_vaccinations_smoothed_per_million: 10943
   new_people_vaccinated_smoothed: 3234
@@ -17557,10 +17580,10 @@
   total_deaths_per_million: 1484.426
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.352
-  new_vaccinations_smoothed: 76136
-  new_vaccinations_smoothed_per_million: 7494
-  new_people_vaccinated_smoothed: 2572
-  new_people_vaccinated_smoothed_per_hundred: 0.025
+  new_vaccinations_smoothed: 88167
+  new_vaccinations_smoothed_per_million: 8678
+  new_people_vaccinated_smoothed: 2763
+  new_people_vaccinated_smoothed_per_hundred: 0.027
   stringency_index: 19.44
 - date: '2021-11-16'
   total_cases: 1185093
@@ -17578,11 +17601,35 @@
   total_vaccinations: 15048702
   people_vaccinated: 7283016
   people_fully_vaccinated: 6977713
-  new_vaccinations_smoothed: 41093
+  new_vaccinations_smoothed: 65156
   total_vaccinations_per_hundred: 148.11
   people_vaccinated_per_hundred: 71.68
   people_fully_vaccinated_per_hundred: 68.68
-  new_vaccinations_smoothed_per_million: 4045
-  new_people_vaccinated_smoothed: 1911
-  new_people_vaccinated_smoothed_per_hundred: 0.019
+  new_vaccinations_smoothed_per_million: 6413
+  new_people_vaccinated_smoothed: 2293
+  new_people_vaccinated_smoothed_per_hundred: 0.023
   stringency_index: 19.44
+- date: '2021-11-17'
+  total_cases: 1186387
+  new_cases: 1294
+  new_cases_smoothed: 838.429
+  total_deaths: 15107
+  new_deaths: 13
+  new_deaths_smoothed: 4.429
+  total_cases_per_million: 116768.547
+  new_cases_per_million: 127.36
+  new_cases_smoothed_per_million: 82.521
+  total_deaths_per_million: 1486.886
+  new_deaths_per_million: 1.28
+  new_deaths_smoothed_per_million: 0.436
+  total_vaccinations: 15099406
+  people_vaccinated: 7285170
+  people_fully_vaccinated: 6982098
+  new_vaccinations: 50704
+  new_vaccinations_smoothed: 44020
+  total_vaccinations_per_hundred: 148.61
+  people_vaccinated_per_hundred: 71.7
+  people_fully_vaccinated_per_hundred: 68.72
+  new_vaccinations_smoothed_per_million: 4333
+  new_people_vaccinated_smoothed: 1897
+  new_people_vaccinated_smoothed_per_hundred: 0.019
