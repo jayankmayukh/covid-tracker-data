@@ -26,10 +26,8 @@
 - date: '2020-03-24'
   total_cases: 10
   new_cases: 2
-  new_cases_smoothed: 1.429
   total_cases_per_million: 34.696
   new_cases_per_million: 6.939
-  new_cases_smoothed_per_million: 4.957
 - date: '2020-03-25'
   total_cases: 14
   new_cases: 4
@@ -106,53 +104,37 @@
   new_cases_smoothed_per_million: 1.487
 - date: '2020-04-04'
   total_cases: 17
-  new_cases: -1
-  new_cases_smoothed: 0.286
   total_cases_per_million: 58.983
-  new_cases_per_million: -3.47
-  new_cases_smoothed_per_million: 0.991
 - date: '2020-04-05'
   total_cases: 18
   new_cases: 1
-  new_cases_smoothed: 0.429
   total_cases_per_million: 62.453
   new_cases_per_million: 3.47
-  new_cases_smoothed_per_million: 1.487
 - date: '2020-04-06'
   total_cases: 18
   new_cases: 0
-  new_cases_smoothed: 0.429
   total_cases_per_million: 62.453
   new_cases_per_million: 0
-  new_cases_smoothed_per_million: 1.487
 - date: '2020-04-07'
   total_cases: 18
   new_cases: 0
-  new_cases_smoothed: 0.286
   total_cases_per_million: 62.453
   new_cases_per_million: 0
-  new_cases_smoothed_per_million: 0.991
 - date: '2020-04-08'
   total_cases: 18
   new_cases: 0
-  new_cases_smoothed: 0.286
   total_cases_per_million: 62.453
   new_cases_per_million: 0
-  new_cases_smoothed_per_million: 0.991
 - date: '2020-04-09'
   total_cases: 18
   new_cases: 0
-  new_cases_smoothed: 0
   total_cases_per_million: 62.453
   new_cases_per_million: 0
-  new_cases_smoothed_per_million: 0
 - date: '2020-04-10'
   total_cases: 18
   new_cases: 0
-  new_cases_smoothed: 0
   total_cases_per_million: 62.453
   new_cases_per_million: 0
-  new_cases_smoothed_per_million: 0
 - date: '2020-04-11'
   total_cases: 18
   new_cases: 0
@@ -4866,13 +4848,11 @@
   new_cases_smoothed: 16.714
   total_deaths: 1
   new_deaths: 1
-  new_deaths_smoothed: 0.143
   total_cases_per_million: 877.811
   new_cases_per_million: 176.95
   new_cases_smoothed_per_million: 57.992
   total_deaths_per_million: 3.47
   new_deaths_per_million: 3.47
-  new_deaths_smoothed_per_million: 0.496
   new_vaccinations_smoothed: 1654
   new_vaccinations_smoothed_per_million: 5739
   new_people_vaccinated_smoothed: 1244
@@ -4883,13 +4863,11 @@
   new_cases_smoothed: 37.857
   total_deaths: 1
   new_deaths: 0
-  new_deaths_smoothed: 0.143
   total_cases_per_million: 1391.313
   new_cases_per_million: 513.502
   new_cases_smoothed_per_million: 131.349
   total_deaths_per_million: 3.47
   new_deaths_per_million: 0
-  new_deaths_smoothed_per_million: 0.496
   new_vaccinations_smoothed: 1903
   new_vaccinations_smoothed_per_million: 6603
   new_people_vaccinated_smoothed: 1470
@@ -4900,13 +4878,11 @@
   new_cases_smoothed: 80.714
   total_deaths: 1
   new_deaths: 0
-  new_deaths_smoothed: 0.143
   total_cases_per_million: 2432.195
   new_cases_per_million: 1040.882
   new_cases_smoothed_per_million: 280.047
   total_deaths_per_million: 3.47
   new_deaths_per_million: 0
-  new_deaths_smoothed_per_million: 0.496
   new_vaccinations_smoothed: 2152
   new_vaccinations_smoothed_per_million: 7467
   new_people_vaccinated_smoothed: 1696
@@ -4917,13 +4893,11 @@
   new_cases_smoothed: 117.286
   total_deaths: 1
   new_deaths: 0
-  new_deaths_smoothed: 0.143
   total_cases_per_million: 3320.415
   new_cases_per_million: 888.22
   new_cases_smoothed_per_million: 406.935
   total_deaths_per_million: 3.47
   new_deaths_per_million: 0
-  new_deaths_smoothed_per_million: 0.496
   new_vaccinations_smoothed: 2400
   new_vaccinations_smoothed_per_million: 8327
   new_people_vaccinated_smoothed: 1923
@@ -4934,13 +4908,11 @@
   new_cases_smoothed: 172.143
   total_deaths: 4
   new_deaths: 3
-  new_deaths_smoothed: 0.571
   total_cases_per_million: 4677.032
   new_cases_per_million: 1356.617
   new_cases_smoothed_per_million: 597.268
   total_deaths_per_million: 13.878
   new_deaths_per_million: 10.409
-  new_deaths_smoothed_per_million: 1.983
   total_vaccinations: 176813
   people_vaccinated: 101168
   people_fully_vaccinated: 75645
@@ -4957,13 +4929,11 @@
   new_cases_smoothed: 170.857
   total_deaths: 4
   new_deaths: 0
-  new_deaths_smoothed: 0.571
   total_cases_per_million: 4677.032
   new_cases_per_million: 0
   new_cases_smoothed_per_million: 592.807
   total_deaths_per_million: 13.878
   new_deaths_per_million: 0
-  new_deaths_smoothed_per_million: 1.983
   new_vaccinations_smoothed: 2882
   new_vaccinations_smoothed_per_million: 9999
   new_people_vaccinated_smoothed: 2376
@@ -7842,10 +7812,14 @@
   new_cases: 911
   new_cases_smoothed: 1353.286
   total_deaths: 299
+  new_deaths: 0
+  new_deaths_smoothed: 1.714
   total_cases_per_million: 181533.359
   new_cases_per_million: 3160.813
   new_cases_smoothed_per_million: 4695.371
   total_deaths_per_million: 1037.413
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 5.948
   new_vaccinations_smoothed: 138
   new_vaccinations_smoothed_per_million: 479
   new_people_vaccinated_smoothed: 56
@@ -7855,10 +7829,14 @@
   new_cases: 686
   new_cases_smoothed: 1303.143
   total_deaths: 299
+  new_deaths: 0
+  new_deaths_smoothed: 1.714
   total_cases_per_million: 183913.51
   new_cases_per_million: 2380.151
   new_cases_smoothed_per_million: 4521.395
   total_deaths_per_million: 1037.413
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 5.948
   new_vaccinations_smoothed: 131
   new_vaccinations_smoothed_per_million: 455
   new_people_vaccinated_smoothed: 53
@@ -7868,10 +7846,14 @@
   new_cases: 0
   new_cases_smoothed: 1303.143
   total_deaths: 299
+  new_deaths: 0
+  new_deaths_smoothed: 1.714
   total_cases_per_million: 183913.51
   new_cases_per_million: 0
   new_cases_smoothed_per_million: 4521.395
   total_deaths_per_million: 1037.413
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 5.948
   new_vaccinations_smoothed: 123
   new_vaccinations_smoothed_per_million: 427
   new_people_vaccinated_smoothed: 50
@@ -7881,10 +7863,14 @@
   new_cases: 0
   new_cases_smoothed: 1303.143
   total_deaths: 299
+  new_deaths: 0
+  new_deaths_smoothed: 1.714
   total_cases_per_million: 183913.51
   new_cases_per_million: 0
   new_cases_smoothed_per_million: 4521.395
   total_deaths_per_million: 1037.413
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 5.948
   new_vaccinations_smoothed: 116
   new_vaccinations_smoothed_per_million: 402
   new_people_vaccinated_smoothed: 46
@@ -7894,10 +7880,14 @@
   new_cases: 1170
   new_cases_smoothed: 1264.429
   total_deaths: 299
+  new_deaths: 0
+  new_deaths_smoothed: 1.714
   total_cases_per_million: 187972.951
   new_cases_per_million: 4059.441
   new_cases_smoothed_per_million: 4387.071
   total_deaths_per_million: 1037.413
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 5.948
   total_vaccinations: 366924
   people_vaccinated: 187685
   people_fully_vaccinated: 179239
@@ -7908,3 +7898,16 @@
   new_vaccinations_smoothed_per_million: 375
   new_people_vaccinated_smoothed: 43
   new_people_vaccinated_smoothed_per_hundred: 0.015
+- date: '2022-03-01'
+  total_cases: 54856
+  new_cases: 679
+  new_cases_smoothed: 1342
+  total_deaths: 300
+  new_deaths: 1
+  new_deaths_smoothed: 1.857
+  total_cases_per_million: 190328.815
+  new_cases_per_million: 2355.864
+  new_cases_smoothed_per_million: 4656.214
+  total_deaths_per_million: 1040.882
+  new_deaths_per_million: 3.47
+  new_deaths_smoothed_per_million: 6.444

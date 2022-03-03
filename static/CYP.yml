@@ -65,10 +65,8 @@
 - date: '2020-03-15'
   total_cases: 21
   new_cases: 7
-  new_cases_smoothed: 3
   total_cases_per_million: 23.437
   new_cases_per_million: 7.812
-  new_cases_smoothed_per_million: 3.348
   icu_patients: 0
   icu_patients_per_million: 0
   hosp_patients: 0
@@ -202,13 +200,11 @@
   new_cases_smoothed: 12
   total_deaths: 3
   new_deaths: 3
-  new_deaths_smoothed: 0.429
   total_cases_per_million: 138.392
   new_cases_per_million: 8.929
   new_cases_smoothed_per_million: 13.393
   total_deaths_per_million: 3.348
   new_deaths_per_million: 3.348
-  new_deaths_smoothed_per_million: 0.478
   reproduction_rate: 1.18
   icu_patients: 5
   icu_patients_per_million: 5.58
@@ -221,13 +217,11 @@
   new_cases_smoothed: 10.571
   total_deaths: 3
   new_deaths: 0
-  new_deaths_smoothed: 0.429
   total_cases_per_million: 147.321
   new_cases_per_million: 8.929
   new_cases_smoothed_per_million: 11.798
   total_deaths_per_million: 3.348
   new_deaths_per_million: 0
-  new_deaths_smoothed_per_million: 0.478
   reproduction_rate: 1.18
   icu_patients: 6
   icu_patients_per_million: 6.696
@@ -240,13 +234,11 @@
   new_cases_smoothed: 12.571
   total_deaths: 3
   new_deaths: 0
-  new_deaths_smoothed: 0.429
   total_cases_per_million: 162.946
   new_cases_per_million: 15.625
   new_cases_smoothed_per_million: 14.031
   total_deaths_per_million: 3.348
   new_deaths_per_million: 0
-  new_deaths_smoothed_per_million: 0.478
   reproduction_rate: 1.21
   icu_patients: 8
   icu_patients_per_million: 8.929
@@ -259,13 +251,11 @@
   new_cases_smoothed: 13.571
   total_deaths: 5
   new_deaths: 2
-  new_deaths_smoothed: 0.714
   total_cases_per_million: 180.803
   new_cases_per_million: 17.857
   new_cases_smoothed_per_million: 15.147
   total_deaths_per_million: 5.58
   new_deaths_per_million: 2.232
-  new_deaths_smoothed_per_million: 0.797
   reproduction_rate: 1.24
   icu_patients: 11
   icu_patients_per_million: 12.277
@@ -281,13 +271,11 @@
   new_cases_smoothed: 13.571
   total_deaths: 5
   new_deaths: 0
-  new_deaths_smoothed: 0.714
   total_cases_per_million: 199.776
   new_cases_per_million: 18.973
   new_cases_smoothed_per_million: 15.147
   total_deaths_per_million: 5.58
   new_deaths_per_million: 0
-  new_deaths_smoothed_per_million: 0.797
   reproduction_rate: 1.27
   icu_patients: 9
   icu_patients_per_million: 10.045
@@ -313,13 +301,11 @@
   new_cases_smoothed: 17
   total_deaths: 6
   new_deaths: 1
-  new_deaths_smoothed: 0.857
   total_cases_per_million: 238.838
   new_cases_per_million: 39.062
   new_cases_smoothed_per_million: 18.973
   total_deaths_per_million: 6.696
   new_deaths_per_million: 1.116
-  new_deaths_smoothed_per_million: 0.957
   reproduction_rate: 1.3
   icu_patients: 10
   icu_patients_per_million: 11.161
@@ -23341,6 +23327,10 @@
   positive_rate: 0.018
   tests_per_case: 55.7
   tests_units: tests performed
+  new_vaccinations_smoothed: 1292
+  new_vaccinations_smoothed_per_million: 1442
+  new_people_vaccinated_smoothed: 127
+  new_people_vaccinated_smoothed_per_hundred: 0.014
   stringency_index: 25
 - date: '2022-02-25'
   total_cases: 315341
@@ -23365,6 +23355,10 @@
   positive_rate: 0.0174
   tests_per_case: 57.5
   tests_units: tests performed
+  new_vaccinations_smoothed: 1212
+  new_vaccinations_smoothed_per_million: 1353
+  new_people_vaccinated_smoothed: 123
+  new_people_vaccinated_smoothed_per_hundred: 0.014
   stringency_index: 25
 - date: '2022-02-26'
   total_cases: 318773
@@ -23389,6 +23383,18 @@
   positive_rate: 0.0192
   tests_per_case: 52
   tests_units: tests performed
+  total_vaccinations: 1773485
+  people_vaccinated: 687926
+  people_fully_vaccinated: 645292
+  total_boosters: 440267
+  new_vaccinations_smoothed: 1133
+  total_vaccinations_per_hundred: 197.93
+  people_vaccinated_per_hundred: 76.78
+  people_fully_vaccinated_per_hundred: 72.02
+  total_boosters_per_hundred: 49.14
+  new_vaccinations_smoothed_per_million: 1265
+  new_people_vaccinated_smoothed: 118
+  new_people_vaccinated_smoothed_per_hundred: 0.013
   stringency_index: 25
 - date: '2022-02-27'
   total_cases: 320160
@@ -23427,3 +23433,16 @@
   new_deaths_per_million: 2.232
   new_deaths_smoothed_per_million: 4.943
   stringency_index: 25
+- date: '2022-03-01'
+  total_cases: 324502
+  new_cases: 1986
+  new_cases_smoothed: 1894.714
+  total_deaths: 857
+  new_deaths: 1
+  new_deaths_smoothed: 3.857
+  total_cases_per_million: 362165.39
+  new_cases_per_million: 2216.505
+  new_cases_smoothed_per_million: 2114.625
+  total_deaths_per_million: 956.468
+  new_deaths_per_million: 1.116
+  new_deaths_smoothed_per_million: 4.305
