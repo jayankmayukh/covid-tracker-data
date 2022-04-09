@@ -3,7 +3,6 @@
   new_cases: 4
   total_cases_per_million: 0.58
   new_cases_per_million: 0.58
-  stringency_index: 21.3
   excess_mortality_cumulative_absolute: -1442.6
   excess_mortality_cumulative: -6.04
   excess_mortality: -8.84
@@ -13,13 +12,11 @@
   new_cases: 0
   total_cases_per_million: 0.58
   new_cases_per_million: 0
-  stringency_index: 21.3
 - date: '2020-03-10'
   total_cases: 4
   new_cases: 0
   total_cases_per_million: 0.58
   new_cases_per_million: 0
-  stringency_index: 21.3
 - date: '2020-03-11'
   total_cases: 7
   new_cases: 3
@@ -29,7 +26,6 @@
   new_cases_per_million: 0.435
   total_deaths_per_million: 0.145
   new_deaths_per_million: 0.145
-  stringency_index: 26.85
 - date: '2020-03-12'
   total_cases: 7
   new_cases: 0
@@ -39,17 +35,17 @@
   new_cases_per_million: 0
   total_deaths_per_million: 0.145
   new_deaths_per_million: 0
-  stringency_index: 26.85
 - date: '2020-03-13'
   total_cases: 23
   new_cases: 16
+  new_cases_smoothed: 3.286
   total_deaths: 1
   new_deaths: 0
   total_cases_per_million: 3.335
   new_cases_per_million: 2.32
+  new_cases_smoothed_per_million: 0.476
   total_deaths_per_million: 0.145
   new_deaths_per_million: 0
-  stringency_index: 50.93
 - date: '2020-03-14'
   total_cases: 41
   new_cases: 18
@@ -61,7 +57,6 @@
   new_cases_smoothed_per_million: 0.849
   total_deaths_per_million: 0.29
   new_deaths_per_million: 0.145
-  stringency_index: 50.93
 - date: '2020-03-15'
   total_cases: 51
   new_cases: 10
@@ -73,7 +68,6 @@
   new_cases_smoothed_per_million: 0.974
   total_deaths_per_million: 0.29
   new_deaths_per_million: 0
-  stringency_index: 50.93
   excess_mortality_cumulative_absolute: -1551.7
   excess_mortality_cumulative: -5.95
   excess_mortality: -5
@@ -84,12 +78,13 @@
   new_cases_smoothed: 6.857
   total_deaths: 2
   new_deaths: 0
+  new_deaths_smoothed: 0.286
   total_cases_per_million: 7.54
   new_cases_per_million: 0.145
   new_cases_smoothed_per_million: 0.994
   total_deaths_per_million: 0.29
   new_deaths_per_million: 0
-  stringency_index: 50.93
+  new_deaths_smoothed_per_million: 0.041
 - date: '2020-03-17'
   total_cases: 67
   new_cases: 15
@@ -103,7 +98,6 @@
   total_deaths_per_million: 0.29
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.041
-  stringency_index: 56.48
 - date: '2020-03-18'
   total_cases: 92
   new_cases: 25
@@ -117,7 +111,6 @@
   total_deaths_per_million: 0.29
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.021
-  stringency_index: 70.37
 - date: '2020-03-19'
   total_cases: 94
   new_cases: 2
@@ -131,7 +124,6 @@
   total_deaths_per_million: 0.435
   new_deaths_per_million: 0.145
   new_deaths_smoothed_per_million: 0.041
-  stringency_index: 70.37
 - date: '2020-03-20'
   total_cases: 127
   new_cases: 33
@@ -145,7 +137,6 @@
   total_deaths_per_million: 0.435
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.041
-  stringency_index: 70.37
 - date: '2020-03-21'
   total_cases: 163
   new_cases: 36
@@ -160,7 +151,6 @@
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.021
   reproduction_rate: 1.32
-  stringency_index: 73.15
 - date: '2020-03-22'
   total_cases: 187
   new_cases: 24
@@ -175,7 +165,6 @@
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.021
   reproduction_rate: 1.28
-  stringency_index: 73.15
   excess_mortality_cumulative_absolute: -1649.8
   excess_mortality_cumulative: -5.84
   excess_mortality: -4.58
@@ -194,7 +183,6 @@
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.021
   reproduction_rate: 1.23
-  stringency_index: 73.15
 - date: '2020-03-24'
   total_cases: 218
   new_cases: 17
@@ -209,7 +197,6 @@
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.021
   reproduction_rate: 1.19
-  stringency_index: 73.15
 - date: '2020-03-25'
   total_cases: 242
   new_cases: 24
@@ -224,7 +211,6 @@
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.021
   reproduction_rate: 1.17
-  stringency_index: 73.15
 - date: '2020-03-26'
   total_cases: 264
   new_cases: 22
@@ -239,7 +225,6 @@
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
   reproduction_rate: 1.16
-  stringency_index: 73.15
 - date: '2020-03-27'
   total_cases: 293
   new_cases: 29
@@ -254,7 +239,6 @@
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
   reproduction_rate: 1.17
-  stringency_index: 73.15
 - date: '2020-03-28'
   total_cases: 331
   new_cases: 38
@@ -269,7 +253,6 @@
   new_deaths_per_million: 0.58
   new_deaths_smoothed_per_million: 0.083
   reproduction_rate: 1.18
-  stringency_index: 73.15
 - date: '2020-03-29'
   total_cases: 346
   new_cases: 15
@@ -284,7 +267,6 @@
   new_deaths_per_million: 0.145
   new_deaths_smoothed_per_million: 0.104
   reproduction_rate: 1.16
-  stringency_index: 73.15
   excess_mortality_cumulative_absolute: -1691.7
   excess_mortality_cumulative: -5.57
   excess_mortality: -1.97
@@ -303,7 +285,6 @@
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.104
   reproduction_rate: 1.15
-  stringency_index: 73.15
 - date: '2020-03-31'
   total_cases: 399
   new_cases: 40
@@ -318,7 +299,6 @@
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.104
   reproduction_rate: 1.15
-  stringency_index: 73.15
 - date: '2020-04-01'
   total_cases: 422
   new_cases: 23
@@ -333,7 +313,6 @@
   new_deaths_per_million: 0.29
   new_deaths_smoothed_per_million: 0.145
   reproduction_rate: 1.12
-  stringency_index: 71.3
 - date: '2020-04-02'
   total_cases: 457
   new_cases: 35
@@ -348,7 +327,6 @@
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.145
   reproduction_rate: 1.09
-  stringency_index: 71.3
 - date: '2020-04-03'
   total_cases: 485
   new_cases: 28
@@ -363,7 +341,6 @@
   new_deaths_per_million: 0.58
   new_deaths_smoothed_per_million: 0.228
   reproduction_rate: 1.06
-  stringency_index: 71.3
 - date: '2020-04-04'
   total_cases: 503
   new_cases: 18
@@ -378,7 +355,6 @@
   new_deaths_per_million: 0.435
   new_deaths_smoothed_per_million: 0.207
   reproduction_rate: 1.04
-  stringency_index: 71.3
 - date: '2020-04-05'
   total_cases: 531
   new_cases: 28
@@ -393,7 +369,6 @@
   new_deaths_per_million: 0.435
   new_deaths_smoothed_per_million: 0.249
   reproduction_rate: 1.05
-  stringency_index: 71.3
   excess_mortality_cumulative_absolute: -1762.2
   excess_mortality_cumulative: -5.43
   excess_mortality: -3.34
@@ -416,7 +391,6 @@
   icu_patients_per_million: 3.77
   hosp_patients: 210
   hosp_patients_per_million: 30.45
-  stringency_index: 71.3
 - date: '2020-04-07'
   total_cases: 577
   new_cases: 28
@@ -435,7 +409,6 @@
   icu_patients_per_million: 3.77
   hosp_patients: 213
   hosp_patients_per_million: 30.885
-  stringency_index: 71.3
 - date: '2020-04-08'
   total_cases: 593
   new_cases: 16
@@ -454,7 +427,6 @@
   icu_patients_per_million: 3.915
   hosp_patients: 233
   hosp_patients_per_million: 33.784
-  stringency_index: 71.3
 - date: '2020-04-09'
   total_cases: 618
   new_cases: 25
@@ -473,7 +445,6 @@
   icu_patients_per_million: 4.64
   hosp_patients: 233
   hosp_patients_per_million: 33.784
-  stringency_index: 71.3
 - date: '2020-04-10'
   total_cases: 635
   new_cases: 17
@@ -492,7 +463,6 @@
   icu_patients_per_million: 4.785
   hosp_patients: 231
   hosp_patients_per_million: 33.494
-  stringency_index: 71.3
 - date: '2020-04-11'
   total_cases: 661
   new_cases: 26
@@ -514,7 +484,6 @@
   total_tests: 18502
   total_tests_per_thousand: 2.683
   tests_units: tests performed
-  stringency_index: 71.3
 - date: '2020-04-12'
   total_cases: 675
   new_cases: 14
@@ -534,7 +503,6 @@
   hosp_patients: 230
   hosp_patients_per_million: 33.35
   tests_units: tests performed
-  stringency_index: 71.3
   excess_mortality_cumulative_absolute: -1786.9
   excess_mortality_cumulative: -5.18
   excess_mortality: -1.2
@@ -558,7 +526,6 @@
   hosp_patients: 230
   hosp_patients_per_million: 33.35
   tests_units: tests performed
-  stringency_index: 71.3
 - date: '2020-04-14'
   total_cases: 713
   new_cases: 28
@@ -578,7 +545,6 @@
   hosp_patients: 209
   hosp_patients_per_million: 30.305
   tests_units: tests performed
-  stringency_index: 71.3
 - date: '2020-04-15'
   total_cases: 747
   new_cases: 34
@@ -598,7 +564,6 @@
   hosp_patients: 218
   hosp_patients_per_million: 31.61
   tests_units: tests performed
-  stringency_index: 73.15
 - date: '2020-04-16'
   total_cases: 800
   new_cases: 53
@@ -618,7 +583,6 @@
   hosp_patients: 227
   hosp_patients_per_million: 32.915
   tests_units: tests performed
-  stringency_index: 73.15
 - date: '2020-04-17'
   total_cases: 846
   new_cases: 46
@@ -638,7 +602,6 @@
   hosp_patients: 244
   hosp_patients_per_million: 35.379
   tests_units: tests performed
-  stringency_index: 73.15
 - date: '2020-04-18'
   total_cases: 878
   new_cases: 32
@@ -662,7 +625,6 @@
   positive_rate: 0.0313
   tests_per_case: 31.9
   tests_units: tests performed
-  stringency_index: 73.15
 - date: '2020-04-19'
   total_cases: 894
   new_cases: 16
@@ -688,7 +650,6 @@
   positive_rate: 0.0316
   tests_per_case: 31.6
   tests_units: tests performed
-  stringency_index: 73.15
   excess_mortality_cumulative_absolute: -1809.2
   excess_mortality_cumulative: -4.95
   excess_mortality: -1.09
@@ -716,7 +677,6 @@
   positive_rate: 0.0398
   tests_per_case: 25.1
   tests_units: tests performed
-  stringency_index: 73.15
 - date: '2020-04-21'
   total_cases: 975
   new_cases: 46
@@ -740,7 +700,6 @@
   positive_rate: 0.0491
   tests_per_case: 20.4
   tests_units: tests performed
-  stringency_index: 73.15
 - date: '2020-04-22'
   total_cases: 1024
   new_cases: 49
@@ -766,7 +725,6 @@
   positive_rate: 0.061
   tests_per_case: 16.4
   tests_units: tests performed
-  stringency_index: 73.15
 - date: '2020-04-23'
   total_cases: 1097
   new_cases: 73
@@ -790,7 +748,6 @@
   positive_rate: 0.0483
   tests_per_case: 20.7
   tests_units: tests performed
-  stringency_index: 73.15
 - date: '2020-04-24'
   total_cases: 1234
   new_cases: 137
@@ -814,7 +771,6 @@
   positive_rate: 0.05
   tests_per_case: 20
   tests_units: tests performed
-  stringency_index: 73.15
 - date: '2020-04-25'
   total_cases: 1247
   new_cases: 13
@@ -838,7 +794,6 @@
   positive_rate: 0.0394
   tests_per_case: 25.4
   tests_units: tests performed
-  stringency_index: 73.15
 - date: '2020-04-26'
   total_cases: 1300
   new_cases: 53
@@ -862,7 +817,6 @@
   positive_rate: 0.0369
   tests_per_case: 27.1
   tests_units: tests performed
-  stringency_index: 73.15
   excess_mortality_cumulative_absolute: -1861.3
   excess_mortality_cumulative: -4.82
   excess_mortality: -2.56
@@ -890,7 +844,6 @@
   positive_rate: 0.0324
   tests_per_case: 30.9
   tests_units: tests performed
-  stringency_index: 73.15
 - date: '2020-04-28'
   total_cases: 1399
   new_cases: 36
@@ -914,7 +867,6 @@
   positive_rate: 0.0268
   tests_per_case: 37.3
   tests_units: tests performed
-  stringency_index: 73.15
 - date: '2020-04-29'
   total_cases: 1447
   new_cases: 48
@@ -940,7 +892,6 @@
   positive_rate: 0.0232
   tests_per_case: 43
   tests_units: tests performed
-  stringency_index: 73.15
 - date: '2020-04-30'
   total_cases: 1506
   new_cases: 59
@@ -964,7 +915,6 @@
   positive_rate: 0.0252
   tests_per_case: 39.8
   tests_units: tests performed
-  stringency_index: 73.15
 - date: '2020-05-01'
   total_cases: 1555
   new_cases: 49
@@ -990,7 +940,6 @@
   positive_rate: 0.0224
   tests_per_case: 44.6
   tests_units: tests performed
-  stringency_index: 73.15
 - date: '2020-05-02'
   total_cases: 1594
   new_cases: 39
@@ -1018,7 +967,6 @@
   positive_rate: 0.027
   tests_per_case: 37
   tests_units: tests performed
-  stringency_index: 73.15
 - date: '2020-05-03'
   total_cases: 1618
   new_cases: 24
@@ -1046,7 +994,6 @@
   positive_rate: 0.0284
   tests_per_case: 35.3
   tests_units: tests performed
-  stringency_index: 73.15
   excess_mortality_cumulative_absolute: -1963.4
   excess_mortality_cumulative: -4.84
   excess_mortality: -5.12
@@ -1078,7 +1025,6 @@
   positive_rate: 0.0316
   tests_per_case: 31.6
   tests_units: tests performed
-  stringency_index: 73.15
 - date: '2020-05-05'
   total_cases: 1704
   new_cases: 52
@@ -1106,7 +1052,6 @@
   positive_rate: 0.0396
   tests_per_case: 25.2
   tests_units: tests performed
-  stringency_index: 73.15
 - date: '2020-05-06'
   total_cases: 1778
   new_cases: 74
@@ -1134,7 +1079,6 @@
   positive_rate: 0.0505
   tests_per_case: 19.8
   tests_units: tests performed
-  stringency_index: 62.04
 - date: '2020-05-07'
   total_cases: 1829
   new_cases: 51
@@ -1162,7 +1106,6 @@
   positive_rate: 0.0457
   tests_per_case: 21.9
   tests_units: tests performed
-  stringency_index: 62.04
 - date: '2020-05-08'
   total_cases: 1872
   new_cases: 43
@@ -1190,7 +1133,6 @@
   positive_rate: 0.0405
   tests_per_case: 24.7
   tests_units: tests performed
-  stringency_index: 60.19
 - date: '2020-05-09'
   total_cases: 1921
   new_cases: 49
@@ -1218,7 +1160,6 @@
   positive_rate: 0.0386
   tests_per_case: 25.9
   tests_units: tests performed
-  stringency_index: 60.19
 - date: '2020-05-10'
   total_cases: 1965
   new_cases: 44
@@ -1246,7 +1187,6 @@
   positive_rate: 0.0403
   tests_per_case: 24.8
   tests_units: tests performed
-  stringency_index: 60.19
   excess_mortality_cumulative_absolute: -2059.9
   excess_mortality_cumulative: -4.84
   excess_mortality: -4.8
@@ -1278,7 +1218,6 @@
   positive_rate: 0.0398
   tests_per_case: 25.1
   tests_units: tests performed
-  stringency_index: 60.19
 - date: '2020-05-12'
   total_cases: 2023
   new_cases: 33
@@ -1306,7 +1245,6 @@
   positive_rate: 0.0379
   tests_per_case: 26.4
   tests_units: tests performed
-  stringency_index: 60.19
 - date: '2020-05-13'
   total_cases: 2069
   new_cases: 46
@@ -1334,7 +1272,6 @@
   positive_rate: 0.0349
   tests_per_case: 28.6
   tests_units: tests performed
-  stringency_index: 60.19
 - date: '2020-05-14'
   total_cases: 2100
   new_cases: 31
@@ -1362,7 +1299,6 @@
   positive_rate: 0.0309
   tests_per_case: 32.4
   tests_units: tests performed
-  stringency_index: 62.96
 - date: '2020-05-15'
   total_cases: 2138
   new_cases: 38
@@ -1390,7 +1326,6 @@
   positive_rate: 0.0296
   tests_per_case: 33.8
   tests_units: tests performed
-  stringency_index: 62.96
 - date: '2020-05-16'
   total_cases: 2175
   new_cases: 37
@@ -1418,7 +1353,6 @@
   positive_rate: 0.0303
   tests_per_case: 33
   tests_units: tests performed
-  stringency_index: 62.96
 - date: '2020-05-17'
   total_cases: 2211
   new_cases: 36
@@ -1446,7 +1380,6 @@
   positive_rate: 0.0295
   tests_per_case: 33.9
   tests_units: tests performed
-  stringency_index: 62.96
   excess_mortality_cumulative_absolute: -1923.6
   excess_mortality_cumulative: -4.32
   excess_mortality: 6.99
@@ -1478,7 +1411,6 @@
   positive_rate: 0.0295
   tests_per_case: 33.9
   tests_units: tests performed
-  stringency_index: 62.96
 - date: '2020-05-19'
   total_cases: 2259
   new_cases: 24
@@ -1506,7 +1438,6 @@
   positive_rate: 0.0291
   tests_per_case: 34.3
   tests_units: tests performed
-  stringency_index: 62.96
 - date: '2020-05-20'
   total_cases: 2292
   new_cases: 33
@@ -1534,7 +1465,6 @@
   positive_rate: 0.0274
   tests_per_case: 36.5
   tests_units: tests performed
-  stringency_index: 62.96
 - date: '2020-05-21'
   total_cases: 2331
   new_cases: 39
@@ -1558,7 +1488,6 @@
   positive_rate: 0.0281
   tests_per_case: 35.5
   tests_units: tests performed
-  stringency_index: 59.26
 - date: '2020-05-22'
   total_cases: 2372
   new_cases: 41
@@ -1584,7 +1513,6 @@
   positive_rate: 0.0282
   tests_per_case: 35.4
   tests_units: tests performed
-  stringency_index: 56.48
 - date: '2020-05-23'
   total_cases: 2408
   new_cases: 36
@@ -1612,7 +1540,6 @@
   positive_rate: 0.0267
   tests_per_case: 37.5
   tests_units: tests performed
-  stringency_index: 56.48
 - date: '2020-05-24'
   total_cases: 2427
   new_cases: 19
@@ -1640,7 +1567,6 @@
   positive_rate: 0.0254
   tests_per_case: 39.4
   tests_units: tests performed
-  stringency_index: 56.48
   excess_mortality_cumulative_absolute: -1978.9
   excess_mortality_cumulative: -4.26
   excess_mortality: -2.83
@@ -1672,7 +1598,6 @@
   positive_rate: 0.023
   tests_per_case: 43.4
   tests_units: tests performed
-  stringency_index: 56.48
 - date: '2020-05-26'
   total_cases: 2443
   new_cases: 10
@@ -1700,7 +1625,6 @@
   positive_rate: 0.0229
   tests_per_case: 43.6
   tests_units: tests performed
-  stringency_index: 56.48
 - date: '2020-05-27'
   total_cases: 2460
   new_cases: 17
@@ -1728,7 +1652,6 @@
   positive_rate: 0.0206
   tests_per_case: 48.5
   tests_units: tests performed
-  stringency_index: 56.48
 - date: '2020-05-28'
   total_cases: 2477
   new_cases: 17
@@ -1756,7 +1679,6 @@
   positive_rate: 0.0189
   tests_per_case: 53
   tests_units: tests performed
-  stringency_index: 56.48
 - date: '2020-05-29'
   total_cases: 2485
   new_cases: 8
@@ -1784,7 +1706,6 @@
   positive_rate: 0.0145
   tests_per_case: 68.9
   tests_units: tests performed
-  stringency_index: 56.48
 - date: '2020-05-30'
   total_cases: 2499
   new_cases: 14
@@ -1812,7 +1733,6 @@
   positive_rate: 0.0121
   tests_per_case: 82.8
   tests_units: tests performed
-  stringency_index: 50.93
 - date: '2020-05-31'
   total_cases: 2513
   new_cases: 14
@@ -1840,7 +1760,6 @@
   positive_rate: 0.0119
   tests_per_case: 84.3
   tests_units: tests performed
-  stringency_index: 44.44
   excess_mortality_cumulative_absolute: -2113.8
   excess_mortality_cumulative: -4.36
   excess_mortality: -6.98
@@ -1872,7 +1791,6 @@
   positive_rate: 0.012
   tests_per_case: 83.2
   tests_units: tests performed
-  stringency_index: 44.44
 - date: '2020-06-02'
   total_cases: 2538
   new_cases: 19
@@ -1900,7 +1818,6 @@
   positive_rate: 0.0118
   tests_per_case: 85
   tests_units: tests performed
-  stringency_index: 44.44
 - date: '2020-06-03'
   total_cases: 2560
   new_cases: 22
@@ -1928,7 +1845,6 @@
   positive_rate: 0.0127
   tests_per_case: 78.7
   tests_units: tests performed
-  stringency_index: 44.44
 - date: '2020-06-04'
   total_cases: 2585
   new_cases: 25
@@ -1956,7 +1872,6 @@
   positive_rate: 0.0132
   tests_per_case: 75.6
   tests_units: tests performed
-  stringency_index: 44.44
 - date: '2020-06-05'
   total_cases: 2627
   new_cases: 42
@@ -1984,7 +1899,6 @@
   positive_rate: 0.0167
   tests_per_case: 59.8
   tests_units: tests performed
-  stringency_index: 44.44
 - date: '2020-06-06'
   total_cases: 2711
   new_cases: 84
@@ -2012,7 +1926,6 @@
   positive_rate: 0.0254
   tests_per_case: 39.4
   tests_units: tests performed
-  stringency_index: 44.44
 - date: '2020-06-07'
   total_cases: 2727
   new_cases: 16
@@ -2040,7 +1953,6 @@
   positive_rate: 0.025
   tests_per_case: 40
   tests_units: tests performed
-  stringency_index: 44.44
   excess_mortality_cumulative_absolute: -2091.3
   excess_mortality_cumulative: -4.15
   excess_mortality: 1.18
@@ -2072,7 +1984,6 @@
   positive_rate: 0.0337
   tests_per_case: 29.7
   tests_units: tests performed
-  stringency_index: 44.44
 - date: '2020-06-09'
   total_cases: 2889
   new_cases: 79
@@ -2100,7 +2011,6 @@
   positive_rate: 0.0398
   tests_per_case: 25.1
   tests_units: tests performed
-  stringency_index: 44.44
 - date: '2020-06-10'
   total_cases: 2993
   new_cases: 104
@@ -2128,7 +2038,6 @@
   positive_rate: 0.0468
   tests_per_case: 21.4
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-06-11'
   total_cases: 3086
   new_cases: 93
@@ -2156,7 +2065,6 @@
   positive_rate: 0.0502
   tests_per_case: 19.9
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-06-12'
   total_cases: 3191
   new_cases: 105
@@ -2184,7 +2092,6 @@
   positive_rate: 0.0534
   tests_per_case: 18.7
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-06-13'
   total_cases: 3266
   new_cases: 75
@@ -2212,7 +2119,6 @@
   positive_rate: 0.0462
   tests_per_case: 21.7
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-06-14'
   total_cases: 3290
   new_cases: 24
@@ -2240,7 +2146,6 @@
   positive_rate: 0.0427
   tests_per_case: 23.4
   tests_units: tests performed
-  stringency_index: 38.89
   excess_mortality_cumulative_absolute: -2056
   excess_mortality_cumulative: -3.93
   excess_mortality: 1.84
@@ -2272,7 +2177,6 @@
   positive_rate: 0.0375
   tests_per_case: 26.7
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-06-16'
   total_cases: 3453
   new_cases: 112
@@ -2300,7 +2204,6 @@
   positive_rate: 0.034
   tests_per_case: 29.4
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-06-17'
   total_cases: 3542
   new_cases: 89
@@ -2324,7 +2227,6 @@
   positive_rate: 0.0325
   tests_per_case: 30.8
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-06-18'
   total_cases: 3674
   new_cases: 132
@@ -2350,7 +2252,6 @@
   positive_rate: 0.0353
   tests_per_case: 28.3
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-06-19'
   total_cases: 3755
   new_cases: 81
@@ -2374,7 +2275,6 @@
   positive_rate: 0.0355
   tests_per_case: 28.2
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-06-20'
   total_cases: 3872
   new_cases: 117
@@ -2400,7 +2300,6 @@
   positive_rate: 0.0401
   tests_per_case: 24.9
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-06-21'
   total_cases: 3905
   new_cases: 33
@@ -2424,7 +2323,6 @@
   positive_rate: 0.0458
   tests_per_case: 21.8
   tests_units: tests performed
-  stringency_index: 36.11
   excess_mortality_cumulative_absolute: -2068.1
   excess_mortality_cumulative: -3.82
   excess_mortality: -0.62
@@ -2454,7 +2352,6 @@
   positive_rate: 0.0523
   tests_per_case: 19.1
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-06-23'
   total_cases: 4114
   new_cases: 130
@@ -2482,7 +2379,6 @@
   positive_rate: 0.0589
   tests_per_case: 17
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-06-24'
   total_cases: 4242
   new_cases: 128
@@ -2510,7 +2406,6 @@
   positive_rate: 0.0579
   tests_per_case: 17.3
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-06-25'
   total_cases: 4408
   new_cases: 166
@@ -2538,7 +2433,6 @@
   positive_rate: 0.0563
   tests_per_case: 17.8
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-06-26'
   total_cases: 4513
   new_cases: 105
@@ -2566,7 +2460,6 @@
   positive_rate: 0.0544
   tests_per_case: 18.4
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-06-27'
   total_cases: 4625
   new_cases: 112
@@ -2594,7 +2487,6 @@
   positive_rate: 0.0508
   tests_per_case: 19.7
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-06-28'
   total_cases: 4691
   new_cases: 66
@@ -2622,7 +2514,6 @@
   positive_rate: 0.0489
   tests_per_case: 20.4
   tests_units: tests performed
-  stringency_index: 36.11
   excess_mortality_cumulative_absolute: -2102
   excess_mortality_cumulative: -3.74
   excess_mortality: -1.75
@@ -2654,7 +2545,6 @@
   positive_rate: 0.0503
   tests_per_case: 19.9
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-06-30'
   total_cases: 4989
   new_cases: 158
@@ -2682,7 +2572,6 @@
   positive_rate: 0.0471
   tests_per_case: 21.2
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-01'
   total_cases: 5154
   new_cases: 165
@@ -2710,7 +2599,6 @@
   positive_rate: 0.0481
   tests_per_case: 20.8
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-02'
   total_cases: 5315
   new_cases: 161
@@ -2738,7 +2626,6 @@
   positive_rate: 0.0481
   tests_per_case: 20.8
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-03'
   total_cases: 5497
   new_cases: 182
@@ -2766,7 +2653,6 @@
   positive_rate: 0.0512
   tests_per_case: 19.5
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-04'
   total_cases: 5677
   new_cases: 180
@@ -2794,7 +2680,6 @@
   positive_rate: 0.0553
   tests_per_case: 18.1
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-05'
   total_cases: 5740
   new_cases: 63
@@ -2822,7 +2707,6 @@
   positive_rate: 0.0499
   tests_per_case: 20
   tests_units: tests performed
-  stringency_index: 36.11
   excess_mortality_cumulative_absolute: -1842.9
   excess_mortality_cumulative: -3.18
   excess_mortality: 13.79
@@ -2854,7 +2738,6 @@
   positive_rate: 0.0476
   tests_per_case: 21
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-07'
   total_cases: 6102
   new_cases: 188
@@ -2878,7 +2761,6 @@
   positive_rate: 0.0558
   tests_per_case: 17.9
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-08'
   total_cases: 6342
   new_cases: 240
@@ -2904,7 +2786,6 @@
   positive_rate: 0.0648
   tests_per_case: 15.4
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-09'
   total_cases: 6672
   new_cases: 330
@@ -2932,7 +2813,6 @@
   positive_rate: 0.0688
   tests_per_case: 14.5
   tests_units: tests performed
-  stringency_index: 44.44
 - date: '2020-07-10'
   total_cases: 6964
   new_cases: 292
@@ -2960,7 +2840,6 @@
   positive_rate: 0.0724
   tests_per_case: 13.8
   tests_units: tests performed
-  stringency_index: 47.22
 - date: '2020-07-11'
   total_cases: 7175
   new_cases: 211
@@ -2988,7 +2867,6 @@
   positive_rate: 0.0673
   tests_per_case: 14.9
   tests_units: tests performed
-  stringency_index: 47.22
 - date: '2020-07-12'
   total_cases: 7252
   new_cases: 77
@@ -3016,7 +2894,6 @@
   positive_rate: 0.0701
   tests_per_case: 14.3
   tests_units: tests performed
-  stringency_index: 47.22
   excess_mortality_cumulative_absolute: -1720.8
   excess_mortality_cumulative: -2.87
   excess_mortality: 6.36
@@ -3048,7 +2925,6 @@
   positive_rate: 0.0749
   tests_per_case: 13.4
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-14'
   total_cases: 7645
   new_cases: 234
@@ -3076,7 +2952,6 @@
   positive_rate: 0.0715
   tests_per_case: 14
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-15'
   total_cases: 7877
   new_cases: 232
@@ -3104,7 +2979,6 @@
   positive_rate: 0.062
   tests_per_case: 16.1
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-16'
   total_cases: 8144
   new_cases: 267
@@ -3132,7 +3006,6 @@
   positive_rate: 0.0569
   tests_per_case: 17.6
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-17'
   total_cases: 8442
   new_cases: 298
@@ -3160,7 +3033,6 @@
   positive_rate: 0.0515
   tests_per_case: 19.4
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-18'
   total_cases: 8638
   new_cases: 196
@@ -3188,7 +3060,6 @@
   positive_rate: 0.0504
   tests_per_case: 19.8
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-19'
   total_cases: 8733
   new_cases: 95
@@ -3216,7 +3087,6 @@
   positive_rate: 0.0525
   tests_per_case: 19.1
   tests_units: tests performed
-  stringency_index: 36.11
   excess_mortality_cumulative_absolute: -1726.9
   excess_mortality_cumulative: -2.79
   excess_mortality: -0.33
@@ -3248,7 +3118,6 @@
   positive_rate: 0.0503
   tests_per_case: 19.9
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-21'
   total_cases: 9254
   new_cases: 325
@@ -3276,7 +3145,6 @@
   positive_rate: 0.0448
   tests_per_case: 22.3
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-22'
   total_cases: 9584
   new_cases: 330
@@ -3300,7 +3168,6 @@
   positive_rate: 0.0501
   tests_per_case: 20
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-23'
   total_cases: 9853
   new_cases: 269
@@ -3326,7 +3193,6 @@
   positive_rate: 0.0537
   tests_per_case: 18.6
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-24'
   total_cases: 10123
   new_cases: 270
@@ -3354,7 +3220,6 @@
   positive_rate: 0.0539
   tests_per_case: 18.6
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-25'
   total_cases: 10312
   new_cases: 189
@@ -3382,7 +3247,6 @@
   positive_rate: 0.0486
   tests_per_case: 20.6
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-26'
   total_cases: 10427
   new_cases: 115
@@ -3406,7 +3270,6 @@
   positive_rate: 0.0469
   tests_per_case: 21.3
   tests_units: tests performed
-  stringency_index: 36.11
   excess_mortality_cumulative_absolute: -1692.8
   excess_mortality_cumulative: -2.66
   excess_mortality: 1.75
@@ -3436,7 +3299,6 @@
   positive_rate: 0.0462
   tests_per_case: 21.6
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-28'
   total_cases: 10871
   new_cases: 250
@@ -3464,7 +3326,6 @@
   positive_rate: 0.0492
   tests_per_case: 20.3
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-29'
   total_cases: 11155
   new_cases: 284
@@ -3492,7 +3353,6 @@
   positive_rate: 0.0434
   tests_per_case: 23
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-30'
   total_cases: 11420
   new_cases: 265
@@ -3520,7 +3380,6 @@
   positive_rate: 0.0395
   tests_per_case: 25.3
   tests_units: tests performed
-  stringency_index: 36.11
 - date: '2020-07-31'
   total_cases: 11690
   new_cases: 270
@@ -3548,7 +3407,6 @@
   positive_rate: 0.0398
   tests_per_case: 25.1
   tests_units: tests performed
-  stringency_index: 41.67
 - date: '2020-08-01'
   total_cases: 11836
   new_cases: 146
@@ -3576,7 +3434,6 @@
   positive_rate: 0.0433
   tests_per_case: 23.1
   tests_units: tests performed
-  stringency_index: 41.67
 - date: '2020-08-02'
   total_cases: 11955
   new_cases: 119
@@ -3604,7 +3461,6 @@
   positive_rate: 0.0463
   tests_per_case: 21.6
   tests_units: tests performed
-  stringency_index: 41.67
   excess_mortality_cumulative_absolute: -1473.5
   excess_mortality_cumulative: -2.24
   excess_mortality: 11.29
@@ -3636,7 +3492,6 @@
   positive_rate: 0.0459
   tests_per_case: 21.8
   tests_units: tests performed
-  stringency_index: 41.67
 - date: '2020-08-04'
   total_cases: 12414
   new_cases: 255
@@ -3664,7 +3519,6 @@
   positive_rate: 0.046
   tests_per_case: 21.7
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-05'
   total_cases: 12717
   new_cases: 303
@@ -3688,7 +3542,6 @@
   positive_rate: 0.0521
   tests_per_case: 19.2
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-06'
   total_cases: 13014
   new_cases: 297
@@ -3714,7 +3567,6 @@
   positive_rate: 0.0609
   tests_per_case: 16.4
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-07'
   total_cases: 13209
   new_cases: 195
@@ -3742,7 +3594,6 @@
   positive_rate: 0.0562
   tests_per_case: 17.8
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-08'
   total_cases: 13343
   new_cases: 134
@@ -3770,7 +3621,6 @@
   positive_rate: 0.0521
   tests_per_case: 19.2
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-09'
   total_cases: 13396
   new_cases: 53
@@ -3798,7 +3648,6 @@
   positive_rate: 0.0464
   tests_per_case: 21.5
   tests_units: tests performed
-  stringency_index: 38.89
   excess_mortality_cumulative_absolute: -1328.2
   excess_mortality_cumulative: -1.96
   excess_mortality: 7.59
@@ -3830,7 +3679,6 @@
   positive_rate: 0.048
   tests_per_case: 20.8
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-11'
   total_cases: 13722
   new_cases: 210
@@ -3858,7 +3706,6 @@
   positive_rate: 0.0493
   tests_per_case: 20.3
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-12'
   total_cases: 13893
   new_cases: 171
@@ -3886,7 +3733,6 @@
   positive_rate: 0.0405
   tests_per_case: 24.7
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-13'
   total_cases: 13893
   new_cases: 0
@@ -3914,7 +3760,6 @@
   positive_rate: 0.0281
   tests_per_case: 35.6
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-14'
   total_cases: 14243
   new_cases: 350
@@ -3942,7 +3787,6 @@
   positive_rate: 0.0336
   tests_per_case: 29.8
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-15'
   total_cases: 14333
   new_cases: 90
@@ -3970,7 +3814,6 @@
   positive_rate: 0.0321
   tests_per_case: 31.2
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-16'
   total_cases: 14365
   new_cases: 32
@@ -3998,7 +3841,6 @@
   positive_rate: 0.0323
   tests_per_case: 31
   tests_units: tests performed
-  stringency_index: 38.89
   excess_mortality_cumulative_absolute: -1193.5
   excess_mortality_cumulative: -1.72
   excess_mortality: 7.32
@@ -4030,7 +3872,6 @@
   positive_rate: 0.0335
   tests_per_case: 29.9
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-18'
   total_cases: 14669
   new_cases: 169
@@ -4058,7 +3899,6 @@
   positive_rate: 0.0305
   tests_per_case: 32.8
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-19'
   total_cases: 14820
   new_cases: 151
@@ -4086,7 +3926,6 @@
   positive_rate: 0.0316
   tests_per_case: 31.7
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-20'
   total_cases: 14962
   new_cases: 142
@@ -4114,7 +3953,6 @@
   positive_rate: 0.0325
   tests_per_case: 30.8
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-21'
   total_cases: 15131
   new_cases: 169
@@ -4142,7 +3980,6 @@
   positive_rate: 0.0262
   tests_per_case: 38.1
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-22'
   total_cases: 15131
   new_cases: 0
@@ -4170,7 +4007,6 @@
   positive_rate: 0.0233
   tests_per_case: 43
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-23'
   total_cases: 15287
   new_cases: 156
@@ -4198,7 +4034,6 @@
   positive_rate: 0.0264
   tests_per_case: 37.9
   tests_units: tests performed
-  stringency_index: 38.89
   excess_mortality_cumulative_absolute: -1095.6
   excess_mortality_cumulative: -1.54
   excess_mortality: 5.4
@@ -4230,7 +4065,6 @@
   positive_rate: 0.0243
   tests_per_case: 41.2
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-25'
   total_cases: 15589
   new_cases: 203
@@ -4258,7 +4092,6 @@
   positive_rate: 0.0264
   tests_per_case: 37.8
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-26'
   total_cases: 15751
   new_cases: 162
@@ -4286,7 +4119,6 @@
   positive_rate: 0.0226
   tests_per_case: 44.3
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-27'
   total_cases: 15908
   new_cases: 157
@@ -4310,7 +4142,6 @@
   positive_rate: 0.026
   tests_per_case: 38.5
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-28'
   total_cases: 16065
   new_cases: 157
@@ -4336,7 +4167,6 @@
   positive_rate: 0.028
   tests_per_case: 35.7
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-29'
   total_cases: 16164
   new_cases: 99
@@ -4364,7 +4194,6 @@
   positive_rate: 0.031
   tests_per_case: 32.3
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-08-30'
   total_cases: 16190
   new_cases: 26
@@ -4392,7 +4221,6 @@
   positive_rate: 0.025
   tests_per_case: 40.1
   tests_units: tests performed
-  stringency_index: 38.89
   excess_mortality_cumulative_absolute: -958.7
   excess_mortality_cumulative: -1.31
   excess_mortality: 7.61
@@ -4420,7 +4248,6 @@
   positive_rate: 0.0244
   tests_per_case: 41
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-09-01'
   total_cases: 16454
   new_cases: 188
@@ -4446,7 +4273,6 @@
   positive_rate: 0.025
   tests_per_case: 40
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-09-02'
   total_cases: 16617
   new_cases: 163
@@ -4474,7 +4300,6 @@
   positive_rate: 0.0276
   tests_per_case: 36.2
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-09-03'
   total_cases: 16775
   new_cases: 158
@@ -4502,7 +4327,6 @@
   positive_rate: 0.0263
   tests_per_case: 38
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-09-04'
   total_cases: 16954
   new_cases: 179
@@ -4530,7 +4354,6 @@
   positive_rate: 0.0246
   tests_per_case: 40.7
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-09-05'
   total_cases: 17050
   new_cases: 96
@@ -4558,7 +4381,6 @@
   positive_rate: 0.0233
   tests_per_case: 42.9
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-09-06'
   total_cases: 17089
   new_cases: 39
@@ -4586,7 +4408,6 @@
   positive_rate: 0.0246
   tests_per_case: 40.6
   tests_units: tests performed
-  stringency_index: 38.89
   excess_mortality_cumulative_absolute: -806.8
   excess_mortality_cumulative: -1.08
   excess_mortality: 8.47
@@ -4614,7 +4435,6 @@
   positive_rate: 0.0239
   tests_per_case: 41.9
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-09-08'
   total_cases: 17313
   new_cases: 167
@@ -4640,7 +4460,6 @@
   positive_rate: 0.023
   tests_per_case: 43.4
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-09-09'
   total_cases: 17435
   new_cases: 122
@@ -4668,7 +4487,6 @@
   positive_rate: 0.0229
   tests_per_case: 43.6
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-09-10'
   total_cases: 17598
   new_cases: 163
@@ -4692,7 +4510,6 @@
   positive_rate: 0.0234
   tests_per_case: 42.7
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-09-11'
   total_cases: 17799
   new_cases: 201
@@ -4718,7 +4535,6 @@
   positive_rate: 0.0255
   tests_per_case: 39.2
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-09-12'
   total_cases: 17891
   new_cases: 92
@@ -4746,7 +4562,6 @@
   positive_rate: 0.0308
   tests_per_case: 32.5
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-09-13'
   total_cases: 17918
   new_cases: 27
@@ -4770,7 +4585,6 @@
   positive_rate: 0.036
   tests_per_case: 27.8
   tests_units: tests performed
-  stringency_index: 38.89
   excess_mortality_cumulative_absolute: -693.1
   excess_mortality_cumulative: -0.9
   excess_mortality: 6.32
@@ -4800,7 +4614,6 @@
   positive_rate: 0.0437
   tests_per_case: 22.9
   tests_units: tests performed
-  stringency_index: 38.89
 - date: '2020-09-15'
   total_cases: 18216
   new_cases: 155
@@ -4828,7 +4641,6 @@
   positive_rate: 0.035
   tests_per_case: 28.6
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-09-16'
   total_cases: 18390
   new_cases: 174
@@ -4856,7 +4668,6 @@
   positive_rate: 0.0374
   tests_per_case: 26.7
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-09-17'
   total_cases: 18544
   new_cases: 154
@@ -4880,7 +4691,6 @@
   positive_rate: 0.0403
   tests_per_case: 24.8
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-09-18'
   total_cases: 18733
   new_cases: 189
@@ -4906,7 +4716,6 @@
   positive_rate: 0.0436
   tests_per_case: 22.9
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-09-19'
   total_cases: 18819
   new_cases: 86
@@ -4934,7 +4743,6 @@
   positive_rate: 0.0331
   tests_per_case: 30.2
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-09-20'
   total_cases: 18863
   new_cases: 44
@@ -4958,7 +4766,6 @@
   positive_rate: 0.0335
   tests_per_case: 29.9
   tests_units: tests performed
-  stringency_index: 35.19
   excess_mortality_cumulative_absolute: -636.6
   excess_mortality_cumulative: -0.81
   excess_mortality: 3.15
@@ -4988,7 +4795,6 @@
   positive_rate: 0.0336
   tests_per_case: 29.8
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-09-22'
   total_cases: 19123
   new_cases: 109
@@ -5016,7 +4822,6 @@
   positive_rate: 0.038
   tests_per_case: 26.3
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-09-23'
   total_cases: 19283
   new_cases: 160
@@ -5044,7 +4849,6 @@
   positive_rate: 0.0404
   tests_per_case: 24.7
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-09-24'
   total_cases: 19573
   new_cases: 290
@@ -5072,7 +4876,6 @@
   positive_rate: 0.0373
   tests_per_case: 26.8
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-09-25'
   total_cases: 19828
   new_cases: 255
@@ -5096,7 +4899,6 @@
   positive_rate: 0.0403
   tests_per_case: 24.8
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-09-26'
   total_cases: 19997
   new_cases: 169
@@ -5122,7 +4924,6 @@
   positive_rate: 0.0569
   tests_per_case: 17.6
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-09-27'
   total_cases: 20055
   new_cases: 58
@@ -5150,7 +4951,6 @@
   positive_rate: 0.0523
   tests_per_case: 19.1
   tests_units: tests performed
-  stringency_index: 35.19
   excess_mortality_cumulative_absolute: -577.1
   excess_mortality_cumulative: -0.72
   excess_mortality: 3.33
@@ -5182,7 +4982,6 @@
   positive_rate: 0.054
   tests_per_case: 18.5
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-09-29'
   total_cases: 20547
   new_cases: 276
@@ -5210,7 +5009,6 @@
   positive_rate: 0.0603
   tests_per_case: 16.6
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-09-30'
   total_cases: 20833
   new_cases: 286
@@ -5238,7 +5036,6 @@
   positive_rate: 0.0613
   tests_per_case: 16.3
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-01'
   total_cases: 20833
   new_cases: 0
@@ -5266,7 +5063,6 @@
   positive_rate: 0.0577
   tests_per_case: 17.3
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-02'
   total_cases: 21336
   new_cases: 503
@@ -5294,7 +5090,6 @@
   positive_rate: 0.0624
   tests_per_case: 16
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-03'
   total_cases: 21518
   new_cases: 182
@@ -5322,7 +5117,6 @@
   positive_rate: 0.0575
   tests_per_case: 17.4
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-04'
   total_cases: 21587
   new_cases: 69
@@ -5350,7 +5144,6 @@
   positive_rate: 0.0576
   tests_per_case: 17.4
   tests_units: tests performed
-  stringency_index: 35.19
   excess_mortality_cumulative_absolute: -519.2
   excess_mortality_cumulative: -0.63
   excess_mortality: 3
@@ -5382,7 +5175,6 @@
   positive_rate: 0.0597
   tests_per_case: 16.7
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-06'
   total_cases: 22306
   new_cases: 436
@@ -5410,7 +5202,6 @@
   positive_rate: 0.0647
   tests_per_case: 15.4
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-07'
   total_cases: 22743
   new_cases: 437
@@ -5438,7 +5229,6 @@
   positive_rate: 0.0685
   tests_per_case: 14.6
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-08'
   total_cases: 23259
   new_cases: 516
@@ -5466,7 +5256,6 @@
   positive_rate: 0.0883
   tests_per_case: 11.3
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-09'
   total_cases: 23871
   new_cases: 612
@@ -5494,7 +5283,6 @@
   positive_rate: 0.0911
   tests_per_case: 11
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-10'
   total_cases: 24319
   new_cases: 448
@@ -5522,7 +5310,6 @@
   positive_rate: 0.0964
   tests_per_case: 10.4
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-11'
   total_cases: 24402
   new_cases: 83
@@ -5550,7 +5337,6 @@
   positive_rate: 0.0938
   tests_per_case: 10.7
   tests_units: tests performed
-  stringency_index: 35.19
   excess_mortality_cumulative_absolute: -401.9
   excess_mortality_cumulative: -0.48
   excess_mortality: 5.96
@@ -5582,7 +5368,6 @@
   positive_rate: 0.1042
   tests_per_case: 9.6
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-13'
   total_cases: 25774
   new_cases: 785
@@ -5610,7 +5395,6 @@
   positive_rate: 0.1136
   tests_per_case: 8.8
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-14'
   total_cases: 26593
   new_cases: 819
@@ -5638,7 +5422,6 @@
   positive_rate: 0.1245
   tests_per_case: 8
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-15'
   total_cases: 27507
   new_cases: 914
@@ -5666,7 +5449,6 @@
   positive_rate: 0.1316
   tests_per_case: 7.6
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-16'
   total_cases: 28505
   new_cases: 998
@@ -5694,7 +5476,6 @@
   positive_rate: 0.1388
   tests_per_case: 7.2
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-17'
   total_cases: 29108
   new_cases: 603
@@ -5722,7 +5503,6 @@
   positive_rate: 0.1377
   tests_per_case: 7.3
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-18'
   total_cases: 29503
   new_cases: 395
@@ -5750,7 +5530,6 @@
   positive_rate: 0.1433
   tests_per_case: 7
   tests_units: tests performed
-  stringency_index: 35.19
   excess_mortality_cumulative_absolute: -282.8
   excess_mortality_cumulative: -0.33
   excess_mortality: 5.84
@@ -5782,7 +5561,6 @@
   positive_rate: 0.1539
   tests_per_case: 6.5
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-20'
   total_cases: 31863
   new_cases: 1336
@@ -5810,7 +5588,6 @@
   positive_rate: 0.1688
   tests_per_case: 5.9
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-21'
   total_cases: 33335
   new_cases: 1472
@@ -5838,7 +5615,6 @@
   positive_rate: 0.1615
   tests_per_case: 6.2
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-22'
   total_cases: 34930
   new_cases: 1595
@@ -5866,7 +5642,6 @@
   positive_rate: 0.1664
   tests_per_case: 6
   tests_units: tests performed
-  stringency_index: 35.19
 - date: '2020-10-23'
   total_cases: 36519
   new_cases: 1589
@@ -5894,7 +5669,6 @@
   positive_rate: 0.1694
   tests_per_case: 5.9
   tests_units: tests performed
-  stringency_index: 39.35
 - date: '2020-10-24'
   total_cases: 37562
   new_cases: 1043
@@ -5922,7 +5696,6 @@
   positive_rate: 0.1701
   tests_per_case: 5.9
   tests_units: tests performed
-  stringency_index: 39.35
 - date: '2020-10-25'
   total_cases: 37889
   new_cases: 327
@@ -5950,7 +5723,6 @@
   positive_rate: 0.1607
   tests_per_case: 6.2
   tests_units: tests performed
-  stringency_index: 39.35
   excess_mortality_cumulative_absolute: 56.9000000000001
   excess_mortality_cumulative: 0.06
   excess_mortality: 16.72
@@ -5982,7 +5754,6 @@
   positive_rate: 0.1817
   tests_per_case: 5.5
   tests_units: tests performed
-  stringency_index: 39.35
 - date: '2020-10-27'
   total_cases: 42701
   new_cases: 2569
@@ -6010,7 +5781,6 @@
   positive_rate: 0.1931
   tests_per_case: 5.2
   tests_units: tests performed
-  stringency_index: 39.35
 - date: '2020-10-28'
   total_cases: 45461
   new_cases: 2760
@@ -6038,7 +5808,6 @@
   positive_rate: 0.2171
   tests_per_case: 4.6
   tests_units: tests performed
-  stringency_index: 39.35
 - date: '2020-10-29'
   total_cases: 48150
   new_cases: 2689
@@ -6066,7 +5835,6 @@
   positive_rate: 0.2317
   tests_per_case: 4.3
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-10-30'
   total_cases: 51041
   new_cases: 2891
@@ -6094,7 +5862,6 @@
   positive_rate: 0.2445
   tests_per_case: 4.1
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-10-31'
   total_cases: 52844
   new_cases: 1803
@@ -6122,7 +5889,6 @@
   positive_rate: 0.2457
   tests_per_case: 4.1
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-01'
   total_cases: 54069
   new_cases: 1225
@@ -6150,7 +5916,6 @@
   positive_rate: 0.2595
   tests_per_case: 3.9
   tests_units: tests performed
-  stringency_index: 48.15
   excess_mortality_cumulative_absolute: 721.8
   excess_mortality_cumulative: 0.8
   excess_mortality: 32.17
@@ -6182,7 +5947,6 @@
   positive_rate: 0.2496
   tests_per_case: 4
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-03'
   total_cases: 60537
   new_cases: 4041
@@ -6210,7 +5974,6 @@
   positive_rate: 0.271
   tests_per_case: 3.7
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-04'
   total_cases: 64591
   new_cases: 4054
@@ -6238,7 +6001,6 @@
   positive_rate: 0.2914
   tests_per_case: 3.4
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-05'
   total_cases: 68345
   new_cases: 3754
@@ -6266,7 +6028,6 @@
   positive_rate: 0.2931
   tests_per_case: 3.4
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-06'
   total_cases: 72184
   new_cases: 3839
@@ -6294,7 +6055,6 @@
   positive_rate: 0.3079
   tests_per_case: 3.2
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-07'
   total_cases: 74485
   new_cases: 2301
@@ -6322,7 +6082,6 @@
   positive_rate: 0.3097
   tests_per_case: 3.2
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-08'
   total_cases: 75160
   new_cases: 675
@@ -6350,7 +6109,6 @@
   positive_rate: 0.2957
   tests_per_case: 3.4
   tests_units: tests performed
-  stringency_index: 48.15
   excess_mortality_cumulative_absolute: 1873.5
   excess_mortality_cumulative: 2.03
   excess_mortality: 55.26
@@ -6382,7 +6140,6 @@
   positive_rate: 0.3305
   tests_per_case: 3
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-10'
   total_cases: 83366
   new_cases: 4390
@@ -6410,7 +6167,6 @@
   positive_rate: 0.3312
   tests_per_case: 3
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-11'
   total_cases: 87311
   new_cases: 3945
@@ -6438,7 +6194,6 @@
   positive_rate: 0.3296
   tests_per_case: 3
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-12'
   total_cases: 90725
   new_cases: 3414
@@ -6466,7 +6221,6 @@
   positive_rate: 0.3363
   tests_per_case: 3
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-13'
   total_cases: 94937
   new_cases: 4212
@@ -6494,7 +6248,6 @@
   positive_rate: 0.3538
   tests_per_case: 2.8
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-14'
   total_cases: 97435
   new_cases: 2498
@@ -6522,7 +6275,6 @@
   positive_rate: 0.365
   tests_per_case: 2.7
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-15'
   total_cases: 98251
   new_cases: 816
@@ -6550,7 +6302,6 @@
   positive_rate: 0.3809
   tests_per_case: 2.6
   tests_units: tests performed
-  stringency_index: 48.15
   excess_mortality_cumulative_absolute: 3716.6
   excess_mortality_cumulative: 3.94
   excess_mortality: 87.56
@@ -6582,7 +6333,6 @@
   positive_rate: 0.3725
   tests_per_case: 2.7
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-17'
   total_cases: 106598
   new_cases: 4828
@@ -6610,7 +6360,6 @@
   positive_rate: 0.3853
   tests_per_case: 2.6
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-18'
   total_cases: 110536
   new_cases: 3938
@@ -6638,7 +6387,6 @@
   positive_rate: 0.3818
   tests_per_case: 2.6
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-19'
   total_cases: 114435
   new_cases: 3899
@@ -6666,7 +6414,6 @@
   positive_rate: 0.3955
   tests_per_case: 2.5
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-20'
   total_cases: 118418
   new_cases: 3983
@@ -6694,7 +6441,6 @@
   positive_rate: 0.3825
   tests_per_case: 2.6
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-21'
   total_cases: 120697
   new_cases: 2279
@@ -6722,7 +6468,6 @@
   positive_rate: 0.3959
   tests_per_case: 2.5
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-22'
   total_cases: 121820
   new_cases: 1123
@@ -6750,7 +6495,6 @@
   positive_rate: 0.4061
   tests_per_case: 2.5
   tests_units: tests performed
-  stringency_index: 48.15
   excess_mortality_cumulative_absolute: 6060.9
   excess_mortality_cumulative: 6.28
   excess_mortality: 113.65
@@ -6782,7 +6526,6 @@
   positive_rate: 0.3992
   tests_per_case: 2.5
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-24'
   total_cases: 129348
   new_cases: 4382
@@ -6810,7 +6553,6 @@
   positive_rate: 0.3962
   tests_per_case: 2.5
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-25'
   total_cases: 133060
   new_cases: 3712
@@ -6838,7 +6580,6 @@
   positive_rate: 0.4002
   tests_per_case: 2.5
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-26'
   total_cases: 136628
   new_cases: 3568
@@ -6866,7 +6607,6 @@
   positive_rate: 0.4024
   tests_per_case: 2.5
   tests_units: tests performed
-  stringency_index: 48.15
 - date: '2020-11-27'
   total_cases: 139955
   new_cases: 3327
@@ -6894,7 +6634,6 @@
   positive_rate: 0.3993
   tests_per_case: 2.5
   tests_units: tests performed
-  stringency_index: 57.41
 - date: '2020-11-28'
   total_cases: 141747
   new_cases: 1792
@@ -6922,7 +6661,6 @@
   positive_rate: 0.3947
   tests_per_case: 2.5
   tests_units: tests performed
-  stringency_index: 57.41
 - date: '2020-11-29'
   total_cases: 142486
   new_cases: 739
@@ -6950,7 +6688,6 @@
   positive_rate: 0.3934
   tests_per_case: 2.5
   tests_units: tests performed
-  stringency_index: 57.41
   excess_mortality_cumulative_absolute: 8717.8
   excess_mortality_cumulative: 8.84
   excess_mortality: 127.61
@@ -6982,7 +6719,6 @@
   positive_rate: 0.3933
   tests_per_case: 2.5
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-01'
   total_cases: 148775
   new_cases: 3475
@@ -7010,7 +6746,6 @@
   positive_rate: 0.3788
   tests_per_case: 2.6
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-02'
   total_cases: 151913
   new_cases: 3138
@@ -7038,7 +6773,6 @@
   positive_rate: 0.3781
   tests_per_case: 2.6
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-03'
   total_cases: 155193
   new_cases: 3280
@@ -7066,7 +6800,6 @@
   positive_rate: 0.3749
   tests_per_case: 2.7
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-04'
   total_cases: 158807
   new_cases: 3614
@@ -7094,7 +6827,6 @@
   positive_rate: 0.3808
   tests_per_case: 2.6
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-05'
   total_cases: 160844
   new_cases: 2037
@@ -7122,7 +6854,6 @@
   positive_rate: 0.383
   tests_per_case: 2.6
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-06'
   total_cases: 161421
   new_cases: 577
@@ -7150,7 +6881,6 @@
   positive_rate: 0.3718
   tests_per_case: 2.7
   tests_units: tests performed
-  stringency_index: 53.7
   excess_mortality_cumulative_absolute: 11334.9
   excess_mortality_cumulative: 11.25
   excess_mortality: 122.53
@@ -7182,7 +6912,6 @@
   positive_rate: 0.3749
   tests_per_case: 2.7
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-08'
   total_cases: 168165
   new_cases: 3980
@@ -7210,7 +6939,6 @@
   positive_rate: 0.3892
   tests_per_case: 2.6
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-09'
   total_cases: 171493
   new_cases: 3328
@@ -7238,7 +6966,6 @@
   positive_rate: 0.3879
   tests_per_case: 2.6
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-10'
   total_cases: 174568
   new_cases: 3075
@@ -7266,7 +6993,6 @@
   positive_rate: 0.3831
   tests_per_case: 2.6
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-11'
   total_cases: 177665
   new_cases: 3097
@@ -7294,7 +7020,6 @@
   positive_rate: 0.3774
   tests_per_case: 2.6
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-12'
   total_cases: 178952
   new_cases: 1287
@@ -7322,7 +7047,6 @@
   positive_rate: 0.3694
   tests_per_case: 2.7
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-13'
   total_cases: 179449
   new_cases: 497
@@ -7350,7 +7074,6 @@
   positive_rate: 0.38
   tests_per_case: 2.6
   tests_units: tests performed
-  stringency_index: 53.7
   excess_mortality_cumulative_absolute: 13530
   excess_mortality_cumulative: 13.15
   excess_mortality: 100.93
@@ -7382,7 +7105,6 @@
   positive_rate: 0.3643
   tests_per_case: 2.7
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-15'
   total_cases: 184287
   new_cases: 2743
@@ -7406,7 +7128,6 @@
   positive_rate: 0.3365
   tests_per_case: 3
   tests_units: tests performed
-  stringency_index: 54.63
 - date: '2020-12-16'
   total_cases: 186246
   new_cases: 1959
@@ -7432,7 +7153,6 @@
   positive_rate: 0.33
   tests_per_case: 3
   tests_units: tests performed
-  stringency_index: 54.63
 - date: '2020-12-17'
   total_cases: 188288
   new_cases: 2042
@@ -7460,7 +7180,6 @@
   positive_rate: 0.3248
   tests_per_case: 3.1
   tests_units: tests performed
-  stringency_index: 54.63
 - date: '2020-12-18'
   total_cases: 190027
   new_cases: 1739
@@ -7488,7 +7207,6 @@
   positive_rate: 0.3045
   tests_per_case: 3.3
   tests_units: tests performed
-  stringency_index: 54.63
 - date: '2020-12-19'
   total_cases: 191029
   new_cases: 1002
@@ -7516,7 +7234,6 @@
   positive_rate: 0.3161
   tests_per_case: 3.2
   tests_units: tests performed
-  stringency_index: 54.63
 - date: '2020-12-20'
   total_cases: 191195
   new_cases: 166
@@ -7544,7 +7261,6 @@
   positive_rate: 0.309
   tests_per_case: 3.2
   tests_units: tests performed
-  stringency_index: 54.63
   excess_mortality_cumulative_absolute: 15269.3
   excess_mortality_cumulative: 14.53
   excess_mortality: 78.85
@@ -7576,7 +7292,6 @@
   positive_rate: 0.2941
   tests_per_case: 3.4
   tests_units: tests performed
-  stringency_index: 54.63
 - date: '2020-12-22'
   total_cases: 194271
   new_cases: 1799
@@ -7604,7 +7319,6 @@
   positive_rate: 0.2857
   tests_per_case: 3.5
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-23'
   total_cases: 195886
   new_cases: 1615
@@ -7632,7 +7346,6 @@
   positive_rate: 0.278
   tests_per_case: 3.6
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-24'
   total_cases: 196658
   new_cases: 772
@@ -7656,7 +7369,6 @@
   positive_rate: 0.2472
   tests_per_case: 4
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-25'
   total_cases: 196915
   new_cases: 257
@@ -7682,7 +7394,6 @@
   positive_rate: 0.2129
   tests_per_case: 4.7
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-26'
   total_cases: 197384
   new_cases: 469
@@ -7710,7 +7421,6 @@
   positive_rate: 0.2252
   tests_per_case: 4.4
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-27'
   total_cases: 197716
   new_cases: 332
@@ -7738,7 +7448,6 @@
   positive_rate: 0.2417
   tests_per_case: 4.1
   tests_units: tests performed
-  stringency_index: 53.7
   excess_mortality_cumulative_absolute: 16174.6
   excess_mortality_cumulative: 15.06
   excess_mortality: 38.74
@@ -7770,7 +7479,6 @@
   positive_rate: 0.1924
   tests_per_case: 5.2
   tests_units: tests performed
-  stringency_index: 53.7
 - date: '2020-12-29'
   total_cases: 199491
   new_cases: 1438
@@ -7802,7 +7510,6 @@
   people_vaccinated: 1719
   total_vaccinations_per_hundred: 0.02
   people_vaccinated_per_hundred: 0.02
-  stringency_index: 53.7
 - date: '2020-12-30'
   total_cases: 201220
   new_cases: 1729
@@ -7839,7 +7546,6 @@
   new_vaccinations_smoothed_per_million: 419
   new_people_vaccinated_smoothed: 2889
   new_people_vaccinated_smoothed_per_hundred: 0.042
-  stringency_index: 53.7
 - date: '2020-12-31'
   total_cases: 202266
   new_cases: 1046
@@ -7871,7 +7577,6 @@
   new_vaccinations_smoothed_per_million: 214
   new_people_vaccinated_smoothed: 1477
   new_people_vaccinated_smoothed_per_hundred: 0.021
-  stringency_index: 53.7
 - date: '2021-01-01'
   total_cases: 202540
   new_cases: 274
@@ -7907,7 +7612,6 @@
   new_vaccinations_smoothed_per_million: 146
   new_people_vaccinated_smoothed: 1007
   new_people_vaccinated_smoothed_per_hundred: 0.015
-  stringency_index: 53.7
 - date: '2021-01-02'
   total_cases: 202880
   new_cases: 340
@@ -7939,7 +7643,6 @@
   new_vaccinations_smoothed_per_million: 116
   new_people_vaccinated_smoothed: 799
   new_people_vaccinated_smoothed_per_hundred: 0.012
-  stringency_index: 53.7
 - date: '2021-01-03'
   total_cases: 203051
   new_cases: 171
@@ -7971,7 +7674,6 @@
   new_vaccinations_smoothed_per_million: 98
   new_people_vaccinated_smoothed: 675
   new_people_vaccinated_smoothed_per_hundred: 0.01
-  stringency_index: 53.7
   excess_mortality_cumulative_absolute: 16802.9
   excess_mortality_cumulative: 15.31
   excess_mortality: 26.89
@@ -8007,7 +7709,6 @@
   new_vaccinations_smoothed_per_million: 86
   new_people_vaccinated_smoothed: 592
   new_people_vaccinated_smoothed_per_hundred: 0.009
-  stringency_index: 53.7
 - date: '2021-01-05'
   total_cases: 205390
   new_cases: 1310
@@ -8043,7 +7744,6 @@
   new_vaccinations_smoothed_per_million: 77
   new_people_vaccinated_smoothed: 533
   new_people_vaccinated_smoothed_per_hundred: 0.008
-  stringency_index: 53.7
 - date: '2021-01-06'
   total_cases: 206392
   new_cases: 1002
@@ -8080,7 +7780,6 @@
   new_vaccinations_smoothed_per_million: 68
   new_people_vaccinated_smoothed: 472
   new_people_vaccinated_smoothed_per_hundred: 0.007
-  stringency_index: 53.7
 - date: '2021-01-07'
   total_cases: 207259
   new_cases: 867
@@ -8117,7 +7816,6 @@
   new_vaccinations_smoothed_per_million: 133
   new_people_vaccinated_smoothed: 920
   new_people_vaccinated_smoothed_per_hundred: 0.013
-  stringency_index: 53.7
 - date: '2021-01-08'
   total_cases: 208012
   new_cases: 753
@@ -8154,7 +7852,6 @@
   new_vaccinations_smoothed_per_million: 178
   new_people_vaccinated_smoothed: 1231
   new_people_vaccinated_smoothed_per_hundred: 0.018
-  stringency_index: 53.7
 - date: '2021-01-09'
   total_cases: 208406
   new_cases: 394
@@ -8191,7 +7888,6 @@
   new_vaccinations_smoothed_per_million: 177
   new_people_vaccinated_smoothed: 1222
   new_people_vaccinated_smoothed_per_hundred: 0.018
-  stringency_index: 53.7
 - date: '2021-01-10'
   total_cases: 208511
   new_cases: 105
@@ -8223,7 +7919,6 @@
   new_vaccinations_smoothed_per_million: 181
   new_people_vaccinated_smoothed: 1246
   new_people_vaccinated_smoothed_per_hundred: 0.018
-  stringency_index: 53.7
   excess_mortality_cumulative_absolute: 16871.8
   excess_mortality_cumulative: 15.02
   excess_mortality: 2.69
@@ -8263,7 +7958,6 @@
   new_vaccinations_smoothed_per_million: 184
   new_people_vaccinated_smoothed: 1270
   new_people_vaccinated_smoothed_per_hundred: 0.018
-  stringency_index: 53.7
 - date: '2021-01-12'
   total_cases: 209881
   new_cases: 750
@@ -8300,7 +7994,6 @@
   new_vaccinations_smoothed_per_million: 214
   new_people_vaccinated_smoothed: 1476
   new_people_vaccinated_smoothed_per_hundred: 0.021
-  stringency_index: 53.7
 - date: '2021-01-13'
   total_cases: 210416
   new_cases: 535
@@ -8337,7 +8030,6 @@
   new_vaccinations_smoothed_per_million: 189
   new_people_vaccinated_smoothed: 1304
   new_people_vaccinated_smoothed_per_hundred: 0.019
-  stringency_index: 53.7
 - date: '2021-01-14'
   total_cases: 210951
   new_cases: 535
@@ -8374,7 +8066,6 @@
   new_vaccinations_smoothed_per_million: 136
   new_people_vaccinated_smoothed: 938
   new_people_vaccinated_smoothed_per_hundred: 0.014
-  stringency_index: 53.7
 - date: '2021-01-15'
   total_cases: 211503
   new_cases: 552
@@ -8411,7 +8102,6 @@
   new_vaccinations_smoothed_per_million: 99
   new_people_vaccinated_smoothed: 682
   new_people_vaccinated_smoothed_per_hundred: 0.01
-  stringency_index: 53.7
 - date: '2021-01-16'
   total_cases: 211736
   new_cases: 233
@@ -8448,7 +8138,6 @@
   new_vaccinations_smoothed_per_million: 101
   new_people_vaccinated_smoothed: 694
   new_people_vaccinated_smoothed_per_hundred: 0.01
-  stringency_index: 53.7
 - date: '2021-01-17'
   total_cases: 211813
   new_cases: 77
@@ -8485,7 +8174,6 @@
   new_vaccinations_smoothed_per_million: 96
   new_people_vaccinated_smoothed: 662
   new_people_vaccinated_smoothed_per_hundred: 0.01
-  stringency_index: 53.7
   excess_mortality_cumulative_absolute: 16812.9
   excess_mortality_cumulative: 14.64
   excess_mortality: -2.31
@@ -8528,7 +8216,6 @@
   new_vaccinations_smoothed_per_million: 113
   new_people_vaccinated_smoothed: 623
   new_people_vaccinated_smoothed_per_hundred: 0.009
-  stringency_index: 53.7
 - date: '2021-01-19'
   total_cases: 212927
   new_cases: 544
@@ -8567,7 +8254,6 @@
   new_vaccinations_smoothed_per_million: 134
   new_people_vaccinated_smoothed: 468
   new_people_vaccinated_smoothed_per_hundred: 0.007
-  stringency_index: 53.7
 - date: '2021-01-20'
   total_cases: 213409
   new_cases: 482
@@ -8606,7 +8292,6 @@
   new_vaccinations_smoothed_per_million: 147
   new_people_vaccinated_smoothed: 399
   new_people_vaccinated_smoothed_per_hundred: 0.006
-  stringency_index: 53.7
 - date: '2021-01-21'
   total_cases: 213864
   new_cases: 455
@@ -8645,7 +8330,6 @@
   new_vaccinations_smoothed_per_million: 157
   new_people_vaccinated_smoothed: 433
   new_people_vaccinated_smoothed_per_hundred: 0.006
-  stringency_index: 53.7
 - date: '2021-01-22'
   total_cases: 214430
   new_cases: 566
@@ -8684,7 +8368,6 @@
   new_vaccinations_smoothed_per_million: 165
   new_people_vaccinated_smoothed: 481
   new_people_vaccinated_smoothed_per_hundred: 0.007
-  stringency_index: 53.7
 - date: '2021-01-23'
   total_cases: 214696
   new_cases: 266
@@ -8723,7 +8406,6 @@
   new_vaccinations_smoothed_per_million: 161
   new_people_vaccinated_smoothed: 454
   new_people_vaccinated_smoothed_per_hundred: 0.007
-  stringency_index: 53.7
 - date: '2021-01-24'
   total_cases: 214817
   new_cases: 121
@@ -8762,7 +8444,6 @@
   new_vaccinations_smoothed_per_million: 159
   new_people_vaccinated_smoothed: 440
   new_people_vaccinated_smoothed_per_hundred: 0.006
-  stringency_index: 53.7
   excess_mortality_cumulative_absolute: 16835.8
   excess_mortality_cumulative: 14.34
   excess_mortality: 0.92
@@ -8805,7 +8486,6 @@
   new_vaccinations_smoothed_per_million: 148
   new_people_vaccinated_smoothed: 515
   new_people_vaccinated_smoothed_per_hundred: 0.007
-  stringency_index: 53.7
 - date: '2021-01-26'
   total_cases: 216416
   new_cases: 827
@@ -8844,7 +8524,6 @@
   new_vaccinations_smoothed_per_million: 143
   new_people_vaccinated_smoothed: 658
   new_people_vaccinated_smoothed_per_hundred: 0.01
-  stringency_index: 53.7
 - date: '2021-01-27'
   total_cases: 217014
   new_cases: 598
@@ -8883,7 +8562,6 @@
   new_vaccinations_smoothed_per_million: 182
   new_people_vaccinated_smoothed: 773
   new_people_vaccinated_smoothed_per_hundred: 0.011
-  stringency_index: 53.7
 - date: '2021-01-28'
   total_cases: 217574
   new_cases: 560
@@ -8922,7 +8600,6 @@
   new_vaccinations_smoothed_per_million: 257
   new_people_vaccinated_smoothed: 862
   new_people_vaccinated_smoothed_per_hundred: 0.012
-  stringency_index: 53.7
 - date: '2021-01-29'
   total_cases: 218269
   new_cases: 695
@@ -8961,7 +8638,6 @@
   new_vaccinations_smoothed_per_million: 305
   new_people_vaccinated_smoothed: 909
   new_people_vaccinated_smoothed_per_hundred: 0.013
-  stringency_index: 53.7
 - date: '2021-01-30'
   total_cases: 218618
   new_cases: 349
@@ -9000,7 +8676,6 @@
   new_vaccinations_smoothed_per_million: 309
   new_people_vaccinated_smoothed: 921
   new_people_vaccinated_smoothed_per_hundred: 0.013
-  stringency_index: 53.7
 - date: '2021-01-31'
   total_cases: 218748
   new_cases: 130
@@ -9039,7 +8714,6 @@
   new_vaccinations_smoothed_per_million: 310
   new_people_vaccinated_smoothed: 930
   new_people_vaccinated_smoothed_per_hundred: 0.013
-  stringency_index: 53.7
   excess_mortality_cumulative_absolute: 16818.1
   excess_mortality_cumulative: 14.03
   excess_mortality: -0.71
@@ -9082,7 +8756,6 @@
   new_vaccinations_smoothed_per_million: 328
   new_people_vaccinated_smoothed: 978
   new_people_vaccinated_smoothed_per_hundred: 0.014
-  stringency_index: 53.7
 - date: '2021-02-02'
   total_cases: 220547
   new_cases: 967
@@ -9121,7 +8794,6 @@
   new_vaccinations_smoothed_per_million: 348
   new_people_vaccinated_smoothed: 1021
   new_people_vaccinated_smoothed_per_hundred: 0.015
-  stringency_index: 53.7
 - date: '2021-02-03'
   total_cases: 221266
   new_cases: 719
@@ -9160,7 +8832,6 @@
   new_vaccinations_smoothed_per_million: 356
   new_people_vaccinated_smoothed: 1207
   new_people_vaccinated_smoothed_per_hundred: 0.018
-  stringency_index: 53.7
 - date: '2021-02-04'
   total_cases: 222149
   new_cases: 883
@@ -9199,7 +8870,6 @@
   new_vaccinations_smoothed_per_million: 339
   new_people_vaccinated_smoothed: 1454
   new_people_vaccinated_smoothed_per_hundred: 0.021
-  stringency_index: 53.7
 - date: '2021-02-05'
   total_cases: 223059
   new_cases: 910
@@ -9238,7 +8908,6 @@
   new_vaccinations_smoothed_per_million: 333
   new_people_vaccinated_smoothed: 1659
   new_people_vaccinated_smoothed_per_hundred: 0.024
-  stringency_index: 53.7
 - date: '2021-02-06'
   total_cases: 223552
   new_cases: 493
@@ -9273,7 +8942,6 @@
   new_vaccinations_smoothed_per_million: 331
   new_people_vaccinated_smoothed: 1667
   new_people_vaccinated_smoothed_per_hundred: 0.024
-  stringency_index: 53.7
 - date: '2021-02-07'
   total_cases: 223734
   new_cases: 182
@@ -9308,7 +8976,6 @@
   new_vaccinations_smoothed_per_million: 330
   new_people_vaccinated_smoothed: 1658
   new_people_vaccinated_smoothed_per_hundred: 0.024
-  stringency_index: 53.7
   excess_mortality_cumulative_absolute: 16771.8
   excess_mortality_cumulative: 13.71
   excess_mortality: -1.9
@@ -9349,7 +9016,6 @@
   new_vaccinations_smoothed_per_million: 337
   new_people_vaccinated_smoothed: 1776
   new_people_vaccinated_smoothed_per_hundred: 0.026
-  stringency_index: 53.7
 - date: '2021-02-09'
   total_cases: 226061
   new_cases: 1212
@@ -9384,7 +9050,6 @@
   new_vaccinations_smoothed_per_million: 342
   new_people_vaccinated_smoothed: 1952
   new_people_vaccinated_smoothed_per_hundred: 0.028
-  stringency_index: 53.7
 - date: '2021-02-10'
   total_cases: 226974
   new_cases: 913
@@ -9419,7 +9084,6 @@
   new_vaccinations_smoothed_per_million: 332
   new_people_vaccinated_smoothed: 1980
   new_people_vaccinated_smoothed_per_hundred: 0.029
-  stringency_index: 53.7
 - date: '2021-02-11'
   total_cases: 228044
   new_cases: 1070
@@ -9456,7 +9120,6 @@
   new_vaccinations_smoothed_per_million: 354
   new_people_vaccinated_smoothed: 2072
   new_people_vaccinated_smoothed_per_hundred: 0.03
-  stringency_index: 53.7
 - date: '2021-02-12'
   total_cases: 229010
   new_cases: 966
@@ -9495,7 +9158,6 @@
   new_vaccinations_smoothed_per_million: 369
   new_people_vaccinated_smoothed: 2094
   new_people_vaccinated_smoothed_per_hundred: 0.03
-  stringency_index: 53.7
 - date: '2021-02-13'
   total_cases: 229516
   new_cases: 506
@@ -9530,7 +9192,6 @@
   new_vaccinations_smoothed_per_million: 379
   new_people_vaccinated_smoothed: 2146
   new_people_vaccinated_smoothed_per_hundred: 0.031
-  stringency_index: 53.7
 - date: '2021-02-14'
   total_cases: 229679
   new_cases: 163
@@ -9567,7 +9228,6 @@
   new_vaccinations_smoothed_per_million: 380
   new_people_vaccinated_smoothed: 2149
   new_people_vaccinated_smoothed_per_hundred: 0.031
-  stringency_index: 53.7
   excess_mortality_cumulative_absolute: 16855.5
   excess_mortality_cumulative: 13.53
   excess_mortality: 3.66
@@ -9610,7 +9270,6 @@
   new_vaccinations_smoothed_per_million: 384
   new_people_vaccinated_smoothed: 2101
   new_people_vaccinated_smoothed_per_hundred: 0.03
-  stringency_index: 53.7
 - date: '2021-02-16'
   total_cases: 232096
   new_cases: 1349
@@ -9649,7 +9308,6 @@
   new_vaccinations_smoothed_per_million: 392
   new_people_vaccinated_smoothed: 2011
   new_people_vaccinated_smoothed_per_hundred: 0.029
-  stringency_index: 53.7
 - date: '2021-02-17'
   total_cases: 233342
   new_cases: 1246
@@ -9688,7 +9346,6 @@
   new_vaccinations_smoothed_per_million: 409
   new_people_vaccinated_smoothed: 2037
   new_people_vaccinated_smoothed_per_hundred: 0.03
-  stringency_index: 53.7
 - date: '2021-02-18'
   total_cases: 234428
   new_cases: 1086
@@ -9727,7 +9384,6 @@
   new_vaccinations_smoothed_per_million: 402
   new_people_vaccinated_smoothed: 1948
   new_people_vaccinated_smoothed_per_hundred: 0.028
-  stringency_index: 53.7
 - date: '2021-02-19'
   total_cases: 235891
   new_cases: 1463
@@ -9766,7 +9422,6 @@
   new_vaccinations_smoothed_per_million: 613
   new_people_vaccinated_smoothed: 3342
   new_people_vaccinated_smoothed_per_hundred: 0.048
-  stringency_index: 53.7
 - date: '2021-02-20'
   total_cases: 236439
   new_cases: 548
@@ -9805,7 +9460,6 @@
   new_vaccinations_smoothed_per_million: 684
   new_people_vaccinated_smoothed: 3827
   new_people_vaccinated_smoothed_per_hundred: 0.055
-  stringency_index: 53.7
 - date: '2021-02-21'
   total_cases: 236666
   new_cases: 227
@@ -9844,7 +9498,6 @@
   new_vaccinations_smoothed_per_million: 911
   new_people_vaccinated_smoothed: 5384
   new_people_vaccinated_smoothed_per_hundred: 0.078
-  stringency_index: 53.7
   excess_mortality_cumulative_absolute: 17081.4
   excess_mortality_cumulative: 13.47
   excess_mortality: 9.96
@@ -9887,7 +9540,6 @@
   new_vaccinations_smoothed_per_million: 1111
   new_people_vaccinated_smoothed: 6714
   new_people_vaccinated_smoothed_per_hundred: 0.097
-  stringency_index: 53.7
 - date: '2021-02-23'
   total_cases: 240391
   new_cases: 1800
@@ -9926,7 +9578,6 @@
   new_vaccinations_smoothed_per_million: 1385
   new_people_vaccinated_smoothed: 8570
   new_people_vaccinated_smoothed_per_hundred: 0.124
-  stringency_index: 53.7
 - date: '2021-02-24'
   total_cases: 242124
   new_cases: 1733
@@ -9965,7 +9616,6 @@
   new_vaccinations_smoothed_per_million: 1710
   new_people_vaccinated_smoothed: 10663
   new_people_vaccinated_smoothed_per_hundred: 0.155
-  stringency_index: 53.7
 - date: '2021-02-25'
   total_cases: 243946
   new_cases: 1822
@@ -10004,7 +9654,6 @@
   new_vaccinations_smoothed_per_million: 2030
   new_people_vaccinated_smoothed: 12674
   new_people_vaccinated_smoothed_per_hundred: 0.184
-  stringency_index: 53.7
 - date: '2021-02-26'
   total_cases: 245627
   new_cases: 1681
@@ -10043,7 +9692,6 @@
   new_vaccinations_smoothed_per_million: 2075
   new_people_vaccinated_smoothed: 12820
   new_people_vaccinated_smoothed_per_hundred: 0.186
-  stringency_index: 53.7
 - date: '2021-02-27'
   total_cases: 246706
   new_cases: 1079
@@ -10082,7 +9730,6 @@
   new_vaccinations_smoothed_per_million: 2100
   new_people_vaccinated_smoothed: 12994
   new_people_vaccinated_smoothed_per_hundred: 0.188
-  stringency_index: 53.7
 - date: '2021-02-28'
   total_cases: 247038
   new_cases: 332
@@ -10121,7 +9768,6 @@
   new_vaccinations_smoothed_per_million: 1928
   new_people_vaccinated_smoothed: 11812
   new_people_vaccinated_smoothed_per_hundred: 0.171
-  stringency_index: 53.7
   excess_mortality_cumulative_absolute: 17407.3
   excess_mortality_cumulative: 13.48
   excess_mortality: 14.41
@@ -10164,7 +9810,6 @@
   new_vaccinations_smoothed_per_million: 1916
   new_people_vaccinated_smoothed: 11665
   new_people_vaccinated_smoothed_per_hundred: 0.169
-  stringency_index: 53.7
 - date: '2021-03-02'
   total_cases: 252029
   new_cases: 2403
@@ -10203,7 +9848,6 @@
   new_vaccinations_smoothed_per_million: 1979
   new_people_vaccinated_smoothed: 11957
   new_people_vaccinated_smoothed_per_hundred: 0.173
-  stringency_index: 53.7
 - date: '2021-03-03'
   total_cases: 253183
   new_cases: 1154
@@ -10242,7 +9886,6 @@
   new_vaccinations_smoothed_per_million: 1651
   new_people_vaccinated_smoothed: 9977
   new_people_vaccinated_smoothed_per_hundred: 0.145
-  stringency_index: 53.7
 - date: '2021-03-04'
   total_cases: 255381
   new_cases: 2198
@@ -10281,7 +9924,6 @@
   new_vaccinations_smoothed_per_million: 1658
   new_people_vaccinated_smoothed: 9720
   new_people_vaccinated_smoothed_per_hundred: 0.141
-  stringency_index: 53.7
 - date: '2021-03-05'
   total_cases: 258385
   new_cases: 3004
@@ -10320,7 +9962,6 @@
   new_vaccinations_smoothed_per_million: 1658
   new_people_vaccinated_smoothed: 9610
   new_people_vaccinated_smoothed_per_hundred: 0.139
-  stringency_index: 53.7
 - date: '2021-03-06'
   total_cases: 259811
   new_cases: 1426
@@ -10359,7 +10000,6 @@
   new_vaccinations_smoothed_per_million: 1602
   new_people_vaccinated_smoothed: 9239
   new_people_vaccinated_smoothed_per_hundred: 0.134
-  stringency_index: 53.7
 - date: '2021-03-07'
   total_cases: 260308
   new_cases: 497
@@ -10398,7 +10038,6 @@
   new_vaccinations_smoothed_per_million: 1578
   new_people_vaccinated_smoothed: 9073
   new_people_vaccinated_smoothed_per_hundred: 0.132
-  stringency_index: 53.7
   excess_mortality_cumulative_absolute: 17908.4
   excess_mortality_cumulative: 13.63
   excess_mortality: 22.23
@@ -10441,7 +10080,6 @@
   new_vaccinations_smoothed_per_million: 1462
   new_people_vaccinated_smoothed: 8388
   new_people_vaccinated_smoothed_per_hundred: 0.122
-  stringency_index: 53.7
 - date: '2021-03-09'
   total_cases: 266805
   new_cases: 3502
@@ -10476,7 +10114,6 @@
   new_vaccinations_smoothed_per_million: 1209
   new_people_vaccinated_smoothed: 6894
   new_people_vaccinated_smoothed_per_hundred: 0.1
-  stringency_index: 53.7
 - date: '2021-03-10'
   total_cases: 269579
   new_cases: 2774
@@ -10511,7 +10148,6 @@
   new_vaccinations_smoothed_per_million: 1263
   new_people_vaccinated_smoothed: 7159
   new_people_vaccinated_smoothed_per_hundred: 0.104
-  stringency_index: 53.7
 - date: '2021-03-11'
   total_cases: 272700
   new_cases: 3121
@@ -10546,7 +10182,6 @@
   new_vaccinations_smoothed_per_million: 1158
   new_people_vaccinated_smoothed: 6965
   new_people_vaccinated_smoothed_per_hundred: 0.101
-  stringency_index: 53.7
 - date: '2021-03-12'
   total_cases: 275859
   new_cases: 3159
@@ -10583,7 +10218,6 @@
   new_vaccinations_smoothed_per_million: 1081
   new_people_vaccinated_smoothed: 6400
   new_people_vaccinated_smoothed_per_hundred: 0.093
-  stringency_index: 53.7
 - date: '2021-03-13'
   total_cases: 277878
   new_cases: 2019
@@ -10618,7 +10252,6 @@
   new_vaccinations_smoothed_per_million: 1052
   new_people_vaccinated_smoothed: 6153
   new_people_vaccinated_smoothed_per_hundred: 0.089
-  stringency_index: 55.09
 - date: '2021-03-14'
   total_cases: 278557
   new_cases: 679
@@ -10653,7 +10286,6 @@
   new_vaccinations_smoothed_per_million: 1041
   new_people_vaccinated_smoothed: 5984
   new_people_vaccinated_smoothed_per_hundred: 0.087
-  stringency_index: 55.09
   excess_mortality_cumulative_absolute: 18687.3
   excess_mortality_cumulative: 13.99
   excess_mortality: 34.76
@@ -10694,7 +10326,6 @@
   new_vaccinations_smoothed_per_million: 985
   new_people_vaccinated_smoothed: 5462
   new_people_vaccinated_smoothed_per_hundred: 0.079
-  stringency_index: 50.93
 - date: '2021-03-16'
   total_cases: 287568
   new_cases: 4374
@@ -10729,7 +10360,6 @@
   new_vaccinations_smoothed_per_million: 908
   new_people_vaccinated_smoothed: 4823
   new_people_vaccinated_smoothed_per_hundred: 0.07
-  stringency_index: 50.93
 - date: '2021-03-17'
   total_cases: 291769
   new_cases: 4201
@@ -10764,7 +10394,6 @@
   new_vaccinations_smoothed_per_million: 861
   new_people_vaccinated_smoothed: 4363
   new_people_vaccinated_smoothed_per_hundred: 0.063
-  stringency_index: 50.93
 - date: '2021-03-18'
   total_cases: 295777
   new_cases: 4008
@@ -10799,7 +10428,6 @@
   new_vaccinations_smoothed_per_million: 655
   new_people_vaccinated_smoothed: 2675
   new_people_vaccinated_smoothed_per_hundred: 0.039
-  stringency_index: 50.93
 - date: '2021-03-19'
   total_cases: 299939
   new_cases: 4162
@@ -10836,7 +10464,6 @@
   new_vaccinations_smoothed_per_million: 540
   new_people_vaccinated_smoothed: 1979
   new_people_vaccinated_smoothed_per_hundred: 0.029
-  stringency_index: 50.93
 - date: '2021-03-20'
   total_cases: 302480
   new_cases: 2541
@@ -10871,7 +10498,6 @@
   new_vaccinations_smoothed_per_million: 593
   new_people_vaccinated_smoothed: 2237
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50.93
 - date: '2021-03-21'
   total_cases: 303423
   new_cases: 943
@@ -10906,7 +10532,6 @@
   new_vaccinations_smoothed_per_million: 622
   new_people_vaccinated_smoothed: 2460
   new_people_vaccinated_smoothed_per_hundred: 0.036
-  stringency_index: 50.93
   excess_mortality_cumulative_absolute: 19900.8
   excess_mortality_cumulative: 14.66
   excess_mortality: 55.73
@@ -10947,7 +10572,6 @@
   new_vaccinations_smoothed_per_million: 718
   new_people_vaccinated_smoothed: 2972
   new_people_vaccinated_smoothed_per_hundred: 0.043
-  stringency_index: 61.11
 - date: '2021-03-23'
   total_cases: 312741
   new_cases: 4851
@@ -10986,7 +10610,6 @@
   new_vaccinations_smoothed_per_million: 887
   new_people_vaccinated_smoothed: 3736
   new_people_vaccinated_smoothed_per_hundred: 0.054
-  stringency_index: 61.11
 - date: '2021-03-24'
   total_cases: 317116
   new_cases: 4375
@@ -11021,7 +10644,6 @@
   new_vaccinations_smoothed_per_million: 1048
   new_people_vaccinated_smoothed: 4912
   new_people_vaccinated_smoothed_per_hundred: 0.071
-  stringency_index: 61.11
 - date: '2021-03-25'
   total_cases: 321104
   new_cases: 3988
@@ -11058,7 +10680,6 @@
   new_vaccinations_smoothed_per_million: 1233
   new_people_vaccinated_smoothed: 6165
   new_people_vaccinated_smoothed_per_hundred: 0.089
-  stringency_index: 61.11
 - date: '2021-03-26'
   total_cases: 325233
   new_cases: 4129
@@ -11097,7 +10718,6 @@
   new_vaccinations_smoothed_per_million: 1398
   new_people_vaccinated_smoothed: 7135
   new_people_vaccinated_smoothed_per_hundred: 0.103
-  stringency_index: 61.11
 - date: '2021-03-27'
   total_cases: 327770
   new_cases: 2537
@@ -11136,7 +10756,6 @@
   new_vaccinations_smoothed_per_million: 1401
   new_people_vaccinated_smoothed: 7228
   new_people_vaccinated_smoothed_per_hundred: 0.105
-  stringency_index: 61.11
 - date: '2021-03-28'
   total_cases: 328753
   new_cases: 983
@@ -11175,7 +10794,6 @@
   new_vaccinations_smoothed_per_million: 1401
   new_people_vaccinated_smoothed: 7235
   new_people_vaccinated_smoothed_per_hundred: 0.105
-  stringency_index: 61.11
   excess_mortality_cumulative_absolute: 21451.3
   excess_mortality_cumulative: 15.55
   excess_mortality: 72.61
@@ -11218,7 +10836,6 @@
   new_vaccinations_smoothed_per_million: 1433
   new_people_vaccinated_smoothed: 7529
   new_people_vaccinated_smoothed_per_hundred: 0.109
-  stringency_index: 61.11
 - date: '2021-03-30'
   total_cases: 338426
   new_cases: 5176
@@ -11257,7 +10874,6 @@
   new_vaccinations_smoothed_per_million: 1448
   new_people_vaccinated_smoothed: 7891
   new_people_vaccinated_smoothed_per_hundred: 0.114
-  stringency_index: 61.11
 - date: '2021-03-31'
   total_cases: 342633
   new_cases: 4207
@@ -11296,7 +10912,6 @@
   new_vaccinations_smoothed_per_million: 1473
   new_people_vaccinated_smoothed: 8015
   new_people_vaccinated_smoothed_per_hundred: 0.116
-  stringency_index: 61.11
 - date: '2021-04-01'
   total_cases: 346327
   new_cases: 3694
@@ -11335,7 +10950,6 @@
   new_vaccinations_smoothed_per_million: 1458
   new_people_vaccinated_smoothed: 8018
   new_people_vaccinated_smoothed_per_hundred: 0.116
-  stringency_index: 53.7
 - date: '2021-04-02'
   total_cases: 350340
   new_cases: 4013
@@ -11374,7 +10988,6 @@
   new_vaccinations_smoothed_per_million: 1406
   new_people_vaccinated_smoothed: 7869
   new_people_vaccinated_smoothed_per_hundred: 0.114
-  stringency_index: 53.7
 - date: '2021-04-03'
   total_cases: 352259
   new_cases: 1919
@@ -11413,7 +11026,6 @@
   new_vaccinations_smoothed_per_million: 1407
   new_people_vaccinated_smoothed: 7875
   new_people_vaccinated_smoothed_per_hundred: 0.114
-  stringency_index: 53.7
 - date: '2021-04-04'
   total_cases: 352999
   new_cases: 740
@@ -11452,7 +11064,6 @@
   new_vaccinations_smoothed_per_million: 1388
   new_people_vaccinated_smoothed: 7767
   new_people_vaccinated_smoothed_per_hundred: 0.113
-  stringency_index: 53.7
   excess_mortality_cumulative_absolute: 23378
   excess_mortality_cumulative: 16.69
   excess_mortality: 91
@@ -11495,7 +11106,6 @@
   new_vaccinations_smoothed_per_million: 1336
   new_people_vaccinated_smoothed: 7486
   new_people_vaccinated_smoothed_per_hundred: 0.109
-  stringency_index: 53.7
 - date: '2021-04-06'
   total_cases: 356859
   new_cases: 0
@@ -11534,7 +11144,6 @@
   new_vaccinations_smoothed_per_million: 1262
   new_people_vaccinated_smoothed: 7020
   new_people_vaccinated_smoothed_per_hundred: 0.102
-  stringency_index: 53.7
 - date: '2021-04-07'
   total_cases: 364419
   new_cases: 7560
@@ -11573,7 +11182,6 @@
   new_vaccinations_smoothed_per_million: 1264
   new_people_vaccinated_smoothed: 6895
   new_people_vaccinated_smoothed_per_hundred: 0.1
-  stringency_index: 53.7
 - date: '2021-04-08'
   total_cases: 367376
   new_cases: 2957
@@ -11612,7 +11220,6 @@
   new_vaccinations_smoothed_per_million: 1378
   new_people_vaccinated_smoothed: 7692
   new_people_vaccinated_smoothed_per_hundred: 0.112
-  stringency_index: 53.7
 - date: '2021-04-09'
   total_cases: 370179
   new_cases: 2803
@@ -11651,7 +11258,6 @@
   new_vaccinations_smoothed_per_million: 1436
   new_people_vaccinated_smoothed: 8073
   new_people_vaccinated_smoothed_per_hundred: 0.117
-  stringency_index: 53.7
 - date: '2021-04-10'
   total_cases: 371531
   new_cases: 1352
@@ -11690,7 +11296,6 @@
   new_vaccinations_smoothed_per_million: 1429
   new_people_vaccinated_smoothed: 8081
   new_people_vaccinated_smoothed_per_hundred: 0.117
-  stringency_index: 53.7
 - date: '2021-04-11'
   total_cases: 371993
   new_cases: 462
@@ -11729,7 +11334,6 @@
   new_vaccinations_smoothed_per_million: 1431
   new_people_vaccinated_smoothed: 8102
   new_people_vaccinated_smoothed_per_hundred: 0.117
-  stringency_index: 53.7
   excess_mortality_cumulative_absolute: 25060.1
   excess_mortality_cumulative: 17.63
   excess_mortality: 79.91
@@ -11772,7 +11376,6 @@
   new_vaccinations_smoothed_per_million: 1449
   new_people_vaccinated_smoothed: 8247
   new_people_vaccinated_smoothed_per_hundred: 0.12
-  stringency_index: 53.7
 - date: '2021-04-13'
   total_cases: 378059
   new_cases: 2944
@@ -11811,7 +11414,6 @@
   new_vaccinations_smoothed_per_million: 1468
   new_people_vaccinated_smoothed: 8469
   new_people_vaccinated_smoothed_per_hundred: 0.123
-  stringency_index: 53.7
 - date: '2021-04-14'
   total_cases: 380576
   new_cases: 2517
@@ -11850,7 +11452,6 @@
   new_vaccinations_smoothed_per_million: 1490
   new_people_vaccinated_smoothed: 8542
   new_people_vaccinated_smoothed_per_hundred: 0.124
-  stringency_index: 53.7
 - date: '2021-04-15'
   total_cases: 382761
   new_cases: 2185
@@ -11889,7 +11490,6 @@
   new_vaccinations_smoothed_per_million: 1406
   new_people_vaccinated_smoothed: 7794
   new_people_vaccinated_smoothed_per_hundred: 0.113
-  stringency_index: 53.7
 - date: '2021-04-16'
   total_cases: 384887
   new_cases: 2126
@@ -11928,7 +11528,6 @@
   new_vaccinations_smoothed_per_million: 1382
   new_people_vaccinated_smoothed: 7505
   new_people_vaccinated_smoothed_per_hundred: 0.109
-  stringency_index: 53.7
 - date: '2021-04-17'
   total_cases: 385963
   new_cases: 1076
@@ -11963,7 +11562,6 @@
   new_vaccinations_smoothed_per_million: 1370
   new_people_vaccinated_smoothed: 7302
   new_people_vaccinated_smoothed_per_hundred: 0.106
-  stringency_index: 53.7
 - date: '2021-04-18'
   total_cases: 386381
   new_cases: 418
@@ -11998,7 +11596,6 @@
   new_vaccinations_smoothed_per_million: 1363
   new_people_vaccinated_smoothed: 7214
   new_people_vaccinated_smoothed_per_hundred: 0.105
-  stringency_index: 53.7
   excess_mortality_cumulative_absolute: 26750
   excess_mortality_cumulative: 18.55
   excess_mortality: 82.51
@@ -12039,7 +11636,6 @@
   new_vaccinations_smoothed_per_million: 1357
   new_people_vaccinated_smoothed: 7010
   new_people_vaccinated_smoothed_per_hundred: 0.102
-  stringency_index: 53.7
 - date: '2021-04-20'
   total_cases: 390911
   new_cases: 2096
@@ -12078,7 +11674,6 @@
   new_vaccinations_smoothed_per_million: 1384
   new_people_vaccinated_smoothed: 6841
   new_people_vaccinated_smoothed_per_hundred: 0.099
-  stringency_index: 53.7
 - date: '2021-04-21'
   total_cases: 392913
   new_cases: 2002
@@ -12117,7 +11712,6 @@
   new_vaccinations_smoothed_per_million: 1473
   new_people_vaccinated_smoothed: 6831
   new_people_vaccinated_smoothed_per_hundred: 0.099
-  stringency_index: 53.7
 - date: '2021-04-22'
   total_cases: 392913
   new_cases: 0
@@ -12156,7 +11750,6 @@
   new_vaccinations_smoothed_per_million: 1619
   new_people_vaccinated_smoothed: 7101
   new_people_vaccinated_smoothed_per_hundred: 0.103
-  stringency_index: 53.7
 - date: '2021-04-23'
   total_cases: 396302
   new_cases: 3389
@@ -12195,7 +11788,6 @@
   new_vaccinations_smoothed_per_million: 1715
   new_people_vaccinated_smoothed: 7068
   new_people_vaccinated_smoothed_per_hundred: 0.102
-  stringency_index: 48.15
 - date: '2021-04-24'
   total_cases: 397100
   new_cases: 798
@@ -12234,7 +11826,6 @@
   new_vaccinations_smoothed_per_million: 1739
   new_people_vaccinated_smoothed: 7030
   new_people_vaccinated_smoothed_per_hundred: 0.102
-  stringency_index: 48.15
 - date: '2021-04-25'
   total_cases: 397500
   new_cases: 400
@@ -12273,7 +11864,6 @@
   new_vaccinations_smoothed_per_million: 1757
   new_people_vaccinated_smoothed: 7053
   new_people_vaccinated_smoothed_per_hundred: 0.102
-  stringency_index: 48.15
   excess_mortality_cumulative_absolute: 28147.3
   excess_mortality_cumulative: 19.25
   excess_mortality: 68.51
@@ -12316,7 +11906,6 @@
   new_vaccinations_smoothed_per_million: 1837
   new_people_vaccinated_smoothed: 7124
   new_people_vaccinated_smoothed_per_hundred: 0.103
-  stringency_index: 48.15
 - date: '2021-04-27'
   total_cases: 401109
   new_cases: 1850
@@ -12355,7 +11944,6 @@
   new_vaccinations_smoothed_per_million: 1938
   new_people_vaccinated_smoothed: 7281
   new_people_vaccinated_smoothed_per_hundred: 0.106
-  stringency_index: 48.15
 - date: '2021-04-28'
   total_cases: 402491
   new_cases: 1382
@@ -12394,7 +11982,6 @@
   new_vaccinations_smoothed_per_million: 2066
   new_people_vaccinated_smoothed: 7486
   new_people_vaccinated_smoothed_per_hundred: 0.109
-  stringency_index: 48.15
 - date: '2021-04-29'
   total_cases: 403728
   new_cases: 1237
@@ -12433,7 +12020,6 @@
   new_vaccinations_smoothed_per_million: 2168
   new_people_vaccinated_smoothed: 6973
   new_people_vaccinated_smoothed_per_hundred: 0.101
-  stringency_index: 50.93
 - date: '2021-04-30'
   total_cases: 404380
   new_cases: 652
@@ -12472,7 +12058,6 @@
   new_vaccinations_smoothed_per_million: 2041
   new_people_vaccinated_smoothed: 6484
   new_people_vaccinated_smoothed_per_hundred: 0.094
-  stringency_index: 50.93
 - date: '2021-05-01'
   total_cases: 404846
   new_cases: 466
@@ -12511,7 +12096,6 @@
   new_vaccinations_smoothed_per_million: 2072
   new_people_vaccinated_smoothed: 6820
   new_people_vaccinated_smoothed_per_hundred: 0.099
-  stringency_index: 50.93
 - date: '2021-05-02'
   total_cases: 405194
   new_cases: 348
@@ -12550,7 +12134,6 @@
   new_vaccinations_smoothed_per_million: 2100
   new_people_vaccinated_smoothed: 7022
   new_people_vaccinated_smoothed_per_hundred: 0.102
-  stringency_index: 50.93
   excess_mortality_cumulative_absolute: 29259.8
   excess_mortality_cumulative: 19.74
   excess_mortality: 54.9
@@ -12593,7 +12176,6 @@
   new_vaccinations_smoothed_per_million: 2058
   new_people_vaccinated_smoothed: 7056
   new_people_vaccinated_smoothed_per_hundred: 0.102
-  stringency_index: 50.93
 - date: '2021-05-04'
   total_cases: 406192
   new_cases: 367
@@ -12632,7 +12214,6 @@
   new_vaccinations_smoothed_per_million: 1942
   new_people_vaccinated_smoothed: 6619
   new_people_vaccinated_smoothed_per_hundred: 0.096
-  stringency_index: 50.93
 - date: '2021-05-05'
   total_cases: 407827
   new_cases: 1635
@@ -12671,7 +12252,6 @@
   new_vaccinations_smoothed_per_million: 2089
   new_people_vaccinated_smoothed: 5743
   new_people_vaccinated_smoothed_per_hundred: 0.083
-  stringency_index: 50.93
 - date: '2021-05-06'
   total_cases: 408372
   new_cases: 545
@@ -12710,7 +12290,6 @@
   new_vaccinations_smoothed_per_million: 1680
   new_people_vaccinated_smoothed: 4891
   new_people_vaccinated_smoothed_per_hundred: 0.071
-  stringency_index: 50.93
 - date: '2021-05-07'
   total_cases: 409495
   new_cases: 1123
@@ -12749,7 +12328,6 @@
   new_vaccinations_smoothed_per_million: 2215
   new_people_vaccinated_smoothed: 5194
   new_people_vaccinated_smoothed_per_hundred: 0.075
-  stringency_index: 50.93
 - date: '2021-05-08'
   total_cases: 409961
   new_cases: 466
@@ -12788,7 +12366,6 @@
   new_vaccinations_smoothed_per_million: 2303
   new_people_vaccinated_smoothed: 5238
   new_people_vaccinated_smoothed_per_hundred: 0.076
-  stringency_index: 50.93
 - date: '2021-05-09'
   total_cases: 410202
   new_cases: 241
@@ -12827,7 +12404,6 @@
   new_vaccinations_smoothed_per_million: 2350
   new_people_vaccinated_smoothed: 5377
   new_people_vaccinated_smoothed_per_hundred: 0.078
-  stringency_index: 50.93
   excess_mortality_cumulative_absolute: 30074.3
   excess_mortality_cumulative: 20.02
   excess_mortality: 41
@@ -12870,7 +12446,6 @@
   new_vaccinations_smoothed_per_million: 2693
   new_people_vaccinated_smoothed: 5431
   new_people_vaccinated_smoothed_per_hundred: 0.079
-  stringency_index: 50.93
 - date: '2021-05-11'
   total_cases: 412157
   new_cases: 877
@@ -12909,7 +12484,6 @@
   new_vaccinations_smoothed_per_million: 3203
   new_people_vaccinated_smoothed: 5993
   new_people_vaccinated_smoothed_per_hundred: 0.087
-  stringency_index: 50.93
 - date: '2021-05-12'
   total_cases: 412814
   new_cases: 657
@@ -12948,7 +12522,6 @@
   new_vaccinations_smoothed_per_million: 3286
   new_people_vaccinated_smoothed: 6788
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 50.93
 - date: '2021-05-13'
   total_cases: 413320
   new_cases: 506
@@ -12987,7 +12560,6 @@
   new_vaccinations_smoothed_per_million: 3920
   new_people_vaccinated_smoothed: 7971
   new_people_vaccinated_smoothed_per_hundred: 0.116
-  stringency_index: 50.93
 - date: '2021-05-14'
   total_cases: 413838
   new_cases: 518
@@ -13026,7 +12598,6 @@
   new_vaccinations_smoothed_per_million: 3819
   new_people_vaccinated_smoothed: 8414
   new_people_vaccinated_smoothed_per_hundred: 0.122
-  stringency_index: 50.93
 - date: '2021-05-15'
   total_cases: 414041
   new_cases: 203
@@ -13065,7 +12636,6 @@
   new_vaccinations_smoothed_per_million: 3748
   new_people_vaccinated_smoothed: 8199
   new_people_vaccinated_smoothed_per_hundred: 0.119
-  stringency_index: 50.93
 - date: '2021-05-16'
   total_cases: 414192
   new_cases: 151
@@ -13104,7 +12674,6 @@
   new_vaccinations_smoothed_per_million: 3701
   new_people_vaccinated_smoothed: 7992
   new_people_vaccinated_smoothed_per_hundred: 0.116
-  stringency_index: 50.93
   excess_mortality_cumulative_absolute: 30623.4
   excess_mortality_cumulative: 20.11
   excess_mortality: 27.42
@@ -13147,7 +12716,6 @@
   new_vaccinations_smoothed_per_million: 3551
   new_people_vaccinated_smoothed: 8187
   new_people_vaccinated_smoothed_per_hundred: 0.119
-  stringency_index: 50.93
 - date: '2021-05-18'
   total_cases: 415326
   new_cases: 457
@@ -13186,7 +12754,6 @@
   new_vaccinations_smoothed_per_million: 3351
   new_people_vaccinated_smoothed: 8417
   new_people_vaccinated_smoothed_per_hundred: 0.122
-  stringency_index: 50.93
 - date: '2021-05-19'
   total_cases: 415687
   new_cases: 361
@@ -13225,7 +12792,6 @@
   new_vaccinations_smoothed_per_million: 3224
   new_people_vaccinated_smoothed: 8530
   new_people_vaccinated_smoothed_per_hundred: 0.124
-  stringency_index: 50.93
 - date: '2021-05-20'
   total_cases: 416055
   new_cases: 368
@@ -13264,7 +12830,6 @@
   new_vaccinations_smoothed_per_million: 3150
   new_people_vaccinated_smoothed: 8655
   new_people_vaccinated_smoothed_per_hundred: 0.125
-  stringency_index: 50.93
 - date: '2021-05-21'
   total_cases: 416417
   new_cases: 362
@@ -13303,7 +12868,6 @@
   new_vaccinations_smoothed_per_million: 2981
   new_people_vaccinated_smoothed: 8405
   new_people_vaccinated_smoothed_per_hundred: 0.122
-  stringency_index: 48.15
 - date: '2021-05-22'
   total_cases: 416565
   new_cases: 148
@@ -13342,7 +12906,6 @@
   new_vaccinations_smoothed_per_million: 2976
   new_people_vaccinated_smoothed: 8307
   new_people_vaccinated_smoothed_per_hundred: 0.12
-  stringency_index: 48.15
 - date: '2021-05-23'
   total_cases: 416646
   new_cases: 81
@@ -13381,7 +12944,6 @@
   new_vaccinations_smoothed_per_million: 2982
   new_people_vaccinated_smoothed: 8231
   new_people_vaccinated_smoothed_per_hundred: 0.119
-  stringency_index: 48.15
   excess_mortality_cumulative_absolute: 31041.3
   excess_mortality_cumulative: 20.13
   excess_mortality: 21.5
@@ -13424,7 +12986,6 @@
   new_vaccinations_smoothed_per_million: 2711
   new_people_vaccinated_smoothed: 7417
   new_people_vaccinated_smoothed_per_hundred: 0.108
-  stringency_index: 48.15
 - date: '2021-05-25'
   total_cases: 417133
   new_cases: 406
@@ -13463,7 +13024,6 @@
   new_vaccinations_smoothed_per_million: 2520
   new_people_vaccinated_smoothed: 6661
   new_people_vaccinated_smoothed_per_hundred: 0.097
-  stringency_index: 48.15
 - date: '2021-05-26'
   total_cases: 417526
   new_cases: 393
@@ -13502,7 +13062,6 @@
   new_vaccinations_smoothed_per_million: 2324
   new_people_vaccinated_smoothed: 6277
   new_people_vaccinated_smoothed_per_hundred: 0.091
-  stringency_index: 48.15
 - date: '2021-05-27'
   total_cases: 417819
   new_cases: 293
@@ -13541,7 +13100,6 @@
   new_vaccinations_smoothed_per_million: 1992
   new_people_vaccinated_smoothed: 5981
   new_people_vaccinated_smoothed_per_hundred: 0.087
-  stringency_index: 48.15
 - date: '2021-05-28'
   total_cases: 418106
   new_cases: 287
@@ -13580,7 +13138,6 @@
   new_vaccinations_smoothed_per_million: 1874
   new_people_vaccinated_smoothed: 5804
   new_people_vaccinated_smoothed_per_hundred: 0.084
-  stringency_index: 48.15
 - date: '2021-05-29'
   total_cases: 418221
   new_cases: 115
@@ -13619,7 +13176,6 @@
   new_vaccinations_smoothed_per_million: 1889
   new_people_vaccinated_smoothed: 5849
   new_people_vaccinated_smoothed_per_hundred: 0.085
-  stringency_index: 48.15
 - date: '2021-05-30'
   total_cases: 418274
   new_cases: 53
@@ -13658,7 +13214,6 @@
   new_vaccinations_smoothed_per_million: 1917
   new_people_vaccinated_smoothed: 5919
   new_people_vaccinated_smoothed_per_hundred: 0.086
-  stringency_index: 48.15
   excess_mortality_cumulative_absolute: 31278.6
   excess_mortality_cumulative: 20.03
   excess_mortality: 12.19
@@ -13701,7 +13256,6 @@
   new_vaccinations_smoothed_per_million: 2073
   new_people_vaccinated_smoothed: 6374
   new_people_vaccinated_smoothed_per_hundred: 0.092
-  stringency_index: 48.15
 - date: '2021-06-01'
   total_cases: 418813
   new_cases: 236
@@ -13740,7 +13294,6 @@
   new_vaccinations_smoothed_per_million: 2097
   new_people_vaccinated_smoothed: 6474
   new_people_vaccinated_smoothed_per_hundred: 0.094
-  stringency_index: 62.96
 - date: '2021-06-02'
   total_cases: 419010
   new_cases: 197
@@ -13779,7 +13332,6 @@
   new_vaccinations_smoothed_per_million: 2121
   new_people_vaccinated_smoothed: 6035
   new_people_vaccinated_smoothed_per_hundred: 0.088
-  stringency_index: 62.96
 - date: '2021-06-03'
   total_cases: 419180
   new_cases: 170
@@ -13818,7 +13370,6 @@
   new_vaccinations_smoothed_per_million: 2223
   new_people_vaccinated_smoothed: 5673
   new_people_vaccinated_smoothed_per_hundred: 0.082
-  stringency_index: 62.96
 - date: '2021-06-04'
   total_cases: 419337
   new_cases: 157
@@ -13857,7 +13408,6 @@
   new_vaccinations_smoothed_per_million: 2273
   new_people_vaccinated_smoothed: 5427
   new_people_vaccinated_smoothed_per_hundred: 0.079
-  stringency_index: 62.96
 - date: '2021-06-05'
   total_cases: 419426
   new_cases: 89
@@ -13896,7 +13446,6 @@
   new_vaccinations_smoothed_per_million: 2250
   new_people_vaccinated_smoothed: 5409
   new_people_vaccinated_smoothed_per_hundred: 0.078
-  stringency_index: 62.96
 - date: '2021-06-06'
   total_cases: 419473
   new_cases: 47
@@ -13935,7 +13484,6 @@
   new_vaccinations_smoothed_per_million: 2299
   new_people_vaccinated_smoothed: 5578
   new_people_vaccinated_smoothed_per_hundred: 0.081
-  stringency_index: 62.96
   excess_mortality_cumulative_absolute: 31448.3
   excess_mortality_cumulative: 19.9
   excess_mortality: 8.81
@@ -13978,7 +13526,6 @@
   new_vaccinations_smoothed_per_million: 2338
   new_people_vaccinated_smoothed: 5564
   new_people_vaccinated_smoothed_per_hundred: 0.081
-  stringency_index: 62.96
 - date: '2021-06-08'
   total_cases: 419859
   new_cases: 178
@@ -14017,7 +13564,6 @@
   new_vaccinations_smoothed_per_million: 2415
   new_people_vaccinated_smoothed: 5703
   new_people_vaccinated_smoothed_per_hundred: 0.083
-  stringency_index: 62.96
 - date: '2021-06-09'
   total_cases: 419990
   new_cases: 131
@@ -14056,7 +13602,6 @@
   new_vaccinations_smoothed_per_million: 2456
   new_people_vaccinated_smoothed: 5811
   new_people_vaccinated_smoothed_per_hundred: 0.084
-  stringency_index: 62.96
 - date: '2021-06-10'
   total_cases: 420090
   new_cases: 100
@@ -14095,7 +13640,6 @@
   new_vaccinations_smoothed_per_million: 2469
   new_people_vaccinated_smoothed: 5739
   new_people_vaccinated_smoothed_per_hundred: 0.083
-  stringency_index: 62.96
 - date: '2021-06-11'
   total_cases: 420213
   new_cases: 123
@@ -14134,7 +13678,6 @@
   new_vaccinations_smoothed_per_million: 2443
   new_people_vaccinated_smoothed: 5663
   new_people_vaccinated_smoothed_per_hundred: 0.082
-  stringency_index: 62.96
 - date: '2021-06-12'
   total_cases: 420294
   new_cases: 81
@@ -14173,7 +13716,6 @@
   new_vaccinations_smoothed_per_million: 2422
   new_people_vaccinated_smoothed: 5637
   new_people_vaccinated_smoothed_per_hundred: 0.082
-  stringency_index: 62.96
 - date: '2021-06-13'
   total_cases: 420336
   new_cases: 42
@@ -14212,7 +13754,6 @@
   new_vaccinations_smoothed_per_million: 2336
   new_people_vaccinated_smoothed: 5454
   new_people_vaccinated_smoothed_per_hundred: 0.079
-  stringency_index: 62.96
   excess_mortality_cumulative_absolute: 31609.4
   excess_mortality_cumulative: 19.76
   excess_mortality: 8.51
@@ -14255,7 +13796,6 @@
   new_vaccinations_smoothed_per_million: 2235
   new_people_vaccinated_smoothed: 5398
   new_people_vaccinated_smoothed_per_hundred: 0.078
-  stringency_index: 62.96
 - date: '2021-06-15'
   total_cases: 420654
   new_cases: 161
@@ -14294,7 +13834,6 @@
   new_vaccinations_smoothed_per_million: 2105
   new_people_vaccinated_smoothed: 5271
   new_people_vaccinated_smoothed_per_hundred: 0.076
-  stringency_index: 62.96
 - date: '2021-06-16'
   total_cases: 420749
   new_cases: 95
@@ -14333,7 +13872,6 @@
   new_vaccinations_smoothed_per_million: 1972
   new_people_vaccinated_smoothed: 5074
   new_people_vaccinated_smoothed_per_hundred: 0.074
-  stringency_index: 62.96
 - date: '2021-06-17'
   total_cases: 420859
   new_cases: 110
@@ -14372,7 +13910,6 @@
   new_vaccinations_smoothed_per_million: 1857
   new_people_vaccinated_smoothed: 4884
   new_people_vaccinated_smoothed_per_hundred: 0.071
-  stringency_index: 62.96
 - date: '2021-06-18'
   total_cases: 420964
   new_cases: 105
@@ -14411,7 +13948,6 @@
   new_vaccinations_smoothed_per_million: 1748
   new_people_vaccinated_smoothed: 4737
   new_people_vaccinated_smoothed_per_hundred: 0.069
-  stringency_index: 62.96
 - date: '2021-06-19'
   total_cases: 421005
   new_cases: 41
@@ -14450,7 +13986,6 @@
   new_vaccinations_smoothed_per_million: 1725
   new_people_vaccinated_smoothed: 4708
   new_people_vaccinated_smoothed_per_hundred: 0.068
-  stringency_index: 62.96
 - date: '2021-06-20'
   total_cases: 421032
   new_cases: 27
@@ -14489,7 +14024,6 @@
   new_vaccinations_smoothed_per_million: 1722
   new_people_vaccinated_smoothed: 4723
   new_people_vaccinated_smoothed_per_hundred: 0.068
-  stringency_index: 62.96
   excess_mortality_cumulative_absolute: 31730.3
   excess_mortality_cumulative: 19.6
   excess_mortality: 6.33
@@ -14532,7 +14066,6 @@
   new_vaccinations_smoothed_per_million: 1699
   new_people_vaccinated_smoothed: 4719
   new_people_vaccinated_smoothed_per_hundred: 0.068
-  stringency_index: 62.96
 - date: '2021-06-22'
   total_cases: 421246
   new_cases: 94
@@ -14571,7 +14104,6 @@
   new_vaccinations_smoothed_per_million: 1642
   new_people_vaccinated_smoothed: 4649
   new_people_vaccinated_smoothed_per_hundred: 0.067
-  stringency_index: 62.96
 - date: '2021-06-23'
   total_cases: 421339
   new_cases: 93
@@ -14610,7 +14142,6 @@
   new_vaccinations_smoothed_per_million: 1565
   new_people_vaccinated_smoothed: 4578
   new_people_vaccinated_smoothed_per_hundred: 0.066
-  stringency_index: 42.59
 - date: '2021-06-24'
   total_cases: 421401
   new_cases: 62
@@ -14649,7 +14180,6 @@
   new_vaccinations_smoothed_per_million: 1482
   new_people_vaccinated_smoothed: 4469
   new_people_vaccinated_smoothed_per_hundred: 0.065
-  stringency_index: 42.59
 - date: '2021-06-25'
   total_cases: 421487
   new_cases: 86
@@ -14688,7 +14218,6 @@
   new_vaccinations_smoothed_per_million: 1421
   new_people_vaccinated_smoothed: 4398
   new_people_vaccinated_smoothed_per_hundred: 0.064
-  stringency_index: 42.59
 - date: '2021-06-26'
   total_cases: 421515
   new_cases: 28
@@ -14727,7 +14256,6 @@
   new_vaccinations_smoothed_per_million: 1405
   new_people_vaccinated_smoothed: 4333
   new_people_vaccinated_smoothed_per_hundred: 0.063
-  stringency_index: 42.59
 - date: '2021-06-27'
   total_cases: 421531
   new_cases: 16
@@ -14766,7 +14294,6 @@
   new_vaccinations_smoothed_per_million: 1397
   new_people_vaccinated_smoothed: 4276
   new_people_vaccinated_smoothed_per_hundred: 0.062
-  stringency_index: 42.59
   excess_mortality_cumulative_absolute: 32085.8
   excess_mortality_cumulative: 19.59
   excess_mortality: 18.37
@@ -14809,7 +14336,6 @@
   new_vaccinations_smoothed_per_million: 1388
   new_people_vaccinated_smoothed: 4200
   new_people_vaccinated_smoothed_per_hundred: 0.061
-  stringency_index: 42.59
 - date: '2021-06-29'
   total_cases: 421751
   new_cases: 105
@@ -14848,7 +14374,6 @@
   new_vaccinations_smoothed_per_million: 1385
   new_people_vaccinated_smoothed: 4111
   new_people_vaccinated_smoothed_per_hundred: 0.06
-  stringency_index: 42.59
 - date: '2021-06-30'
   total_cases: 421829
   new_cases: 78
@@ -14887,7 +14412,6 @@
   new_vaccinations_smoothed_per_million: 1367
   new_people_vaccinated_smoothed: 4033
   new_people_vaccinated_smoothed_per_hundred: 0.058
-  stringency_index: 42.59
 - date: '2021-07-01'
   total_cases: 421902
   new_cases: 73
@@ -14926,7 +14450,6 @@
   new_vaccinations_smoothed_per_million: 1327
   new_people_vaccinated_smoothed: 4010
   new_people_vaccinated_smoothed_per_hundred: 0.058
-  stringency_index: 42.59
 - date: '2021-07-02'
   total_cases: 421983
   new_cases: 81
@@ -14965,7 +14488,6 @@
   new_vaccinations_smoothed_per_million: 1316
   new_people_vaccinated_smoothed: 4078
   new_people_vaccinated_smoothed_per_hundred: 0.059
-  stringency_index: 42.59
 - date: '2021-07-03'
   total_cases: 422034
   new_cases: 51
@@ -15004,7 +14526,6 @@
   new_vaccinations_smoothed_per_million: 1326
   new_people_vaccinated_smoothed: 4146
   new_people_vaccinated_smoothed_per_hundred: 0.06
-  stringency_index: 42.59
 - date: '2021-07-04'
   total_cases: 422034
   new_cases: 0
@@ -15043,7 +14564,6 @@
   new_vaccinations_smoothed_per_million: 1314
   new_people_vaccinated_smoothed: 4115
   new_people_vaccinated_smoothed_per_hundred: 0.06
-  stringency_index: 42.59
   excess_mortality_cumulative_absolute: 32293.5
   excess_mortality_cumulative: 19.48
   excess_mortality: 10.75
@@ -15086,7 +14606,6 @@
   new_vaccinations_smoothed_per_million: 1309
   new_people_vaccinated_smoothed: 4243
   new_people_vaccinated_smoothed_per_hundred: 0.062
-  stringency_index: 42.59
 - date: '2021-07-06'
   total_cases: 422238
   new_cases: 87
@@ -15125,7 +14644,6 @@
   new_vaccinations_smoothed_per_million: 1291
   new_people_vaccinated_smoothed: 4300
   new_people_vaccinated_smoothed_per_hundred: 0.062
-  stringency_index: 42.59
 - date: '2021-07-07'
   total_cases: 422298
   new_cases: 60
@@ -15164,7 +14682,6 @@
   new_vaccinations_smoothed_per_million: 1287
   new_people_vaccinated_smoothed: 4492
   new_people_vaccinated_smoothed_per_hundred: 0.065
-  stringency_index: 42.59
 - date: '2021-07-08'
   total_cases: 422353
   new_cases: 55
@@ -15203,7 +14720,6 @@
   new_vaccinations_smoothed_per_million: 1286
   new_people_vaccinated_smoothed: 4640
   new_people_vaccinated_smoothed_per_hundred: 0.067
-  stringency_index: 42.59
 - date: '2021-07-09'
   total_cases: 422414
   new_cases: 61
@@ -15242,7 +14758,6 @@
   new_vaccinations_smoothed_per_million: 1283
   new_people_vaccinated_smoothed: 4775
   new_people_vaccinated_smoothed_per_hundred: 0.069
-  stringency_index: 42.59
 - date: '2021-07-10'
   total_cases: 422446
   new_cases: 32
@@ -15281,7 +14796,6 @@
   new_vaccinations_smoothed_per_million: 1276
   new_people_vaccinated_smoothed: 4795
   new_people_vaccinated_smoothed_per_hundred: 0.07
-  stringency_index: 42.59
 - date: '2021-07-11'
   total_cases: 422462
   new_cases: 16
@@ -15320,7 +14834,6 @@
   new_vaccinations_smoothed_per_million: 1274
   new_people_vaccinated_smoothed: 4815
   new_people_vaccinated_smoothed_per_hundred: 0.07
-  stringency_index: 42.59
   excess_mortality_cumulative_absolute: 32520.2
   excess_mortality_cumulative: 19.4
   excess_mortality: 12.11
@@ -15363,7 +14876,6 @@
   new_vaccinations_smoothed_per_million: 1287
   new_people_vaccinated_smoothed: 4881
   new_people_vaccinated_smoothed_per_hundred: 0.071
-  stringency_index: 42.59
 - date: '2021-07-13'
   total_cases: 422619
   new_cases: 74
@@ -15395,7 +14907,6 @@
   new_vaccinations_smoothed_per_million: 1221
   new_people_vaccinated_smoothed: 4066
   new_people_vaccinated_smoothed_per_hundred: 0.059
-  stringency_index: 42.59
 - date: '2021-07-14'
   total_cases: 422703
   new_cases: 84
@@ -15427,7 +14938,6 @@
   new_vaccinations_smoothed_per_million: 1132
   new_people_vaccinated_smoothed: 3105
   new_people_vaccinated_smoothed_per_hundred: 0.045
-  stringency_index: 42.59
 - date: '2021-07-15'
   total_cases: 422797
   new_cases: 94
@@ -15459,7 +14969,6 @@
   new_vaccinations_smoothed_per_million: 1054
   new_people_vaccinated_smoothed: 2186
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 42.59
 - date: '2021-07-16'
   total_cases: 422873
   new_cases: 76
@@ -15491,7 +15000,6 @@
   new_vaccinations_smoothed_per_million: 991
   new_people_vaccinated_smoothed: 1289
   new_people_vaccinated_smoothed_per_hundred: 0.019
-  stringency_index: 42.59
 - date: '2021-07-17'
   total_cases: 422930
   new_cases: 57
@@ -15523,7 +15031,6 @@
   new_vaccinations_smoothed_per_million: 1100
   new_people_vaccinated_smoothed: 1015
   new_people_vaccinated_smoothed_per_hundred: 0.015
-  stringency_index: 42.59
 - date: '2021-07-18'
   total_cases: 422965
   new_cases: 35
@@ -15555,7 +15062,6 @@
   new_vaccinations_smoothed_per_million: 1233
   new_people_vaccinated_smoothed: 858
   new_people_vaccinated_smoothed_per_hundred: 0.012
-  stringency_index: 42.59
   excess_mortality_cumulative_absolute: 32696.9
   excess_mortality_cumulative: 19.29
   excess_mortality: 9.23
@@ -15587,7 +15093,6 @@
   new_vaccinations_smoothed_per_million: 1236
   new_people_vaccinated_smoothed: 204
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 42.59
 - date: '2021-07-20'
   total_cases: 423223
   new_cases: 145
@@ -15617,7 +15122,6 @@
   new_vaccinations_smoothed_per_million: 1236
   new_people_vaccinated_smoothed: 204
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 42.59
 - date: '2021-07-21'
   total_cases: 423319
   new_cases: 96
@@ -15645,7 +15149,6 @@
   new_vaccinations_smoothed_per_million: 1236
   new_people_vaccinated_smoothed: 204
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 42.59
 - date: '2021-07-22'
   total_cases: 423440
   new_cases: 121
@@ -15673,7 +15176,6 @@
   new_vaccinations_smoothed_per_million: 1236
   new_people_vaccinated_smoothed: 204
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 42.59
 - date: '2021-07-23'
   total_cases: 423575
   new_cases: 135
@@ -15703,7 +15205,6 @@
   new_vaccinations_smoothed_per_million: 1236
   new_people_vaccinated_smoothed: 204
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 42.59
 - date: '2021-07-24'
   total_cases: 423629
   new_cases: 54
@@ -15731,7 +15232,6 @@
   new_vaccinations_smoothed_per_million: 1236
   new_people_vaccinated_smoothed: 204
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 42.59
 - date: '2021-07-25'
   total_cases: 423686
   new_cases: 57
@@ -15759,7 +15259,6 @@
   new_vaccinations_smoothed_per_million: 1236
   new_people_vaccinated_smoothed: 204
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 42.59
   excess_mortality_cumulative_absolute: 32787.4
   excess_mortality_cumulative: 19.13
   excess_mortality: 4.9
@@ -15791,7 +15290,6 @@
   new_vaccinations_smoothed_per_million: 1236
   new_people_vaccinated_smoothed: 204
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 42.59
 - date: '2021-07-27'
   total_cases: 424079
   new_cases: 200
@@ -15827,7 +15325,6 @@
   new_vaccinations_smoothed_per_million: 1236
   new_people_vaccinated_smoothed: 204
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 42.59
 - date: '2021-07-28'
   total_cases: 424295
   new_cases: 216
@@ -15862,7 +15359,6 @@
   new_vaccinations_smoothed_per_million: 1328
   new_people_vaccinated_smoothed: 970
   new_people_vaccinated_smoothed_per_hundred: 0.014
-  stringency_index: 42.59
 - date: '2021-07-29'
   total_cases: 424526
   new_cases: 231
@@ -15897,7 +15393,6 @@
   new_vaccinations_smoothed_per_million: 1404
   new_people_vaccinated_smoothed: 1691
   new_people_vaccinated_smoothed_per_hundred: 0.025
-  stringency_index: 42.59
 - date: '2021-07-30'
   total_cases: 424872
   new_cases: 346
@@ -15934,7 +15429,6 @@
   new_vaccinations_smoothed_per_million: 1455
   new_people_vaccinated_smoothed: 2290
   new_people_vaccinated_smoothed_per_hundred: 0.033
-  stringency_index: 42.59
 - date: '2021-07-31'
   total_cases: 425054
   new_cases: 182
@@ -15969,7 +15463,6 @@
   new_vaccinations_smoothed_per_million: 1344
   new_people_vaccinated_smoothed: 2462
   new_people_vaccinated_smoothed_per_hundred: 0.036
-  stringency_index: 42.59
 - date: '2021-08-01'
   total_cases: 425148
   new_cases: 94
@@ -16004,7 +15497,6 @@
   new_vaccinations_smoothed_per_million: 1213
   new_people_vaccinated_smoothed: 2561
   new_people_vaccinated_smoothed_per_hundred: 0.037
-  stringency_index: 20.37
   excess_mortality_cumulative_absolute: 32945.1
   excess_mortality_cumulative: 19.01
   excess_mortality: 8.1
@@ -16043,7 +15535,6 @@
   new_vaccinations_smoothed_per_million: 1208
   new_people_vaccinated_smoothed: 3000
   new_people_vaccinated_smoothed_per_hundred: 0.043
-  stringency_index: 20.37
 - date: '2021-08-03'
   total_cases: 426003
   new_cases: 462
@@ -16080,7 +15571,6 @@
   new_vaccinations_smoothed_per_million: 1288
   new_people_vaccinated_smoothed: 3728
   new_people_vaccinated_smoothed_per_hundred: 0.054
-  stringency_index: 20.37
 - date: '2021-08-04'
   total_cases: 426432
   new_cases: 429
@@ -16115,7 +15605,6 @@
   new_vaccinations_smoothed_per_million: 1281
   new_people_vaccinated_smoothed: 3730
   new_people_vaccinated_smoothed_per_hundred: 0.054
-  stringency_index: 20.37
 - date: '2021-08-05'
   total_cases: 426932
   new_cases: 500
@@ -16150,7 +15639,6 @@
   new_vaccinations_smoothed_per_million: 1288
   new_people_vaccinated_smoothed: 3761
   new_people_vaccinated_smoothed_per_hundred: 0.055
-  stringency_index: 20.37
 - date: '2021-08-06'
   total_cases: 427481
   new_cases: 549
@@ -16187,7 +15675,6 @@
   new_vaccinations_smoothed_per_million: 1307
   new_people_vaccinated_smoothed: 3855
   new_people_vaccinated_smoothed_per_hundred: 0.056
-  stringency_index: 20.37
 - date: '2021-08-07'
   total_cases: 427873
   new_cases: 392
@@ -16222,7 +15709,6 @@
   new_vaccinations_smoothed_per_million: 1308
   new_people_vaccinated_smoothed: 3882
   new_people_vaccinated_smoothed_per_hundred: 0.056
-  stringency_index: 20.37
 - date: '2021-08-08'
   total_cases: 428049
   new_cases: 176
@@ -16257,7 +15743,6 @@
   new_vaccinations_smoothed_per_million: 1312
   new_people_vaccinated_smoothed: 3904
   new_people_vaccinated_smoothed_per_hundred: 0.057
-  stringency_index: 20.37
   excess_mortality_cumulative_absolute: 33252
   excess_mortality_cumulative: 18.97
   excess_mortality: 15.86
@@ -16296,7 +15781,6 @@
   new_vaccinations_smoothed_per_million: 1326
   new_people_vaccinated_smoothed: 3957
   new_people_vaccinated_smoothed_per_hundred: 0.057
-  stringency_index: 20.37
 - date: '2021-08-10'
   total_cases: 429628
   new_cases: 805
@@ -16333,7 +15817,6 @@
   new_vaccinations_smoothed_per_million: 1316
   new_people_vaccinated_smoothed: 3945
   new_people_vaccinated_smoothed_per_hundred: 0.057
-  stringency_index: 20.37
 - date: '2021-08-11'
   total_cases: 430410
   new_cases: 782
@@ -16368,7 +15851,6 @@
   new_vaccinations_smoothed_per_million: 1309
   new_people_vaccinated_smoothed: 3902
   new_people_vaccinated_smoothed_per_hundred: 0.057
-  stringency_index: 20.37
 - date: '2021-08-12'
   total_cases: 431292
   new_cases: 882
@@ -16403,7 +15885,6 @@
   new_vaccinations_smoothed_per_million: 1295
   new_people_vaccinated_smoothed: 3812
   new_people_vaccinated_smoothed_per_hundred: 0.055
-  stringency_index: 20.37
 - date: '2021-08-13'
   total_cases: 432339
   new_cases: 1047
@@ -16440,7 +15921,6 @@
   new_vaccinations_smoothed_per_million: 1266
   new_people_vaccinated_smoothed: 3663
   new_people_vaccinated_smoothed_per_hundred: 0.053
-  stringency_index: 20.37
 - date: '2021-08-14'
   total_cases: 432962
   new_cases: 623
@@ -16475,7 +15955,6 @@
   new_vaccinations_smoothed_per_million: 1271
   new_people_vaccinated_smoothed: 3624
   new_people_vaccinated_smoothed_per_hundred: 0.053
-  stringency_index: 20.37
 - date: '2021-08-15'
   total_cases: 433234
   new_cases: 272
@@ -16510,7 +15989,6 @@
   new_vaccinations_smoothed_per_million: 1268
   new_people_vaccinated_smoothed: 3593
   new_people_vaccinated_smoothed_per_hundred: 0.052
-  stringency_index: 20.37
   excess_mortality_cumulative_absolute: 33587.9
   excess_mortality_cumulative: 18.96
   excess_mortality: 17.61
@@ -16549,7 +16027,6 @@
   new_vaccinations_smoothed_per_million: 1271
   new_people_vaccinated_smoothed: 3508
   new_people_vaccinated_smoothed_per_hundred: 0.051
-  stringency_index: 20.37
 - date: '2021-08-17'
   total_cases: 435940
   new_cases: 1405
@@ -16586,7 +16063,6 @@
   new_vaccinations_smoothed_per_million: 1277
   new_people_vaccinated_smoothed: 3387
   new_people_vaccinated_smoothed_per_hundred: 0.049
-  stringency_index: 20.37
 - date: '2021-08-18'
   total_cases: 437327
   new_cases: 1387
@@ -16619,7 +16095,6 @@
   new_vaccinations_smoothed_per_million: 1287
   new_people_vaccinated_smoothed: 3602
   new_people_vaccinated_smoothed_per_hundred: 0.052
-  stringency_index: 20.37
 - date: '2021-08-19'
   total_cases: 438698
   new_cases: 1371
@@ -16652,7 +16127,6 @@
   new_vaccinations_smoothed_per_million: 1293
   new_people_vaccinated_smoothed: 3881
   new_people_vaccinated_smoothed_per_hundred: 0.056
-  stringency_index: 20.37
 - date: '2021-08-20'
   total_cases: 440066
   new_cases: 1368
@@ -16687,7 +16161,6 @@
   new_vaccinations_smoothed_per_million: 1320
   new_people_vaccinated_smoothed: 4277
   new_people_vaccinated_smoothed_per_hundred: 0.062
-  stringency_index: 20.37
 - date: '2021-08-21'
   total_cases: 440911
   new_cases: 845
@@ -16720,7 +16193,6 @@
   new_vaccinations_smoothed_per_million: 1324
   new_people_vaccinated_smoothed: 5057
   new_people_vaccinated_smoothed_per_hundred: 0.073
-  stringency_index: 20.37
 - date: '2021-08-22'
   total_cases: 441295
   new_cases: 384
@@ -16753,7 +16225,6 @@
   new_vaccinations_smoothed_per_million: 1328
   new_people_vaccinated_smoothed: 5906
   new_people_vaccinated_smoothed_per_hundred: 0.086
-  stringency_index: 20.37
   excess_mortality_cumulative_absolute: 33839.2
   excess_mortality_cumulative: 18.91
   excess_mortality: 13.7
@@ -16792,7 +16263,6 @@
   new_vaccinations_smoothed_per_million: 1344
   new_people_vaccinated_smoothed: 6438
   new_people_vaccinated_smoothed_per_hundred: 0.093
-  stringency_index: 20.37
 - date: '2021-08-24'
   total_cases: 445097
   new_cases: 1911
@@ -16825,7 +16295,6 @@
   new_vaccinations_smoothed_per_million: 1375
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 20.37
 - date: '2021-08-25'
   total_cases: 446698
   new_cases: 1601
@@ -16858,7 +16327,6 @@
   new_vaccinations_smoothed_per_million: 1396
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 20.37
 - date: '2021-08-26'
   total_cases: 448431
   new_cases: 1733
@@ -16893,7 +16361,6 @@
   new_vaccinations_smoothed_per_million: 1423
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 20.37
 - date: '2021-08-27'
   total_cases: 450144
   new_cases: 1713
@@ -16926,7 +16393,6 @@
   new_vaccinations_smoothed_per_million: 1437
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 20.37
 - date: '2021-08-28'
   total_cases: 451148
   new_cases: 1004
@@ -16959,7 +16425,6 @@
   new_vaccinations_smoothed_per_million: 1442
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 20.37
 - date: '2021-08-29'
   total_cases: 451599
   new_cases: 451
@@ -16992,7 +16457,6 @@
   new_vaccinations_smoothed_per_million: 1445
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 20.37
   excess_mortality_cumulative_absolute: 34380.7
   excess_mortality_cumulative: 19.02
   excess_mortality: 29.98
@@ -17031,7 +16495,6 @@
   new_vaccinations_smoothed_per_million: 1456
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 20.37
 - date: '2021-08-31'
   total_cases: 455742
   new_cases: 2053
@@ -17064,7 +16527,6 @@
   new_vaccinations_smoothed_per_million: 1451
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 20.37
 - date: '2021-09-01'
   total_cases: 457487
   new_cases: 1745
@@ -17097,7 +16559,6 @@
   new_vaccinations_smoothed_per_million: 1415
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 20.37
 - date: '2021-09-02'
   total_cases: 459051
   new_cases: 1564
@@ -17132,7 +16593,6 @@
   new_vaccinations_smoothed_per_million: 1389
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 20.37
 - date: '2021-09-03'
   total_cases: 460691
   new_cases: 1640
@@ -17165,7 +16625,6 @@
   new_vaccinations_smoothed_per_million: 1383
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 20.37
 - date: '2021-09-04'
   total_cases: 461545
   new_cases: 854
@@ -17198,7 +16657,6 @@
   new_vaccinations_smoothed_per_million: 1372
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 28.7
 - date: '2021-09-05'
   total_cases: 462033
   new_cases: 488
@@ -17231,7 +16689,6 @@
   new_vaccinations_smoothed_per_million: 1364
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 28.7
   excess_mortality_cumulative_absolute: 35066.2
   excess_mortality_cumulative: 19.2
   excess_mortality: 38.22
@@ -17268,7 +16725,6 @@
   new_vaccinations_smoothed_per_million: 1182
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 28.7
 - date: '2021-09-07'
   total_cases: 464715
   new_cases: 2005
@@ -17301,7 +16757,6 @@
   new_vaccinations_smoothed_per_million: 1138
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-08'
   total_cases: 466671
   new_cases: 1956
@@ -17336,7 +16791,6 @@
   new_vaccinations_smoothed_per_million: 1147
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-09'
   total_cases: 468300
   new_cases: 1629
@@ -17369,7 +16823,6 @@
   new_vaccinations_smoothed_per_million: 1141
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-10'
   total_cases: 469926
   new_cases: 1626
@@ -17402,7 +16855,6 @@
   new_vaccinations_smoothed_per_million: 1117
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-11'
   total_cases: 470835
   new_cases: 909
@@ -17435,7 +16887,6 @@
   new_vaccinations_smoothed_per_million: 1111
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-12'
   total_cases: 471272
   new_cases: 437
@@ -17468,7 +16919,6 @@
   new_vaccinations_smoothed_per_million: 1107
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
   excess_mortality_cumulative_absolute: 35936.7
   excess_mortality_cumulative: 19.49
   excess_mortality: 48.7
@@ -17507,7 +16957,6 @@
   new_vaccinations_smoothed_per_million: 1239
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-14'
   total_cases: 475299
   new_cases: 2029
@@ -17540,7 +16989,6 @@
   new_vaccinations_smoothed_per_million: 1231
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-15'
   total_cases: 477161
   new_cases: 1862
@@ -17573,7 +17021,6 @@
   new_vaccinations_smoothed_per_million: 1186
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-16'
   total_cases: 478885
   new_cases: 1724
@@ -17608,7 +17055,6 @@
   new_vaccinations_smoothed_per_million: 1171
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-17'
   total_cases: 480777
   new_cases: 1892
@@ -17641,7 +17087,6 @@
   new_vaccinations_smoothed_per_million: 1159
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-18'
   total_cases: 481728
   new_cases: 951
@@ -17674,7 +17119,6 @@
   new_vaccinations_smoothed_per_million: 1159
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-19'
   total_cases: 482186
   new_cases: 458
@@ -17707,7 +17151,6 @@
   new_vaccinations_smoothed_per_million: 1153
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
   excess_mortality_cumulative_absolute: 37044
   excess_mortality_cumulative: 19.9
   excess_mortality: 61.8
@@ -17746,7 +17189,6 @@
   new_vaccinations_smoothed_per_million: 1143
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-21'
   total_cases: 486738
   new_cases: 2192
@@ -17779,7 +17221,6 @@
   new_vaccinations_smoothed_per_million: 1124
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-22'
   total_cases: 487588
   new_cases: 850
@@ -17812,7 +17253,6 @@
   new_vaccinations_smoothed_per_million: 949
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-23'
   total_cases: 489423
   new_cases: 1835
@@ -17847,7 +17287,6 @@
   new_vaccinations_smoothed_per_million: 955
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-24'
   total_cases: 491327
   new_cases: 1904
@@ -17880,7 +17319,6 @@
   new_vaccinations_smoothed_per_million: 946
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-25'
   total_cases: 492365
   new_cases: 1038
@@ -17913,7 +17351,6 @@
   new_vaccinations_smoothed_per_million: 934
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-26'
   total_cases: 492861
   new_cases: 496
@@ -17946,7 +17383,6 @@
   new_vaccinations_smoothed_per_million: 930
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
   excess_mortality_cumulative_absolute: 38034.1
   excess_mortality_cumulative: 20.24
   excess_mortality: 55.44
@@ -17985,7 +17421,6 @@
   new_vaccinations_smoothed_per_million: 882
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-28'
   total_cases: 497970
   new_cases: 2573
@@ -18018,7 +17453,6 @@
   new_vaccinations_smoothed_per_million: 838
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-29'
   total_cases: 500112
   new_cases: 2142
@@ -18053,7 +17487,6 @@
   new_vaccinations_smoothed_per_million: 986
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-09-30'
   total_cases: 502162
   new_cases: 2050
@@ -18086,7 +17519,6 @@
   new_vaccinations_smoothed_per_million: 934
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-10-01'
   total_cases: 504253
   new_cases: 2091
@@ -18119,7 +17551,6 @@
   new_vaccinations_smoothed_per_million: 873
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-10-02'
   total_cases: 505481
   new_cases: 1228
@@ -18152,7 +17583,6 @@
   new_vaccinations_smoothed_per_million: 869
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
 - date: '2021-10-03'
   total_cases: 505994
   new_cases: 513
@@ -18185,7 +17615,6 @@
   new_vaccinations_smoothed_per_million: 847
   new_people_vaccinated_smoothed: 6782
   new_people_vaccinated_smoothed_per_hundred: 0.098
-  stringency_index: 43.52
   excess_mortality_cumulative_absolute: 39098.2
   excess_mortality_cumulative: 20.61
   excess_mortality: 59.85
@@ -18224,7 +17653,6 @@
   new_vaccinations_smoothed_per_million: 868
   new_people_vaccinated_smoothed: 6664
   new_people_vaccinated_smoothed_per_hundred: 0.097
-  stringency_index: 43.52
 - date: '2021-10-05'
   total_cases: 511666
   new_cases: 2866
@@ -18257,7 +17685,6 @@
   new_vaccinations_smoothed_per_million: 856
   new_people_vaccinated_smoothed: 6546
   new_people_vaccinated_smoothed_per_hundred: 0.095
-  stringency_index: 47.22
 - date: '2021-10-06'
   total_cases: 514208
   new_cases: 2542
@@ -18290,7 +17717,6 @@
   new_vaccinations_smoothed_per_million: 818
   new_people_vaccinated_smoothed: 6428
   new_people_vaccinated_smoothed_per_hundred: 0.093
-  stringency_index: 47.22
 - date: '2021-10-07'
   total_cases: 516510
   new_cases: 2302
@@ -18325,7 +17751,6 @@
   new_vaccinations_smoothed_per_million: 793
   new_people_vaccinated_smoothed: 6310
   new_people_vaccinated_smoothed_per_hundred: 0.091
-  stringency_index: 47.22
 - date: '2021-10-08'
   total_cases: 518995
   new_cases: 2485
@@ -18358,7 +17783,6 @@
   new_vaccinations_smoothed_per_million: 796
   new_people_vaccinated_smoothed: 6192
   new_people_vaccinated_smoothed_per_hundred: 0.09
-  stringency_index: 47.22
 - date: '2021-10-09'
   total_cases: 520241
   new_cases: 1246
@@ -18391,7 +17815,6 @@
   new_vaccinations_smoothed_per_million: 797
   new_people_vaccinated_smoothed: 6074
   new_people_vaccinated_smoothed_per_hundred: 0.088
-  stringency_index: 47.22
 - date: '2021-10-10'
   total_cases: 520862
   new_cases: 621
@@ -18424,7 +17847,6 @@
   new_vaccinations_smoothed_per_million: 813
   new_people_vaccinated_smoothed: 5956
   new_people_vaccinated_smoothed_per_hundred: 0.086
-  stringency_index: 47.22
   excess_mortality_cumulative_absolute: 40248.7
   excess_mortality_cumulative: 21
   excess_mortality: 59.88
@@ -18463,7 +17885,6 @@
   new_vaccinations_smoothed_per_million: 792
   new_people_vaccinated_smoothed: 5956
   new_people_vaccinated_smoothed_per_hundred: 0.086
-  stringency_index: 47.22
 - date: '2021-10-12'
   total_cases: 527802
   new_cases: 3469
@@ -18496,7 +17917,6 @@
   new_vaccinations_smoothed_per_million: 797
   new_people_vaccinated_smoothed: 5956
   new_people_vaccinated_smoothed_per_hundred: 0.086
-  stringency_index: 53.7
 - date: '2021-10-13'
   total_cases: 531129
   new_cases: 3327
@@ -18529,7 +17949,6 @@
   new_vaccinations_smoothed_per_million: 763
   new_people_vaccinated_smoothed: 5956
   new_people_vaccinated_smoothed_per_hundred: 0.086
-  stringency_index: 53.7
 - date: '2021-10-14'
   total_cases: 534312
   new_cases: 3183
@@ -18564,7 +17983,6 @@
   new_vaccinations_smoothed_per_million: 771
   new_people_vaccinated_smoothed: 5956
   new_people_vaccinated_smoothed_per_hundred: 0.086
-  stringency_index: 53.7
 - date: '2021-10-15'
   total_cases: 537752
   new_cases: 3440
@@ -18597,7 +18015,6 @@
   new_vaccinations_smoothed_per_million: 800
   new_people_vaccinated_smoothed: 5956
   new_people_vaccinated_smoothed_per_hundred: 0.086
-  stringency_index: 53.7
 - date: '2021-10-16'
   total_cases: 539619
   new_cases: 1867
@@ -18630,7 +18047,6 @@
   new_vaccinations_smoothed_per_million: 812
   new_people_vaccinated_smoothed: 5956
   new_people_vaccinated_smoothed_per_hundred: 0.086
-  stringency_index: 53.7
 - date: '2021-10-17'
   total_cases: 540619
   new_cases: 1000
@@ -18663,7 +18079,6 @@
   new_vaccinations_smoothed_per_million: 824
   new_people_vaccinated_smoothed: 5956
   new_people_vaccinated_smoothed_per_hundred: 0.086
-  stringency_index: 53.7
   excess_mortality_cumulative_absolute: 41691.6
   excess_mortality_cumulative: 21.53
   excess_mortality: 73.61
@@ -18702,7 +18117,6 @@
   new_vaccinations_smoothed_per_million: 845
   new_people_vaccinated_smoothed: 5956
   new_people_vaccinated_smoothed_per_hundred: 0.086
-  stringency_index: 53.7
 - date: '2021-10-19'
   total_cases: 550555
   new_cases: 4957
@@ -18739,7 +18153,6 @@
   new_vaccinations_smoothed_per_million: 875
   new_people_vaccinated_smoothed: 5956
   new_people_vaccinated_smoothed_per_hundred: 0.086
-  stringency_index: 53.7
 - date: '2021-10-20'
   total_cases: 555077
   new_cases: 4522
@@ -18772,7 +18185,6 @@
   new_vaccinations_smoothed_per_million: 1039
   new_people_vaccinated_smoothed: 5956
   new_people_vaccinated_smoothed_per_hundred: 0.086
-  stringency_index: 50
 - date: '2021-10-21'
   total_cases: 559893
   new_cases: 4816
@@ -18807,7 +18219,6 @@
   new_vaccinations_smoothed_per_million: 1457
   new_people_vaccinated_smoothed: 5956
   new_people_vaccinated_smoothed_per_hundred: 0.086
-  stringency_index: 50
 - date: '2021-10-22'
   total_cases: 564719
   new_cases: 4826
@@ -18840,7 +18251,6 @@
   new_vaccinations_smoothed_per_million: 1777
   new_people_vaccinated_smoothed: 5956
   new_people_vaccinated_smoothed_per_hundred: 0.086
-  stringency_index: 50
 - date: '2021-10-23'
   total_cases: 568073
   new_cases: 3354
@@ -18872,7 +18282,6 @@
   new_vaccinations_smoothed_per_million: 1811
   new_people_vaccinated_smoothed: 5956
   new_people_vaccinated_smoothed_per_hundred: 0.086
-  stringency_index: 50
 - date: '2021-10-24'
   total_cases: 569443
   new_cases: 1370
@@ -18904,7 +18313,6 @@
   new_vaccinations_smoothed_per_million: 1869
   new_people_vaccinated_smoothed: 5956
   new_people_vaccinated_smoothed_per_hundred: 0.086
-  stringency_index: 50
   excess_mortality_cumulative_absolute: 43501.3
   excess_mortality_cumulative: 22.23
   excess_mortality: 89.09
@@ -18943,7 +18351,6 @@
   new_vaccinations_smoothed_per_million: 2255
   new_people_vaccinated_smoothed: 6831
   new_people_vaccinated_smoothed_per_hundred: 0.099
-  stringency_index: 50
 - date: '2021-10-26'
   total_cases: 582122
   new_cases: 6816
@@ -18976,7 +18383,6 @@
   new_vaccinations_smoothed_per_million: 2729
   new_people_vaccinated_smoothed: 7705
   new_people_vaccinated_smoothed_per_hundred: 0.112
-  stringency_index: 50
 - date: '2021-10-27'
   total_cases: 587765
   new_cases: 5643
@@ -19011,7 +18417,6 @@
   new_vaccinations_smoothed_per_million: 2977
   new_people_vaccinated_smoothed: 8579
   new_people_vaccinated_smoothed_per_hundred: 0.124
-  stringency_index: 50
 - date: '2021-10-28'
   total_cases: 592943
   new_cases: 5178
@@ -19044,7 +18449,6 @@
   new_vaccinations_smoothed_per_million: 2876
   new_people_vaccinated_smoothed: 9454
   new_people_vaccinated_smoothed_per_hundred: 0.137
-  stringency_index: 50
 - date: '2021-10-29'
   total_cases: 598199
   new_cases: 5256
@@ -19077,7 +18481,6 @@
   new_vaccinations_smoothed_per_million: 2857
   new_people_vaccinated_smoothed: 10328
   new_people_vaccinated_smoothed_per_hundred: 0.15
-  stringency_index: 50
 - date: '2021-10-30'
   total_cases: 601035
   new_cases: 2836
@@ -19110,7 +18513,6 @@
   new_vaccinations_smoothed_per_million: 2923
   new_people_vaccinated_smoothed: 11203
   new_people_vaccinated_smoothed_per_hundred: 0.162
-  stringency_index: 50
 - date: '2021-10-31'
   total_cases: 602492
   new_cases: 1457
@@ -19143,7 +18545,6 @@
   new_vaccinations_smoothed_per_million: 2931
   new_people_vaccinated_smoothed: 12077
   new_people_vaccinated_smoothed_per_hundred: 0.175
-  stringency_index: 50
   excess_mortality_cumulative_absolute: 45524.6
   excess_mortality_cumulative: 23.03
   excess_mortality: 99.88
@@ -19182,7 +18583,6 @@
   new_vaccinations_smoothed_per_million: 2717
   new_people_vaccinated_smoothed: 12077
   new_people_vaccinated_smoothed_per_hundred: 0.175
-  stringency_index: 50
 - date: '2021-11-02'
   total_cases: 614362
   new_cases: 5863
@@ -19215,7 +18615,6 @@
   new_vaccinations_smoothed_per_million: 2443
   new_people_vaccinated_smoothed: 12077
   new_people_vaccinated_smoothed_per_hundred: 0.175
-  stringency_index: 47.22
 - date: '2021-11-03'
   total_cases: 619284
   new_cases: 4922
@@ -19248,7 +18647,6 @@
   new_vaccinations_smoothed_per_million: 2322
   new_people_vaccinated_smoothed: 12077
   new_people_vaccinated_smoothed_per_hundred: 0.175
-  stringency_index: 47.22
 - date: '2021-11-04'
   total_cases: 623946
   new_cases: 4662
@@ -19283,7 +18681,6 @@
   new_vaccinations_smoothed_per_million: 2267
   new_people_vaccinated_smoothed: 12077
   new_people_vaccinated_smoothed_per_hundred: 0.175
-  stringency_index: 47.22
 - date: '2021-11-05'
   total_cases: 628680
   new_cases: 4734
@@ -19316,7 +18713,6 @@
   new_vaccinations_smoothed_per_million: 2207
   new_people_vaccinated_smoothed: 12077
   new_people_vaccinated_smoothed_per_hundred: 0.175
-  stringency_index: 47.22
 - date: '2021-11-06'
   total_cases: 631506
   new_cases: 2826
@@ -19349,7 +18745,6 @@
   new_vaccinations_smoothed_per_million: 2187
   new_people_vaccinated_smoothed: 12077
   new_people_vaccinated_smoothed_per_hundred: 0.175
-  stringency_index: 47.22
 - date: '2021-11-07'
   total_cases: 632762
   new_cases: 1256
@@ -19382,7 +18777,6 @@
   new_vaccinations_smoothed_per_million: 2183
   new_people_vaccinated_smoothed: 12077
   new_people_vaccinated_smoothed_per_hundred: 0.175
-  stringency_index: 47.22
   excess_mortality_cumulative_absolute: 47635.1
   excess_mortality_cumulative: 23.85
   excess_mortality: 102.43
@@ -19419,7 +18813,6 @@
   new_vaccinations_smoothed_per_million: 2157
   new_people_vaccinated_smoothed: 12077
   new_people_vaccinated_smoothed_per_hundred: 0.175
-  stringency_index: 47.22
 - date: '2021-11-09'
   total_cases: 643003
   new_cases: 4955
@@ -19454,7 +18847,6 @@
   new_vaccinations_smoothed_per_million: 2119
   new_people_vaccinated_smoothed: 12077
   new_people_vaccinated_smoothed_per_hundred: 0.175
-  stringency_index: 47.22
 - date: '2021-11-10'
   total_cases: 646856
   new_cases: 3853
@@ -19487,7 +18879,6 @@
   new_vaccinations_smoothed_per_million: 2074
   new_people_vaccinated_smoothed: 12077
   new_people_vaccinated_smoothed_per_hundred: 0.175
-  stringency_index: 47.22
 - date: '2021-11-11'
   total_cases: 650063
   new_cases: 3207
@@ -19520,7 +18911,6 @@
   new_vaccinations_smoothed_per_million: 2108
   new_people_vaccinated_smoothed: 12077
   new_people_vaccinated_smoothed_per_hundred: 0.175
-  stringency_index: 47.22
 - date: '2021-11-12'
   total_cases: 653209
   new_cases: 3146
@@ -19555,7 +18945,6 @@
   new_vaccinations_smoothed_per_million: 2141
   new_people_vaccinated_smoothed: 12077
   new_people_vaccinated_smoothed_per_hundred: 0.175
-  stringency_index: 47.22
 - date: '2021-11-13'
   total_cases: 654819
   new_cases: 1610
@@ -19588,7 +18977,6 @@
   new_vaccinations_smoothed_per_million: 2161
   new_people_vaccinated_smoothed: 12077
   new_people_vaccinated_smoothed_per_hundred: 0.175
-  stringency_index: 47.22
 - date: '2021-11-14'
   total_cases: 655647
   new_cases: 828
@@ -19618,7 +19006,6 @@
   new_vaccinations_smoothed_per_million: 2287
   new_people_vaccinated_smoothed: 12077
   new_people_vaccinated_smoothed_per_hundred: 0.175
-  stringency_index: 47.22
   excess_mortality_cumulative_absolute: 49649.4
   excess_mortality_cumulative: 24.6
   excess_mortality: 96.95
@@ -19654,7 +19041,6 @@
   new_vaccinations_smoothed_per_million: 2236
   new_people_vaccinated_smoothed: 11152
   new_people_vaccinated_smoothed_per_hundred: 0.162
-  stringency_index: 47.22
 - date: '2021-11-16'
   total_cases: 662739
   new_cases: 3869
@@ -19689,7 +19075,6 @@
   new_vaccinations_smoothed_per_million: 2343
   new_people_vaccinated_smoothed: 10227
   new_people_vaccinated_smoothed_per_hundred: 0.148
-  stringency_index: 47.22
 - date: '2021-11-17'
   total_cases: 665578
   new_cases: 2839
@@ -19722,7 +19107,6 @@
   new_vaccinations_smoothed_per_million: 2429
   new_people_vaccinated_smoothed: 9301
   new_people_vaccinated_smoothed_per_hundred: 0.135
-  stringency_index: 47.22
 - date: '2021-11-18'
   total_cases: 668363
   new_cases: 2785
@@ -19755,7 +19139,6 @@
   new_vaccinations_smoothed_per_million: 2422
   new_people_vaccinated_smoothed: 8376
   new_people_vaccinated_smoothed_per_hundred: 0.121
-  stringency_index: 47.22
 - date: '2021-11-19'
   total_cases: 671100
   new_cases: 2737
@@ -19790,7 +19173,6 @@
   new_vaccinations_smoothed_per_million: 2419
   new_people_vaccinated_smoothed: 7451
   new_people_vaccinated_smoothed_per_hundred: 0.108
-  stringency_index: 47.22
 - date: '2021-11-20'
   total_cases: 672555
   new_cases: 1455
@@ -19823,7 +19205,6 @@
   new_vaccinations_smoothed_per_million: 2410
   new_people_vaccinated_smoothed: 6526
   new_people_vaccinated_smoothed_per_hundred: 0.095
-  stringency_index: 47.22
 - date: '2021-11-21'
   total_cases: 673288
   new_cases: 733
@@ -19856,7 +19237,6 @@
   new_vaccinations_smoothed_per_million: 2280
   new_people_vaccinated_smoothed: 5601
   new_people_vaccinated_smoothed_per_hundred: 0.081
-  stringency_index: 47.22
   excess_mortality_cumulative_absolute: 51540.1
   excess_mortality_cumulative: 25.28
   excess_mortality: 90.11
@@ -19893,7 +19273,6 @@
   new_vaccinations_smoothed_per_million: 2383
   new_people_vaccinated_smoothed: 5601
   new_people_vaccinated_smoothed_per_hundred: 0.081
-  stringency_index: 47.22
 - date: '2021-11-23'
   total_cases: 679983
   new_cases: 3233
@@ -19928,7 +19307,6 @@
   new_vaccinations_smoothed_per_million: 2334
   new_people_vaccinated_smoothed: 5601
   new_people_vaccinated_smoothed_per_hundred: 0.081
-  stringency_index: 47.22
 - date: '2021-11-24'
   total_cases: 682552
   new_cases: 2569
@@ -19961,7 +19339,6 @@
   new_vaccinations_smoothed_per_million: 2297
   new_people_vaccinated_smoothed: 5601
   new_people_vaccinated_smoothed_per_hundred: 0.081
-  stringency_index: 47.22
 - date: '2021-11-25'
   total_cases: 684922
   new_cases: 2370
@@ -19996,7 +19373,6 @@
   new_vaccinations_smoothed_per_million: 2277
   new_people_vaccinated_smoothed: 5601
   new_people_vaccinated_smoothed_per_hundred: 0.081
-  stringency_index: 47.22
 - date: '2021-11-26'
   total_cases: 687410
   new_cases: 2488
@@ -20029,7 +19405,6 @@
   new_vaccinations_smoothed_per_million: 2272
   new_people_vaccinated_smoothed: 5601
   new_people_vaccinated_smoothed_per_hundred: 0.081
-  stringency_index: 47.22
 - date: '2021-11-27'
   total_cases: 688628
   new_cases: 1218
@@ -20062,7 +19437,6 @@
   new_vaccinations_smoothed_per_million: 2259
   new_people_vaccinated_smoothed: 5601
   new_people_vaccinated_smoothed_per_hundred: 0.081
-  stringency_index: 47.22
 - date: '2021-11-28'
   total_cases: 689356
   new_cases: 728
@@ -20097,7 +19471,6 @@
   new_vaccinations_smoothed_per_million: 2261
   new_people_vaccinated_smoothed: 5601
   new_people_vaccinated_smoothed_per_hundred: 0.081
-  stringency_index: 47.22
   excess_mortality_cumulative_absolute: 53141
   excess_mortality_cumulative: 25.8
   excess_mortality: 77.86
@@ -20134,7 +19507,6 @@
   new_vaccinations_smoothed_per_million: 2261
   new_people_vaccinated_smoothed: 5601
   new_people_vaccinated_smoothed_per_hundred: 0.081
-  stringency_index: 47.22
 - date: '2021-11-30'
   total_cases: 695057
   new_cases: 2681
@@ -20169,7 +19541,6 @@
   new_vaccinations_smoothed_per_million: 2256
   new_people_vaccinated_smoothed: 5601
   new_people_vaccinated_smoothed_per_hundred: 0.081
-  stringency_index: 47.22
 - date: '2021-12-01'
   total_cases: 697162
   new_cases: 2105
@@ -20202,7 +19573,6 @@
   new_vaccinations_smoothed_per_million: 2251
   new_people_vaccinated_smoothed: 5601
   new_people_vaccinated_smoothed_per_hundred: 0.081
-  stringency_index: 47.22
 - date: '2021-12-02'
   total_cases: 699180
   new_cases: 2018
@@ -20237,7 +19607,6 @@
   new_vaccinations_smoothed_per_million: 2245
   new_people_vaccinated_smoothed: 5601
   new_people_vaccinated_smoothed_per_hundred: 0.081
-  stringency_index: 47.22
 - date: '2021-12-03'
   total_cases: 701469
   new_cases: 2289
@@ -20270,7 +19639,6 @@
   new_vaccinations_smoothed_per_million: 2211
   new_people_vaccinated_smoothed: 5601
   new_people_vaccinated_smoothed_per_hundred: 0.081
-  stringency_index: 47.22
 - date: '2021-12-04'
   total_cases: 702454
   new_cases: 985
@@ -20303,7 +19671,6 @@
   new_vaccinations_smoothed_per_million: 2199
   new_people_vaccinated_smoothed: 5601
   new_people_vaccinated_smoothed_per_hundred: 0.081
-  stringency_index: 47.22
 - date: '2021-12-05'
   total_cases: 703160
   new_cases: 706
@@ -20338,7 +19705,6 @@
   new_vaccinations_smoothed_per_million: 2256
   new_people_vaccinated_smoothed: 5601
   new_people_vaccinated_smoothed_per_hundred: 0.081
-  stringency_index: 47.22
   excess_mortality_cumulative_absolute: 54556.5
   excess_mortality_cumulative: 26.22
   excess_mortality: 68.2
@@ -20375,7 +19741,6 @@
   new_vaccinations_smoothed_per_million: 2105
   new_people_vaccinated_smoothed: 5114
   new_people_vaccinated_smoothed_per_hundred: 0.074
-  stringency_index: 47.22
 - date: '2021-12-07'
   total_cases: 707885
   new_cases: 2299
@@ -20410,7 +19775,6 @@
   new_vaccinations_smoothed_per_million: 2069
   new_people_vaccinated_smoothed: 4628
   new_people_vaccinated_smoothed_per_hundred: 0.067
-  stringency_index: 47.22
 - date: '2021-12-08'
   total_cases: 709537
   new_cases: 1652
@@ -20443,7 +19807,6 @@
   new_vaccinations_smoothed_per_million: 2022
   new_people_vaccinated_smoothed: 4142
   new_people_vaccinated_smoothed_per_hundred: 0.06
-  stringency_index: 50
 - date: '2021-12-09'
   total_cases: 711364
   new_cases: 1827
@@ -20478,7 +19841,6 @@
   new_vaccinations_smoothed_per_million: 1980
   new_people_vaccinated_smoothed: 3655
   new_people_vaccinated_smoothed_per_hundred: 0.053
-  stringency_index: 50
 - date: '2021-12-10'
   total_cases: 713083
   new_cases: 1719
@@ -20511,7 +19873,6 @@
   new_vaccinations_smoothed_per_million: 1947
   new_people_vaccinated_smoothed: 3169
   new_people_vaccinated_smoothed_per_hundred: 0.046
-  stringency_index: 50
 - date: '2021-12-11'
   total_cases: 714156
   new_cases: 1073
@@ -20544,7 +19905,6 @@
   new_vaccinations_smoothed_per_million: 1946
   new_people_vaccinated_smoothed: 2683
   new_people_vaccinated_smoothed_per_hundred: 0.039
-  stringency_index: 50
 - date: '2021-12-12'
   total_cases: 714688
   new_cases: 532
@@ -20579,7 +19939,6 @@
   new_vaccinations_smoothed_per_million: 1869
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
   excess_mortality_cumulative_absolute: 55736.2
   excess_mortality_cumulative: 26.52
   excess_mortality: 55.4
@@ -20616,7 +19975,6 @@
   new_vaccinations_smoothed_per_million: 1941
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2021-12-14'
   total_cases: 718651
   new_cases: 3963
@@ -20653,7 +20011,6 @@
   new_vaccinations_smoothed_per_million: 1929
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2021-12-15'
   total_cases: 720376
   new_cases: 1725
@@ -20688,7 +20045,6 @@
   new_vaccinations_smoothed_per_million: 1942
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2021-12-16'
   total_cases: 721819
   new_cases: 1443
@@ -20725,7 +20081,6 @@
   new_vaccinations_smoothed_per_million: 1939
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2021-12-17'
   total_cases: 723433
   new_cases: 1614
@@ -20760,7 +20115,6 @@
   new_vaccinations_smoothed_per_million: 1928
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2021-12-18'
   total_cases: 724337
   new_cases: 904
@@ -20795,7 +20149,6 @@
   new_vaccinations_smoothed_per_million: 1929
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2021-12-19'
   total_cases: 724793
   new_cases: 456
@@ -20832,7 +20185,6 @@
   new_vaccinations_smoothed_per_million: 1933
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
   excess_mortality_cumulative_absolute: 56699.9
   excess_mortality_cumulative: 26.7
   excess_mortality: 44.44
@@ -20871,7 +20223,6 @@
   new_vaccinations_smoothed_per_million: 1995
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2021-12-21'
   total_cases: 728677
   new_cases: 1883
@@ -20908,7 +20259,6 @@
   new_vaccinations_smoothed_per_million: 2036
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2021-12-22'
   total_cases: 730140
   new_cases: 1463
@@ -20943,7 +20293,6 @@
   new_vaccinations_smoothed_per_million: 2007
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2021-12-23'
   total_cases: 732106
   new_cases: 1966
@@ -20980,7 +20329,6 @@
   new_vaccinations_smoothed_per_million: 1909
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2021-12-24'
   total_cases: 733139
   new_cases: 1033
@@ -21015,7 +20363,6 @@
   new_vaccinations_smoothed_per_million: 1568
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2021-12-25'
   total_cases: 733882
   new_cases: 743
@@ -21050,7 +20397,6 @@
   new_vaccinations_smoothed_per_million: 1450
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2021-12-26'
   total_cases: 734720
   new_cases: 838
@@ -21087,7 +20433,6 @@
   new_vaccinations_smoothed_per_million: 1402
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
   excess_mortality_cumulative_absolute: 57599.8
   excess_mortality_cumulative: 26.85
   excess_mortality: 40.92
@@ -21126,7 +20471,6 @@
   new_vaccinations_smoothed_per_million: 1160
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2021-12-28'
   total_cases: 737233
   new_cases: 1235
@@ -21163,7 +20507,6 @@
   new_vaccinations_smoothed_per_million: 844
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2021-12-29'
   total_cases: 740682
   new_cases: 3449
@@ -21198,7 +20541,6 @@
   new_vaccinations_smoothed_per_million: 915
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2021-12-30'
   total_cases: 744298
   new_cases: 3616
@@ -21235,7 +20577,6 @@
   new_vaccinations_smoothed_per_million: 929
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2021-12-31'
   total_cases: 747108
   new_cases: 2810
@@ -21270,7 +20611,6 @@
   new_vaccinations_smoothed_per_million: 978
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-01'
   total_cases: 748184
   new_cases: 1076
@@ -21305,7 +20645,6 @@
   new_vaccinations_smoothed_per_million: 981
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-02'
   total_cases: 749540
   new_cases: 1356
@@ -21342,7 +20681,6 @@
   new_vaccinations_smoothed_per_million: 1024
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
   excess_mortality_cumulative_absolute: 58328.7
   excess_mortality_cumulative: 26.9
   excess_mortality: 31.28
@@ -21381,7 +20719,6 @@
   new_vaccinations_smoothed_per_million: 1097
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-04'
   total_cases: 757710
   new_cases: 6252
@@ -21416,7 +20753,6 @@
   new_vaccinations_smoothed_per_million: 1533
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-05'
   total_cases: 764476
   new_cases: 6766
@@ -21451,7 +20787,6 @@
   new_vaccinations_smoothed_per_million: 1792
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-06'
   total_cases: 770001
   new_cases: 5525
@@ -21486,7 +20821,6 @@
   new_vaccinations_smoothed_per_million: 2217
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-07'
   total_cases: 775525
   new_cases: 5524
@@ -21523,7 +20857,6 @@
   new_vaccinations_smoothed_per_million: 2857
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-08'
   total_cases: 778701
   new_cases: 3176
@@ -21558,7 +20891,6 @@
   new_vaccinations_smoothed_per_million: 3081
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-09'
   total_cases: 780417
   new_cases: 1716
@@ -21595,7 +20927,6 @@
   new_vaccinations_smoothed_per_million: 3146
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
   excess_mortality_cumulative_absolute: 58872.3
   excess_mortality_cumulative: 26.83
   excess_mortality: 21.31
@@ -21634,7 +20965,6 @@
   new_vaccinations_smoothed_per_million: 3478
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-11'
   total_cases: 794240
   new_cases: 7062
@@ -21671,7 +21001,6 @@
   new_vaccinations_smoothed_per_million: 3624
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-12'
   total_cases: 799943
   new_cases: 5703
@@ -21710,7 +21039,6 @@
   new_vaccinations_smoothed_per_million: 3582
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-13'
   total_cases: 806977
   new_cases: 7034
@@ -21745,7 +21073,6 @@
   new_vaccinations_smoothed_per_million: 3468
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-14'
   total_cases: 813840
   new_cases: 6863
@@ -21780,7 +21107,6 @@
   new_vaccinations_smoothed_per_million: 3267
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-15'
   total_cases: 818229
   new_cases: 4389
@@ -21815,7 +21141,6 @@
   new_vaccinations_smoothed_per_million: 3179
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-16'
   total_cases: 820608
   new_cases: 2379
@@ -21852,7 +21177,6 @@
   new_vaccinations_smoothed_per_million: 3114
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
   excess_mortality_cumulative_absolute: 59412.1
   excess_mortality_cumulative: 26.77
   excess_mortality: 21.24
@@ -21891,7 +21215,6 @@
   new_vaccinations_smoothed_per_million: 2924
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-18'
   total_cases: 841785
   new_cases: 11181
@@ -21926,7 +21249,6 @@
   new_vaccinations_smoothed_per_million: 2654
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-19'
   total_cases: 851945
   new_cases: 10160
@@ -21961,7 +21283,6 @@
   new_vaccinations_smoothed_per_million: 2425
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-20'
   total_cases: 860877
   new_cases: 8932
@@ -21998,7 +21319,6 @@
   new_vaccinations_smoothed_per_million: 2208
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-21'
   total_cases: 870751
   new_cases: 9874
@@ -22037,7 +21357,6 @@
   new_vaccinations_smoothed_per_million: 1976
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-22'
   total_cases: 877381
   new_cases: 6630
@@ -22072,7 +21391,6 @@
   new_vaccinations_smoothed_per_million: 1908
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-23'
   total_cases: 880228
   new_cases: 2847
@@ -22107,7 +21425,6 @@
   new_vaccinations_smoothed_per_million: 1871
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
   excess_mortality_cumulative_absolute: 60113.7
   excess_mortality_cumulative: 26.78
   excess_mortality: 28.12
@@ -22148,7 +21465,6 @@
   new_vaccinations_smoothed_per_million: 1730
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-25'
   total_cases: 903676
   new_cases: 12399
@@ -22183,7 +21499,6 @@
   new_vaccinations_smoothed_per_million: 1558
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-26'
   total_cases: 913592
   new_cases: 9916
@@ -22220,7 +21535,6 @@
   new_vaccinations_smoothed_per_million: 1404
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-27'
   total_cases: 923466
   new_cases: 9874
@@ -22259,7 +21573,6 @@
   new_vaccinations_smoothed_per_million: 1268
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-28'
   total_cases: 933337
   new_cases: 9871
@@ -22294,7 +21607,6 @@
   new_vaccinations_smoothed_per_million: 1252
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-29'
   total_cases: 939212
   new_cases: 5875
@@ -22329,7 +21641,6 @@
   new_vaccinations_smoothed_per_million: 1247
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-01-30'
   total_cases: 941814
   new_cases: 2602
@@ -22366,7 +21677,6 @@
   new_vaccinations_smoothed_per_million: 1246
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
   excess_mortality_cumulative_absolute: 61038.7
   excess_mortality_cumulative: 26.9
   excess_mortality: 37.37
@@ -22405,7 +21715,6 @@
   new_vaccinations_smoothed_per_million: 1268
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 50
 - date: '2022-02-01'
   total_cases: 963108
   new_cases: 11143
@@ -22442,7 +21751,6 @@
   new_vaccinations_smoothed_per_million: 1217
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
 - date: '2022-02-02'
   total_cases: 972260
   new_cases: 9152
@@ -22481,7 +21789,6 @@
   new_vaccinations_smoothed_per_million: 1149
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
 - date: '2022-02-03'
   total_cases: 980402
   new_cases: 8142
@@ -22520,7 +21827,6 @@
   new_vaccinations_smoothed_per_million: 1096
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
 - date: '2022-02-04'
   total_cases: 988518
   new_cases: 8116
@@ -22555,7 +21861,6 @@
   new_vaccinations_smoothed_per_million: 1025
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
 - date: '2022-02-05'
   total_cases: 993255
   new_cases: 4737
@@ -22590,7 +21895,6 @@
   new_vaccinations_smoothed_per_million: 1008
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
 - date: '2022-02-06'
   total_cases: 995436
   new_cases: 2181
@@ -22627,7 +21931,6 @@
   new_vaccinations_smoothed_per_million: 1002
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
   excess_mortality_cumulative_absolute: 62162.1
   excess_mortality_cumulative: 27.1
   excess_mortality: 46.28
@@ -22666,7 +21969,6 @@
   new_vaccinations_smoothed_per_million: 955
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
 - date: '2022-02-08'
   total_cases: 1011588
   new_cases: 8140
@@ -22701,7 +22003,6 @@
   new_vaccinations_smoothed_per_million: 942
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
 - date: '2022-02-09'
   total_cases: 1018851
   new_cases: 7263
@@ -22736,7 +22037,6 @@
   new_vaccinations_smoothed_per_million: 922
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
 - date: '2022-02-10'
   total_cases: 1025129
   new_cases: 6278
@@ -22773,7 +22073,6 @@
   new_vaccinations_smoothed_per_million: 886
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
 - date: '2022-02-11'
   total_cases: 1031660
   new_cases: 6531
@@ -22808,7 +22107,6 @@
   new_vaccinations_smoothed_per_million: 845
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
 - date: '2022-02-12'
   total_cases: 1035285
   new_cases: 3625
@@ -22843,7 +22141,6 @@
   new_vaccinations_smoothed_per_million: 832
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
 - date: '2022-02-13'
   total_cases: 1036824
   new_cases: 1539
@@ -22880,7 +22177,6 @@
   new_vaccinations_smoothed_per_million: 819
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
   excess_mortality_cumulative_absolute: 63442.5
   excess_mortality_cumulative: 27.39
   excess_mortality: 56.14
@@ -22919,7 +22215,6 @@
   new_vaccinations_smoothed_per_million: 781
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
 - date: '2022-02-15'
   total_cases: 1049543
   new_cases: 6589
@@ -22956,7 +22251,6 @@
   new_vaccinations_smoothed_per_million: 738
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
 - date: '2022-02-16'
   total_cases: 1054566
   new_cases: 5023
@@ -22991,7 +22285,6 @@
   new_vaccinations_smoothed_per_million: 693
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
 - date: '2022-02-17'
   total_cases: 1059192
   new_cases: 4626
@@ -23028,7 +22321,6 @@
   new_vaccinations_smoothed_per_million: 639
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
 - date: '2022-02-18'
   total_cases: 1063808
   new_cases: 4616
@@ -23063,7 +22355,6 @@
   new_vaccinations_smoothed_per_million: 611
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
 - date: '2022-02-19'
   total_cases: 1066413
   new_cases: 2605
@@ -23098,7 +22389,6 @@
   new_vaccinations_smoothed_per_million: 602
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
 - date: '2022-02-20'
   total_cases: 1067648
   new_cases: 1235
@@ -23130,7 +22420,6 @@
   new_vaccinations_smoothed_per_million: 630
   new_people_vaccinated_smoothed: 2196
   new_people_vaccinated_smoothed_per_hundred: 0.032
-  stringency_index: 44.44
   excess_mortality_cumulative_absolute: 64537.1
   excess_mortality_cumulative: 27.59
   excess_mortality: 48.4
@@ -23172,7 +22461,6 @@
   new_vaccinations_smoothed_per_million: 600
   new_people_vaccinated_smoothed: 1932
   new_people_vaccinated_smoothed_per_hundred: 0.028
-  stringency_index: 44.44
 - date: '2022-02-22'
   total_cases: 1077160
   new_cases: 4667
@@ -23207,7 +22495,6 @@
   new_vaccinations_smoothed_per_million: 577
   new_people_vaccinated_smoothed: 1669
   new_people_vaccinated_smoothed_per_hundred: 0.024
-  stringency_index: 44.44
 - date: '2022-02-23'
   total_cases: 1080571
   new_cases: 3411
@@ -23244,7 +22531,6 @@
   new_vaccinations_smoothed_per_million: 557
   new_people_vaccinated_smoothed: 1405
   new_people_vaccinated_smoothed_per_hundred: 0.02
-  stringency_index: 44.44
 - date: '2022-02-24'
   total_cases: 1083425
   new_cases: 2854
@@ -23283,7 +22569,6 @@
   new_vaccinations_smoothed_per_million: 535
   new_people_vaccinated_smoothed: 1141
   new_people_vaccinated_smoothed_per_hundred: 0.017
-  stringency_index: 44.44
 - date: '2022-02-25'
   total_cases: 1086328
   new_cases: 2903
@@ -23322,7 +22607,6 @@
   new_vaccinations_smoothed_per_million: 495
   new_people_vaccinated_smoothed: 877
   new_people_vaccinated_smoothed_per_hundred: 0.013
-  stringency_index: 44.44
 - date: '2022-02-26'
   total_cases: 1087796
   new_cases: 1468
@@ -23361,7 +22645,6 @@
   new_vaccinations_smoothed_per_million: 487
   new_people_vaccinated_smoothed: 614
   new_people_vaccinated_smoothed_per_hundred: 0.009
-  stringency_index: 44.44
 - date: '2022-02-27'
   total_cases: 1088520
   new_cases: 724
@@ -23400,7 +22683,6 @@
   new_vaccinations_smoothed_per_million: 450
   new_people_vaccinated_smoothed: 350
   new_people_vaccinated_smoothed_per_hundred: 0.005
-  stringency_index: 44.44
   excess_mortality_cumulative_absolute: 65211.7
   excess_mortality_cumulative: 27.61
   excess_mortality: 29.91
@@ -23443,7 +22725,6 @@
   new_vaccinations_smoothed_per_million: 461
   new_people_vaccinated_smoothed: 350
   new_people_vaccinated_smoothed_per_hundred: 0.005
-  stringency_index: 44.44
 - date: '2022-03-01'
   total_cases: 1093920
   new_cases: 2641
@@ -23482,7 +22763,6 @@
   new_vaccinations_smoothed_per_million: 418
   new_people_vaccinated_smoothed: 350
   new_people_vaccinated_smoothed_per_hundred: 0.005
-  stringency_index: 44.44
 - date: '2022-03-02'
   total_cases: 1096194
   new_cases: 2274
@@ -23521,7 +22801,6 @@
   new_vaccinations_smoothed_per_million: 385
   new_people_vaccinated_smoothed: 350
   new_people_vaccinated_smoothed_per_hundred: 0.005
-  stringency_index: 44.44
 - date: '2022-03-03'
   total_cases: 1097298
   new_cases: 1104
@@ -23560,7 +22839,6 @@
   new_vaccinations_smoothed_per_million: 294
   new_people_vaccinated_smoothed: 350
   new_people_vaccinated_smoothed_per_hundred: 0.005
-  stringency_index: 44.44
 - date: '2022-03-04'
   total_cases: 1099423
   new_cases: 2125
@@ -23597,7 +22875,6 @@
   new_vaccinations_smoothed_per_million: 278
   new_people_vaccinated_smoothed: 350
   new_people_vaccinated_smoothed_per_hundred: 0.005
-  stringency_index: 44.44
 - date: '2022-03-05'
   total_cases: 1100811
   new_cases: 1388
@@ -23634,7 +22911,6 @@
   new_vaccinations_smoothed_per_million: 271
   new_people_vaccinated_smoothed: 350
   new_people_vaccinated_smoothed_per_hundred: 0.005
-  stringency_index: 44.44
 - date: '2022-03-06'
   total_cases: 1101326
   new_cases: 515
@@ -23668,7 +22944,6 @@
   new_vaccinations_smoothed_per_million: 285
   new_people_vaccinated_smoothed: 350
   new_people_vaccinated_smoothed_per_hundred: 0.005
-  stringency_index: 44.44
   excess_mortality_cumulative_absolute: 65599.5
   excess_mortality_cumulative: 27.52
   excess_mortality: 17.26
@@ -23708,7 +22983,6 @@
   new_vaccinations_smoothed_per_million: 251
   new_people_vaccinated_smoothed: 332
   new_people_vaccinated_smoothed_per_hundred: 0.005
-  stringency_index: 44.44
 - date: '2022-03-08'
   total_cases: 1105968
   new_cases: 2180
@@ -23745,7 +23019,6 @@
   new_vaccinations_smoothed_per_million: 242
   new_people_vaccinated_smoothed: 314
   new_people_vaccinated_smoothed_per_hundred: 0.005
-  stringency_index: 44.44
 - date: '2022-03-09'
   total_cases: 1107888
   new_cases: 1920
@@ -23778,7 +23051,6 @@
   new_vaccinations_smoothed_per_million: 240
   new_people_vaccinated_smoothed: 296
   new_people_vaccinated_smoothed_per_hundred: 0.004
-  stringency_index: 44.44
 - date: '2022-03-10'
   total_cases: 1109581
   new_cases: 1693
@@ -23813,7 +23085,6 @@
   new_vaccinations_smoothed_per_million: 291
   new_people_vaccinated_smoothed: 278
   new_people_vaccinated_smoothed_per_hundred: 0.004
-  stringency_index: 44.44
 - date: '2022-03-11'
   total_cases: 1111216
   new_cases: 1635
@@ -23846,7 +23117,6 @@
   new_vaccinations_smoothed_per_million: 271
   new_people_vaccinated_smoothed: 260
   new_people_vaccinated_smoothed_per_hundred: 0.004
-  stringency_index: 44.44
 - date: '2022-03-12'
   total_cases: 1112176
   new_cases: 960
@@ -23881,7 +23151,6 @@
   new_vaccinations_smoothed_per_million: 268
   new_people_vaccinated_smoothed: 242
   new_people_vaccinated_smoothed_per_hundred: 0.004
-  stringency_index: 44.44
 - date: '2022-03-13'
   total_cases: 1112699
   new_cases: 523
@@ -23918,7 +23187,6 @@
   new_vaccinations_smoothed_per_million: 249
   new_people_vaccinated_smoothed: 224
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 44.44
   excess_mortality_cumulative_absolute: 65898.1
   excess_mortality_cumulative: 27.38
   excess_mortality: 13.36
@@ -23955,7 +23223,6 @@
   new_vaccinations_smoothed_per_million: 262
   new_people_vaccinated_smoothed: 224
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 44.44
 - date: '2022-03-15'
   total_cases: 1117525
   new_cases: 2393
@@ -23988,7 +23255,6 @@
   new_vaccinations_smoothed_per_million: 270
   new_people_vaccinated_smoothed: 224
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 44.44
 - date: '2022-03-16'
   total_cases: 1119474
   new_cases: 1949
@@ -24021,7 +23287,6 @@
   new_vaccinations_smoothed_per_million: 263
   new_people_vaccinated_smoothed: 224
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 44.44
 - date: '2022-03-17'
   total_cases: 1121194
   new_cases: 1720
@@ -24054,7 +23319,6 @@
   new_vaccinations_smoothed_per_million: 257
   new_people_vaccinated_smoothed: 224
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 21.3
 - date: '2022-03-18'
   total_cases: 1122795
   new_cases: 1601
@@ -24087,7 +23351,6 @@
   new_vaccinations_smoothed_per_million: 250
   new_people_vaccinated_smoothed: 224
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 21.3
 - date: '2022-03-19'
   total_cases: 1123714
   new_cases: 919
@@ -24120,7 +23383,6 @@
   new_vaccinations_smoothed_per_million: 246
   new_people_vaccinated_smoothed: 224
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 21.3
 - date: '2022-03-20'
   total_cases: 1124186
   new_cases: 472
@@ -24152,7 +23414,6 @@
   new_vaccinations_smoothed_per_million: 260
   new_people_vaccinated_smoothed: 224
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 21.3
   excess_mortality_cumulative_absolute: 66028.3
   excess_mortality_cumulative: 27.19
   excess_mortality: 6
@@ -24190,7 +23451,6 @@
   new_vaccinations_smoothed_per_million: 240
   new_people_vaccinated_smoothed: 216
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 21.3
 - date: '2022-03-22'
   total_cases: 1128089
   new_cases: 1943
@@ -24225,7 +23485,6 @@
   new_vaccinations_smoothed_per_million: 229
   new_people_vaccinated_smoothed: 209
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 21.3
 - date: '2022-03-23'
   total_cases: 1129641
   new_cases: 1552
@@ -24260,7 +23519,6 @@
   new_vaccinations_smoothed_per_million: 224
   new_people_vaccinated_smoothed: 202
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 21.3
 - date: '2022-03-24'
   total_cases: 1131065
   new_cases: 1424
@@ -24297,7 +23555,6 @@
   new_vaccinations_smoothed_per_million: 211
   new_people_vaccinated_smoothed: 194
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 21.3
 - date: '2022-03-25'
   total_cases: 1132398
   new_cases: 1333
@@ -24332,7 +23589,6 @@
   new_vaccinations_smoothed_per_million: 207
   new_people_vaccinated_smoothed: 187
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 21.3
 - date: '2022-03-26'
   total_cases: 1133102
   new_cases: 704
@@ -24367,7 +23623,6 @@
   new_vaccinations_smoothed_per_million: 207
   new_people_vaccinated_smoothed: 179
   new_people_vaccinated_smoothed_per_hundred: 0.003
-  stringency_index: 21.3
 - date: '2022-03-27'
   total_cases: 1133464
   new_cases: 362
@@ -24399,7 +23654,6 @@
   new_vaccinations_smoothed_per_million: 204
   new_people_vaccinated_smoothed: 172
   new_people_vaccinated_smoothed_per_hundred: 0.002
-  stringency_index: 21.3
 - date: '2022-03-28'
   total_cases: 1134906
   new_cases: 1442
@@ -24431,7 +23685,8 @@
   people_fully_vaccinated_per_hundred: 29.72
   total_boosters_per_hundred: 10.43
   new_vaccinations_smoothed_per_million: 201
-  stringency_index: 21.3
+  new_people_vaccinated_smoothed: 171
+  new_people_vaccinated_smoothed_per_hundred: 0.002
 - date: '2022-03-29'
   total_cases: 1136604
   new_cases: 1698
@@ -24464,7 +23719,8 @@
   people_fully_vaccinated_per_hundred: 29.72
   total_boosters_per_hundred: 10.45
   new_vaccinations_smoothed_per_million: 202
-  stringency_index: 21.3
+  new_people_vaccinated_smoothed: 170
+  new_people_vaccinated_smoothed_per_hundred: 0.002
 - date: '2022-03-30'
   total_cases: 1137780
   new_cases: 1176
@@ -24497,7 +23753,8 @@
   people_fully_vaccinated_per_hundred: 29.73
   total_boosters_per_hundred: 10.47
   new_vaccinations_smoothed_per_million: 199
-  stringency_index: 21.3
+  new_people_vaccinated_smoothed: 169
+  new_people_vaccinated_smoothed_per_hundred: 0.002
 - date: '2022-03-31'
   total_cases: 1138923
   new_cases: 1143
@@ -24532,7 +23789,8 @@
   people_fully_vaccinated_per_hundred: 29.73
   total_boosters_per_hundred: 10.49
   new_vaccinations_smoothed_per_million: 197
-  stringency_index: 21.3
+  new_people_vaccinated_smoothed: 168
+  new_people_vaccinated_smoothed_per_hundred: 0.002
 - date: '2022-04-01'
   total_cases: 1139956
   new_cases: 1033
@@ -24556,9 +23814,10 @@
   positive_rate: 0.0963
   tests_per_case: 10.4
   tests_units: tests performed
-  new_vaccinations_smoothed: 1166
-  new_vaccinations_smoothed_per_million: 169
-  stringency_index: 21.3
+  new_vaccinations_smoothed: 1194
+  new_vaccinations_smoothed_per_million: 173
+  new_people_vaccinated_smoothed: 167
+  new_people_vaccinated_smoothed_per_hundred: 0.002
 - date: '2022-04-02'
   total_cases: 1140453
   new_cases: 497
@@ -24582,9 +23841,10 @@
   positive_rate: 0.0941
   tests_per_case: 10.6
   tests_units: tests performed
-  new_vaccinations_smoothed: 1180
-  new_vaccinations_smoothed_per_million: 171
-  stringency_index: 21.3
+  new_vaccinations_smoothed: 1235
+  new_vaccinations_smoothed_per_million: 179
+  new_people_vaccinated_smoothed: 166
+  new_people_vaccinated_smoothed_per_hundred: 0.002
 - date: '2022-04-03'
   total_cases: 1140679
   new_cases: 226
@@ -24610,15 +23870,12 @@
   positive_rate: 0.0929
   tests_per_case: 10.8
   tests_units: tests performed
-  total_vaccinations: 4353830
-  people_fully_vaccinated: 2050871
-  total_boosters: 724838
-  new_vaccinations_smoothed: 1153
-  total_vaccinations_per_hundred: 63.13
-  people_fully_vaccinated_per_hundred: 29.74
-  total_boosters_per_hundred: 10.51
-  new_vaccinations_smoothed_per_million: 167
-  stringency_index: 21.3
+  people_vaccinated: 2083638
+  new_vaccinations_smoothed: 1235
+  people_vaccinated_per_hundred: 30.21
+  new_vaccinations_smoothed_per_million: 179
+  new_people_vaccinated_smoothed: 165
+  new_people_vaccinated_smoothed_per_hundred: 0.002
 - date: '2022-04-04'
   total_cases: 1141859
   new_cases: 1180
@@ -24636,13 +23893,11 @@
   total_vaccinations: 4355205
   people_fully_vaccinated: 2051130
   total_boosters: 725866
-  new_vaccinations: 1375
   new_vaccinations_smoothed: 1235
   total_vaccinations_per_hundred: 63.15
   people_fully_vaccinated_per_hundred: 29.74
   total_boosters_per_hundred: 10.52
   new_vaccinations_smoothed_per_million: 179
-  stringency_index: 21.3
 - date: '2022-04-05'
   total_cases: 1142698
   new_cases: 839
@@ -24688,3 +23943,25 @@
   people_fully_vaccinated_per_hundred: 29.75
   total_boosters_per_hundred: 10.56
   new_vaccinations_smoothed_per_million: 169
+- date: '2022-04-07'
+  total_cases: 1144107
+  new_cases: 683
+  new_cases_smoothed: 740.571
+  total_deaths: 36672
+  new_deaths: 17
+  new_deaths_smoothed: 20.429
+  total_cases_per_million: 165893.031
+  new_cases_per_million: 99.034
+  new_cases_smoothed_per_million: 107.381
+  total_deaths_per_million: 5317.36
+  new_deaths_per_million: 2.465
+  new_deaths_smoothed_per_million: 2.962
+  total_vaccinations: 4360038
+  people_fully_vaccinated: 2051896
+  total_boosters: 729603
+  new_vaccinations: 1558
+  new_vaccinations_smoothed: 1147
+  total_vaccinations_per_hundred: 63.22
+  people_fully_vaccinated_per_hundred: 29.75
+  total_boosters_per_hundred: 10.58
+  new_vaccinations_smoothed_per_million: 166

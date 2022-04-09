@@ -26,8 +26,10 @@
 - date: '2020-04-10'
   total_cases: 1
   new_cases: 0
+  new_cases_smoothed: 0.143
   total_cases_per_million: 173.28
   new_cases_per_million: 0
+  new_cases_smoothed_per_million: 24.754
 - date: '2020-04-11'
   total_cases: 1
   new_cases: 0
@@ -1735,33 +1737,45 @@
 - date: '2020-12-11'
   total_cases: 14
   new_cases: 0
+  new_cases_smoothed: 0
   total_cases_per_million: 2425.923
   new_cases_per_million: 0
+  new_cases_smoothed_per_million: 0
 - date: '2020-12-12'
   total_cases: 14
   new_cases: 0
+  new_cases_smoothed: 0
   total_cases_per_million: 2425.923
   new_cases_per_million: 0
+  new_cases_smoothed_per_million: 0
 - date: '2020-12-13'
   total_cases: 14
   new_cases: 0
+  new_cases_smoothed: 0
   total_cases_per_million: 2425.923
   new_cases_per_million: 0
+  new_cases_smoothed_per_million: 0
 - date: '2020-12-14'
   total_cases: 14
   new_cases: 0
+  new_cases_smoothed: 0
   total_cases_per_million: 2425.923
   new_cases_per_million: 0
+  new_cases_smoothed_per_million: 0
 - date: '2020-12-15'
   total_cases: 14
   new_cases: 0
+  new_cases_smoothed: 0
   total_cases_per_million: 2425.923
   new_cases_per_million: 0
+  new_cases_smoothed_per_million: 0
 - date: '2020-12-16'
   total_cases: 14
   new_cases: 0
+  new_cases_smoothed: 0
   total_cases_per_million: 2425.923
   new_cases_per_million: 0
+  new_cases_smoothed_per_million: 0
 - date: '2020-12-17'
   total_cases: 14
   new_cases: 0
@@ -4700,11 +4714,13 @@
   new_cases_smoothed: 14.429
   total_deaths: 1
   new_deaths: 0
+  new_deaths_smoothed: 0.143
   total_cases_per_million: 169121.469
   new_cases_per_million: 0
   new_cases_smoothed_per_million: 2500.186
   total_deaths_per_million: 173.28
   new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 24.754
 - date: '2022-02-07'
   total_cases: 985
   new_cases: 9
@@ -5444,6 +5460,15 @@
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
 - date: '2022-04-06'
+  total_cases: 2236
+  total_deaths: 1
+  new_deaths: 0
+  new_deaths_smoothed: 0
+  total_cases_per_million: 387454.514
+  total_deaths_per_million: 173.28
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0
+- date: '2022-04-07'
   total_cases: 2236
   total_deaths: 1
   new_deaths: 0

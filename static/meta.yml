@@ -859,192 +859,6 @@ timeseries:
     - YEM
     - ZMB
     - ZWE
-  stringency_index:
-    - AFG
-    - ALB
-    - DZA
-    - AND
-    - AGO
-    - ARG
-    - ABW
-    - AUS
-    - AUT
-    - AZE
-    - BHS
-    - BHR
-    - BGD
-    - BRB
-    - BLR
-    - BEL
-    - BLZ
-    - BEN
-    - BMU
-    - BTN
-    - BOL
-    - BIH
-    - BWA
-    - BRA
-    - BRN
-    - BGR
-    - BFA
-    - BDI
-    - KHM
-    - CMR
-    - CAN
-    - CPV
-    - CAF
-    - TCD
-    - CHL
-    - CHN
-    - COL
-    - COG
-    - CRI
-    - CIV
-    - HRV
-    - CUB
-    - CYP
-    - CZE
-    - COD
-    - DNK
-    - DJI
-    - DMA
-    - DOM
-    - ECU
-    - EGY
-    - SLV
-    - ERI
-    - EST
-    - SWZ
-    - ETH
-    - FRO
-    - FJI
-    - FIN
-    - FRA
-    - GAB
-    - GMB
-    - GEO
-    - DEU
-    - GHA
-    - GRC
-    - GRL
-    - GRD
-    - GUM
-    - GTM
-    - GIN
-    - GUY
-    - HTI
-    - HND
-    - HKG
-    - HUN
-    - ISL
-    - IND
-    - IDN
-    - IRN
-    - IRQ
-    - IRL
-    - ISR
-    - ITA
-    - JAM
-    - JPN
-    - JOR
-    - KAZ
-    - KEN
-    - KIR
-    - KWT
-    - KGZ
-    - LAO
-    - LVA
-    - LBN
-    - LSO
-    - LBR
-    - LBY
-    - LIE
-    - LTU
-    - LUX
-    - MAC
-    - MDG
-    - MWI
-    - MYS
-    - MLI
-    - MLT
-    - MRT
-    - MUS
-    - MEX
-    - MDA
-    - MCO
-    - MNG
-    - MAR
-    - MOZ
-    - MMR
-    - NAM
-    - NPL
-    - NLD
-    - NZL
-    - NIC
-    - NER
-    - NGA
-    - NOR
-    - OMN
-    - PAK
-    - PSE
-    - PAN
-    - PNG
-    - PRY
-    - PER
-    - PHL
-    - POL
-    - PRT
-    - PRI
-    - QAT
-    - ROU
-    - RUS
-    - RWA
-    - SMR
-    - SAU
-    - SEN
-    - SRB
-    - SYC
-    - SLE
-    - SGP
-    - SVK
-    - SVN
-    - SLB
-    - SOM
-    - ZAF
-    - KOR
-    - SSD
-    - ESP
-    - LKA
-    - SDN
-    - SUR
-    - SWE
-    - CHE
-    - SYR
-    - TWN
-    - TJK
-    - TZA
-    - THA
-    - TLS
-    - TGO
-    - TON
-    - TTO
-    - TUN
-    - TUR
-    - TKM
-    - UGA
-    - UKR
-    - ARE
-    - GBR
-    - USA
-    - VIR
-    - URY
-    - UZB
-    - VUT
-    - VEN
-    - VNM
-    - YEM
-    - ZMB
-    - ZWE
   new_cases_smoothed:
     - AFG
     - ALB
@@ -2467,6 +2281,7 @@ timeseries:
     - LCA
     - SPM
     - VCT
+    - WSM
     - SMR
     - STP
     - SAU
@@ -2674,6 +2489,7 @@ timeseries:
     - LCA
     - SPM
     - VCT
+    - WSM
     - SMR
     - STP
     - SAU
@@ -7734,6 +7550,11 @@ timeseries:
     - CHE
     - GBR
     - USA
+  stringency_index:
+    - BRN
+    - CAN
+    - CHN
+    - GBR
   weekly_icu_admissions:
     - CHL
     - CYP
@@ -7796,7 +7617,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -7849,7 +7669,6 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -7884,7 +7703,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 274055
+    total_cases: 274108
   DZA:
     values:
       - continent
@@ -7909,7 +7728,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -7941,7 +7759,7 @@ countries:
       - total_tests
       - total_tests_per_thousand
       - tests_units
-    total_cases: 265705
+    total_cases: 265707
   AND:
     values:
       - continent
@@ -7959,7 +7777,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -7993,7 +7810,7 @@ countries:
       - new_vaccinations
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 40024
+    total_cases: 40328
   AGO:
     values:
       - continent
@@ -8014,7 +7831,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -8130,7 +7946,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 7493
+    total_cases: 7511
   ARG:
     values:
       - continent
@@ -8155,7 +7971,6 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - positive_rate
       - tests_per_case
       - new_tests_smoothed
@@ -8168,12 +7983,12 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
+      - new_cases_smoothed
       - total_deaths
       - new_deaths
+      - new_cases_smoothed_per_million
       - total_deaths_per_million
       - new_deaths_per_million
-      - new_cases_smoothed
-      - new_cases_smoothed_per_million
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
       - reproduction_rate
@@ -8192,7 +8007,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 9047408
+    total_cases: 9049250
   ARM:
     values:
       - continent
@@ -8251,7 +8066,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 422610
+    total_cases: 422629
   ABW:
     values:
       - continent
@@ -8269,7 +8084,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
@@ -8317,7 +8131,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -8357,7 +8170,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 4910819
+    total_cases: 4971300
   AUT:
     values:
       - continent
@@ -8381,13 +8194,12 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
+      - new_cases_smoothed
+      - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
       - excess_mortality_cumulative_per_million
-      - new_cases_smoothed
-      - new_cases_smoothed_per_million
       - reproduction_rate
       - total_deaths
       - new_deaths
@@ -8420,7 +8232,7 @@ countries:
       - total_boosters_per_hundred
       - positive_rate
       - tests_per_case
-    total_cases: 3933682
+    total_cases: 3950161
   AZE:
     values:
       - continent
@@ -8444,7 +8256,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -8480,7 +8291,7 @@ countries:
       - tests_per_case
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 792141
+    total_cases: 792166
   BHS:
     values:
       - continent
@@ -8503,7 +8314,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -8535,7 +8345,7 @@ countries:
       - tests_per_case
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 33315
+    total_cases: 33330
   BHR:
     values:
       - continent
@@ -8558,7 +8368,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_tests
@@ -8590,7 +8399,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 558007
+    total_cases: 558609
   BGD:
     values:
       - continent
@@ -8615,7 +8424,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -8647,7 +8455,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1951903
+    total_cases: 1951947
   BRB:
     values:
       - continent
@@ -8671,7 +8479,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
@@ -8705,7 +8512,7 @@ countries:
       - new_tests_smoothed_per_thousand
       - positive_rate
       - tests_per_case
-    total_cases: 60890
+    total_cases: 61267
   BLR:
     values:
       - continent
@@ -8728,7 +8535,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -8763,7 +8569,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 966818
+    total_cases: 967731
   BEL:
     values:
       - continent
@@ -8787,13 +8593,12 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
+      - new_cases_smoothed
+      - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
       - excess_mortality_cumulative_per_million
-      - new_cases_smoothed
-      - new_cases_smoothed_per_million
       - total_tests
       - new_tests
       - total_tests_per_thousand
@@ -8829,7 +8634,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 3881523
+    total_cases: 3915732
   BLZ:
     values:
       - continent
@@ -8851,7 +8656,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
@@ -8912,7 +8716,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -8951,7 +8754,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
@@ -8976,7 +8778,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 12564
+    total_cases: 12711
   BTN:
     values:
       - continent
@@ -8999,7 +8801,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_tests
@@ -9031,7 +8832,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 35437
+    total_cases: 37049
   BOL:
     values:
       - continent
@@ -9054,7 +8855,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - total_tests
       - total_tests_per_thousand
       - tests_units
@@ -9094,7 +8894,7 @@ countries:
       - hosp_patients_per_million
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 902749
+    total_cases: 903062
   BES:
     values:
       - continent
@@ -9149,7 +8949,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -9185,7 +8984,7 @@ countries:
       - new_vaccinations
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 375948
+    total_cases: 376028
   BWA:
     values:
       - continent
@@ -9208,7 +9007,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - total_deaths
       - new_deaths
       - total_deaths_per_million
@@ -9264,7 +9062,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -9298,7 +9095,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 30069094
+    total_cases: 30095328
   VGB:
     values:
       - continent
@@ -9332,7 +9129,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 6155
+    total_cases: 6162
   BRN:
     values:
       - continent
@@ -9382,7 +9179,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 137239
+    total_cases: 137585
   BGR:
     values:
       - continent
@@ -9406,7 +9203,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -9446,7 +9242,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1143424
+    total_cases: 1144107
   BFA:
     values:
       - continent
@@ -9471,7 +9267,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -9523,7 +9318,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -9577,7 +9371,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - reproduction_rate
@@ -9609,7 +9402,7 @@ countries:
       - tests_per_case
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 135834
+    total_cases: 135861
   CMR:
     values:
       - continent
@@ -9632,16 +9425,15 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
       - new_deaths
       - total_deaths_per_million
       - new_deaths_per_million
-      - reproduction_rate
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
+      - reproduction_rate
       - total_vaccinations
       - people_vaccinated
       - total_vaccinations_per_hundred
@@ -9726,7 +9518,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 3527882
+    total_cases: 3533901
   CPV:
     values:
       - continent
@@ -9749,7 +9541,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - total_deaths
       - new_deaths
       - total_deaths_per_million
@@ -9837,7 +9628,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - reproduction_rate
@@ -9887,16 +9677,15 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
       - new_deaths
       - total_deaths_per_million
       - new_deaths_per_million
-      - reproduction_rate
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
+      - reproduction_rate
       - total_vaccinations
       - people_vaccinated
       - total_vaccinations_per_hundred
@@ -9938,7 +9727,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -9980,7 +9768,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 3495889
+    total_cases: 3500670
   CHN:
     values:
       - continent
@@ -10034,7 +9822,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 314707
+    total_cases: 340301
   COL:
     values:
       - continent
@@ -10059,7 +9847,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -10095,7 +9882,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 6086811
+    total_cases: 6087123
   COM:
     values:
       - continent
@@ -10121,9 +9908,9 @@ countries:
       - total_cases_per_million
       - new_cases_per_million
       - new_cases_smoothed
+      - new_cases_smoothed_per_million
       - total_deaths
       - new_deaths
-      - new_cases_smoothed_per_million
       - total_deaths_per_million
       - new_deaths_per_million
       - new_deaths_smoothed
@@ -10166,7 +9953,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -10203,15 +9989,15 @@ countries:
       - people_vaccinated
       - total_vaccinations_per_hundred
       - people_vaccinated_per_hundred
+      - new_cases_smoothed
+      - new_cases_smoothed_per_million
       - new_vaccinations_smoothed
       - new_vaccinations_smoothed_per_million
       - new_people_vaccinated_smoothed
       - new_people_vaccinated_smoothed_per_hundred
-      - new_cases_smoothed
-      - new_cases_smoothed_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 2875
+    total_cases: 3035
   CRI:
     values:
       - continent
@@ -10241,7 +10027,6 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - positive_rate
@@ -10293,7 +10078,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - reproduction_rate
@@ -10323,7 +10107,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 81780
+    total_cases: 81800
   HRV:
     values:
       - continent
@@ -10347,13 +10131,12 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
+      - new_cases_smoothed
+      - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
       - excess_mortality_cumulative_per_million
-      - new_cases_smoothed
-      - new_cases_smoothed_per_million
       - total_tests
       - total_tests_per_thousand
       - tests_units
@@ -10387,7 +10170,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1105315
+    total_cases: 1106557
   CUB:
     values:
       - continent
@@ -10410,20 +10193,19 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
+      - new_cases_smoothed_per_million
       - total_deaths
       - new_deaths
-      - new_cases_smoothed_per_million
       - total_deaths_per_million
       - new_deaths_per_million
       - total_tests
       - total_tests_per_thousand
       - tests_units
-      - new_tests
-      - new_tests_per_thousand
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
+      - new_tests
+      - new_tests_per_thousand
       - reproduction_rate
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
@@ -10446,7 +10228,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1094352
+    total_cases: 1095006
   CUW:
     values:
       - continent
@@ -10463,12 +10245,12 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
+      - new_cases_smoothed
       - total_deaths
       - new_deaths
+      - new_cases_smoothed_per_million
       - total_deaths_per_million
       - new_deaths_per_million
-      - new_cases_smoothed
-      - new_cases_smoothed_per_million
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
       - total_vaccinations
@@ -10505,7 +10287,6 @@ countries:
     timeseries:
       - weekly_hosp_admissions
       - weekly_hosp_admissions_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -10551,7 +10332,7 @@ countries:
       - new_vaccinations
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 449877
+    total_cases: 452334
   CZE:
     values:
       - continent
@@ -10574,7 +10355,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -10618,7 +10398,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 3850902
+    total_cases: 3855898
   COD:
     values:
       - continent
@@ -10640,7 +10420,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -10693,7 +10472,6 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -10734,7 +10512,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 3075548
+    total_cases: 3078295
   DJI:
     values:
       - continent
@@ -10758,7 +10536,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - reproduction_rate
@@ -10787,7 +10564,7 @@ countries:
       - tests_per_case
       - new_tests
       - new_tests_per_thousand
-    total_cases: 15591
+    total_cases: 15593
   DMA:
     values:
       - continent
@@ -10805,7 +10582,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - reproduction_rate
@@ -10828,7 +10604,7 @@ countries:
       - new_deaths_smoothed_per_million
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 11897
+    total_cases: 11953
   DOM:
     values:
       - continent
@@ -10853,7 +10629,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -10865,9 +10640,9 @@ countries:
       - tests_units
       - new_tests
       - new_tests_per_thousand
-      - reproduction_rate
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
+      - reproduction_rate
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
       - positive_rate
@@ -10889,7 +10664,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 578319
+    total_cases: 578416
   ECU:
     values:
       - continent
@@ -10914,7 +10689,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -10930,11 +10704,11 @@ countries:
       - new_deaths
       - total_deaths_per_million
       - new_deaths_per_million
+      - new_deaths_smoothed
+      - new_deaths_smoothed_per_million
       - reproduction_rate
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
-      - new_deaths_smoothed
-      - new_deaths_smoothed_per_million
       - positive_rate
       - tests_per_case
       - total_vaccinations
@@ -10950,7 +10724,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 862321
+    total_cases: 863398
   EGY:
     values:
       - continent
@@ -10975,7 +10749,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
@@ -11034,7 +10807,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -11045,14 +10817,14 @@ countries:
       - excess_mortality_cumulative
       - excess_mortality
       - excess_mortality_cumulative_per_million
+      - new_deaths_smoothed
+      - new_deaths_smoothed_per_million
       - total_tests
       - new_tests
       - total_tests_per_thousand
       - new_tests_per_thousand
       - positive_rate
       - tests_units
-      - new_deaths_smoothed
-      - new_deaths_smoothed_per_million
       - reproduction_rate
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
@@ -11144,7 +10916,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - reproduction_rate
@@ -11179,7 +10950,6 @@ countries:
     timeseries:
       - hosp_patients
       - hosp_patients_per_million
-      - stringency_index
       - total_tests
       - total_tests_per_thousand
       - tests_units
@@ -11225,7 +10995,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 561228
+    total_cases: 562114
   SWZ:
     values:
       - continent
@@ -11249,7 +11019,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -11279,7 +11048,7 @@ countries:
       - tests_per_case
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 69927
+    total_cases: 69947
   ETH:
     values:
       - continent
@@ -11307,7 +11076,6 @@ countries:
       - total_tests
       - total_tests_per_thousand
       - tests_units
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - new_tests_smoothed
@@ -11336,7 +11104,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 469916
+    total_cases: 469979
   FRO:
     values:
       - continent
@@ -11349,7 +11117,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
@@ -11431,7 +11198,6 @@ countries:
       - total_tests
       - total_tests_per_thousand
       - tests_units
-      - stringency_index
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
       - new_tests
@@ -11485,7 +11251,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -11505,9 +11270,9 @@ countries:
       - new_deaths
       - total_deaths_per_million
       - new_deaths_per_million
-      - reproduction_rate
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
+      - reproduction_rate
       - icu_patients
       - icu_patients_per_million
       - hosp_patients
@@ -11525,7 +11290,7 @@ countries:
       - total_boosters
       - total_boosters_per_hundred
       - new_vaccinations
-    total_cases: 913476
+    total_cases: 920692
   FRA:
     values:
       - continent
@@ -11548,7 +11313,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -11592,7 +11356,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 26443804
+    total_cases: 26602828
   PYF:
     values:
       - continent
@@ -11654,11 +11418,10 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
+      - new_cases_smoothed_per_million
       - total_deaths
       - new_deaths
-      - new_cases_smoothed_per_million
       - total_deaths_per_million
       - new_deaths_per_million
       - new_deaths_smoothed
@@ -11711,11 +11474,10 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
+      - new_cases_smoothed_per_million
       - total_deaths
       - new_deaths
-      - new_cases_smoothed_per_million
       - total_deaths_per_million
       - new_deaths_per_million
       - new_deaths_smoothed
@@ -11763,7 +11525,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -11799,7 +11560,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1650384
+    total_cases: 1650708
   DEU:
     values:
       - continent
@@ -11822,7 +11583,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
@@ -11862,7 +11622,7 @@ countries:
       - total_boosters_per_hundred
       - weekly_icu_admissions
       - weekly_icu_admissions_per_million
-    total_cases: 22303440
+    total_cases: 22478703
   GHA:
     values:
       - continent
@@ -11887,7 +11647,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - total_tests
       - total_tests_per_thousand
       - tests_units
@@ -11966,7 +11725,7 @@ countries:
       - new_tests_per_thousand
       - positive_rate
       - tests_per_case
-    total_cases: 17188
+    total_cases: 17236
   GRC:
     values:
       - continent
@@ -11988,7 +11747,6 @@ countries:
     timeseries:
       - weekly_icu_admissions
       - weekly_icu_admissions_per_million
-      - stringency_index
       - total_cases
       - new_cases
       - total_cases_per_million
@@ -12030,7 +11788,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 3126856
+    total_cases: 3137714
   GRL:
     values:
       - continent
@@ -12045,7 +11803,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
@@ -12110,7 +11867,6 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-      - stringency_index
       - total_boosters
       - total_boosters_per_hundred
     total_cases: 14024
@@ -12132,7 +11888,6 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
       - positive_rate
@@ -12161,7 +11916,6 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -12196,7 +11950,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 832956
+    total_cases: 833723
   GGY:
     values:
       - continent
@@ -12239,7 +11993,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - reproduction_rate
@@ -12318,7 +12071,7 @@ countries:
       - tests_per_case
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 8152
+    total_cases: 8172
   GUY:
     values:
       - continent
@@ -12344,7 +12097,6 @@ countries:
       - new_cases_per_million
       - total_deaths_per_million
       - new_deaths_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_deaths_smoothed
       - new_cases_smoothed_per_million
@@ -12370,7 +12122,7 @@ countries:
       - new_vaccinations
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 63294
+    total_cases: 63305
   HTI:
     values:
       - continent
@@ -12395,7 +12147,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -12449,7 +12200,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -12472,7 +12222,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 421170
+    total_cases: 421268
   HKG:
     values:
       - continent
@@ -12491,7 +12241,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_tests
@@ -12524,7 +12273,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1180591
+    total_cases: 1183235
   HUN:
     values:
       - continent
@@ -12546,7 +12295,6 @@ countries:
     timeseries:
       - hosp_patients
       - hosp_patients_per_million
-      - stringency_index
       - total_cases
       - new_cases
       - total_cases_per_million
@@ -12586,7 +12334,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1863039
+    total_cases: 1865607
   ISL:
     values:
       - continent
@@ -12617,7 +12365,6 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -12677,7 +12424,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -12709,7 +12455,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 43031958
+    total_cases: 43033067
   IDN:
     values:
       - continent
@@ -12734,16 +12480,15 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
       - new_deaths
       - total_deaths_per_million
       - new_deaths_per_million
-      - reproduction_rate
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
+      - reproduction_rate
       - total_vaccinations
       - people_vaccinated
       - total_vaccinations_per_hundred
@@ -12766,7 +12511,7 @@ countries:
       - tests_per_case
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 6026324
+    total_cases: 6028413
   IRN:
     values:
       - continent
@@ -12794,7 +12539,6 @@ countries:
       - new_cases_per_million
       - total_deaths_per_million
       - new_deaths_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -12826,7 +12570,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 7180008
+    total_cases: 7183808
   IRQ:
     values:
       - continent
@@ -12849,7 +12593,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -12881,7 +12624,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 2321095
+    total_cases: 2321369
   IRL:
     values:
       - continent
@@ -12905,7 +12648,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -12949,7 +12691,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1481171
+    total_cases: 1484321
   IMN:
     values:
       - continent
@@ -12983,7 +12725,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 28890
+    total_cases: 30169
   ISR:
     values:
       - continent
@@ -13009,7 +12751,6 @@ countries:
       - new_tests_per_thousand
       - positive_rate
       - tests_units
-      - stringency_index
       - total_cases
       - new_cases
       - total_cases_per_million
@@ -13018,9 +12759,9 @@ countries:
       - excess_mortality_cumulative
       - excess_mortality
       - excess_mortality_cumulative_per_million
-      - tests_per_case
       - new_cases_smoothed
       - new_cases_smoothed_per_million
+      - tests_per_case
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
       - hosp_patients
@@ -13051,7 +12792,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 3974774
+    total_cases: 3982524
   ITA:
     values:
       - continent
@@ -13075,7 +12816,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -13096,10 +12836,10 @@ countries:
       - tests_units
       - new_tests
       - new_tests_per_thousand
-      - weekly_hosp_admissions
-      - weekly_hosp_admissions_per_million
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
+      - weekly_hosp_admissions
+      - weekly_hosp_admissions_per_million
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
       - positive_rate
@@ -13119,7 +12859,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 15035943
+    total_cases: 15106066
   JAM:
     values:
       - continent
@@ -13143,18 +12883,17 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
       - new_deaths
       - total_deaths_per_million
       - new_deaths_per_million
+      - new_deaths_smoothed
+      - new_deaths_smoothed_per_million
       - total_tests
       - total_tests_per_thousand
       - tests_units
-      - new_deaths_smoothed
-      - new_deaths_smoothed_per_million
       - new_tests
       - new_tests_per_thousand
       - new_tests_smoothed
@@ -13179,7 +12918,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 128924
+    total_cases: 128950
   JPN:
     values:
       - continent
@@ -13200,7 +12939,6 @@ countries:
     timeseries:
       - total_cases
       - total_cases_per_million
-      - stringency_index
       - new_cases
       - new_cases_per_million
       - new_cases_smoothed
@@ -13242,7 +12980,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 6830997
+    total_cases: 6885876
   JEY:
     values:
       - continent
@@ -13283,7 +13021,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - reproduction_rate
@@ -13347,7 +13084,6 @@ countries:
       - total_tests
       - total_tests_per_thousand
       - tests_units
-      - stringency_index
       - new_tests
       - new_tests_per_thousand
       - new_cases_smoothed
@@ -13380,7 +13116,7 @@ countries:
       - new_vaccinations
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1393984
+    total_cases: 1394004
   KEN:
     values:
       - continent
@@ -13404,17 +13140,16 @@ countries:
       - total_tests
       - total_tests_per_thousand
       - tests_units
-      - stringency_index
       - total_cases
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
-      - new_tests
-      - new_tests_per_thousand
       - new_cases_smoothed
       - new_cases_smoothed_per_million
+      - new_tests
+      - new_tests_per_thousand
       - positive_rate
       - tests_per_case
       - total_deaths
@@ -13437,7 +13172,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 323515
+    total_cases: 323524
   KIR:
     values:
       - continent
@@ -13460,7 +13195,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_vaccinations
@@ -13503,13 +13237,12 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
+      - new_cases_smoothed
+      - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
       - excess_mortality_cumulative_per_million
-      - new_cases_smoothed
-      - new_cases_smoothed_per_million
       - reproduction_rate
       - total_deaths
       - new_deaths
@@ -13539,7 +13272,7 @@ countries:
       - total_boosters
       - total_boosters_per_hundred
       - new_vaccinations
-    total_cases: 629525
+    total_cases: 629912
   KGZ:
     values:
       - continent
@@ -13564,7 +13297,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
@@ -13614,7 +13346,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_vaccinations
@@ -13644,7 +13375,7 @@ countries:
       - new_tests_smoothed_per_thousand
       - positive_rate
       - tests_per_case
-    total_cases: 188985
+    total_cases: 191017
   LVA:
     values:
       - continent
@@ -13668,7 +13399,6 @@ countries:
       - weekly_icu_admissions_per_million
       - weekly_hosp_admissions
       - weekly_hosp_admissions_per_million
-      - stringency_index
       - total_tests
       - new_tests
       - total_tests_per_thousand
@@ -13682,10 +13412,10 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - new_tests_smoothed
-      - new_tests_smoothed_per_thousand
       - new_cases_smoothed
       - new_cases_smoothed_per_million
+      - new_tests_smoothed
+      - new_tests_smoothed_per_thousand
       - positive_rate
       - tests_per_case
       - reproduction_rate
@@ -13712,7 +13442,7 @@ countries:
       - total_boosters_per_hundred
       - icu_patients
       - icu_patients_per_million
-    total_cases: 805353
+    total_cases: 806425
   LBN:
     values:
       - continent
@@ -13735,7 +13465,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
@@ -13769,7 +13498,7 @@ countries:
       - new_tests_smoothed_per_thousand
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1093850
+    total_cases: 1094096
   LSO:
     values:
       - continent
@@ -13793,7 +13522,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -13845,7 +13573,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -13891,7 +13618,6 @@ countries:
       - new_tests
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - total_cases
       - new_cases
       - total_cases_per_million
@@ -13938,7 +13664,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
@@ -13976,7 +13701,7 @@ countries:
       - total_boosters_per_hundred
       - weekly_hosp_admissions
       - weekly_hosp_admissions_per_million
-    total_cases: 16624
+    total_cases: 16702
   LTU:
     values:
       - continent
@@ -14000,7 +13725,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -14038,7 +13762,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1035798
+    total_cases: 1037422
   LUX:
     values:
       - continent
@@ -14064,7 +13788,6 @@ countries:
       - total_tests_per_thousand
       - positive_rate
       - tests_units
-      - stringency_index
       - new_tests
       - new_tests_per_thousand
       - total_cases
@@ -14104,7 +13827,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 221555
+    total_cases: 222804
   MAC:
     values:
       - continent
@@ -14119,7 +13842,6 @@ countries:
     timeseries:
       - total_cases
       - total_cases_per_million
-      - stringency_index
       - new_cases
       - new_cases_per_million
       - new_cases_smoothed
@@ -14164,7 +13886,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - reproduction_rate
@@ -14220,7 +13941,6 @@ countries:
       - total_tests
       - total_tests_per_thousand
       - tests_units
-      - stringency_index
       - new_tests
       - new_tests_per_thousand
       - total_cases
@@ -14229,12 +13949,12 @@ countries:
       - new_cases_per_million
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
+      - new_cases_smoothed
       - total_deaths
       - new_deaths
+      - new_cases_smoothed_per_million
       - total_deaths_per_million
       - new_deaths_per_million
-      - new_cases_smoothed
-      - new_cases_smoothed_per_million
       - positive_rate
       - tests_per_case
       - new_deaths_smoothed
@@ -14251,7 +13971,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 85676
+    total_cases: 85683
   MYS:
     values:
       - continent
@@ -14276,7 +13996,6 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - total_cases
       - new_cases
       - total_cases_per_million
@@ -14317,7 +14036,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 4280591
+    total_cases: 4292585
   MDV:
     values:
       - continent
@@ -14399,7 +14118,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - total_deaths
       - new_deaths
       - total_deaths_per_million
@@ -14426,7 +14144,7 @@ countries:
       - new_tests_smoothed_per_thousand
       - positive_rate
       - tests_per_case
-    total_cases: 30519
+    total_cases: 30526
   MLT:
     values:
       - continent
@@ -14450,7 +14168,6 @@ countries:
       - icu_patients_per_million
       - hosp_patients
       - hosp_patients_per_million
-      - stringency_index
       - total_cases
       - new_cases
       - total_cases_per_million
@@ -14494,7 +14211,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 83667
+    total_cases: 84398
   MHL:
     values:
       - continent
@@ -14546,7 +14263,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -14602,16 +14318,15 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
       - new_deaths
       - total_deaths_per_million
       - new_deaths_per_million
-      - reproduction_rate
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
+      - reproduction_rate
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -14658,7 +14373,6 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -14691,7 +14405,7 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 5683288
+    total_cases: 5715504
   FSM:
     values:
       - continent
@@ -14739,7 +14453,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -14773,7 +14486,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 514650
+    total_cases: 514882
   MCO:
     values:
       - continent
@@ -14788,7 +14501,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -14839,7 +14551,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
@@ -14875,7 +14586,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 919712
+    total_cases: 919784
   MNE:
     values:
       - continent
@@ -14899,14 +14610,14 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
+      - new_cases_smoothed
+      - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
       - excess_mortality_cumulative_per_million
-      - new_cases_smoothed
       - total_deaths
       - new_deaths
-      - new_cases_smoothed_per_million
       - total_deaths_per_million
       - new_deaths_per_million
       - new_deaths_smoothed
@@ -14925,7 +14636,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 233523
+    total_cases: 233582
   MSR:
     values:
       - continent
@@ -14957,7 +14668,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 175
+    total_cases: 176
   MAR:
     values:
       - continent
@@ -14980,7 +14691,6 @@ countries:
       - total_tests
       - total_tests_per_thousand
       - tests_units
-      - stringency_index
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
       - new_tests
@@ -15013,7 +14723,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1163726
+    total_cases: 1163806
   MOZ:
     values:
       - continent
@@ -15038,7 +14748,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_tests
@@ -15070,7 +14779,7 @@ countries:
       - new_vaccinations
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 225272
+    total_cases: 225275
   MMR:
     values:
       - continent
@@ -15095,7 +14804,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - total_deaths
       - new_deaths
       - total_deaths_per_million
@@ -15105,10 +14813,10 @@ countries:
       - total_tests
       - total_tests_per_thousand
       - tests_units
-      - new_tests
-      - new_tests_per_thousand
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
+      - new_tests
+      - new_tests_per_thousand
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
       - positive_rate
@@ -15125,7 +14833,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 612079
+    total_cases: 612132
   NAM:
     values:
       - continent
@@ -15149,7 +14857,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_tests
@@ -15181,7 +14888,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 157806
+    total_cases: 157825
   NRU:
     values:
       - continent
@@ -15231,7 +14938,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - total_tests
       - total_tests_per_thousand
       - positive_rate
@@ -15263,7 +14969,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 978538
+    total_cases: 978545
   NLD:
     values:
       - continent
@@ -15290,7 +14996,6 @@ countries:
       - icu_patients_per_million
       - hosp_patients
       - hosp_patients_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -15329,7 +15034,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 8042053
+    total_cases: 8054934
   NCL:
     values:
       - continent
@@ -15368,7 +15073,7 @@ countries:
       - new_deaths_per_million
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
-    total_cases: 60481
+    total_cases: 60492
   NZL:
     values:
       - continent
@@ -15391,7 +15096,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - total_tests
       - total_tests_per_thousand
       - tests_units
@@ -15447,7 +15151,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -15496,13 +15199,12 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
+      - new_cases_smoothed
       - total_deaths
       - new_deaths
+      - new_cases_smoothed_per_million
       - total_deaths_per_million
       - new_deaths_per_million
-      - new_cases_smoothed
-      - new_cases_smoothed_per_million
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
       - reproduction_rate
@@ -15548,7 +15250,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -15580,7 +15281,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 255516
+    total_cases: 255575
   NIU:
     values:
       - continent
@@ -15657,7 +15358,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 307142
+    total_cases: 307344
   MNP:
     values:
       - continent
@@ -15700,7 +15401,6 @@ countries:
       - weekly_icu_admissions_per_million
       - weekly_hosp_admissions
       - weekly_hosp_admissions_per_million
-      - stringency_index
       - total_cases
       - new_cases
       - total_cases_per_million
@@ -15742,7 +15442,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1412969
+    total_cases: 1413957
   OMN:
     values:
       - continent
@@ -15766,13 +15466,12 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
+      - new_cases_smoothed
+      - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
       - excess_mortality_cumulative_per_million
-      - new_cases_smoothed
-      - new_cases_smoothed_per_million
       - reproduction_rate
       - total_deaths
       - new_deaths
@@ -15798,7 +15497,7 @@ countries:
       - tests_units
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
-    total_cases: 388571
+    total_cases: 388603
   PAK:
     values:
       - continent
@@ -15823,7 +15522,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_tests
@@ -15855,7 +15553,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1526093
+    total_cases: 1526234
   PLW:
     values:
       - continent
@@ -15904,7 +15602,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -15912,12 +15609,12 @@ countries:
       - total_deaths_per_million
       - new_deaths_per_million
       - reproduction_rate
+      - new_deaths_smoothed
+      - new_deaths_smoothed_per_million
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
       - excess_mortality_cumulative_per_million
-      - new_deaths_smoothed
-      - new_deaths_smoothed_per_million
       - new_tests
       - new_tests_per_thousand
       - tests_units
@@ -15961,7 +15658,6 @@ countries:
       - total_tests
       - total_tests_per_thousand
       - tests_units
-      - stringency_index
       - total_cases
       - new_cases
       - total_cases_per_million
@@ -15974,12 +15670,12 @@ countries:
       - new_deaths_per_million
       - new_cases_smoothed
       - new_cases_smoothed_per_million
+      - new_deaths_smoothed
+      - new_deaths_smoothed_per_million
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
       - positive_rate
       - tests_per_case
-      - new_deaths_smoothed
-      - new_deaths_smoothed_per_million
       - reproduction_rate
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
@@ -15998,7 +15694,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 765930
+    total_cases: 766177
   PNG:
     values:
       - continent
@@ -16020,16 +15716,15 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
       - new_deaths
       - total_deaths_per_million
       - new_deaths_per_million
-      - reproduction_rate
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
+      - reproduction_rate
       - total_vaccinations
       - people_vaccinated
       - total_vaccinations_per_hundred
@@ -16067,7 +15762,6 @@ countries:
       - total_tests
       - total_tests_per_thousand
       - tests_units
-      - stringency_index
       - total_cases
       - new_cases
       - total_cases_per_million
@@ -16131,7 +15825,6 @@ countries:
       - new_cases_per_million
       - total_deaths_per_million
       - new_deaths_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -16161,7 +15854,7 @@ countries:
       - new_vaccinations_smoothed_per_million
       - new_people_vaccinated_smoothed
       - new_people_vaccinated_smoothed_per_hundred
-    total_cases: 3549511
+    total_cases: 3550240
   PHL:
     values:
       - continent
@@ -16185,7 +15878,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -16221,7 +15913,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 3680244
+    total_cases: 3680514
   PCN:
     values:
       - continent
@@ -16261,7 +15953,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -16297,7 +15988,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 5973557
+    total_cases: 5975040
   PRT:
     values:
       - continent
@@ -16320,7 +16011,6 @@ countries:
       - total_tests
       - total_tests_per_thousand
       - tests_units
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -16361,7 +16051,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 3638788
+    total_cases: 3648634
   PRI:
     values:
       - continent
@@ -16381,7 +16071,6 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -16413,7 +16102,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -16447,7 +16135,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 362273
+    total_cases: 362404
   ROU:
     values:
       - continent
@@ -16471,7 +16159,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -16507,7 +16194,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - hosp_patients
       - hosp_patients_per_million
-    total_cases: 2866793
+    total_cases: 2868777
   RUS:
     values:
       - continent
@@ -16531,7 +16218,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -16569,7 +16255,7 @@ countries:
       - total_boosters_per_hundred
       - weekly_hosp_admissions
       - weekly_hosp_admissions_per_million
-    total_cases: 17679300
+    total_cases: 17693468
   RWA:
     values:
       - continent
@@ -16593,7 +16279,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - reproduction_rate
@@ -16625,7 +16310,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 129739
+    total_cases: 129742
   SHN:
     values:
       - continent
@@ -16754,7 +16439,7 @@ countries:
       - new_tests_smoothed_per_thousand
       - positive_rate
       - tests_per_case
-    total_cases: 22991
+    total_cases: 22998
   SPM:
     values:
       - continent
@@ -16826,7 +16511,7 @@ countries:
       - new_tests_per_thousand
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 8338
+    total_cases: 8339
   WSM:
     values:
       - continent
@@ -16864,7 +16549,9 @@ countries:
       - new_deaths
       - total_deaths_per_million
       - new_deaths_per_million
-    total_cases: 2782
+      - new_deaths_smoothed
+      - new_deaths_smoothed_per_million
+    total_cases: 3320
   SMR:
     values:
       - continent
@@ -16884,7 +16571,6 @@ countries:
       - new_cases_per_million
       - total_deaths_per_million
       - new_deaths_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -16907,7 +16593,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 15538
+    total_cases: 15581
   STP:
     values:
       - continent
@@ -16936,9 +16622,9 @@ countries:
       - new_deaths
       - total_deaths_per_million
       - new_deaths_per_million
-      - reproduction_rate
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
+      - reproduction_rate
       - total_vaccinations
       - people_vaccinated
       - total_vaccinations_per_hundred
@@ -16979,7 +16665,6 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - new_tests_smoothed
@@ -17006,7 +16691,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 751404
+    total_cases: 751518
   SEN:
     values:
       - continent
@@ -17031,7 +16716,6 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - total_cases
       - new_cases
       - total_cases_per_million
@@ -17062,7 +16746,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 85931
+    total_cases: 85940
   SRB:
     values:
       - continent
@@ -17084,7 +16768,6 @@ countries:
       - total_tests
       - total_tests_per_thousand
       - tests_units
-      - stringency_index
       - new_tests
       - new_tests_per_thousand
       - excess_mortality_cumulative_absolute
@@ -17106,12 +16789,12 @@ countries:
       - total_deaths_per_million
       - new_deaths_per_million
       - reproduction_rate
+      - new_deaths_smoothed
+      - new_deaths_smoothed_per_million
       - icu_patients
       - icu_patients_per_million
       - hosp_patients
       - hosp_patients_per_million
-      - new_deaths_smoothed
-      - new_deaths_smoothed_per_million
       - total_vaccinations
       - people_vaccinated
       - total_vaccinations_per_hundred
@@ -17125,7 +16808,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1985085
+    total_cases: 1986439
   SYC:
     values:
       - continent
@@ -17149,7 +16832,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
@@ -17165,12 +16847,12 @@ countries:
       - people_vaccinated
       - total_vaccinations_per_hundred
       - people_vaccinated_per_hundred
+      - new_deaths_smoothed
+      - new_deaths_smoothed_per_million
       - new_vaccinations_smoothed
       - new_vaccinations_smoothed_per_million
       - new_people_vaccinated_smoothed
       - new_people_vaccinated_smoothed_per_hundred
-      - new_deaths_smoothed
-      - new_deaths_smoothed_per_million
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
@@ -17200,7 +16882,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -17253,7 +16934,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
@@ -17291,7 +16971,7 @@ countries:
       - weekly_icu_admissions_per_million
       - weekly_hosp_admissions
       - weekly_hosp_admissions_per_million
-    total_cases: 1123886
+    total_cases: 1128155
   SXM:
     values:
       - continent
@@ -17344,7 +17024,6 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - icu_patients
       - icu_patients_per_million
       - excess_mortality_cumulative_absolute
@@ -17376,7 +17055,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 2474869
+    total_cases: 2480132
   SVN:
     values:
       - continent
@@ -17400,7 +17079,6 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -17413,12 +17091,12 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
+      - new_cases_smoothed
+      - new_cases_smoothed_per_million
       - icu_patients
       - icu_patients_per_million
       - hosp_patients
       - hosp_patients_per_million
-      - new_cases_smoothed
-      - new_cases_smoothed_per_million
       - total_deaths
       - new_deaths
       - total_deaths_per_million
@@ -17443,7 +17121,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 980451
+    total_cases: 982784
   SLB:
     values:
       - continent
@@ -17466,7 +17144,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_vaccinations
@@ -17486,7 +17163,7 @@ countries:
       - new_deaths_per_million
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
-    total_cases: 11856
+    total_cases: 12005
   SOM:
     values:
       - continent
@@ -17506,7 +17183,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -17554,7 +17230,6 @@ countries:
       - total_tests
       - total_tests_per_thousand
       - tests_units
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -17597,7 +17272,7 @@ countries:
       - new_vaccinations
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 3727208
+    total_cases: 3728689
   KOR:
     values:
       - continent
@@ -17619,7 +17294,6 @@ countries:
     timeseries:
       - total_cases
       - total_cases_per_million
-      - stringency_index
       - new_cases
       - new_cases_per_million
       - excess_mortality_cumulative_absolute
@@ -17663,7 +17337,7 @@ countries:
       - weekly_icu_admissions_per_million
       - weekly_hosp_admissions
       - weekly_hosp_admissions_per_million
-    total_cases: 14778405
+    total_cases: 14983694
   SSD:
     values:
       - continent
@@ -17682,7 +17356,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - reproduction_rate
@@ -17712,7 +17385,7 @@ countries:
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
       - new_vaccinations
-    total_cases: 17311
+    total_cases: 17321
   ESP:
     values:
       - continent
@@ -17736,7 +17409,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -17804,7 +17476,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_tests
@@ -17836,7 +17507,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 662342
+    total_cases: 662425
   SDN:
     values:
       - continent
@@ -17858,7 +17529,6 @@ countries:
       - new_deaths
       - total_deaths_per_million
       - new_deaths_per_million
-      - stringency_index
       - total_cases
       - new_cases
       - total_cases_per_million
@@ -17908,7 +17578,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - excess_mortality_cumulative_absolute
@@ -17968,7 +17637,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
@@ -18008,7 +17676,7 @@ countries:
       - total_boosters
       - total_boosters_per_hundred
       - new_vaccinations
-    total_cases: 2487852
+    total_cases: 2491980
   CHE:
     values:
       - continent
@@ -18031,15 +17699,14 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
+      - new_cases_smoothed
+      - new_cases_smoothed_per_million
       - weekly_hosp_admissions
       - weekly_hosp_admissions_per_million
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
       - excess_mortality_cumulative_per_million
-      - new_cases_smoothed
-      - new_cases_smoothed_per_million
       - total_deaths
       - new_deaths
       - total_deaths_per_million
@@ -18091,7 +17758,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -18120,7 +17786,7 @@ countries:
       - new_tests_smoothed_per_thousand
       - positive_rate
       - tests_per_case
-    total_cases: 55727
+    total_cases: 55731
   TWN:
     values:
       - continent
@@ -18136,7 +17802,6 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - total_cases
       - total_cases_per_million
       - new_cases
@@ -18171,7 +17836,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 25225
+    total_cases: 25756
   TJK:
     values:
       - continent
@@ -18194,7 +17859,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - total_deaths
       - new_deaths
       - total_deaths_per_million
@@ -18246,7 +17910,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -18299,7 +17962,6 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
       - total_cases
@@ -18359,7 +18021,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - reproduction_rate
@@ -18391,7 +18052,7 @@ countries:
       - new_vaccinations
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 22836
+    total_cases: 22842
   TGO:
     values:
       - continent
@@ -18415,17 +18076,16 @@ countries:
       - total_tests
       - total_tests_per_thousand
       - tests_units
-      - stringency_index
       - new_tests
       - new_tests_per_thousand
       - total_cases
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - new_tests_smoothed
-      - new_tests_smoothed_per_thousand
       - new_cases_smoothed
       - new_cases_smoothed_per_million
+      - new_tests_smoothed
+      - new_tests_smoothed_per_thousand
       - positive_rate
       - tests_per_case
       - total_deaths
@@ -18447,7 +18107,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 36950
+    total_cases: 36955
   TKL:
     values:
       - continent
@@ -18488,7 +18148,6 @@ countries:
       - people_vaccinated
       - total_vaccinations_per_hundred
       - people_vaccinated_per_hundred
-      - stringency_index
       - new_vaccinations_smoothed
       - new_vaccinations_smoothed_per_million
       - new_people_vaccinated_smoothed
@@ -18508,7 +18167,7 @@ countries:
       - new_deaths_per_million
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
-    total_cases: 7528
+    total_cases: 7665
   TTO:
     values:
       - continent
@@ -18530,7 +18189,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -18562,7 +18220,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 139397
+    total_cases: 139595
   TUN:
     values:
       - continent
@@ -18587,7 +18245,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -18647,11 +18304,10 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
+      - new_cases_smoothed_per_million
       - total_deaths
       - new_deaths
-      - new_cases_smoothed_per_million
       - total_deaths_per_million
       - new_deaths_per_million
       - reproduction_rate
@@ -18679,7 +18335,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 14929905
+    total_cases: 14939259
   TKM:
     values:
       - continent
@@ -18703,7 +18359,6 @@ countries:
       - total_vaccinations_per_hundred
       - people_vaccinated_per_hundred
       - people_fully_vaccinated_per_hundred
-      - stringency_index
       - new_vaccinations_smoothed
       - new_vaccinations_smoothed_per_million
       - new_people_vaccinated_smoothed
@@ -18721,12 +18376,12 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
+      - new_cases_smoothed
+      - new_cases_smoothed_per_million
       - total_deaths
       - new_deaths
       - total_deaths_per_million
       - new_deaths_per_million
-      - new_cases_smoothed
-      - new_cases_smoothed_per_million
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
       - total_vaccinations
@@ -18788,7 +18443,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_tests
@@ -18844,7 +18498,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -18908,7 +18561,6 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - new_tests_smoothed
@@ -18935,7 +18587,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 892929
+    total_cases: 893072
   GBR:
     values:
       - continent
@@ -19001,7 +18653,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 21531180
+    total_cases: 21578364
   USA:
     values:
       - continent
@@ -19023,7 +18675,6 @@ countries:
     timeseries:
       - total_cases
       - total_cases_per_million
-      - stringency_index
       - new_cases
       - new_cases_per_million
       - excess_mortality_cumulative_absolute
@@ -19041,9 +18692,9 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - reproduction_rate
       - new_deaths_smoothed
       - new_deaths_smoothed_per_million
+      - reproduction_rate
       - positive_rate
       - tests_per_case
       - new_tests_smoothed
@@ -19067,7 +18718,7 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 80248986
+    total_cases: 80289237
   VIR:
     values:
       - continent
@@ -19086,7 +18737,6 @@ countries:
       - total_tests_per_thousand
       - new_tests_per_thousand
       - tests_units
-      - stringency_index
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
       - positive_rate
@@ -19115,7 +18765,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - reproduction_rate
@@ -19151,7 +18800,7 @@ countries:
       - total_boosters_per_hundred
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-    total_cases: 891800
+    total_cases: 892454
   UZB:
     values:
       - continent
@@ -19174,7 +18823,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -19201,7 +18849,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 237932
+    total_cases: 237967
   VUT:
     values:
       - continent
@@ -19225,7 +18873,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -19252,7 +18899,7 @@ countries:
       - positive_rate
       - tests_per_case
       - reproduction_rate
-    total_cases: 4713
+    total_cases: 4915
   VAT:
     values:
       - continent
@@ -19287,7 +18934,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -19309,7 +18955,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 521105
+    total_cases: 521186
   VNM:
     values:
       - continent
@@ -19334,7 +18980,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - reproduction_rate
@@ -19366,7 +19011,7 @@ countries:
       - tests_per_case
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 9980464
+    total_cases: 10070692
   WLF:
     values:
       - continent
@@ -19421,7 +19066,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - new_cases_smoothed
       - new_cases_smoothed_per_million
       - total_deaths
@@ -19471,7 +19115,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - total_tests
       - total_tests_per_thousand
       - tests_units
@@ -19503,7 +19146,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 317358
+    total_cases: 317483
   ZWE:
     values:
       - continent
@@ -19528,7 +19171,6 @@ countries:
       - new_cases
       - total_cases_per_million
       - new_cases_per_million
-      - stringency_index
       - total_deaths
       - new_deaths
       - total_deaths_per_million
@@ -19560,4 +19202,4 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 246803
+    total_cases: 246870

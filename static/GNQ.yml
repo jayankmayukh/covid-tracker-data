@@ -26,8 +26,10 @@
 - date: '2020-03-20'
   total_cases: 6
   new_cases: 0
+  new_cases_smoothed: 0.857
   total_cases_per_million: 4.138
   new_cases_per_million: 0
+  new_cases_smoothed_per_million: 0.591
 - date: '2020-03-21'
   total_cases: 6
   new_cases: 0
@@ -315,11 +317,13 @@
   new_cases_smoothed: 25.571
   total_deaths: 1
   new_deaths: 0
+  new_deaths_smoothed: 0.143
   total_cases_per_million: 177.944
   new_cases_per_million: 0
   new_cases_smoothed_per_million: 17.637
   total_deaths_per_million: 0.69
   new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0.099
   reproduction_rate: 0.75
 - date: '2020-04-28'
   total_cases: 315
@@ -13640,6 +13644,19 @@
   new_deaths_smoothed: 0
   total_cases_per_million: 11036.002
   new_cases_per_million: 0.69
+  new_cases_smoothed_per_million: 0.099
+  total_deaths_per_million: 126.216
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0
+- date: '2022-04-07'
+  total_cases: 16001
+  new_cases: 0
+  new_cases_smoothed: 0.143
+  total_deaths: 183
+  new_deaths: 0
+  new_deaths_smoothed: 0
+  total_cases_per_million: 11036.002
+  new_cases_per_million: 0
   new_cases_smoothed_per_million: 0.099
   total_deaths_per_million: 126.216
   new_deaths_per_million: 0

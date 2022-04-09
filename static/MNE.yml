@@ -26,8 +26,10 @@
 - date: '2020-03-22'
   total_cases: 21
   new_cases: 7
+  new_cases_smoothed: 3
   total_cases_per_million: 33.437
   new_cases_per_million: 11.146
+  new_cases_smoothed_per_million: 4.777
   excess_mortality_cumulative_absolute: -177.6
   excess_mortality_cumulative: -10.32
   excess_mortality: -6.25
@@ -93,11 +95,13 @@
   new_cases_smoothed: 10
   total_deaths: 1
   new_deaths: 0
+  new_deaths_smoothed: 0.143
   total_cases_per_million: 133.747
   new_cases_per_million: 3.184
   new_cases_smoothed_per_million: 15.922
   total_deaths_per_million: 1.592
   new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0.227
 - date: '2020-03-29'
   total_cases: 85
   new_cases: 1
@@ -12560,11 +12564,13 @@
   new_cases_smoothed: 912
   total_deaths: 2407
   new_deaths: 6
+  new_deaths_smoothed: 2.857
   total_cases_per_million: 268016.451
   new_cases_per_million: 2781.621
   new_cases_smoothed_per_million: 1452.111
   total_deaths_per_million: 3832.491
   new_deaths_per_million: 9.553
+  new_deaths_smoothed_per_million: 4.549
   reproduction_rate: 2.35
   total_vaccinations: 632636
   people_vaccinated: 283588
@@ -12585,11 +12591,13 @@
   new_cases_smoothed: 1095.714
   total_deaths: 2411
   new_deaths: 4
+  new_deaths_smoothed: 3.429
   total_cases_per_million: 270732.791
   new_cases_per_million: 2716.34
   new_cases_smoothed_per_million: 1744.626
   total_deaths_per_million: 3838.86
   new_deaths_per_million: 6.369
+  new_deaths_smoothed_per_million: 5.459
   reproduction_rate: 2.21
   total_vaccinations: 634517
   people_vaccinated: 283884
@@ -12610,11 +12618,13 @@
   new_cases_smoothed: 1292.143
   total_deaths: 2414
   new_deaths: 3
+  new_deaths_smoothed: 3.714
   total_cases_per_million: 273660.897
   new_cases_per_million: 2928.106
   new_cases_smoothed_per_million: 2057.385
   total_deaths_per_million: 3843.637
   new_deaths_per_million: 4.777
+  new_deaths_smoothed_per_million: 5.914
   reproduction_rate: 2.06
   total_vaccinations: 635579
   people_vaccinated: 284030
@@ -12635,11 +12645,13 @@
   new_cases_smoothed: 1398.286
   total_deaths: 2416
   new_deaths: 2
+  new_deaths_smoothed: 3.286
   total_cases_per_million: 275711.686
   new_cases_per_million: 2050.789
   new_cases_smoothed_per_million: 2226.389
   total_deaths_per_million: 3846.821
   new_deaths_per_million: 3.184
+  new_deaths_smoothed_per_million: 5.232
   reproduction_rate: 1.92
   new_vaccinations_smoothed: 1323
   new_vaccinations_smoothed_per_million: 2107
@@ -12651,11 +12663,13 @@
   new_cases_smoothed: 1558.714
   total_deaths: 2420
   new_deaths: 4
+  new_deaths_smoothed: 3.714
   total_cases_per_million: 278424.841
   new_cases_per_million: 2713.155
   new_cases_smoothed_per_million: 2481.828
   total_deaths_per_million: 3853.19
   new_deaths_per_million: 6.369
+  new_deaths_smoothed_per_million: 5.914
   reproduction_rate: 1.87
   total_vaccinations: 635683
   people_vaccinated: 284051
@@ -12675,11 +12689,13 @@
   new_cases_smoothed: 1768.714
   total_deaths: 2422
   new_deaths: 2
+  new_deaths_smoothed: 3
   total_cases_per_million: 282548.71
   new_cases_per_million: 4123.869
   new_cases_smoothed_per_million: 2816.195
   total_deaths_per_million: 3856.375
   new_deaths_per_million: 3.184
+  new_deaths_smoothed_per_million: 4.777
   reproduction_rate: 1.82
   total_vaccinations: 636092
   people_vaccinated: 284098
@@ -15068,4 +15084,30 @@
   total_boosters_per_hundred: 15.52
   new_vaccinations_smoothed_per_million: 215
   new_people_vaccinated_smoothed: 35
+  new_people_vaccinated_smoothed_per_hundred: 0.006
+- date: '2022-04-07'
+  total_cases: 233582
+  new_cases: 59
+  new_cases_smoothed: 68.571
+  total_deaths: 2706
+  new_deaths: 0
+  new_deaths_smoothed: 0.571
+  total_cases_per_million: 371915.657
+  new_cases_per_million: 93.941
+  new_cases_smoothed_per_million: 109.181
+  total_deaths_per_million: 4308.567
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0.91
+  total_vaccinations: 669505
+  people_vaccinated: 290013
+  people_fully_vaccinated: 281938
+  total_boosters: 97554
+  new_vaccinations: 157
+  new_vaccinations_smoothed: 138
+  total_vaccinations_per_hundred: 106.6
+  people_vaccinated_per_hundred: 46.18
+  people_fully_vaccinated_per_hundred: 44.89
+  total_boosters_per_hundred: 15.53
+  new_vaccinations_smoothed_per_million: 220
+  new_people_vaccinated_smoothed: 36
   new_people_vaccinated_smoothed_per_hundred: 0.006

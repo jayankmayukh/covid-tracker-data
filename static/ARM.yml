@@ -249,8 +249,10 @@
 - date: '2020-03-06'
   total_cases: 1
   new_cases: 0
+  new_cases_smoothed: 0.143
   total_cases_per_million: 0.337
   new_cases_per_million: 0
+  new_cases_smoothed_per_million: 0.048
   total_tests: 183
   new_tests: 7
   total_tests_per_thousand: 0.062
@@ -678,11 +680,13 @@
   new_cases_smoothed: 40.429
   total_deaths: 3
   new_deaths: 0
+  new_deaths_smoothed: 0.429
   total_cases_per_million: 179.238
   new_cases_per_million: 16.846
   new_cases_smoothed_per_million: 13.621
   total_deaths_per_million: 1.011
   new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0.144
   reproduction_rate: 1.53
   total_tests: 3272
   new_tests: 210
@@ -16756,11 +16760,13 @@
   new_cases_smoothed: 95.571
   total_deaths: 7972
   new_deaths: 4
+  new_deaths_smoothed: 5
   total_cases_per_million: 116211.295
   new_cases_per_million: 35.039
   new_cases_smoothed_per_million: 32.199
   total_deaths_per_million: 2685.868
   new_deaths_per_million: 1.348
+  new_deaths_smoothed_per_million: 1.685
   reproduction_rate: 0.68
   total_tests: 2573937
   new_tests: 4398
@@ -16785,11 +16791,13 @@
   new_cases_smoothed: 85.857
   total_deaths: 7975
   new_deaths: 3
+  new_deaths_smoothed: 5
   total_cases_per_million: 116228.141
   new_cases_per_million: 16.846
   new_cases_smoothed_per_million: 28.926
   total_deaths_per_million: 2686.879
   new_deaths_per_million: 1.011
+  new_deaths_smoothed_per_million: 1.685
   reproduction_rate: 0.7
   total_tests: 2575788
   new_tests: 1851
@@ -16810,11 +16818,13 @@
   new_cases_smoothed: 75.143
   total_deaths: 7977
   new_deaths: 2
+  new_deaths_smoothed: 5.143
   total_cases_per_million: 116237.238
   new_cases_per_million: 9.097
   new_cases_smoothed_per_million: 25.317
   total_deaths_per_million: 2687.553
   new_deaths_per_million: 0.674
+  new_deaths_smoothed_per_million: 1.733
   reproduction_rate: 0.77
   total_tests: 2578628
   new_tests: 2840
@@ -16843,11 +16853,13 @@
   new_cases_smoothed: 70.857
   total_deaths: 7983
   new_deaths: 6
+  new_deaths_smoothed: 5
   total_cases_per_million: 116247.008
   new_cases_per_million: 9.77
   new_cases_smoothed_per_million: 23.873
   total_deaths_per_million: 2689.574
   new_deaths_per_million: 2.021
+  new_deaths_smoothed_per_million: 1.685
   reproduction_rate: 0.87
   total_tests: 2582664
   new_tests: 4036
@@ -16868,11 +16880,13 @@
   new_cases_smoothed: 68.143
   total_deaths: 7986
   new_deaths: 3
+  new_deaths_smoothed: 3.286
   total_cases_per_million: 116277.33
   new_cases_per_million: 30.322
   new_cases_smoothed_per_million: 22.958
   total_deaths_per_million: 2690.585
   new_deaths_per_million: 1.011
+  new_deaths_smoothed_per_million: 1.107
   reproduction_rate: 0.97
   total_tests: 2587828
   new_tests: 5164
@@ -16893,11 +16907,13 @@
   new_cases_smoothed: 74
   total_deaths: 7989
   new_deaths: 3
+  new_deaths_smoothed: 3
   total_cases_per_million: 116320.792
   new_cases_per_million: 43.462
   new_cases_smoothed_per_million: 24.932
   total_deaths_per_million: 2691.596
   new_deaths_per_million: 1.011
+  new_deaths_smoothed_per_million: 1.011
   reproduction_rate: 1.08
   total_tests: 2592048
   new_tests: 4220
@@ -19011,6 +19027,10 @@
   positive_rate: 0.017
   tests_per_case: 58.8
   tests_units: tests performed
+  new_vaccinations_smoothed: 2569
+  new_vaccinations_smoothed_per_million: 866
+  new_people_vaccinated_smoothed: 733
+  new_people_vaccinated_smoothed_per_hundred: 0.025
 - date: '2022-03-22'
   total_cases: 422354
   new_cases: 26
@@ -19034,6 +19054,10 @@
   positive_rate: 0.015
   tests_per_case: 66.7
   tests_units: tests performed
+  new_vaccinations_smoothed: 2557
+  new_vaccinations_smoothed_per_million: 861
+  new_people_vaccinated_smoothed: 723
+  new_people_vaccinated_smoothed_per_hundred: 0.024
 - date: '2022-03-23'
   total_cases: 422382
   new_cases: 28
@@ -19057,6 +19081,10 @@
   positive_rate: 0.013
   tests_per_case: 76.9
   tests_units: tests performed
+  new_vaccinations_smoothed: 2544
+  new_vaccinations_smoothed_per_million: 857
+  new_people_vaccinated_smoothed: 712
+  new_people_vaccinated_smoothed_per_hundred: 0.024
 - date: '2022-03-24'
   total_cases: 422401
   new_cases: 19
@@ -19080,6 +19108,10 @@
   positive_rate: 0.011
   tests_per_case: 90.9
   tests_units: tests performed
+  new_vaccinations_smoothed: 2532
+  new_vaccinations_smoothed_per_million: 853
+  new_people_vaccinated_smoothed: 702
+  new_people_vaccinated_smoothed_per_hundred: 0.024
 - date: '2022-03-25'
   total_cases: 422423
   new_cases: 22
@@ -19103,6 +19135,10 @@
   positive_rate: 0.01
   tests_per_case: 100
   tests_units: tests performed
+  new_vaccinations_smoothed: 2519
+  new_vaccinations_smoothed_per_million: 849
+  new_people_vaccinated_smoothed: 692
+  new_people_vaccinated_smoothed_per_hundred: 0.023
 - date: '2022-03-26'
   total_cases: 422444
   new_cases: 21
@@ -19126,6 +19162,10 @@
   positive_rate: 0.01
   tests_per_case: 100
   tests_units: tests performed
+  new_vaccinations_smoothed: 2507
+  new_vaccinations_smoothed_per_million: 845
+  new_people_vaccinated_smoothed: 682
+  new_people_vaccinated_smoothed_per_hundred: 0.023
 - date: '2022-03-27'
   total_cases: 422458
   new_cases: 14
@@ -19149,6 +19189,10 @@
   positive_rate: 0.009
   tests_per_case: 111.1
   tests_units: tests performed
+  new_vaccinations_smoothed: 2495
+  new_vaccinations_smoothed_per_million: 841
+  new_people_vaccinated_smoothed: 671
+  new_people_vaccinated_smoothed_per_hundred: 0.023
 - date: '2022-03-28'
   total_cases: 422468
   new_cases: 10
@@ -19172,6 +19216,10 @@
   positive_rate: 0.008
   tests_per_case: 125
   tests_units: tests performed
+  new_vaccinations_smoothed: 2495
+  new_vaccinations_smoothed_per_million: 841
+  new_people_vaccinated_smoothed: 671
+  new_people_vaccinated_smoothed_per_hundred: 0.023
 - date: '2022-03-29'
   total_cases: 422484
   new_cases: 16
@@ -19195,6 +19243,10 @@
   positive_rate: 0.007
   tests_per_case: 142.9
   tests_units: tests performed
+  new_vaccinations_smoothed: 2495
+  new_vaccinations_smoothed_per_million: 841
+  new_people_vaccinated_smoothed: 671
+  new_people_vaccinated_smoothed_per_hundred: 0.023
 - date: '2022-03-30'
   total_cases: 422498
   new_cases: 14
@@ -19218,6 +19270,10 @@
   positive_rate: 0.008
   tests_per_case: 125
   tests_units: tests performed
+  new_vaccinations_smoothed: 2495
+  new_vaccinations_smoothed_per_million: 841
+  new_people_vaccinated_smoothed: 671
+  new_people_vaccinated_smoothed_per_hundred: 0.023
 - date: '2022-03-31'
   total_cases: 422519
   new_cases: 21
@@ -19241,6 +19297,10 @@
   positive_rate: 0.008
   tests_per_case: 125
   tests_units: tests performed
+  new_vaccinations_smoothed: 2495
+  new_vaccinations_smoothed_per_million: 841
+  new_people_vaccinated_smoothed: 671
+  new_people_vaccinated_smoothed_per_hundred: 0.023
 - date: '2022-04-01'
   total_cases: 422540
   new_cases: 21
@@ -19264,6 +19324,10 @@
   positive_rate: 0.007
   tests_per_case: 142.9
   tests_units: tests performed
+  new_vaccinations_smoothed: 2495
+  new_vaccinations_smoothed_per_million: 841
+  new_people_vaccinated_smoothed: 671
+  new_people_vaccinated_smoothed_per_hundred: 0.023
 - date: '2022-04-02'
   total_cases: 422563
   new_cases: 23
@@ -19287,6 +19351,10 @@
   positive_rate: 0.008
   tests_per_case: 125
   tests_units: tests performed
+  new_vaccinations_smoothed: 2495
+  new_vaccinations_smoothed_per_million: 841
+  new_people_vaccinated_smoothed: 671
+  new_people_vaccinated_smoothed_per_hundred: 0.023
 - date: '2022-04-03'
   total_cases: 422574
   new_cases: 11
@@ -19310,6 +19378,18 @@
   positive_rate: 0.008
   tests_per_case: 125
   tests_units: tests performed
+  total_vaccinations: 2141957
+  people_vaccinated: 1128072
+  people_fully_vaccinated: 980101
+  total_boosters: 39849
+  new_vaccinations_smoothed: 2495
+  total_vaccinations_per_hundred: 72.17
+  people_vaccinated_per_hundred: 38.01
+  people_fully_vaccinated_per_hundred: 33.02
+  total_boosters_per_hundred: 1.34
+  new_vaccinations_smoothed_per_million: 841
+  new_people_vaccinated_smoothed: 671
+  new_people_vaccinated_smoothed_per_hundred: 0.023
 - date: '2022-04-04'
   total_cases: 422581
   new_cases: 7
@@ -19351,3 +19431,16 @@
   total_deaths_per_million: 2903.851
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.385
+- date: '2022-04-07'
+  total_cases: 422629
+  new_cases: 19
+  new_cases_smoothed: 15.714
+  total_deaths: 8619
+  new_deaths: 0
+  new_deaths_smoothed: 0.857
+  total_cases_per_million: 142389.075
+  new_cases_per_million: 6.401
+  new_cases_smoothed_per_million: 5.294
+  total_deaths_per_million: 2903.851
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0.289

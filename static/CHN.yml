@@ -62,12 +62,16 @@
 - date: '2020-01-28'
   total_cases: 5494
   new_cases: 2631
+  new_cases_smoothed: 706.714
   total_deaths: 131
   new_deaths: 49
+  new_deaths_smoothed: 16.286
   total_cases_per_million: 3.804
   new_cases_per_million: 1.822
+  new_cases_smoothed_per_million: 0.489
   total_deaths_per_million: 0.091
   new_deaths_per_million: 0.034
+  new_deaths_smoothed_per_million: 0.011
   reproduction_rate: 3.68
   stringency_index: 69.91
 - date: '2020-01-29'
@@ -1585,11 +1589,13 @@
 - date: '2020-05-10'
   total_cases: 85881
   new_cases: 36
+  new_cases_smoothed: 18.286
   total_deaths: 4633
   new_deaths: 0
   new_deaths_smoothed: 0
   total_cases_per_million: 59.465
   new_cases_per_million: 0.025
+  new_cases_smoothed_per_million: 0.013
   total_deaths_per_million: 3.208
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
@@ -9323,11 +9329,13 @@
   new_cases_smoothed: 63.286
   total_deaths: 4636
   new_deaths: 0
+  new_deaths_smoothed: 0.429
   total_cases_per_million: 71.192
   new_cases_per_million: 0.06
   new_cases_smoothed_per_million: 0.044
   total_deaths_per_million: 3.21
   new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0
   reproduction_rate: 1.29
   total_vaccinations: 1550268000
   new_vaccinations: 11561000
@@ -9343,11 +9351,13 @@
   new_cases_smoothed: 63.857
   total_deaths: 4636
   new_deaths: 0
+  new_deaths_smoothed: 0.429
   total_cases_per_million: 71.248
   new_cases_per_million: 0.057
   new_cases_smoothed_per_million: 0.044
   total_deaths_per_million: 3.21
   new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0
   reproduction_rate: 1.29
   total_vaccinations: 1565872000
   new_vaccinations: 15604000
@@ -9363,11 +9373,13 @@
   new_cases_smoothed: 75
   total_deaths: 4636
   new_deaths: 0
+  new_deaths_smoothed: 0.429
   total_cases_per_million: 71.315
   new_cases_per_million: 0.066
   new_cases_smoothed_per_million: 0.052
   total_deaths_per_million: 3.21
   new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0
   reproduction_rate: 1.3
   total_vaccinations: 1583361000
   new_vaccinations: 17489000
@@ -9383,11 +9395,13 @@
   new_cases_smoothed: 69.714
   total_deaths: 4636
   new_deaths: 0
+  new_deaths_smoothed: 0.429
   total_cases_per_million: 71.354
   new_cases_per_million: 0.039
   new_cases_smoothed_per_million: 0.048
   total_deaths_per_million: 3.21
   new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0
   reproduction_rate: 1.27
   total_vaccinations: 1601249000
   new_vaccinations: 17888000
@@ -9403,11 +9417,13 @@
   new_cases_smoothed: 72.571
   total_deaths: 4636
   new_deaths: 0
+  new_deaths_smoothed: 0.429
   total_cases_per_million: 71.408
   new_cases_per_million: 0.054
   new_cases_smoothed_per_million: 0.05
   total_deaths_per_million: 3.21
   new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0
   reproduction_rate: 1.29
   total_vaccinations: 1619218000
   new_vaccinations: 17969000
@@ -9423,11 +9439,13 @@
   new_cases_smoothed: 74.714
   total_deaths: 4636
   new_deaths: 0
+  new_deaths_smoothed: 0
   total_cases_per_million: 71.461
   new_cases_per_million: 0.053
   new_cases_smoothed_per_million: 0.052
   total_deaths_per_million: 3.21
   new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0
   reproduction_rate: 1.31
   total_vaccinations: 1637395000
   new_vaccinations: 18177000
@@ -15030,3 +15048,21 @@
   new_vaccinations_smoothed: 2747571
   total_vaccinations_per_hundred: 227.55
   new_vaccinations_smoothed_per_million: 1902
+- date: '2022-04-07'
+  total_cases: 340301
+  new_cases: 25594
+  new_cases_smoothed: 16043.286
+  total_deaths: 4638
+  new_deaths: 0
+  new_deaths_smoothed: 0
+  total_cases_per_million: 235.63
+  new_cases_per_million: 17.722
+  new_cases_smoothed_per_million: 11.109
+  total_deaths_per_million: 3.211
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0
+  total_vaccinations: 3289463000
+  new_vaccinations: 3090000
+  new_vaccinations_smoothed: 2655571
+  total_vaccinations_per_hundred: 227.77
+  new_vaccinations_smoothed_per_million: 1839
