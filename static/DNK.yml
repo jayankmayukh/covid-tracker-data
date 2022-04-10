@@ -231,6 +231,8 @@
   new_tests_per_thousand: 0.011
   new_tests_smoothed: 67
   new_tests_smoothed_per_thousand: 0.012
+  positive_rate: 0.0128
+  tests_per_case: 78.2
   tests_units: tests performed
 - date: '2020-03-04'
   total_cases: 10
@@ -371,7 +373,7 @@
   total_cases_per_million: 76.033
   new_cases_per_million: 30.963
   new_cases_smoothed_per_million: 10.616
-  reproduction_rate: 2.04
+  reproduction_rate: 2.03
   icu_patients: 2
   icu_patients_per_million: 0.344
   weekly_hosp_admissions: 43
@@ -392,7 +394,7 @@
   total_cases_per_million: 105.792
   new_cases_per_million: 29.759
   new_cases_smoothed_per_million: 14.867
-  reproduction_rate: 1.95
+  reproduction_rate: 1.94
   icu_patients: 3
   icu_patients_per_million: 0.516
   weekly_hosp_admissions: 60
@@ -413,7 +415,7 @@
   total_cases_per_million: 137.787
   new_cases_per_million: 31.996
   new_cases_smoothed_per_million: 19.119
-  reproduction_rate: 1.82
+  reproduction_rate: 1.81
   icu_patients: 4
   icu_patients_per_million: 0.688
   weekly_hosp_admissions: 85
@@ -438,7 +440,7 @@
   new_cases_smoothed_per_million: 19.758
   total_deaths_per_million: 0.172
   new_deaths_per_million: 0.172
-  reproduction_rate: 1.67
+  reproduction_rate: 1.66
   icu_patients: 3
   icu_patients_per_million: 0.516
   weekly_hosp_admissions: 105
@@ -517,7 +519,7 @@
   new_cases_smoothed_per_million: 17.571
   total_deaths_per_million: 0.688
   new_deaths_per_million: 0.172
-  reproduction_rate: 1.41
+  reproduction_rate: 1.42
   icu_patients: 18
   icu_patients_per_million: 3.096
   weekly_hosp_admissions: 203
@@ -569,7 +571,7 @@
   total_deaths_per_million: 1.032
   new_deaths_per_million: 0.344
   new_deaths_smoothed_per_million: 0.147
-  reproduction_rate: 1.36
+  reproduction_rate: 1.35
   icu_patients: 30
   icu_patients_per_million: 5.161
   weekly_hosp_admissions: 272
@@ -1369,7 +1371,7 @@
   total_deaths_per_million: 55.218
   new_deaths_per_million: 2.064
   new_deaths_smoothed_per_million: 2.064
-  reproduction_rate: 0.87
+  reproduction_rate: 0.88
   icu_patients: 92
   icu_patients_per_million: 15.826
   hosp_patients: 341
@@ -2019,7 +2021,7 @@
   total_deaths_per_million: 89.794
   new_deaths_per_million: 1.376
   new_deaths_smoothed_per_million: 1.524
-  reproduction_rate: 0.8
+  reproduction_rate: 0.81
   icu_patients: 42
   icu_patients_per_million: 7.225
   hosp_patients: 183
@@ -2694,7 +2696,7 @@
   total_deaths_per_million: 98.739
   new_deaths_per_million: 0.516
   new_deaths_smoothed_per_million: 0.295
-  reproduction_rate: 0.77
+  reproduction_rate: 0.78
   icu_patients: 20
   icu_patients_per_million: 3.44
   hosp_patients: 85
@@ -3698,7 +3700,7 @@
   total_deaths_per_million: 104.244
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.049
-  reproduction_rate: 0.81
+  reproduction_rate: 0.82
   icu_patients: 6
   icu_patients_per_million: 1.032
   hosp_patients: 26
@@ -3758,7 +3760,7 @@
   total_deaths_per_million: 104.416
   new_deaths_per_million: 0.172
   new_deaths_smoothed_per_million: 0.049
-  reproduction_rate: 0.84
+  reproduction_rate: 0.85
   icu_patients: 7
   icu_patients_per_million: 1.204
   hosp_patients: 23
@@ -4079,7 +4081,7 @@
   total_deaths_per_million: 105.104
   new_deaths_per_million: 0.172
   new_deaths_smoothed_per_million: 0.049
-  reproduction_rate: 1.33
+  reproduction_rate: 1.32
   icu_patients: 5
   icu_patients_per_million: 0.86
   hosp_patients: 20
@@ -4406,7 +4408,7 @@
   total_deaths_per_million: 105.448
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.049
-  reproduction_rate: 1.44
+  reproduction_rate: 1.43
   icu_patients: 3
   icu_patients_per_million: 0.516
   hosp_patients: 22
@@ -4642,7 +4644,7 @@
   total_deaths_per_million: 105.964
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.049
-  reproduction_rate: 1.64
+  reproduction_rate: 1.63
   icu_patients: 2
   icu_patients_per_million: 0.344
   hosp_patients: 23
@@ -4791,7 +4793,7 @@
   total_deaths_per_million: 106.652
   new_deaths_per_million: 0.516
   new_deaths_smoothed_per_million: 0.098
-  reproduction_rate: 1.56
+  reproduction_rate: 1.55
   icu_patients: 2
   icu_patients_per_million: 0.344
   hosp_patients: 23
@@ -4849,7 +4851,7 @@
   total_deaths_per_million: 106.824
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.123
-  reproduction_rate: 1.42
+  reproduction_rate: 1.41
   icu_patients: 1
   icu_patients_per_million: 0.172
   hosp_patients: 16
@@ -5470,7 +5472,7 @@
   total_deaths_per_million: 107.684
   new_deaths_per_million: 0.172
   new_deaths_smoothed_per_million: 0.074
-  reproduction_rate: 1.27
+  reproduction_rate: 1.26
   icu_patients: 4
   icu_patients_per_million: 0.688
   hosp_patients: 15
@@ -5528,7 +5530,7 @@
   total_deaths_per_million: 107.856
   new_deaths_per_million: 0.172
   new_deaths_smoothed_per_million: 0.074
-  reproduction_rate: 1.38
+  reproduction_rate: 1.37
   icu_patients: 3
   icu_patients_per_million: 0.516
   hosp_patients: 18
@@ -6033,7 +6035,7 @@
   total_deaths_per_million: 110.092
   new_deaths_per_million: 0.344
   new_deaths_smoothed_per_million: 0.172
-  reproduction_rate: 1.36
+  reproduction_rate: 1.35
   icu_patients: 12
   icu_patients_per_million: 2.064
   hosp_patients: 75
@@ -6091,7 +6093,7 @@
   total_deaths_per_million: 110.608
   new_deaths_per_million: 0.344
   new_deaths_smoothed_per_million: 0.246
-  reproduction_rate: 1.29
+  reproduction_rate: 1.3
   icu_patients: 15
   icu_patients_per_million: 2.58
   hosp_patients: 78
@@ -6207,7 +6209,7 @@
   total_deaths_per_million: 111.641
   new_deaths_per_million: 0.172
   new_deaths_smoothed_per_million: 0.27
-  reproduction_rate: 1.13
+  reproduction_rate: 1.14
   icu_patients: 17
   icu_patients_per_million: 2.924
   hosp_patients: 95
@@ -6240,7 +6242,7 @@
   total_deaths_per_million: 111.641
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.221
-  reproduction_rate: 1.09
+  reproduction_rate: 1.1
   icu_patients: 17
   icu_patients_per_million: 2.924
   hosp_patients: 110
@@ -6356,7 +6358,7 @@
   total_deaths_per_million: 112.157
   new_deaths_per_million: 0.172
   new_deaths_smoothed_per_million: 0.123
-  reproduction_rate: 0.99
+  reproduction_rate: 1
   icu_patients: 17
   icu_patients_per_million: 2.924
   hosp_patients: 106
@@ -6447,7 +6449,7 @@
   total_deaths_per_million: 113.361
   new_deaths_per_million: 0.172
   new_deaths_smoothed_per_million: 0.246
-  reproduction_rate: 0.96
+  reproduction_rate: 0.97
   icu_patients: 17
   icu_patients_per_million: 2.924
   hosp_patients: 120
@@ -6505,7 +6507,7 @@
   total_deaths_per_million: 114.049
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.319
-  reproduction_rate: 0.96
+  reproduction_rate: 0.97
   icu_patients: 15
   icu_patients_per_million: 2.58
   hosp_patients: 116
@@ -6654,7 +6656,7 @@
   total_deaths_per_million: 115.425
   new_deaths_per_million: 0.344
   new_deaths_smoothed_per_million: 0.295
-  reproduction_rate: 1.02
+  reproduction_rate: 1.03
   icu_patients: 19
   icu_patients_per_million: 3.268
   hosp_patients: 107
@@ -6741,7 +6743,7 @@
   total_deaths_per_million: 116.457
   new_deaths_per_million: 0.344
   new_deaths_smoothed_per_million: 0.295
-  reproduction_rate: 1.08
+  reproduction_rate: 1.09
   icu_patients: 17
   icu_patients_per_million: 2.924
   hosp_patients: 104
@@ -7242,7 +7244,7 @@
   total_deaths_per_million: 124.37
   new_deaths_per_million: 0.344
   new_deaths_smoothed_per_million: 0.516
-  reproduction_rate: 1.24
+  reproduction_rate: 1.25
   icu_patients: 19
   icu_patients_per_million: 3.268
   hosp_patients: 156
@@ -7420,7 +7422,7 @@
   total_deaths_per_million: 127.294
   new_deaths_per_million: 0.344
   new_deaths_smoothed_per_million: 0.467
-  reproduction_rate: 1.11
+  reproduction_rate: 1.12
   icu_patients: 29
   icu_patients_per_million: 4.989
   hosp_patients: 187
@@ -7482,7 +7484,7 @@
   total_deaths_per_million: 128.498
   new_deaths_per_million: 0.688
   new_deaths_smoothed_per_million: 0.565
-  reproduction_rate: 1.07
+  reproduction_rate: 1.08
   icu_patients: 33
   icu_patients_per_million: 5.677
   hosp_patients: 196
@@ -7834,7 +7836,7 @@
   total_deaths_per_million: 134.347
   new_deaths_per_million: 0.516
   new_deaths_smoothed_per_million: 0.59
-  reproduction_rate: 1.09
+  reproduction_rate: 1.08
   icu_patients: 40
   icu_patients_per_million: 6.881
   hosp_patients: 237
@@ -7863,7 +7865,7 @@
   total_deaths_per_million: 134.863
   new_deaths_per_million: 0.516
   new_deaths_smoothed_per_million: 0.59
-  reproduction_rate: 1.09
+  reproduction_rate: 1.08
   icu_patients: 39
   icu_patients_per_million: 6.709
   hosp_patients: 254
@@ -8339,7 +8341,7 @@
   total_deaths_per_million: 154.989
   new_deaths_per_million: 1.204
   new_deaths_smoothed_per_million: 1.352
-  reproduction_rate: 1.35
+  reproduction_rate: 1.34
   icu_patients: 42
   icu_patients_per_million: 7.225
   hosp_patients: 354
@@ -8475,7 +8477,7 @@
   total_deaths_per_million: 160.838
   new_deaths_per_million: 1.376
   new_deaths_smoothed_per_million: 1.401
-  reproduction_rate: 1.36
+  reproduction_rate: 1.35
   icu_patients: 54
   icu_patients_per_million: 9.289
   hosp_patients: 371
@@ -8508,7 +8510,7 @@
   total_deaths_per_million: 161.87
   new_deaths_per_million: 1.032
   new_deaths_smoothed_per_million: 1.376
-  reproduction_rate: 1.34
+  reproduction_rate: 1.33
   icu_patients: 58
   icu_patients_per_million: 9.977
   hosp_patients: 390
@@ -9106,7 +9108,7 @@
   total_deaths_per_million: 210.896
   new_deaths_per_million: 3.784
   new_deaths_smoothed_per_million: 3.834
-  reproduction_rate: 0.89
+  reproduction_rate: 0.88
   icu_patients: 128
   icu_patients_per_million: 22.018
   hosp_patients: 900
@@ -9430,7 +9432,7 @@
   total_deaths_per_million: 249.428
   new_deaths_per_million: 5.161
   new_deaths_smoothed_per_million: 4.767
-  reproduction_rate: 0.8
+  reproduction_rate: 0.79
   icu_patients: 137
   icu_patients_per_million: 23.567
   hosp_patients: 886
@@ -9674,7 +9676,7 @@
   total_deaths_per_million: 279.187
   new_deaths_per_million: 4.473
   new_deaths_smoothed_per_million: 4.989
-  reproduction_rate: 0.7
+  reproduction_rate: 0.71
   icu_patients: 135
   icu_patients_per_million: 23.223
   hosp_patients: 917
@@ -9714,7 +9716,7 @@
   total_deaths_per_million: 285.552
   new_deaths_per_million: 6.365
   new_deaths_smoothed_per_million: 5.161
-  reproduction_rate: 0.69
+  reproduction_rate: 0.7
   icu_patients: 137
   icu_patients_per_million: 23.567
   hosp_patients: 859
@@ -9874,7 +9876,7 @@
   total_deaths_per_million: 305.334
   new_deaths_per_million: 4.817
   new_deaths_smoothed_per_million: 5.038
-  reproduction_rate: 0.69
+  reproduction_rate: 0.7
   icu_patients: 131
   icu_patients_per_million: 22.535
   hosp_patients: 799
@@ -10850,7 +10852,7 @@
   total_deaths_per_million: 387.903
   new_deaths_per_million: 1.892
   new_deaths_smoothed_per_million: 2.089
-  reproduction_rate: 0.84
+  reproduction_rate: 0.83
   icu_patients: 74
   icu_patients_per_million: 12.729
   hosp_patients: 370
@@ -10970,7 +10972,7 @@
   total_deaths_per_million: 392.892
   new_deaths_per_million: 0.688
   new_deaths_smoothed_per_million: 1.696
-  reproduction_rate: 0.88
+  reproduction_rate: 0.87
   icu_patients: 64
   icu_patients_per_million: 11.009
   hosp_patients: 308
@@ -11054,7 +11056,7 @@
   total_deaths_per_million: 395.816
   new_deaths_per_million: 1.548
   new_deaths_smoothed_per_million: 2.089
-  reproduction_rate: 0.93
+  reproduction_rate: 0.92
   icu_patients: 68
   icu_patients_per_million: 11.697
   hosp_patients: 315
@@ -11338,7 +11340,7 @@
   total_deaths_per_million: 403.041
   new_deaths_per_million: 0.86
   new_deaths_smoothed_per_million: 1.032
-  reproduction_rate: 1.07
+  reproduction_rate: 1.06
   icu_patients: 51
   icu_patients_per_million: 8.773
   hosp_patients: 254
@@ -12314,7 +12316,7 @@
   total_deaths_per_million: 412.158
   new_deaths_per_million: 0.172
   new_deaths_smoothed_per_million: 0.344
-  reproduction_rate: 1.1
+  reproduction_rate: 1.09
   icu_patients: 41
   icu_patients_per_million: 7.053
   hosp_patients: 196
@@ -12661,6 +12663,8 @@
   new_tests_per_thousand: 34.212
   new_tests_smoothed: 172103
   new_tests_smoothed_per_thousand: 29.605
+  positive_rate: 0.0037
+  tests_per_case: 271.9
   tests_units: tests performed
   total_vaccinations: 959787
   people_vaccinated: 630953
@@ -12701,6 +12705,8 @@
   new_tests_per_thousand: 31.049
   new_tests_smoothed: 173645
   new_tests_smoothed_per_thousand: 29.87
+  positive_rate: 0.0036
+  tests_per_case: 277.8
   tests_units: tests performed
   total_vaccinations: 973372
   people_vaccinated: 636989
@@ -12741,6 +12747,8 @@
   new_tests_per_thousand: 21.323
   new_tests_smoothed: 172090
   new_tests_smoothed_per_thousand: 29.603
+  positive_rate: 0.0035
+  tests_per_case: 286.7
   tests_units: tests performed
   total_vaccinations: 986158
   people_vaccinated: 646784
@@ -12781,6 +12789,8 @@
   new_tests_per_thousand: 21.852
   new_tests_smoothed: 170304
   new_tests_smoothed_per_thousand: 29.296
+  positive_rate: 0.0038
+  tests_per_case: 264.4
   tests_units: tests performed
   total_vaccinations: 999464
   people_vaccinated: 657376
@@ -12825,6 +12835,8 @@
   new_tests_per_thousand: 33.472
   new_tests_smoothed: 170253
   new_tests_smoothed_per_thousand: 29.287
+  positive_rate: 0.0033
+  tests_per_case: 304.3
   tests_units: tests performed
   total_vaccinations: 1023060
   people_vaccinated: 675009
@@ -12865,6 +12877,8 @@
   new_tests_per_thousand: 34.705
   new_tests_smoothed: 172322
   new_tests_smoothed_per_thousand: 29.643
+  positive_rate: 0.004
+  tests_per_case: 247.6
   tests_units: tests performed
   total_vaccinations: 1050138
   people_vaccinated: 696242
@@ -13232,7 +13246,7 @@
   total_deaths_per_million: 419.039
   new_deaths_per_million: 0.172
   new_deaths_smoothed_per_million: 0.319
-  reproduction_rate: 0.98
+  reproduction_rate: 0.99
   icu_patients: 37
   icu_patients_per_million: 6.365
   hosp_patients: 237
@@ -13656,7 +13670,7 @@
   total_deaths_per_million: 422.307
   new_deaths_per_million: 0.516
   new_deaths_smoothed_per_million: 0.344
-  reproduction_rate: 1.06
+  reproduction_rate: 1.07
   icu_patients: 35
   icu_patients_per_million: 6.021
   hosp_patients: 181
@@ -13912,7 +13926,7 @@
   total_deaths_per_million: 425.576
   new_deaths_per_million: 0.344
   new_deaths_smoothed_per_million: 0.541
-  reproduction_rate: 1.01
+  reproduction_rate: 1.02
   icu_patients: 40
   icu_patients_per_million: 6.881
   hosp_patients: 177
@@ -15998,7 +16012,7 @@
   total_deaths_per_million: 434.349
   new_deaths_per_million: 0.344
   new_deaths_smoothed_per_million: 0.172
-  reproduction_rate: 0.64
+  reproduction_rate: 0.65
   icu_patients: 20
   icu_patients_per_million: 3.44
   hosp_patients: 99
@@ -16212,7 +16226,7 @@
   total_deaths_per_million: 434.865
   new_deaths_per_million: 0.172
   new_deaths_smoothed_per_million: 0.147
-  reproduction_rate: 0.6
+  reproduction_rate: 0.61
   icu_patients: 19
   icu_patients_per_million: 3.268
   hosp_patients: 84
@@ -16384,7 +16398,7 @@
   total_deaths_per_million: 435.381
   new_deaths_per_million: 0.172
   new_deaths_smoothed_per_million: 0.123
-  reproduction_rate: 0.65
+  reproduction_rate: 0.66
   icu_patients: 17
   icu_patients_per_million: 2.924
   hosp_patients: 82
@@ -16934,7 +16948,7 @@
   total_deaths_per_million: 436.413
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.123
-  reproduction_rate: 1.32
+  reproduction_rate: 1.31
   icu_patients: 9
   icu_patients_per_million: 1.548
   hosp_patients: 39
@@ -16980,7 +16994,7 @@
   total_deaths_per_million: 436.413
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.098
-  reproduction_rate: 1.35
+  reproduction_rate: 1.34
   icu_patients: 9
   icu_patients_per_million: 1.548
   hosp_patients: 40
@@ -17106,7 +17120,7 @@
   total_deaths_per_million: 436.585
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.074
-  reproduction_rate: 1.41
+  reproduction_rate: 1.4
   icu_patients: 8
   icu_patients_per_million: 1.376
   hosp_patients: 38
@@ -17660,7 +17674,7 @@
   total_deaths_per_million: 437.273
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.074
-  reproduction_rate: 1.1
+  reproduction_rate: 1.09
   icu_patients: 12
   icu_patients_per_million: 2.064
   hosp_patients: 55
@@ -17702,7 +17716,7 @@
   total_deaths_per_million: 437.273
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.049
-  reproduction_rate: 1.08
+  reproduction_rate: 1.07
   icu_patients: 13
   icu_patients_per_million: 2.236
   hosp_patients: 57
@@ -18000,7 +18014,7 @@
   total_deaths_per_million: 438.305
   new_deaths_per_million: 0.172
   new_deaths_smoothed_per_million: 0.147
-  reproduction_rate: 1.08
+  reproduction_rate: 1.07
   icu_patients: 10
   icu_patients_per_million: 1.72
   hosp_patients: 57
@@ -18126,7 +18140,7 @@
   total_deaths_per_million: 438.477
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.172
-  reproduction_rate: 1.07
+  reproduction_rate: 1.06
   icu_patients: 8
   icu_patients_per_million: 1.376
   hosp_patients: 57
@@ -18172,7 +18186,7 @@
   total_deaths_per_million: 438.649
   new_deaths_per_million: 0.172
   new_deaths_smoothed_per_million: 0.172
-  reproduction_rate: 1.06
+  reproduction_rate: 1.05
   icu_patients: 8
   icu_patients_per_million: 1.376
   hosp_patients: 54
@@ -18256,7 +18270,7 @@
   total_deaths_per_million: 438.649
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.074
-  reproduction_rate: 1.05
+  reproduction_rate: 1.04
   icu_patients: 8
   icu_patients_per_million: 1.376
   hosp_patients: 59
@@ -18382,7 +18396,7 @@
   total_deaths_per_million: 438.993
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.074
-  reproduction_rate: 1.07
+  reproduction_rate: 1.06
   icu_patients: 12
   icu_patients_per_million: 2.064
   hosp_patients: 67
@@ -19020,7 +19034,7 @@
   total_deaths_per_million: 441.401
   new_deaths_per_million: 0.344
   new_deaths_smoothed_per_million: 0.147
-  reproduction_rate: 0.99
+  reproduction_rate: 0.98
   icu_patients: 20
   icu_patients_per_million: 3.44
   hosp_patients: 124
@@ -19364,7 +19378,7 @@
   total_deaths_per_million: 443.81
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.319
-  reproduction_rate: 0.87
+  reproduction_rate: 0.88
   icu_patients: 22
   icu_patients_per_million: 3.784
   hosp_patients: 142
@@ -19574,7 +19588,7 @@
   total_deaths_per_million: 445.53
   new_deaths_per_million: 0.516
   new_deaths_smoothed_per_million: 0.319
-  reproduction_rate: 0.78
+  reproduction_rate: 0.79
   icu_patients: 26
   icu_patients_per_million: 4.473
   hosp_patients: 121
@@ -19704,7 +19718,7 @@
   total_deaths_per_million: 446.218
   new_deaths_per_million: 0.344
   new_deaths_smoothed_per_million: 0.246
-  reproduction_rate: 0.75
+  reproduction_rate: 0.76
   icu_patients: 26
   icu_patients_per_million: 4.473
   hosp_patients: 123
@@ -19746,7 +19760,7 @@
   total_deaths_per_million: 447.078
   new_deaths_per_million: 0.86
   new_deaths_smoothed_per_million: 0.369
-  reproduction_rate: 0.75
+  reproduction_rate: 0.76
   icu_patients: 28
   icu_patients_per_million: 4.817
   hosp_patients: 128
@@ -19830,7 +19844,7 @@
   total_deaths_per_million: 448.626
   new_deaths_per_million: 0.688
   new_deaths_smoothed_per_million: 0.516
-  reproduction_rate: 0.75
+  reproduction_rate: 0.76
   icu_patients: 29
   icu_patients_per_million: 4.989
   hosp_patients: 132
@@ -19960,7 +19974,7 @@
   total_deaths_per_million: 449.658
   new_deaths_per_million: 0.516
   new_deaths_smoothed_per_million: 0.541
-  reproduction_rate: 0.74
+  reproduction_rate: 0.75
   icu_patients: 30
   icu_patients_per_million: 5.161
   hosp_patients: 125
@@ -20002,7 +20016,7 @@
   total_deaths_per_million: 449.658
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.491
-  reproduction_rate: 0.74
+  reproduction_rate: 0.75
   icu_patients: 30
   icu_patients_per_million: 5.161
   hosp_patients: 117
@@ -20086,7 +20100,7 @@
   total_deaths_per_million: 450.518
   new_deaths_per_million: 0.344
   new_deaths_smoothed_per_million: 0.369
-  reproduction_rate: 0.75
+  reproduction_rate: 0.76
   icu_patients: 26
   icu_patients_per_million: 4.473
   hosp_patients: 102
@@ -20854,7 +20868,7 @@
   total_deaths_per_million: 458.259
   new_deaths_per_million: 0.172
   new_deaths_smoothed_per_million: 0.442
-  reproduction_rate: 1.13
+  reproduction_rate: 1.14
   icu_patients: 12
   icu_patients_per_million: 2.064
   hosp_patients: 86
@@ -21113,11 +21127,11 @@
   hosp_patients_per_million: 14.278
   weekly_hosp_admissions: 113
   weekly_hosp_admissions_per_million: 19.438
-  total_tests: 42525728
-  new_tests: 39058
+  total_tests: 42525729
+  new_tests: 39059
   total_tests_per_thousand: 7315.245
   new_tests_per_thousand: 6.719
-  new_tests_smoothed: 40578
+  new_tests_smoothed: 40579
   new_tests_smoothed_per_thousand: 6.98
   positive_rate: 0.0136
   tests_per_case: 73.4
@@ -21159,7 +21173,7 @@
   hosp_patients_per_million: 15.31
   weekly_hosp_admissions: 112
   weekly_hosp_admissions_per_million: 19.266
-  total_tests: 42583513
+  total_tests: 42583514
   new_tests: 57785
   total_tests_per_thousand: 7325.185
   new_tests_per_thousand: 9.94
@@ -21201,7 +21215,7 @@
   hosp_patients_per_million: 15.31
   weekly_hosp_admissions: 104
   weekly_hosp_admissions_per_million: 17.89
-  total_tests: 42640508
+  total_tests: 42640509
   new_tests: 56995
   total_tests_per_thousand: 7334.989
   new_tests_per_thousand: 9.804
@@ -21236,19 +21250,19 @@
   total_deaths_per_million: 459.98
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.221
-  reproduction_rate: 1.24
+  reproduction_rate: 1.25
   icu_patients: 18
   icu_patients_per_million: 3.096
   hosp_patients: 91
   hosp_patients_per_million: 15.654
   weekly_hosp_admissions: 119
   weekly_hosp_admissions_per_million: 20.47
-  total_tests: 42700119
+  total_tests: 42700120
   new_tests: 59611
   total_tests_per_thousand: 7345.244
   new_tests_per_thousand: 10.254
-  new_tests_smoothed: 47474
-  new_tests_smoothed_per_thousand: 8.166
+  new_tests_smoothed: 47475
+  new_tests_smoothed_per_thousand: 8.167
   positive_rate: 0.0132
   tests_per_case: 75.9
   tests_units: tests performed
@@ -21285,7 +21299,7 @@
   hosp_patients_per_million: 15.482
   weekly_hosp_admissions: 133
   weekly_hosp_admissions_per_million: 22.879
-  total_tests: 42774530
+  total_tests: 42774531
   new_tests: 74411
   total_tests_per_thousand: 7358.044
   new_tests_per_thousand: 12.8
@@ -21327,7 +21341,7 @@
   hosp_patients_per_million: 18.062
   weekly_hosp_admissions: 153
   weekly_hosp_admissions_per_million: 26.319
-  total_tests: 42834722
+  total_tests: 42834723
   new_tests: 60192
   total_tests_per_thousand: 7368.398
   new_tests_per_thousand: 10.354
@@ -21369,11 +21383,11 @@
   hosp_patients_per_million: 18.922
   weekly_hosp_admissions: 160
   weekly_hosp_admissions_per_million: 27.523
-  total_tests: 42876636
+  total_tests: 42876637
   new_tests: 41914
   total_tests_per_thousand: 7375.608
   new_tests_per_thousand: 7.21
-  new_tests_smoothed: 55709
+  new_tests_smoothed: 55710
   new_tests_smoothed_per_thousand: 9.583
   positive_rate: 0.0121
   tests_per_case: 82.9
@@ -21411,7 +21425,7 @@
   hosp_patients_per_million: 20.642
   weekly_hosp_admissions: 165
   weekly_hosp_admissions_per_million: 28.383
-  total_tests: 42919679
+  total_tests: 42919680
   new_tests: 43043
   total_tests_per_thousand: 7383.012
   new_tests_per_thousand: 7.404
@@ -21457,9 +21471,9 @@
   hosp_patients_per_million: 20.814
   weekly_hosp_admissions: 183
   weekly_hosp_admissions_per_million: 31.48
-  total_tests: 42977052
+  total_tests: 42977053
   new_tests: 57373
-  total_tests_per_thousand: 7392.881
+  total_tests_per_thousand: 7392.882
   new_tests_per_thousand: 9.869
   new_tests_smoothed: 56220
   new_tests_smoothed_per_thousand: 9.671
@@ -21499,7 +21513,7 @@
   hosp_patients_per_million: 20.642
   weekly_hosp_admissions: 191
   weekly_hosp_admissions_per_million: 32.856
-  total_tests: 43035899
+  total_tests: 43035900
   new_tests: 58847
   total_tests_per_thousand: 7403.004
   new_tests_per_thousand: 10.123
@@ -21541,9 +21555,9 @@
   hosp_patients_per_million: 21.674
   weekly_hosp_admissions: 192
   weekly_hosp_admissions_per_million: 33.028
-  total_tests: 43110758
+  total_tests: 43110759
   new_tests: 74859
-  total_tests_per_thousand: 7415.881
+  total_tests_per_thousand: 7415.882
   new_tests_per_thousand: 12.877
   new_tests_smoothed: 58663
   new_tests_smoothed_per_thousand: 10.091
@@ -21583,7 +21597,7 @@
   hosp_patients_per_million: 22.707
   weekly_hosp_admissions: 203
   weekly_hosp_admissions_per_million: 34.92
-  total_tests: 43206505
+  total_tests: 43206506
   new_tests: 95747
   total_tests_per_thousand: 7432.352
   new_tests_per_thousand: 16.47
@@ -21625,7 +21639,7 @@
   hosp_patients_per_million: 24.771
   weekly_hosp_admissions: 213
   weekly_hosp_admissions_per_million: 36.64
-  total_tests: 43280654
+  total_tests: 43280655
   new_tests: 74149
   total_tests_per_thousand: 7445.107
   new_tests_per_thousand: 12.755
@@ -21667,7 +21681,7 @@
   hosp_patients_per_million: 26.835
   weekly_hosp_admissions: 224
   weekly_hosp_admissions_per_million: 38.532
-  total_tests: 43338368
+  total_tests: 43338369
   new_tests: 57714
   total_tests_per_thousand: 7455.035
   new_tests_per_thousand: 9.928
@@ -21709,9 +21723,9 @@
   hosp_patients_per_million: 28.727
   weekly_hosp_admissions: 249
   weekly_hosp_admissions_per_million: 42.833
-  total_tests: 43413486
+  total_tests: 43413487
   new_tests: 75118
-  total_tests_per_thousand: 7467.956
+  total_tests_per_thousand: 7467.957
   new_tests_per_thousand: 12.922
   new_tests_smoothed: 70544
   new_tests_smoothed_per_thousand: 12.135
@@ -21755,9 +21769,9 @@
   hosp_patients_per_million: 31.996
   weekly_hosp_admissions: 250
   weekly_hosp_admissions_per_million: 43.005
-  total_tests: 43506156
+  total_tests: 43506157
   new_tests: 92670
-  total_tests_per_thousand: 7483.897
+  total_tests_per_thousand: 7483.898
   new_tests_per_thousand: 15.941
   new_tests_smoothed: 75586
   new_tests_smoothed_per_thousand: 13.002
@@ -21797,7 +21811,7 @@
   hosp_patients_per_million: 36.64
   weekly_hosp_admissions: 265
   weekly_hosp_admissions_per_million: 45.585
-  total_tests: 43598252
+  total_tests: 43598253
   new_tests: 92096
   total_tests_per_thousand: 7499.74
   new_tests_per_thousand: 15.842
@@ -21839,7 +21853,7 @@
   hosp_patients_per_million: 34.404
   weekly_hosp_admissions: 280
   weekly_hosp_admissions_per_million: 48.165
-  total_tests: 43692572
+  total_tests: 43692573
   new_tests: 94320
   total_tests_per_thousand: 7515.965
   new_tests_per_thousand: 16.225
@@ -21874,14 +21888,14 @@
   total_deaths_per_million: 466
   new_deaths_per_million: 0.172
   new_deaths_smoothed_per_million: 0.319
-  reproduction_rate: 1.39
+  reproduction_rate: 1.38
   icu_patients: 24
   icu_patients_per_million: 4.128
   hosp_patients: 212
   hosp_patients_per_million: 36.468
   weekly_hosp_admissions: 287
   weekly_hosp_admissions_per_million: 49.37
-  total_tests: 43810966
+  total_tests: 43810967
   new_tests: 118394
   total_tests_per_thousand: 7536.331
   new_tests_per_thousand: 20.366
@@ -21923,7 +21937,7 @@
   hosp_patients_per_million: 38.016
   weekly_hosp_admissions: 293
   weekly_hosp_admissions_per_million: 50.402
-  total_tests: 43915148
+  total_tests: 43915149
   new_tests: 104182
   total_tests_per_thousand: 7554.252
   new_tests_per_thousand: 17.921
@@ -21965,7 +21979,7 @@
   hosp_patients_per_million: 37.672
   weekly_hosp_admissions: 301
   weekly_hosp_admissions_per_million: 51.778
-  total_tests: 43988552
+  total_tests: 43988553
   new_tests: 73404
   total_tests_per_thousand: 7566.879
   new_tests_per_thousand: 12.627
@@ -22007,7 +22021,7 @@
   hosp_patients_per_million: 40.08
   weekly_hosp_admissions: 302
   weekly_hosp_admissions_per_million: 51.95
-  total_tests: 44078414
+  total_tests: 44078415
   new_tests: 89862
   total_tests_per_thousand: 7582.337
   new_tests_per_thousand: 15.458
@@ -22053,7 +22067,7 @@
   hosp_patients_per_million: 42.661
   weekly_hosp_admissions: 329
   weekly_hosp_admissions_per_million: 56.594
-  total_tests: 44206418
+  total_tests: 44206419
   new_tests: 128004
   total_tests_per_thousand: 7604.356
   new_tests_per_thousand: 22.019
@@ -22095,7 +22109,7 @@
   hosp_patients_per_million: 43.865
   weekly_hosp_admissions: 349
   weekly_hosp_admissions_per_million: 60.035
-  total_tests: 44333738
+  total_tests: 44333739
   new_tests: 127320
   total_tests_per_thousand: 7626.258
   new_tests_per_thousand: 21.901
@@ -22137,7 +22151,7 @@
   hosp_patients_per_million: 45.413
   weekly_hosp_admissions: 348
   weekly_hosp_admissions_per_million: 59.863
-  total_tests: 44454803
+  total_tests: 44454804
   new_tests: 121065
   total_tests_per_thousand: 7647.083
   new_tests_per_thousand: 20.826
@@ -22179,9 +22193,9 @@
   hosp_patients_per_million: 42.317
   weekly_hosp_admissions: 369
   weekly_hosp_admissions_per_million: 63.475
-  total_tests: 44608213
+  total_tests: 44608214
   new_tests: 153410
-  total_tests_per_thousand: 7673.472
+  total_tests_per_thousand: 7673.473
   new_tests_per_thousand: 26.389
   new_tests_smoothed: 113892
   new_tests_smoothed_per_thousand: 19.592
@@ -22221,9 +22235,9 @@
   hosp_patients_per_million: 45.241
   weekly_hosp_admissions: 368
   weekly_hosp_admissions_per_million: 63.303
-  total_tests: 44743046
+  total_tests: 44743047
   new_tests: 134833
-  total_tests_per_thousand: 7696.666
+  total_tests_per_thousand: 7696.667
   new_tests_per_thousand: 23.194
   new_tests_smoothed: 118271
   new_tests_smoothed_per_thousand: 20.345
@@ -22263,7 +22277,7 @@
   hosp_patients_per_million: 47.649
   weekly_hosp_admissions: 368
   weekly_hosp_admissions_per_million: 63.303
-  total_tests: 44836837
+  total_tests: 44836838
   new_tests: 93791
   total_tests_per_thousand: 7712.8
   new_tests_per_thousand: 16.134
@@ -22305,7 +22319,7 @@
   hosp_patients_per_million: 48.509
   weekly_hosp_admissions: 378
   weekly_hosp_admissions_per_million: 65.023
-  total_tests: 44955762
+  total_tests: 44955763
   new_tests: 118925
   total_tests_per_thousand: 7733.258
   new_tests_per_thousand: 20.457
@@ -22351,7 +22365,7 @@
   hosp_patients_per_million: 52.122
   weekly_hosp_admissions: 378
   weekly_hosp_admissions_per_million: 65.023
-  total_tests: 45115909
+  total_tests: 45115910
   new_tests: 160147
   total_tests_per_thousand: 7760.806
   new_tests_per_thousand: 27.548
@@ -22393,7 +22407,7 @@
   hosp_patients_per_million: 54.186
   weekly_hosp_admissions: 373
   weekly_hosp_admissions_per_million: 64.163
-  total_tests: 45294582
+  total_tests: 45294583
   new_tests: 178673
   total_tests_per_thousand: 7791.541
   new_tests_per_thousand: 30.735
@@ -22435,7 +22449,7 @@
   hosp_patients_per_million: 54.874
   weekly_hosp_admissions: 391
   weekly_hosp_admissions_per_million: 67.26
-  total_tests: 45460625
+  total_tests: 45460626
   new_tests: 166043
   total_tests_per_thousand: 7820.104
   new_tests_per_thousand: 28.563
@@ -22477,7 +22491,7 @@
   hosp_patients_per_million: 52.81
   weekly_hosp_admissions: 396
   weekly_hosp_admissions_per_million: 68.12
-  total_tests: 45663470
+  total_tests: 45663471
   new_tests: 202845
   total_tests_per_thousand: 7854.997
   new_tests_per_thousand: 34.893
@@ -22519,7 +22533,7 @@
   hosp_patients_per_million: 54.358
   weekly_hosp_admissions: 426
   weekly_hosp_admissions_per_million: 73.28
-  total_tests: 45828109
+  total_tests: 45828110
   new_tests: 164639
   total_tests_per_thousand: 7883.318
   new_tests_per_thousand: 28.321
@@ -22561,7 +22575,7 @@
   hosp_patients_per_million: 54.874
   weekly_hosp_admissions: 446
   weekly_hosp_admissions_per_million: 76.721
-  total_tests: 45950329
+  total_tests: 45950330
   new_tests: 122220
   total_tests_per_thousand: 7904.342
   new_tests_per_thousand: 21.024
@@ -22603,7 +22617,7 @@
   hosp_patients_per_million: 59.519
   weekly_hosp_admissions: 457
   weekly_hosp_admissions_per_million: 78.613
-  total_tests: 46085107
+  total_tests: 46085108
   new_tests: 134778
   total_tests_per_thousand: 7927.527
   new_tests_per_thousand: 23.184
@@ -22642,14 +22656,14 @@
   total_deaths_per_million: 476.837
   new_deaths_per_million: 0.86
   new_deaths_smoothed_per_million: 0.786
-  reproduction_rate: 1.29
+  reproduction_rate: 1.3
   icu_patients: 40
   icu_patients_per_million: 6.881
   hosp_patients: 356
   hosp_patients_per_million: 61.239
   weekly_hosp_admissions: 483
   weekly_hosp_admissions_per_million: 83.085
-  total_tests: 46266487
+  total_tests: 46266488
   new_tests: 181380
   total_tests_per_thousand: 7958.728
   new_tests_per_thousand: 31.201
@@ -22691,7 +22705,7 @@
   hosp_patients_per_million: 63.819
   weekly_hosp_admissions: 515
   weekly_hosp_admissions_per_million: 88.59
-  total_tests: 46447488
+  total_tests: 46447489
   new_tests: 181001
   total_tests_per_thousand: 7989.863
   new_tests_per_thousand: 31.136
@@ -22733,7 +22747,7 @@
   hosp_patients_per_million: 63.475
   weekly_hosp_admissions: 524
   weekly_hosp_admissions_per_million: 90.138
-  total_tests: 46622938
+  total_tests: 46622939
   new_tests: 175450
   total_tests_per_thousand: 8020.044
   new_tests_per_thousand: 30.181
@@ -22775,7 +22789,7 @@
   hosp_patients_per_million: 62.271
   weekly_hosp_admissions: 536
   weekly_hosp_admissions_per_million: 92.202
-  total_tests: 46831688
+  total_tests: 46831689
   new_tests: 208750
   total_tests_per_thousand: 8055.953
   new_tests_per_thousand: 35.909
@@ -22817,7 +22831,7 @@
   hosp_patients_per_million: 65.023
   weekly_hosp_admissions: 537
   weekly_hosp_admissions_per_million: 92.374
-  total_tests: 47017747
+  total_tests: 47017748
   new_tests: 186059
   total_tests_per_thousand: 8087.959
   new_tests_per_thousand: 32.006
@@ -22859,7 +22873,7 @@
   hosp_patients_per_million: 66.399
   weekly_hosp_admissions: 557
   weekly_hosp_admissions_per_million: 95.815
-  total_tests: 47156042
+  total_tests: 47156043
   new_tests: 138295
   total_tests_per_thousand: 8111.748
   new_tests_per_thousand: 23.789
@@ -22901,7 +22915,7 @@
   hosp_patients_per_million: 71.216
   weekly_hosp_admissions: 561
   weekly_hosp_admissions_per_million: 96.503
-  total_tests: 47303877
+  total_tests: 47303878
   new_tests: 147835
   total_tests_per_thousand: 8137.179
   new_tests_per_thousand: 25.43
@@ -22947,7 +22961,7 @@
   hosp_patients_per_million: 75.344
   weekly_hosp_admissions: 560
   weekly_hosp_admissions_per_million: 96.331
-  total_tests: 47495347
+  total_tests: 47495348
   new_tests: 191470
   total_tests_per_thousand: 8170.115
   new_tests_per_thousand: 32.937
@@ -22989,7 +23003,7 @@
   hosp_patients_per_million: 76.377
   weekly_hosp_admissions: 558
   weekly_hosp_admissions_per_million: 95.987
-  total_tests: 47691249
+  total_tests: 47691250
   new_tests: 195902
   total_tests_per_thousand: 8203.814
   new_tests_per_thousand: 33.699
@@ -23031,7 +23045,7 @@
   hosp_patients_per_million: 74.828
   weekly_hosp_admissions: 552
   weekly_hosp_admissions_per_million: 94.955
-  total_tests: 47883210
+  total_tests: 47883211
   new_tests: 191961
   total_tests_per_thousand: 8236.835
   new_tests_per_thousand: 33.021
@@ -23073,7 +23087,7 @@
   hosp_patients_per_million: 70.7
   weekly_hosp_admissions: 557
   weekly_hosp_admissions_per_million: 95.815
-  total_tests: 48112080
+  total_tests: 48112081
   new_tests: 228870
   total_tests_per_thousand: 8276.205
   new_tests_per_thousand: 39.37
@@ -23115,9 +23129,9 @@
   hosp_patients_per_million: 73.28
   weekly_hosp_admissions: 568
   weekly_hosp_admissions_per_million: 97.707
-  total_tests: 48303641
+  total_tests: 48303642
   new_tests: 191561
-  total_tests_per_thousand: 8309.157
+  total_tests_per_thousand: 8309.158
   new_tests_per_thousand: 32.952
   new_tests_smoothed: 183699
   new_tests_smoothed_per_thousand: 31.6
@@ -23157,7 +23171,7 @@
   hosp_patients_per_million: 71.904
   weekly_hosp_admissions: 559
   weekly_hosp_admissions_per_million: 96.159
-  total_tests: 48446630
+  total_tests: 48446631
   new_tests: 142989
   total_tests_per_thousand: 8333.754
   new_tests_per_thousand: 24.597
@@ -23199,7 +23213,7 @@
   hosp_patients_per_million: 74.828
   weekly_hosp_admissions: 565
   weekly_hosp_admissions_per_million: 97.191
-  total_tests: 48604310
+  total_tests: 48604311
   new_tests: 157680
   total_tests_per_thousand: 8360.878
   new_tests_per_thousand: 27.124
@@ -23245,7 +23259,7 @@
   hosp_patients_per_million: 76.721
   weekly_hosp_admissions: 559
   weekly_hosp_admissions_per_million: 96.159
-  total_tests: 48813582
+  total_tests: 48813583
   new_tests: 209272
   total_tests_per_thousand: 8396.877
   new_tests_per_thousand: 35.999
@@ -23287,7 +23301,7 @@
   hosp_patients_per_million: 74.484
   weekly_hosp_admissions: 573
   weekly_hosp_admissions_per_million: 98.567
-  total_tests: 49022810
+  total_tests: 49022811
   new_tests: 209228
   total_tests_per_thousand: 8432.868
   new_tests_per_thousand: 35.991
@@ -23322,14 +23336,14 @@
   total_deaths_per_million: 500.404
   new_deaths_per_million: 2.408
   new_deaths_smoothed_per_million: 1.966
-  reproduction_rate: 1.16
+  reproduction_rate: 1.15
   icu_patients: 61
   icu_patients_per_million: 10.493
   hosp_patients: 439
   hosp_patients_per_million: 75.516
   weekly_hosp_admissions: 583
   weekly_hosp_admissions_per_million: 100.287
-  total_tests: 49220323
+  total_tests: 49220324
   new_tests: 197513
   total_tests_per_thousand: 8466.844
   new_tests_per_thousand: 33.976
@@ -23364,14 +23378,14 @@
   total_deaths_per_million: 500.92
   new_deaths_per_million: 0.516
   new_deaths_smoothed_per_million: 1.745
-  reproduction_rate: 1.17
+  reproduction_rate: 1.16
   icu_patients: 57
   icu_patients_per_million: 9.805
   hosp_patients: 427
   hosp_patients_per_million: 73.452
   weekly_hosp_admissions: 586
   weekly_hosp_admissions_per_million: 100.803
-  total_tests: 49448250
+  total_tests: 49448251
   new_tests: 227927
   total_tests_per_thousand: 8506.052
   new_tests_per_thousand: 39.208
@@ -23413,7 +23427,7 @@
   hosp_patients_per_million: 77.237
   weekly_hosp_admissions: 599
   weekly_hosp_admissions_per_million: 103.04
-  total_tests: 49648033
+  total_tests: 49648034
   new_tests: 199783
   total_tests_per_thousand: 8540.419
   new_tests_per_thousand: 34.367
@@ -23448,14 +23462,14 @@
   total_deaths_per_million: 505.565
   new_deaths_per_million: 2.064
   new_deaths_smoothed_per_million: 1.868
-  reproduction_rate: 1.19
+  reproduction_rate: 1.2
   icu_patients: 58
   icu_patients_per_million: 9.977
   hosp_patients: 434
   hosp_patients_per_million: 74.656
   weekly_hosp_admissions: 617
   weekly_hosp_admissions_per_million: 106.136
-  total_tests: 49797360
+  total_tests: 49797361
   new_tests: 149327
   total_tests_per_thousand: 8566.106
   new_tests_per_thousand: 25.687
@@ -23497,9 +23511,9 @@
   hosp_patients_per_million: 76.893
   weekly_hosp_admissions: 620
   weekly_hosp_admissions_per_million: 106.652
-  total_tests: 49954410
+  total_tests: 49954411
   new_tests: 157050
-  total_tests_per_thousand: 8593.121
+  total_tests_per_thousand: 8593.122
   new_tests_per_thousand: 27.016
   new_tests_smoothed: 192871
   new_tests_smoothed_per_thousand: 33.178
@@ -23536,14 +23550,14 @@
   total_deaths_per_million: 508.489
   new_deaths_per_million: 1.72
   new_deaths_smoothed_per_million: 1.794
-  reproduction_rate: 1.24
+  reproduction_rate: 1.23
   icu_patients: 65
   icu_patients_per_million: 11.181
   hosp_patients: 468
   hosp_patients_per_million: 80.505
   weekly_hosp_admissions: 650
   weekly_hosp_admissions_per_million: 111.813
-  total_tests: 50177707
+  total_tests: 50177708
   new_tests: 223297
   total_tests_per_thousand: 8631.533
   new_tests_per_thousand: 38.411
@@ -23585,7 +23599,7 @@
   hosp_patients_per_million: 79.989
   weekly_hosp_admissions: 649
   weekly_hosp_admissions_per_million: 111.641
-  total_tests: 50398834
+  total_tests: 50398835
   new_tests: 221127
   total_tests_per_thousand: 8669.571
   new_tests_per_thousand: 38.038
@@ -23627,7 +23641,7 @@
   hosp_patients_per_million: 79.301
   weekly_hosp_admissions: 669
   weekly_hosp_admissions_per_million: 115.081
-  total_tests: 50617941
+  total_tests: 50617942
   new_tests: 219107
   total_tests_per_thousand: 8707.262
   new_tests_per_thousand: 37.691
@@ -23669,7 +23683,7 @@
   hosp_patients_per_million: 79.129
   weekly_hosp_admissions: 667
   weekly_hosp_admissions_per_million: 114.737
-  total_tests: 50877592
+  total_tests: 50877593
   new_tests: 259651
   total_tests_per_thousand: 8751.927
   new_tests_per_thousand: 44.665
@@ -23711,7 +23725,7 @@
   hosp_patients_per_million: 81.193
   weekly_hosp_admissions: 683
   weekly_hosp_admissions_per_million: 117.489
-  total_tests: 51101775
+  total_tests: 51101776
   new_tests: 224183
   total_tests_per_thousand: 8790.49
   new_tests_per_thousand: 38.564
@@ -23746,14 +23760,14 @@
   total_deaths_per_million: 516.918
   new_deaths_per_million: 1.548
   new_deaths_smoothed_per_million: 1.622
-  reproduction_rate: 1.29
+  reproduction_rate: 1.28
   icu_patients: 60
   icu_patients_per_million: 10.321
   hosp_patients: 455
   hosp_patients_per_million: 78.269
   weekly_hosp_admissions: 671
   weekly_hosp_admissions_per_million: 115.425
-  total_tests: 51265128
+  total_tests: 51265129
   new_tests: 163353
   total_tests_per_thousand: 8818.59
   new_tests_per_thousand: 28.1
@@ -23795,7 +23809,7 @@
   hosp_patients_per_million: 80.505
   weekly_hosp_admissions: 686
   weekly_hosp_admissions_per_million: 118.005
-  total_tests: 51441318
+  total_tests: 51441319
   new_tests: 176190
   total_tests_per_thousand: 8848.898
   new_tests_per_thousand: 30.308
@@ -23841,7 +23855,7 @@
   hosp_patients_per_million: 83.773
   weekly_hosp_admissions: 695
   weekly_hosp_admissions_per_million: 119.553
-  total_tests: 51686969
+  total_tests: 51686970
   new_tests: 245651
   total_tests_per_thousand: 8891.155
   new_tests_per_thousand: 42.257
@@ -23883,7 +23897,7 @@
   hosp_patients_per_million: 85.666
   weekly_hosp_admissions: 707
   weekly_hosp_admissions_per_million: 121.618
-  total_tests: 51923977
+  total_tests: 51923978
   new_tests: 237008
   total_tests_per_thousand: 8931.925
   new_tests_per_thousand: 40.77
@@ -23925,7 +23939,7 @@
   hosp_patients_per_million: 87.386
   weekly_hosp_admissions: 742
   weekly_hosp_admissions_per_million: 127.638
-  total_tests: 52156218
+  total_tests: 52156219
   new_tests: 232241
   total_tests_per_thousand: 8971.875
   new_tests_per_thousand: 39.95
@@ -23967,9 +23981,9 @@
   hosp_patients_per_million: 88.934
   weekly_hosp_admissions: 771
   weekly_hosp_admissions_per_million: 132.627
-  total_tests: 52429388
+  total_tests: 52429389
   new_tests: 273170
-  total_tests_per_thousand: 9018.865
+  total_tests_per_thousand: 9018.866
   new_tests_per_thousand: 46.991
   new_tests_smoothed: 221685
   new_tests_smoothed_per_thousand: 38.134
@@ -24009,9 +24023,9 @@
   hosp_patients_per_million: 89.106
   weekly_hosp_admissions: 781
   weekly_hosp_admissions_per_million: 134.347
-  total_tests: 52679105
+  total_tests: 52679106
   new_tests: 249717
-  total_tests_per_thousand: 9061.821
+  total_tests_per_thousand: 9061.822
   new_tests_per_thousand: 42.956
   new_tests_smoothed: 225333
   new_tests_smoothed_per_thousand: 38.762
@@ -24051,7 +24065,7 @@
   hosp_patients_per_million: 91.686
   weekly_hosp_admissions: 807
   weekly_hosp_admissions_per_million: 138.82
-  total_tests: 52864423
+  total_tests: 52864424
   new_tests: 185318
   total_tests_per_thousand: 9093.7
   new_tests_per_thousand: 31.878
@@ -24093,7 +24107,7 @@
   hosp_patients_per_million: 96.331
   weekly_hosp_admissions: 809
   weekly_hosp_admissions_per_million: 139.164
-  total_tests: 53056658
+  total_tests: 53056659
   new_tests: 192235
   total_tests_per_thousand: 9126.768
   new_tests_per_thousand: 33.068
@@ -24139,7 +24153,7 @@
   hosp_patients_per_million: 99.943
   weekly_hosp_admissions: 810
   weekly_hosp_admissions_per_million: 139.336
-  total_tests: 53342983
+  total_tests: 53342984
   new_tests: 286325
   total_tests_per_thousand: 9176.021
   new_tests_per_thousand: 49.253
@@ -24177,9 +24191,9 @@
   hosp_patients_per_million: 95.299
   weekly_hosp_admissions: 835
   weekly_hosp_admissions_per_million: 143.636
-  total_tests: 53615587
+  total_tests: 53615588
   new_tests: 272604
-  total_tests_per_thousand: 9222.914
+  total_tests_per_thousand: 9222.915
   new_tests_per_thousand: 46.893
   new_tests_smoothed: 241659
   new_tests_smoothed_per_thousand: 41.57
@@ -24219,7 +24233,7 @@
   hosp_patients_per_million: 95.127
   weekly_hosp_admissions: 842
   weekly_hosp_admissions_per_million: 144.84
-  total_tests: 53904820
+  total_tests: 53904821
   new_tests: 289233
   total_tests_per_thousand: 9272.668
   new_tests_per_thousand: 49.754
@@ -24261,7 +24275,7 @@
   hosp_patients_per_million: 98.051
   weekly_hosp_admissions: 868
   weekly_hosp_admissions_per_million: 149.313
-  total_tests: 54165815
+  total_tests: 54165816
   new_tests: 260995
   total_tests_per_thousand: 9317.564
   new_tests_per_thousand: 44.896
@@ -24303,7 +24317,7 @@
   hosp_patients_per_million: 92.546
   weekly_hosp_admissions: 831
   weekly_hosp_admissions_per_million: 142.948
-  total_tests: 54242535
+  total_tests: 54242536
   new_tests: 76720
   total_tests_per_thousand: 9330.762
   new_tests_per_thousand: 13.197
@@ -24345,7 +24359,7 @@
   hosp_patients_per_million: 89.794
   weekly_hosp_admissions: 847
   weekly_hosp_admissions_per_million: 145.7
-  total_tests: 54318993
+  total_tests: 54318994
   new_tests: 76458
   total_tests_per_thousand: 9343.914
   new_tests_per_thousand: 13.152
@@ -24387,7 +24401,7 @@
   hosp_patients_per_million: 99.599
   weekly_hosp_admissions: 862
   weekly_hosp_admissions_per_million: 148.281
-  total_tests: 54404089
+  total_tests: 54404090
   new_tests: 85096
   total_tests_per_thousand: 9358.552
   new_tests_per_thousand: 14.638
@@ -24433,7 +24447,7 @@
   hosp_patients_per_million: 104.588
   weekly_hosp_admissions: 919
   weekly_hosp_admissions_per_million: 158.086
-  total_tests: 54600539
+  total_tests: 54600540
   new_tests: 196450
   total_tests_per_thousand: 9392.345
   new_tests_per_thousand: 33.793
@@ -24475,7 +24489,7 @@
   hosp_patients_per_million: 114.565
   weekly_hosp_admissions: 959
   weekly_hosp_admissions_per_million: 164.966
-  total_tests: 54805511
+  total_tests: 54805512
   new_tests: 204972
   total_tests_per_thousand: 9427.604
   new_tests_per_thousand: 35.259
@@ -24517,7 +24531,7 @@
   hosp_patients_per_million: 116.113
   weekly_hosp_admissions: 999
   weekly_hosp_admissions_per_million: 171.847
-  total_tests: 55035450
+  total_tests: 55035451
   new_tests: 229939
   total_tests_per_thousand: 9467.158
   new_tests_per_thousand: 39.554
@@ -24559,7 +24573,7 @@
   hosp_patients_per_million: 114.393
   weekly_hosp_admissions: 1030
   weekly_hosp_admissions_per_million: 177.18
-  total_tests: 55278305
+  total_tests: 55278306
   new_tests: 242855
   total_tests_per_thousand: 9508.934
   new_tests_per_thousand: 41.776
@@ -24594,16 +24608,16 @@
   total_deaths_per_million: 561.987
   new_deaths_per_million: 1.892
   new_deaths_smoothed_per_million: 1.966
-  reproduction_rate: 1.36
+  reproduction_rate: 1.35
   icu_patients: 73
   icu_patients_per_million: 12.557
   hosp_patients: 641
   hosp_patients_per_million: 110.264
   weekly_hosp_admissions: 1061
   weekly_hosp_admissions_per_million: 182.512
-  total_tests: 55354450
+  total_tests: 55354451
   new_tests: 76145
-  total_tests_per_thousand: 9522.032
+  total_tests_per_thousand: 9522.033
   new_tests_per_thousand: 13.098
   new_tests_smoothed: 158845
   new_tests_smoothed_per_thousand: 27.324
@@ -24643,7 +24657,7 @@
   hosp_patients_per_million: 111.296
   weekly_hosp_admissions: 1113
   weekly_hosp_admissions_per_million: 191.457
-  total_tests: 55432967
+  total_tests: 55432968
   new_tests: 78517
   total_tests_per_thousand: 9535.539
   new_tests_per_thousand: 13.506
@@ -24685,7 +24699,7 @@
   hosp_patients_per_million: 121.962
   weekly_hosp_admissions: 1182
   weekly_hosp_admissions_per_million: 203.327
-  total_tests: 55597813
+  total_tests: 55597814
   new_tests: 164846
   total_tests_per_thousand: 9563.896
   new_tests_per_thousand: 28.357
@@ -24731,7 +24745,7 @@
   hosp_patients_per_million: 132.455
   weekly_hosp_admissions: 1228
   weekly_hosp_admissions_per_million: 211.24
-  total_tests: 55834946
+  total_tests: 55834947
   new_tests: 237133
   total_tests_per_thousand: 9604.687
   new_tests_per_thousand: 40.791
@@ -24773,7 +24787,7 @@
   hosp_patients_per_million: 136.583
   weekly_hosp_admissions: 1242
   weekly_hosp_admissions_per_million: 213.648
-  total_tests: 56056411
+  total_tests: 56056412
   new_tests: 221465
   total_tests_per_thousand: 9642.783
   new_tests_per_thousand: 38.096
@@ -24815,7 +24829,7 @@
   hosp_patients_per_million: 134.863
   weekly_hosp_admissions: 1219
   weekly_hosp_admissions_per_million: 209.691
-  total_tests: 56255258
+  total_tests: 56255259
   new_tests: 198847
   total_tests_per_thousand: 9676.989
   new_tests_per_thousand: 34.206
@@ -24857,7 +24871,7 @@
   hosp_patients_per_million: 130.047
   weekly_hosp_admissions: 1224
   weekly_hosp_admissions_per_million: 210.552
-  total_tests: 56482566
+  total_tests: 56482567
   new_tests: 227308
   total_tests_per_thousand: 9716.09
   new_tests_per_thousand: 39.101
@@ -24899,7 +24913,7 @@
   hosp_patients_per_million: 129.875
   weekly_hosp_admissions: 1251
   weekly_hosp_admissions_per_million: 215.196
-  total_tests: 56679138
+  total_tests: 56679139
   new_tests: 196572
   total_tests_per_thousand: 9749.904
   new_tests_per_thousand: 33.814
@@ -24941,7 +24955,7 @@
   hosp_patients_per_million: 125.574
   weekly_hosp_admissions: 1207
   weekly_hosp_admissions_per_million: 207.627
-  total_tests: 56823720
+  total_tests: 56823721
   new_tests: 144582
   total_tests_per_thousand: 9774.775
   new_tests_per_thousand: 24.871
@@ -24983,7 +24997,7 @@
   hosp_patients_per_million: 124.37
   weekly_hosp_admissions: 1184
   weekly_hosp_admissions_per_million: 203.671
-  total_tests: 56983425
+  total_tests: 56983426
   new_tests: 159705
   total_tests_per_thousand: 9802.248
   new_tests_per_thousand: 27.472
@@ -25029,9 +25043,9 @@
   hosp_patients_per_million: 133.659
   weekly_hosp_admissions: 1155
   weekly_hosp_admissions_per_million: 198.682
-  total_tests: 57208161
+  total_tests: 57208162
   new_tests: 224736
-  total_tests_per_thousand: 9840.906
+  total_tests_per_thousand: 9840.907
   new_tests_per_thousand: 38.659
   new_tests_smoothed: 196174
   new_tests_smoothed_per_thousand: 33.746
@@ -25071,7 +25085,7 @@
   hosp_patients_per_million: 129.703
   weekly_hosp_admissions: 1178
   weekly_hosp_admissions_per_million: 202.639
-  total_tests: 57417066
+  total_tests: 57417067
   new_tests: 208905
   total_tests_per_thousand: 9876.842
   new_tests_per_thousand: 35.936
@@ -25113,9 +25127,9 @@
   hosp_patients_per_million: 129.186
   weekly_hosp_admissions: 1212
   weekly_hosp_admissions_per_million: 208.487
-  total_tests: 57617534
+  total_tests: 57617535
   new_tests: 200468
-  total_tests_per_thousand: 9911.326
+  total_tests_per_thousand: 9911.327
   new_tests_per_thousand: 34.484
   new_tests_smoothed: 194611
   new_tests_smoothed_per_thousand: 33.477
@@ -25155,7 +25169,7 @@
   hosp_patients_per_million: 129.875
   weekly_hosp_admissions: 1249
   weekly_hosp_admissions_per_million: 214.852
-  total_tests: 57856107
+  total_tests: 57856108
   new_tests: 238573
   total_tests_per_thousand: 9952.366
   new_tests_per_thousand: 41.039
@@ -25197,7 +25211,7 @@
   hosp_patients_per_million: 130.219
   weekly_hosp_admissions: 1290
   weekly_hosp_admissions_per_million: 221.905
-  total_tests: 58074970
+  total_tests: 58074971
   new_tests: 218863
   total_tests_per_thousand: 9990.014
   new_tests_per_thousand: 37.649
@@ -25239,7 +25253,7 @@
   hosp_patients_per_million: 122.306
   weekly_hosp_admissions: 1329
   weekly_hosp_admissions_per_million: 228.614
-  total_tests: 58241742
+  total_tests: 58241743
   new_tests: 166772
   total_tests_per_thousand: 10018.702
   new_tests_per_thousand: 28.688
@@ -25281,9 +25295,9 @@
   hosp_patients_per_million: 126.262
   weekly_hosp_admissions: 1378
   weekly_hosp_admissions_per_million: 237.043
-  total_tests: 58426054
+  total_tests: 58426055
   new_tests: 184312
-  total_tests_per_thousand: 10050.407
+  total_tests_per_thousand: 10050.408
   new_tests_per_thousand: 31.705
   new_tests_smoothed: 206090
   new_tests_smoothed_per_thousand: 35.451
@@ -25327,7 +25341,7 @@
   hosp_patients_per_million: 137.959
   weekly_hosp_admissions: 1443
   weekly_hosp_admissions_per_million: 248.224
-  total_tests: 58691556
+  total_tests: 58691557
   new_tests: 265502
   total_tests_per_thousand: 10096.079
   new_tests_per_thousand: 45.671
@@ -25362,14 +25376,14 @@
   total_deaths_per_million: 605.336
   new_deaths_per_million: 2.408
   new_deaths_smoothed_per_million: 2.728
-  reproduction_rate: 1.32
+  reproduction_rate: 1.31
   icu_patients: 49
   icu_patients_per_million: 8.429
   hosp_patients: 810
   hosp_patients_per_million: 139.336
   weekly_hosp_admissions: 1488
   weekly_hosp_admissions_per_million: 255.965
-  total_tests: 58945909
+  total_tests: 58945910
   new_tests: 254353
   total_tests_per_thousand: 10139.833
   new_tests_per_thousand: 43.754
@@ -25411,9 +25425,9 @@
   hosp_patients_per_million: 141.228
   weekly_hosp_admissions: 1519
   weekly_hosp_admissions_per_million: 261.297
-  total_tests: 59189404
+  total_tests: 59189405
   new_tests: 243495
-  total_tests_per_thousand: 10181.718
+  total_tests_per_thousand: 10181.719
   new_tests_per_thousand: 41.886
   new_tests_smoothed: 224553
   new_tests_smoothed_per_thousand: 38.627
@@ -25453,7 +25467,7 @@
   hosp_patients_per_million: 141.916
   weekly_hosp_admissions: 1534
   weekly_hosp_admissions_per_million: 263.878
-  total_tests: 59461778
+  total_tests: 59461779
   new_tests: 272374
   total_tests_per_thousand: 10228.572
   new_tests_per_thousand: 46.854
@@ -25495,7 +25509,7 @@
   hosp_patients_per_million: 139.852
   weekly_hosp_admissions: 1583
   weekly_hosp_admissions_per_million: 272.307
-  total_tests: 59706726
+  total_tests: 59706727
   new_tests: 244948
   total_tests_per_thousand: 10270.708
   new_tests_per_thousand: 42.136
@@ -25537,9 +25551,9 @@
   hosp_patients_per_million: 134.347
   weekly_hosp_admissions: 1633
   weekly_hosp_admissions_per_million: 280.907
-  total_tests: 59893343
+  total_tests: 59893344
   new_tests: 186617
-  total_tests_per_thousand: 10302.809
+  total_tests_per_thousand: 10302.81
   new_tests_per_thousand: 32.102
   new_tests_smoothed: 235943
   new_tests_smoothed_per_thousand: 40.587
@@ -25579,7 +25593,7 @@
   hosp_patients_per_million: 139.852
   weekly_hosp_admissions: 1675
   weekly_hosp_admissions_per_million: 288.132
-  total_tests: 60090964
+  total_tests: 60090965
   new_tests: 197621
   total_tests_per_thousand: 10336.804
   new_tests_per_thousand: 33.995
@@ -25625,7 +25639,7 @@
   hosp_patients_per_million: 153.785
   weekly_hosp_admissions: 1717
   weekly_hosp_admissions_per_million: 295.357
-  total_tests: 60372606
+  total_tests: 60372607
   new_tests: 281642
   total_tests_per_thousand: 10385.252
   new_tests_per_thousand: 48.448
@@ -25667,7 +25681,7 @@
   hosp_patients_per_million: 157.914
   weekly_hosp_admissions: 1768
   weekly_hosp_admissions_per_million: 304.13
-  total_tests: 60619572
+  total_tests: 60619573
   new_tests: 246966
   total_tests_per_thousand: 10427.735
   new_tests_per_thousand: 42.483
@@ -25709,7 +25723,7 @@
   hosp_patients_per_million: 161.354
   weekly_hosp_admissions: 1839
   weekly_hosp_admissions_per_million: 316.343
-  total_tests: 60837932
+  total_tests: 60837933
   new_tests: 218360
   total_tests_per_thousand: 10465.297
   new_tests_per_thousand: 37.562
@@ -25751,7 +25765,7 @@
   hosp_patients_per_million: 164.278
   weekly_hosp_admissions: 1920
   weekly_hosp_admissions_per_million: 330.277
-  total_tests: 61062778
+  total_tests: 61062779
   new_tests: 224846
   total_tests_per_thousand: 10503.975
   new_tests_per_thousand: 38.678
@@ -25793,7 +25807,7 @@
   hosp_patients_per_million: 166.343
   weekly_hosp_admissions: 1949
   weekly_hosp_admissions_per_million: 335.266
-  total_tests: 61249184
+  total_tests: 61249185
   new_tests: 186406
   total_tests_per_thousand: 10536.04
   new_tests_per_thousand: 32.065
@@ -25835,7 +25849,7 @@
   hosp_patients_per_million: 158.602
   weekly_hosp_admissions: 1969
   weekly_hosp_admissions_per_million: 338.706
-  total_tests: 61372773
+  total_tests: 61372774
   new_tests: 123589
   total_tests_per_thousand: 10557.3
   new_tests_per_thousand: 21.26
@@ -25877,7 +25891,7 @@
   hosp_patients_per_million: 163.074
   weekly_hosp_admissions: 1973
   weekly_hosp_admissions_per_million: 339.394
-  total_tests: 61500266
+  total_tests: 61500267
   new_tests: 127493
   total_tests_per_thousand: 10579.231
   new_tests_per_thousand: 21.931
@@ -25923,7 +25937,7 @@
   hosp_patients_per_million: 176.836
   weekly_hosp_admissions: 2013
   weekly_hosp_admissions_per_million: 346.275
-  total_tests: 61720154
+  total_tests: 61720155
   new_tests: 219888
   total_tests_per_thousand: 10617.056
   new_tests_per_thousand: 37.825
@@ -25965,7 +25979,7 @@
   hosp_patients_per_million: 184.061
   weekly_hosp_admissions: 2057
   weekly_hosp_admissions_per_million: 353.844
-  total_tests: 61897014
+  total_tests: 61897015
   new_tests: 176860
   total_tests_per_thousand: 10647.48
   new_tests_per_thousand: 30.423
@@ -26007,9 +26021,9 @@
   hosp_patients_per_million: 187.845
   weekly_hosp_admissions: 2128
   weekly_hosp_admissions_per_million: 366.057
-  total_tests: 62061541
+  total_tests: 62061542
   new_tests: 164527
-  total_tests_per_thousand: 10675.781
+  total_tests_per_thousand: 10675.782
   new_tests_per_thousand: 28.302
   new_tests_smoothed: 174801
   new_tests_smoothed_per_thousand: 30.069
@@ -26049,7 +26063,7 @@
   hosp_patients_per_million: 191.974
   weekly_hosp_admissions: 2172
   weekly_hosp_admissions_per_million: 373.626
-  total_tests: 62246448
+  total_tests: 62246449
   new_tests: 184907
   total_tests_per_thousand: 10707.589
   new_tests_per_thousand: 31.808
@@ -26091,7 +26105,7 @@
   hosp_patients_per_million: 198.854
   weekly_hosp_admissions: 2274
   weekly_hosp_admissions_per_million: 391.172
-  total_tests: 62403831
+  total_tests: 62403832
   new_tests: 157383
   total_tests_per_thousand: 10734.662
   new_tests_per_thousand: 27.073
@@ -26133,7 +26147,7 @@
   hosp_patients_per_million: 195.758
   weekly_hosp_admissions: 2334
   weekly_hosp_admissions_per_million: 401.493
-  total_tests: 62525929
+  total_tests: 62525930
   new_tests: 122098
   total_tests_per_thousand: 10755.665
   new_tests_per_thousand: 21.003
@@ -26175,7 +26189,7 @@
   hosp_patients_per_million: 206.939
   weekly_hosp_admissions: 2401
   weekly_hosp_admissions_per_million: 413.018
-  total_tests: 62669500
+  total_tests: 62669501
   new_tests: 143571
   total_tests_per_thousand: 10780.362
   new_tests_per_thousand: 24.697
@@ -26221,7 +26235,7 @@
   hosp_patients_per_million: 222.593
   weekly_hosp_admissions: 2508
   weekly_hosp_admissions_per_million: 431.424
-  total_tests: 62865853
+  total_tests: 62865854
   new_tests: 196353
   total_tests_per_thousand: 10814.139
   new_tests_per_thousand: 33.777
@@ -26263,7 +26277,7 @@
   hosp_patients_per_million: 226.205
   weekly_hosp_admissions: 2577
   weekly_hosp_admissions_per_million: 443.294
-  total_tests: 63047647
+  total_tests: 63047648
   new_tests: 181794
   total_tests_per_thousand: 10845.411
   new_tests_per_thousand: 31.272
@@ -26305,9 +26319,9 @@
   hosp_patients_per_million: 229.13
   weekly_hosp_admissions: 2657
   weekly_hosp_admissions_per_million: 457.055
-  total_tests: 63222964
+  total_tests: 63222965
   new_tests: 175317
-  total_tests_per_thousand: 10875.568
+  total_tests_per_thousand: 10875.569
   new_tests_per_thousand: 30.158
   new_tests_smoothed: 165918
   new_tests_smoothed_per_thousand: 28.541
@@ -26347,7 +26361,7 @@
   hosp_patients_per_million: 232.914
   weekly_hosp_admissions: 2714
   weekly_hosp_admissions_per_million: 466.86
-  total_tests: 63404649
+  total_tests: 63404650
   new_tests: 181685
   total_tests_per_thousand: 10906.822
   new_tests_per_thousand: 31.253
@@ -26389,7 +26403,7 @@
   hosp_patients_per_million: 235.666
   weekly_hosp_admissions: 2757
   weekly_hosp_admissions_per_million: 474.257
-  total_tests: 63554398
+  total_tests: 63554399
   new_tests: 149749
   total_tests_per_thousand: 10932.582
   new_tests_per_thousand: 25.76
@@ -26431,7 +26445,7 @@
   hosp_patients_per_million: 226.377
   weekly_hosp_admissions: 2756
   weekly_hosp_admissions_per_million: 474.085
-  total_tests: 63661413
+  total_tests: 63661414
   new_tests: 107015
   total_tests_per_thousand: 10950.99
   new_tests_per_thousand: 18.409
@@ -26473,7 +26487,7 @@
   hosp_patients_per_million: 233.258
   weekly_hosp_admissions: 2799
   weekly_hosp_admissions_per_million: 481.482
-  total_tests: 63774462
+  total_tests: 63774463
   new_tests: 113049
   total_tests_per_thousand: 10970.437
   new_tests_per_thousand: 19.447
@@ -26519,7 +26533,7 @@
   hosp_patients_per_million: 252.008
   weekly_hosp_admissions: 2826
   weekly_hosp_admissions_per_million: 486.126
-  total_tests: 63926934
+  total_tests: 63926935
   new_tests: 152472
   total_tests_per_thousand: 10996.665
   new_tests_per_thousand: 26.228
@@ -26561,7 +26575,7 @@
   hosp_patients_per_million: 261.985
   weekly_hosp_admissions: 2855
   weekly_hosp_admissions_per_million: 491.115
-  total_tests: 64063262
+  total_tests: 64063263
   new_tests: 136328
   total_tests_per_thousand: 11020.116
   new_tests_per_thousand: 23.451
@@ -26603,7 +26617,7 @@
   hosp_patients_per_million: 257.685
   weekly_hosp_admissions: 2863
   weekly_hosp_admissions_per_million: 492.491
-  total_tests: 64188589
+  total_tests: 64188590
   new_tests: 125327
   total_tests_per_thousand: 11041.675
   new_tests_per_thousand: 21.559
@@ -26645,7 +26659,7 @@
   hosp_patients_per_million: 275.919
   weekly_hosp_admissions: 2916
   weekly_hosp_admissions_per_million: 501.608
-  total_tests: 64321978
+  total_tests: 64321979
   new_tests: 133389
   total_tests_per_thousand: 11064.62
   new_tests_per_thousand: 22.945
@@ -26687,7 +26701,7 @@
   hosp_patients_per_million: 277.811
   weekly_hosp_admissions: 2898
   weekly_hosp_admissions_per_million: 498.512
-  total_tests: 64425851
+  total_tests: 64425852
   new_tests: 103873
   total_tests_per_thousand: 11082.488
   new_tests_per_thousand: 17.868
@@ -26729,7 +26743,7 @@
   hosp_patients_per_million: 265.942
   weekly_hosp_admissions: 2905
   weekly_hosp_admissions_per_million: 499.716
-  total_tests: 64507513
+  total_tests: 64507514
   new_tests: 81662
   total_tests_per_thousand: 11096.536
   new_tests_per_thousand: 14.047
@@ -26771,7 +26785,7 @@
   hosp_patients_per_million: 272.995
   weekly_hosp_admissions: 2899
   weekly_hosp_admissions_per_million: 498.684
-  total_tests: 64603480
+  total_tests: 64603481
   new_tests: 95967
   total_tests_per_thousand: 11113.044
   new_tests_per_thousand: 16.508
@@ -26817,7 +26831,7 @@
   hosp_patients_per_million: 295.357
   weekly_hosp_admissions: 2912
   weekly_hosp_admissions_per_million: 500.92
-  total_tests: 64729066
+  total_tests: 64729067
   new_tests: 125586
   total_tests_per_thousand: 11134.647
   new_tests_per_thousand: 21.603
@@ -26859,9 +26873,9 @@
   hosp_patients_per_million: 302.582
   weekly_hosp_admissions: 2873
   weekly_hosp_admissions_per_million: 494.211
-  total_tests: 64828167
+  total_tests: 64828168
   new_tests: 99101
-  total_tests_per_thousand: 11151.694
+  total_tests_per_thousand: 11151.695
   new_tests_per_thousand: 17.047
   new_tests_smoothed: 109272
   new_tests_smoothed_per_thousand: 18.797
@@ -26901,9 +26915,9 @@
   hosp_patients_per_million: 296.045
   weekly_hosp_admissions: 2812
   weekly_hosp_admissions_per_million: 483.718
-  total_tests: 64919977
+  total_tests: 64919978
   new_tests: 91810
-  total_tests_per_thousand: 11167.487
+  total_tests_per_thousand: 11167.488
   new_tests_per_thousand: 15.793
   new_tests_smoothed: 104484
   new_tests_smoothed_per_thousand: 17.973
@@ -26936,14 +26950,14 @@
   total_deaths_per_million: 767.378
   new_deaths_per_million: 6.709
   new_deaths_smoothed_per_million: 6.242
-  reproduction_rate: 0.74
+  reproduction_rate: 0.73
   icu_patients: 37
   icu_patients_per_million: 6.365
   hosp_patients: 1746
   hosp_patients_per_million: 300.346
   weekly_hosp_admissions: 2740
   weekly_hosp_admissions_per_million: 471.333
-  total_tests: 65014969
+  total_tests: 65014970
   new_tests: 94992
   total_tests_per_thousand: 11183.828
   new_tests_per_thousand: 16.34
@@ -26985,7 +26999,7 @@
   hosp_patients_per_million: 303.098
   weekly_hosp_admissions: 2700
   weekly_hosp_admissions_per_million: 464.452
-  total_tests: 65087852
+  total_tests: 65087853
   new_tests: 72883
   total_tests_per_thousand: 11196.365
   new_tests_per_thousand: 12.537
@@ -27027,7 +27041,7 @@
   hosp_patients_per_million: 270.414
   weekly_hosp_admissions: 2641
   weekly_hosp_admissions_per_million: 454.303
-  total_tests: 65138084
+  total_tests: 65138085
   new_tests: 50232
   total_tests_per_thousand: 11205.006
   new_tests_per_thousand: 8.641
@@ -27062,16 +27076,16 @@
   total_deaths_per_million: 788.536
   new_deaths_per_million: 7.913
   new_deaths_smoothed_per_million: 6.684
-  reproduction_rate: 0.71
+  reproduction_rate: 0.7
   icu_patients: 48
   icu_patients_per_million: 8.257
   hosp_patients: 1643
   hosp_patients_per_million: 282.628
   weekly_hosp_admissions: 2552
   weekly_hosp_admissions_per_million: 438.993
-  total_tests: 65198777
+  total_tests: 65198778
   new_tests: 60693
-  total_tests_per_thousand: 11215.446
+  total_tests_per_thousand: 11215.447
   new_tests_per_thousand: 10.44
   new_tests_smoothed: 85042
   new_tests_smoothed_per_thousand: 14.629
@@ -27115,7 +27129,7 @@
   hosp_patients_per_million: 301.206
   weekly_hosp_admissions: 2473
   weekly_hosp_admissions_per_million: 425.404
-  total_tests: 65287623
+  total_tests: 65287624
   new_tests: 88846
   total_tests_per_thousand: 11230.73
   new_tests_per_thousand: 15.283
@@ -27157,7 +27171,7 @@
   hosp_patients_per_million: 298.281
   weekly_hosp_admissions: 2408
   weekly_hosp_admissions_per_million: 414.222
-  total_tests: 65360844
+  total_tests: 65360845
   new_tests: 73221
   total_tests_per_thousand: 11243.325
   new_tests_per_thousand: 12.595
@@ -27199,7 +27213,7 @@
   hosp_patients_per_million: 286.584
   weekly_hosp_admissions: 2315
   weekly_hosp_admissions_per_million: 398.225
-  total_tests: 65431422
+  total_tests: 65431423
   new_tests: 70578
   total_tests_per_thousand: 11255.466
   new_tests_per_thousand: 12.141
@@ -27241,9 +27255,9 @@
   hosp_patients_per_million: 279.187
   weekly_hosp_admissions: 2234
   weekly_hosp_admissions_per_million: 384.291
-  total_tests: 65506132
+  total_tests: 65506133
   new_tests: 74710
-  total_tests_per_thousand: 11268.317
+  total_tests_per_thousand: 11268.318
   new_tests_per_thousand: 12.852
   new_tests_smoothed: 70166
   new_tests_smoothed_per_thousand: 12.07
@@ -27276,14 +27290,14 @@
   total_deaths_per_million: 820.876
   new_deaths_per_million: 14.622
   new_deaths_smoothed_per_million: 6.66
-  reproduction_rate: 0.72
+  reproduction_rate: 0.71
   icu_patients: 34
   icu_patients_per_million: 5.849
   hosp_patients: 1602
   hosp_patients_per_million: 275.575
   weekly_hosp_admissions: 2238
   weekly_hosp_admissions_per_million: 384.979
-  total_tests: 65563461
+  total_tests: 65563462
   new_tests: 57329
   total_tests_per_thousand: 11278.179
   new_tests_per_thousand: 9.862
@@ -27325,7 +27339,7 @@
   hosp_patients_per_million: 264.05
   weekly_hosp_admissions: 2207
   weekly_hosp_admissions_per_million: 379.647
-  total_tests: 65605573
+  total_tests: 65605574
   new_tests: 42112
   total_tests_per_thousand: 11285.423
   new_tests_per_thousand: 7.244
@@ -27360,14 +27374,14 @@
   total_deaths_per_million: 837.39
   new_deaths_per_million: 6.537
   new_deaths_smoothed_per_million: 6.979
-  reproduction_rate: 0.71
+  reproduction_rate: 0.7
   icu_patients: 37
   icu_patients_per_million: 6.365
   hosp_patients: 1556
   hosp_patients_per_million: 267.662
   weekly_hosp_admissions: 2184
   weekly_hosp_admissions_per_million: 375.69
-  total_tests: 65656298
+  total_tests: 65656299
   new_tests: 50725
   total_tests_per_thousand: 11294.149
   new_tests_per_thousand: 8.726
@@ -27413,7 +27427,7 @@
   hosp_patients_per_million: 282.8
   weekly_hosp_admissions: 2087
   weekly_hosp_admissions_per_million: 359.004
-  total_tests: 65733100
+  total_tests: 65733101
   new_tests: 76802
   total_tests_per_thousand: 11307.36
   new_tests_per_thousand: 13.211
@@ -27455,7 +27469,7 @@
   hosp_patients_per_million: 275.575
   weekly_hosp_admissions: 2030
   weekly_hosp_admissions_per_million: 349.199
-  total_tests: 65802353
+  total_tests: 65802354
   new_tests: 69253
   total_tests_per_thousand: 11319.273
   new_tests_per_thousand: 11.913
@@ -27497,7 +27511,7 @@
   hosp_patients_per_million: 275.747
   weekly_hosp_admissions: 2009
   weekly_hosp_admissions_per_million: 345.587
-  total_tests: 65867093
+  total_tests: 65867094
   new_tests: 64740
   total_tests_per_thousand: 11330.41
   new_tests_per_thousand: 11.137
@@ -27539,7 +27553,7 @@
   hosp_patients_per_million: 269.554
   weekly_hosp_admissions: 1942
   weekly_hosp_admissions_per_million: 334.061
-  total_tests: 65932969
+  total_tests: 65932970
   new_tests: 65876
   total_tests_per_thousand: 11341.742
   new_tests_per_thousand: 11.332
@@ -27581,7 +27595,7 @@
   hosp_patients_per_million: 265.082
   weekly_hosp_admissions: 1836
   weekly_hosp_admissions_per_million: 315.827
-  total_tests: 65974331
+  total_tests: 65974332
   new_tests: 41362
   total_tests_per_thousand: 11348.857
   new_tests_per_thousand: 7.115
@@ -27623,7 +27637,7 @@
   hosp_patients_per_million: 239.967
   weekly_hosp_admissions: 1820
   weekly_hosp_admissions_per_million: 313.075
-  total_tests: 66002766
+  total_tests: 66002767
   new_tests: 28435
   total_tests_per_thousand: 11353.748
   new_tests_per_thousand: 4.891
@@ -27665,7 +27679,7 @@
   hosp_patients_per_million: 251.836
   weekly_hosp_admissions: 1763
   weekly_hosp_admissions_per_million: 303.27
-  total_tests: 66036626
+  total_tests: 66036627
   new_tests: 33860
   total_tests_per_thousand: 11359.573
   new_tests_per_thousand: 5.825
@@ -27711,7 +27725,7 @@
   hosp_patients_per_million: 269.554
   weekly_hosp_admissions: 1737
   weekly_hosp_admissions_per_million: 298.797
-  total_tests: 66090424
+  total_tests: 66090425
   new_tests: 53798
   total_tests_per_thousand: 11368.827
   new_tests_per_thousand: 9.254
@@ -27753,7 +27767,7 @@
   hosp_patients_per_million: 263.362
   weekly_hosp_admissions: 1698
   weekly_hosp_admissions_per_million: 292.089
-  total_tests: 66136152
+  total_tests: 66136153
   new_tests: 45728
   total_tests_per_thousand: 11376.693
   new_tests_per_thousand: 7.866
@@ -27795,7 +27809,7 @@
   hosp_patients_per_million: 258.545
   weekly_hosp_admissions: 1643
   weekly_hosp_admissions_per_million: 282.628
-  total_tests: 66178584
+  total_tests: 66178585
   new_tests: 42432
   total_tests_per_thousand: 11383.992
   new_tests_per_thousand: 7.299
@@ -27837,7 +27851,7 @@
   hosp_patients_per_million: 249.944
   weekly_hosp_admissions: 1616
   weekly_hosp_admissions_per_million: 277.983
-  total_tests: 66223456
+  total_tests: 66223457
   new_tests: 44872
   total_tests_per_thousand: 11391.711
   new_tests_per_thousand: 7.719
@@ -27879,7 +27893,7 @@
   hosp_patients_per_million: 243.235
   weekly_hosp_admissions: 1553
   weekly_hosp_admissions_per_million: 267.146
-  total_tests: 66255671
+  total_tests: 66255672
   new_tests: 32215
   total_tests_per_thousand: 11397.253
   new_tests_per_thousand: 5.542
@@ -27921,7 +27935,7 @@
   hosp_patients_per_million: 222.937
   weekly_hosp_admissions: 1522
   weekly_hosp_admissions_per_million: 261.813
-  total_tests: 66277432
+  total_tests: 66277433
   new_tests: 21761
   total_tests_per_thousand: 11400.996
   new_tests_per_thousand: 3.743
@@ -27963,7 +27977,7 @@
   hosp_patients_per_million: 228.27
   weekly_hosp_admissions: 1485
   weekly_hosp_admissions_per_million: 255.449
-  total_tests: 66302989
+  total_tests: 66302990
   new_tests: 25557
   total_tests_per_thousand: 11405.392
   new_tests_per_thousand: 4.396
@@ -28009,11 +28023,11 @@
   hosp_patients_per_million: 242.203
   weekly_hosp_admissions: 1414
   weekly_hosp_admissions_per_million: 243.235
-  total_tests: 66347194
-  new_tests: 44205
-  total_tests_per_thousand: 11412.996
+  total_tests: 66347197
+  new_tests: 44207
+  total_tests_per_thousand: 11412.997
   new_tests_per_thousand: 7.604
-  new_tests_smoothed: 36681
+  new_tests_smoothed: 36682
   new_tests_smoothed_per_thousand: 6.31
   positive_rate: 0.2011
   tests_per_case: 5
@@ -28051,11 +28065,11 @@
   hosp_patients_per_million: 233.43
   weekly_hosp_admissions: 1360
   weekly_hosp_admissions_per_million: 233.946
-  total_tests: 66382829
-  new_tests: 35635
-  total_tests_per_thousand: 11419.126
-  new_tests_per_thousand: 6.13
-  new_tests_smoothed: 35240
+  total_tests: 66382854
+  new_tests: 35657
+  total_tests_per_thousand: 11419.13
+  new_tests_per_thousand: 6.134
+  new_tests_smoothed: 35243
   new_tests_smoothed_per_thousand: 6.062
   positive_rate: 0.199
   tests_per_case: 5
@@ -28093,12 +28107,12 @@
   hosp_patients_per_million: 223.109
   weekly_hosp_admissions: 1367
   weekly_hosp_admissions_per_million: 235.15
-  total_tests: 66415221
-  new_tests: 32392
-  total_tests_per_thousand: 11424.698
-  new_tests_per_thousand: 5.572
-  new_tests_smoothed: 33805
-  new_tests_smoothed_per_thousand: 5.815
+  total_tests: 66415274
+  new_tests: 32420
+  total_tests_per_thousand: 11424.707
+  new_tests_per_thousand: 5.577
+  new_tests_smoothed: 33813
+  new_tests_smoothed_per_thousand: 5.816
   positive_rate: 0.1935
   tests_per_case: 5.2
   tests_units: tests performed
@@ -28135,13 +28149,13 @@
   hosp_patients_per_million: 227.754
   weekly_hosp_admissions: 1308
   weekly_hosp_admissions_per_million: 225.001
-  total_tests: 66448404
-  new_tests: 33183
-  total_tests_per_thousand: 11430.406
-  new_tests_per_thousand: 5.708
-  new_tests_smoothed: 32135
-  new_tests_smoothed_per_thousand: 5.528
-  positive_rate: 0.1906
+  total_tests: 66448485
+  new_tests: 33211
+  total_tests_per_thousand: 11430.42
+  new_tests_per_thousand: 5.713
+  new_tests_smoothed: 32147
+  new_tests_smoothed_per_thousand: 5.53
+  positive_rate: 0.1905
   tests_per_case: 5.2
   tests_units: tests performed
   total_vaccinations: 13202509
@@ -28177,13 +28191,13 @@
   hosp_patients_per_million: 220.701
   weekly_hosp_admissions: 1277
   weekly_hosp_admissions_per_million: 219.669
-  total_tests: 66473771
-  new_tests: 25367
-  total_tests_per_thousand: 11434.77
-  new_tests_per_thousand: 4.364
-  new_tests_smoothed: 31157
-  new_tests_smoothed_per_thousand: 5.36
-  positive_rate: 0.1894
+  total_tests: 66473860
+  new_tests: 25375
+  total_tests_per_thousand: 11434.785
+  new_tests_per_thousand: 4.365
+  new_tests_smoothed: 31170
+  new_tests_smoothed_per_thousand: 5.362
+  positive_rate: 0.1893
   tests_per_case: 5.3
   tests_units: tests performed
   total_vaccinations: 13203514
@@ -28219,13 +28233,13 @@
   hosp_patients_per_million: 199.37
   weekly_hosp_admissions: 1221
   weekly_hosp_admissions_per_million: 210.036
-  total_tests: 66490727
+  total_tests: 66490816
   new_tests: 16956
-  total_tests_per_thousand: 11437.687
+  total_tests_per_thousand: 11437.702
   new_tests_per_thousand: 2.917
-  new_tests_smoothed: 30471
-  new_tests_smoothed_per_thousand: 5.242
-  positive_rate: 0.1842
+  new_tests_smoothed: 30483
+  new_tests_smoothed_per_thousand: 5.244
+  positive_rate: 0.1841
   tests_per_case: 5.4
   tests_units: tests performed
   total_vaccinations: 13203981
@@ -28261,13 +28275,13 @@
   hosp_patients_per_million: 203.327
   weekly_hosp_admissions: 1187
   weekly_hosp_admissions_per_million: 204.187
-  total_tests: 66509803
+  total_tests: 66509892
   new_tests: 19076
-  total_tests_per_thousand: 11440.968
+  total_tests_per_thousand: 11440.983
   new_tests_per_thousand: 3.281
-  new_tests_smoothed: 29545
-  new_tests_smoothed_per_thousand: 5.082
-  positive_rate: 0.1821
+  new_tests_smoothed: 29557
+  new_tests_smoothed_per_thousand: 5.084
+  positive_rate: 0.182
   tests_per_case: 5.5
   tests_units: tests performed
   total_vaccinations: 13204748
@@ -28307,13 +28321,13 @@
   hosp_patients_per_million: 208.659
   weekly_hosp_admissions: 1151
   weekly_hosp_admissions_per_million: 197.994
-  total_tests: 66544250
-  new_tests: 34447
-  total_tests_per_thousand: 11446.894
+  total_tests: 66544340
+  new_tests: 34448
+  total_tests_per_thousand: 11446.909
   new_tests_per_thousand: 5.926
-  new_tests_smoothed: 28151
-  new_tests_smoothed_per_thousand: 4.843
-  positive_rate: 0.1817
+  new_tests_smoothed: 28163
+  new_tests_smoothed_per_thousand: 4.845
+  positive_rate: 0.1816
   tests_per_case: 5.5
   tests_units: tests performed
   total_vaccinations: 13205960
@@ -28342,20 +28356,20 @@
   total_deaths_per_million: 960.728
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 3.072
-  reproduction_rate: 0.61
+  reproduction_rate: 0.62
   icu_patients: 22
   icu_patients_per_million: 3.784
   hosp_patients: 1220
   hosp_patients_per_million: 209.864
   weekly_hosp_admissions: 1111
   weekly_hosp_admissions_per_million: 191.113
-  total_tests: 66571691
-  new_tests: 27441
-  total_tests_per_thousand: 11451.614
-  new_tests_per_thousand: 4.72
-  new_tests_smoothed: 26980
-  new_tests_smoothed_per_thousand: 4.641
-  positive_rate: 0.1742
+  total_tests: 66571783
+  new_tests: 27443
+  total_tests_per_thousand: 11451.63
+  new_tests_per_thousand: 4.721
+  new_tests_smoothed: 26990
+  new_tests_smoothed_per_thousand: 4.643
+  positive_rate: 0.1741
   tests_per_case: 5.7
   tests_units: tests performed
   total_vaccinations: 13206863
@@ -28391,12 +28405,12 @@
   hosp_patients_per_million: 204.531
   weekly_hosp_admissions: 1026
   weekly_hosp_admissions_per_million: 176.492
-  total_tests: 66596809
-  new_tests: 25118
-  total_tests_per_thousand: 11455.935
+  total_tests: 66596905
+  new_tests: 25122
+  total_tests_per_thousand: 11455.951
   new_tests_per_thousand: 4.321
-  new_tests_smoothed: 25941
-  new_tests_smoothed_per_thousand: 4.462
+  new_tests_smoothed: 25947
+  new_tests_smoothed_per_thousand: 4.463
   positive_rate: 0.1708
   tests_per_case: 5.9
   tests_units: tests performed
@@ -28426,20 +28440,20 @@
   total_deaths_per_million: 980.166
   new_deaths_per_million: 5.161
   new_deaths_smoothed_per_million: 4.423
-  reproduction_rate: 0.61
+  reproduction_rate: 0.62
   icu_patients: 24
   icu_patients_per_million: 4.128
   hosp_patients: 1162
   hosp_patients_per_million: 199.886
   weekly_hosp_admissions: 1016
   weekly_hosp_admissions_per_million: 174.772
-  total_tests: 66622648
-  new_tests: 25839
-  total_tests_per_thousand: 11460.38
-  new_tests_per_thousand: 4.445
-  new_tests_smoothed: 24892
-  new_tests_smoothed_per_thousand: 4.282
-  positive_rate: 0.1696
+  total_tests: 66622761
+  new_tests: 25856
+  total_tests_per_thousand: 11460.399
+  new_tests_per_thousand: 4.448
+  new_tests_smoothed: 24897
+  new_tests_smoothed_per_thousand: 4.283
+  positive_rate: 0.1695
   tests_per_case: 5.9
   tests_units: tests performed
   total_vaccinations: 13208698
@@ -28475,13 +28489,13 @@
   hosp_patients_per_million: 189.049
   weekly_hosp_admissions: 990
   weekly_hosp_admissions_per_million: 170.299
-  total_tests: 66641216
-  new_tests: 18568
-  total_tests_per_thousand: 11463.574
-  new_tests_per_thousand: 3.194
-  new_tests_smoothed: 23921
-  new_tests_smoothed_per_thousand: 4.115
-  positive_rate: 0.1606
+  total_tests: 66641361
+  new_tests: 18600
+  total_tests_per_thousand: 11463.599
+  new_tests_per_thousand: 3.2
+  new_tests_smoothed: 23929
+  new_tests_smoothed_per_thousand: 4.116
+  positive_rate: 0.1605
   tests_per_case: 6.2
   tests_units: tests performed
   total_vaccinations: 13209384
@@ -28510,19 +28524,19 @@
   total_deaths_per_million: 988.251
   new_deaths_per_million: 3.784
   new_deaths_smoothed_per_million: 3.981
-  reproduction_rate: 0.61
+  reproduction_rate: 0.62
   icu_patients: 21
   icu_patients_per_million: 3.612
   hosp_patients: 1003
   hosp_patients_per_million: 172.535
   weekly_hosp_admissions: 978
   weekly_hosp_admissions_per_million: 168.235
-  total_tests: 66655110
-  new_tests: 13894
-  total_tests_per_thousand: 11465.964
-  new_tests_per_thousand: 2.39
-  new_tests_smoothed: 23483
-  new_tests_smoothed_per_thousand: 4.04
+  total_tests: 66655294
+  new_tests: 13933
+  total_tests_per_thousand: 11465.995
+  new_tests_per_thousand: 2.397
+  new_tests_smoothed: 23497
+  new_tests_smoothed_per_thousand: 4.042
   positive_rate: 0.1546
   tests_per_case: 6.5
   tests_units: tests performed
@@ -28552,21 +28566,21 @@
   total_deaths_per_million: 991.175
   new_deaths_per_million: 2.924
   new_deaths_smoothed_per_million: 4.35
-  reproduction_rate: 0.61
+  reproduction_rate: 0.62
   icu_patients: 19
   icu_patients_per_million: 3.268
   hosp_patients: 1021
   hosp_patients_per_million: 175.632
   weekly_hosp_admissions: 962
   weekly_hosp_admissions_per_million: 165.483
-  total_tests: 66668770
-  new_tests: 13660
-  total_tests_per_thousand: 11468.314
-  new_tests_per_thousand: 2.35
-  new_tests_smoothed: 22710
-  new_tests_smoothed_per_thousand: 3.907
-  positive_rate: 0.1519
-  tests_per_case: 6.6
+  total_tests: 66671146
+  new_tests: 15852
+  total_tests_per_thousand: 11468.722
+  new_tests_per_thousand: 2.727
+  new_tests_smoothed: 23036
+  new_tests_smoothed_per_thousand: 3.963
+  positive_rate: 0.1497
+  tests_per_case: 6.7
   tests_units: tests performed
   total_vaccinations: 13210633
   people_vaccinated: 4839723
@@ -28601,6 +28615,15 @@
   hosp_patients_per_million: 183.029
   weekly_hosp_admissions: 934
   weekly_hosp_admissions_per_million: 160.666
+  total_tests: 66698691
+  new_tests: 27545
+  total_tests_per_thousand: 11473.461
+  new_tests_per_thousand: 4.738
+  new_tests_smoothed: 22050
+  new_tests_smoothed_per_thousand: 3.793
+  positive_rate: 0.1492
+  tests_per_case: 6.7
+  tests_units: tests performed
   total_vaccinations: 13211579
   people_vaccinated: 4839784
   people_fully_vaccinated: 4800270
@@ -28627,13 +28650,22 @@
   total_deaths_per_million: 997.368
   new_deaths_per_million: 3.612
   new_deaths_smoothed_per_million: 5.234
-  reproduction_rate: 0.62
+  reproduction_rate: 0.63
   icu_patients: 19
   icu_patients_per_million: 3.268
   hosp_patients: 1062
   hosp_patients_per_million: 182.684
   weekly_hosp_admissions: 921
   weekly_hosp_admissions_per_million: 158.43
+  total_tests: 66722013
+  new_tests: 23322
+  total_tests_per_thousand: 11477.472
+  new_tests_per_thousand: 4.012
+  new_tests_smoothed: 21461
+  new_tests_smoothed_per_thousand: 3.692
+  positive_rate: 0.1458
+  tests_per_case: 6.9
+  tests_units: tests performed
   total_vaccinations: 13212349
   people_vaccinated: 4839831
   people_fully_vaccinated: 4800343
@@ -28660,12 +28692,22 @@
   total_deaths_per_million: 999.948
   new_deaths_per_million: 2.58
   new_deaths_smoothed_per_million: 3.563
+  reproduction_rate: 0.63
   icu_patients: 16
   icu_patients_per_million: 2.752
   hosp_patients: 1026
   hosp_patients_per_million: 176.492
   weekly_hosp_admissions: 906
   weekly_hosp_admissions_per_million: 155.849
+  total_tests: 66744597
+  new_tests: 22584
+  total_tests_per_thousand: 11481.357
+  new_tests_per_thousand: 3.885
+  new_tests_smoothed: 21099
+  new_tests_smoothed_per_thousand: 3.629
+  positive_rate: 0.1402
+  tests_per_case: 7.1
+  tests_units: tests performed
   total_vaccinations: 13213201
   people_vaccinated: 4839898
   people_fully_vaccinated: 4800449
@@ -28698,3 +28740,27 @@
   hosp_patients_per_million: 170.127
   weekly_hosp_admissions: 840
   weekly_hosp_admissions_per_million: 144.496
+  total_tests: 66763612
+  new_tests: 19015
+  total_tests_per_thousand: 11484.628
+  new_tests_per_thousand: 3.271
+  new_tests_smoothed: 20122
+  new_tests_smoothed_per_thousand: 3.461
+  positive_rate: 0.1386
+  tests_per_case: 7.2
+  tests_units: tests performed
+- date: '2022-04-08'
+  total_cases: 3080975
+  new_cases: 2680
+  new_cases_smoothed: 2743.143
+  total_deaths: 5861
+  new_deaths: 24
+  new_deaths_smoothed: 19.714
+  total_cases_per_million: 529987.088
+  new_cases_per_million: 461.012
+  new_cases_smoothed_per_million: 471.873
+  total_deaths_per_million: 1008.205
+  new_deaths_per_million: 4.128
+  new_deaths_smoothed_per_million: 3.391
+  hosp_patients: 961
+  hosp_patients_per_million: 165.311
