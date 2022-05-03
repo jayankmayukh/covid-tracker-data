@@ -40,7 +40,7 @@
   excess_mortality_cumulative_absolute: -7.2
   excess_mortality_cumulative: -7.11
   excess_mortality: -1.73
-  excess_mortality_cumulative_per_million: -134.4638255
+  excess_mortality_cumulative_per_million: -134.463825495835
 - date: '2020-04-01'
   total_cases: 8
   new_cases: 0
@@ -254,7 +254,7 @@
   excess_mortality_cumulative_absolute: -11
   excess_mortality_cumulative: -8.33
   excess_mortality: -12.34
-  excess_mortality_cumulative_per_million: -205.4308445
+  excess_mortality_cumulative_per_million: -205.430844507526
 - date: '2020-05-01'
   total_cases: 15
   new_cases: 0
@@ -475,7 +475,7 @@
   excess_mortality_cumulative_absolute: -1.8
   excess_mortality_cumulative: -1.14
   excess_mortality: 35.66
-  excess_mortality_cumulative_per_million: -33.61595637
+  excess_mortality_cumulative_per_million: -33.6159563739588
 - date: '2020-06-01'
   total_cases: 15
   new_cases: 0
@@ -689,7 +689,7 @@
   excess_mortality_cumulative_absolute: 7.4
   excess_mortality_cumulative: 3.99
   excess_mortality: 33.09
-  excess_mortality_cumulative_per_million: 138.1989318
+  excess_mortality_cumulative_per_million: 138.198931759609
 - date: '2020-07-01'
   total_cases: 15
   new_cases: 0
@@ -910,7 +910,7 @@
   excess_mortality_cumulative_absolute: 13.8
   excess_mortality_cumulative: 6.35
   excess_mortality: 20.25
-  excess_mortality_cumulative_per_million: 257.7223322
+  excess_mortality_cumulative_per_million: 257.722332200351
 - date: '2020-08-01'
   total_cases: 17
   new_cases: 0
@@ -1131,7 +1131,7 @@
   excess_mortality_cumulative_absolute: 11
   excess_mortality_cumulative: 4.44
   excess_mortality: -9.09
-  excess_mortality_cumulative_per_million: 205.4308445
+  excess_mortality_cumulative_per_million: 205.430844507526
 - date: '2020-09-01'
   total_cases: 17
   new_cases: 0
@@ -1345,7 +1345,7 @@
   excess_mortality_cumulative_absolute: 6.7
   excess_mortality_cumulative: 2.38
   excess_mortality: -12.91
-  excess_mortality_cumulative_per_million: 125.1260598
+  excess_mortality_cumulative_per_million: 125.126059836402
 - date: '2020-10-01'
   total_cases: 19
   new_cases: 0
@@ -1566,7 +1566,7 @@
   excess_mortality_cumulative_absolute: 9.6
   excess_mortality_cumulative: 3.07
   excess_mortality: 9.32
-  excess_mortality_cumulative_per_million: 179.2851007
+  excess_mortality_cumulative_per_million: 179.285100661114
 - date: '2020-11-01'
   total_cases: 19
   new_cases: 0
@@ -1780,7 +1780,7 @@
   excess_mortality_cumulative_absolute: 9.8
   excess_mortality_cumulative: 2.91
   excess_mortality: 0.81
-  excess_mortality_cumulative_per_million: 183.0202069
+  excess_mortality_cumulative_per_million: 183.020206924887
 - date: '2020-12-01'
   total_cases: 22
   new_cases: 0
@@ -2001,7 +2001,7 @@
   excess_mortality_cumulative_absolute: 12.2
   excess_mortality_cumulative: 3.33
   excess_mortality: 8.11
-  excess_mortality_cumulative_per_million: 227.8414821
+  excess_mortality_cumulative_per_million: 227.841482090165
 - date: '2021-01-01'
   total_cases: 32
   new_cases: 0
@@ -11333,6 +11333,8 @@
   new_deaths_smoothed_per_million: 0
   new_tests_smoothed: 254
   new_tests_smoothed_per_thousand: 4.744
+  positive_rate: 0.0006
+  tests_per_case: 1776.2
   tests_units: people tested
 - date: '2022-04-29'
   total_cases: 5562
@@ -11351,6 +11353,8 @@
   total_tests_per_thousand: 1332.779
   new_tests_smoothed: 297
   new_tests_smoothed_per_thousand: 5.547
+  positive_rate: 0.0005
+  tests_per_case: 2076.9
   tests_units: people tested
 - date: '2022-04-30'
   total_cases: 5562
@@ -11365,3 +11369,32 @@
   total_deaths_per_million: 803.048
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
+  new_tests_smoothed: 276
+  new_tests_smoothed_per_thousand: 5.154
+  positive_rate: 0.0005
+  tests_per_case: 1930.1
+  tests_units: people tested
+- date: '2022-05-01'
+  total_cases: 5566
+  new_cases: 4
+  new_cases_smoothed: 0.714
+  total_deaths: 43
+  new_deaths: 0
+  new_deaths_smoothed: 0
+  total_cases_per_million: 103948.007
+  new_cases_per_million: 74.702
+  new_cases_smoothed_per_million: 13.34
+  total_deaths_per_million: 803.048
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0
+  new_tests_smoothed: 256
+  new_tests_smoothed_per_thousand: 4.781
+  positive_rate: 0.0028
+  tests_per_case: 358.5
+  tests_units: people tested
+- date: '2022-05-02'
+  total_tests: 71641
+  total_tests_per_thousand: 1337.934
+  new_tests_smoothed: 236
+  new_tests_smoothed_per_thousand: 4.407
+  tests_units: people tested
