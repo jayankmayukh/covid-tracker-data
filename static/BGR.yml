@@ -26138,6 +26138,8 @@
   people_fully_vaccinated_per_hundred: 29.84
   total_boosters_per_hundred: 10.92
   new_vaccinations_smoothed_per_million: 101
+  new_people_vaccinated_smoothed: 106
+  new_people_vaccinated_smoothed_per_hundred: 0.002
   stringency_index: 11.11
 - date: '2022-05-17'
   total_cases: 1162449
@@ -26171,6 +26173,8 @@
   people_fully_vaccinated_per_hundred: 29.84
   total_boosters_per_hundred: 10.93
   new_vaccinations_smoothed_per_million: 95
+  new_people_vaccinated_smoothed: 103
+  new_people_vaccinated_smoothed_per_hundred: 0.001
   stringency_index: 11.11
 - date: '2022-05-18'
   total_cases: 1162724
@@ -26206,6 +26210,8 @@
   people_fully_vaccinated_per_hundred: 29.84
   total_boosters_per_hundred: 10.94
   new_vaccinations_smoothed_per_million: 89
+  new_people_vaccinated_smoothed: 101
+  new_people_vaccinated_smoothed_per_hundred: 0.001
   stringency_index: 11.11
 - date: '2022-05-19'
   total_cases: 1162986
@@ -26239,6 +26245,8 @@
   people_fully_vaccinated_per_hundred: 29.85
   total_boosters_per_hundred: 10.95
   new_vaccinations_smoothed_per_million: 85
+  new_people_vaccinated_smoothed: 99
+  new_people_vaccinated_smoothed_per_hundred: 0.001
   stringency_index: 11.11
 - date: '2022-05-20'
   total_cases: 1163225
@@ -26271,6 +26279,8 @@
   people_fully_vaccinated_per_hundred: 29.85
   total_boosters_per_hundred: 10.96
   new_vaccinations_smoothed_per_million: 82
+  new_people_vaccinated_smoothed: 97
+  new_people_vaccinated_smoothed_per_hundred: 0.001
   stringency_index: 11.11
 - date: '2022-05-21'
   total_cases: 1163317
@@ -26303,6 +26313,8 @@
   people_fully_vaccinated_per_hundred: 29.85
   total_boosters_per_hundred: 10.96
   new_vaccinations_smoothed_per_million: 79
+  new_people_vaccinated_smoothed: 94
+  new_people_vaccinated_smoothed_per_hundred: 0.001
 - date: '2022-05-22'
   total_cases: 1163413
   new_cases: 96
@@ -26327,15 +26339,12 @@
   positive_rate: 0.0472
   tests_per_case: 21.2
   tests_units: tests performed
-  total_vaccinations: 4395129
-  people_fully_vaccinated: 2058551
-  total_boosters: 755589
-  new_vaccinations: 12
-  new_vaccinations_smoothed: 492
-  total_vaccinations_per_hundred: 63.73
-  people_fully_vaccinated_per_hundred: 29.85
-  total_boosters_per_hundred: 10.96
-  new_vaccinations_smoothed_per_million: 71
+  people_vaccinated: 2089798
+  new_vaccinations_smoothed: 536
+  people_vaccinated_per_hundred: 30.3
+  new_vaccinations_smoothed_per_million: 78
+  new_people_vaccinated_smoothed: 92
+  new_people_vaccinated_smoothed_per_hundred: 0.001
 - date: '2022-05-23'
   total_cases: 1163706
   new_cases: 293
@@ -26361,7 +26370,6 @@
   total_vaccinations: 4395768
   people_fully_vaccinated: 2058679
   total_boosters: 756052
-  new_vaccinations: 639
   new_vaccinations_smoothed: 526
   total_vaccinations_per_hundred: 63.74
   people_fully_vaccinated_per_hundred: 29.85
@@ -26552,11 +26560,11 @@
   people_fully_vaccinated: 2059200
   total_boosters: 757548
   new_vaccinations: 13
-  new_vaccinations_smoothed: 404
+  new_vaccinations_smoothed: 360
   total_vaccinations_per_hundred: 63.77
   people_fully_vaccinated_per_hundred: 29.86
   total_boosters_per_hundred: 10.98
-  new_vaccinations_smoothed_per_million: 59
+  new_vaccinations_smoothed_per_million: 52
 - date: '2022-05-30'
   total_cases: 1164985
   new_cases: 253
@@ -26570,6 +26578,11 @@
   total_deaths_per_million: 5385.944
   new_deaths_per_million: 1.595
   new_deaths_smoothed_per_million: 0.808
+  new_tests_smoothed: 4499
+  new_tests_smoothed_per_thousand: 0.652
+  positive_rate: 0.0406
+  tests_per_case: 24.6
+  tests_units: tests performed
   total_vaccinations: 4398512
   people_fully_vaccinated: 2059360
   total_boosters: 757918
@@ -26592,6 +26605,11 @@
   total_deaths_per_million: 5386.379
   new_deaths_per_million: 0.435
   new_deaths_smoothed_per_million: 0.808
+  new_tests_smoothed: 4476
+  new_tests_smoothed_per_thousand: 0.649
+  positive_rate: 0.0434
+  tests_per_case: 23
+  tests_units: tests performed
   total_vaccinations: 4399112
   people_fully_vaccinated: 2059496
   total_boosters: 758329
@@ -26614,6 +26632,11 @@
   total_deaths_per_million: 5386.669
   new_deaths_per_million: 0.29
   new_deaths_smoothed_per_million: 0.725
+  new_tests_smoothed: 4452
+  new_tests_smoothed_per_thousand: 0.646
+  positive_rate: 0.0396
+  tests_per_case: 25.3
+  tests_units: tests performed
   total_vaccinations: 4399598
   people_fully_vaccinated: 2059635
   total_boosters: 758633
@@ -26623,3 +26646,32 @@
   people_fully_vaccinated_per_hundred: 29.86
   total_boosters_per_hundred: 11
   new_vaccinations_smoothed_per_million: 63
+- date: '2022-06-02'
+  total_cases: 1165538
+  new_cases: 182
+  new_cases_smoothed: 168.571
+  total_deaths: 37153
+  new_deaths: 3
+  new_deaths_smoothed: 4.571
+  total_cases_per_million: 169000.479
+  new_cases_per_million: 26.39
+  new_cases_smoothed_per_million: 24.442
+  total_deaths_per_million: 5387.104
+  new_deaths_per_million: 0.435
+  new_deaths_smoothed_per_million: 0.663
+  total_tests: 10017016
+  total_tests_per_thousand: 1452.446
+  new_tests_smoothed: 4631
+  new_tests_smoothed_per_thousand: 0.671
+  positive_rate: 0.0364
+  tests_per_case: 27.5
+  tests_units: tests performed
+  total_vaccinations: 4400096
+  people_fully_vaccinated: 2059753
+  total_boosters: 758976
+  new_vaccinations: 498
+  new_vaccinations_smoothed: 402
+  total_vaccinations_per_hundred: 63.8
+  people_fully_vaccinated_per_hundred: 29.87
+  total_boosters_per_hundred: 11
+  new_vaccinations_smoothed_per_million: 58
