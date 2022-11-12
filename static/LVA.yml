@@ -6754,7 +6754,7 @@
   positive_rate: 0.0601
   tests_per_case: 16.6
   tests_units: tests performed
-  stringency_index: 53.7
+  stringency_index: 50
   excess_mortality_cumulative_absolute: -281.6
   excess_mortality_cumulative: -1.14
   excess_mortality: 9.79
@@ -6784,7 +6784,7 @@
   positive_rate: 0.0601
   tests_per_case: 16.6
   tests_units: tests performed
-  stringency_index: 53.7
+  stringency_index: 50
 - date: '2020-11-17'
   total_cases: 10914
   new_cases: 278
@@ -6810,7 +6810,7 @@
   positive_rate: 0.0628
   tests_per_case: 15.9
   tests_units: tests performed
-  stringency_index: 53.7
+  stringency_index: 50
 - date: '2020-11-18'
   total_cases: 11356
   new_cases: 442
@@ -6836,7 +6836,7 @@
   positive_rate: 0.0622
   tests_per_case: 16.1
   tests_units: tests performed
-  stringency_index: 53.7
+  stringency_index: 50
 - date: '2020-11-19'
   total_cases: 11722
   new_cases: 366
@@ -6862,7 +6862,7 @@
   positive_rate: 0.0636
   tests_per_case: 15.7
   tests_units: tests performed
-  stringency_index: 53.7
+  stringency_index: 50
 - date: '2020-11-20'
   total_cases: 12102
   new_cases: 380
@@ -6888,7 +6888,7 @@
   positive_rate: 0.0611
   tests_per_case: 16.4
   tests_units: tests performed
-  stringency_index: 53.7
+  stringency_index: 50
 - date: '2020-11-21'
   total_cases: 12744
   new_cases: 642
@@ -6914,7 +6914,7 @@
   positive_rate: 0.0664
   tests_per_case: 15.1
   tests_units: tests performed
-  stringency_index: 53.7
+  stringency_index: 50
 - date: '2020-11-22'
   total_cases: 13120
   new_cases: 376
@@ -6944,7 +6944,7 @@
   positive_rate: 0.0679
   tests_per_case: 14.7
   tests_units: tests performed
-  stringency_index: 53.7
+  stringency_index: 50
   excess_mortality_cumulative_absolute: -211.6
   excess_mortality_cumulative: -0.84
   excess_mortality: 13.21
@@ -6974,7 +6974,7 @@
   positive_rate: 0.0688
   tests_per_case: 14.5
   tests_units: tests performed
-  stringency_index: 53.7
+  stringency_index: 50
 - date: '2020-11-24'
   total_cases: 13693
   new_cases: 457
@@ -7000,7 +7000,7 @@
   positive_rate: 0.07
   tests_per_case: 14.3
   tests_units: tests performed
-  stringency_index: 53.7
+  stringency_index: 50
 - date: '2020-11-25'
   total_cases: 14273
   new_cases: 580
@@ -7026,7 +7026,7 @@
   positive_rate: 0.0721
   tests_per_case: 13.9
   tests_units: tests performed
-  stringency_index: 53.7
+  stringency_index: 50
 - date: '2020-11-26'
   total_cases: 15171
   new_cases: 898
@@ -7052,7 +7052,7 @@
   positive_rate: 0.0763
   tests_per_case: 13.1
   tests_units: tests performed
-  stringency_index: 53.7
+  stringency_index: 50
 - date: '2020-11-27'
   total_cases: 15808
   new_cases: 637
@@ -7078,7 +7078,7 @@
   positive_rate: 0.0817
   tests_per_case: 12.2
   tests_units: tests performed
-  stringency_index: 53.7
+  stringency_index: 50
 - date: '2020-11-28'
   total_cases: 16561
   new_cases: 753
@@ -7104,7 +7104,7 @@
   positive_rate: 0.0833
   tests_per_case: 12
   tests_units: tests performed
-  stringency_index: 53.7
+  stringency_index: 50
 - date: '2020-11-29'
   total_cases: 16975
   new_cases: 414
@@ -7134,7 +7134,7 @@
   positive_rate: 0.0842
   tests_per_case: 11.9
   tests_units: tests performed
-  stringency_index: 53.7
+  stringency_index: 50
   excess_mortality_cumulative_absolute: -124
   excess_mortality_cumulative: -0.48
   excess_mortality: 16.52
@@ -7164,7 +7164,7 @@
   positive_rate: 0.0841
   tests_per_case: 11.9
   tests_units: tests performed
-  stringency_index: 53.7
+  stringency_index: 50
 - date: '2020-12-01'
   total_cases: 17687
   new_cases: 612
@@ -7190,7 +7190,7 @@
   positive_rate: 0.0878
   tests_per_case: 11.4
   tests_units: tests performed
-  stringency_index: 53.7
+  stringency_index: 50
 - date: '2020-12-02'
   total_cases: 18377
   new_cases: 690
@@ -7216,7 +7216,7 @@
   positive_rate: 0.0895
   tests_per_case: 11.2
   tests_units: tests performed
-  stringency_index: 53.7
+  stringency_index: 50
 - date: '2020-12-03'
   total_cases: 19307
   new_cases: 930
@@ -32287,6 +32287,12 @@
   total_deaths_per_million: 3275.599
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.695
+  icu_patients: 6
+  icu_patients_per_million: 3.242
+  weekly_icu_admissions: 5
+  weekly_icu_admissions_per_million: 2.641
+  weekly_hosp_admissions: 154
+  weekly_hosp_admissions_per_million: 83.456
   stringency_index: 5.56
 - date: '2022-11-07'
   total_cases: 954953
@@ -32329,3 +32335,17 @@
   total_deaths_per_million: 3279.922
   new_deaths_per_million: 1.621
   new_deaths_smoothed_per_million: 1.081
+  stringency_index: 5.56
+- date: '2022-11-10'
+  total_cases: 956392
+  new_cases: 449
+  new_cases_smoothed: 365.286
+  total_deaths: 6073
+  new_deaths: 3
+  new_deaths_smoothed: 2.143
+  total_cases_per_million: 516785.958
+  new_cases_per_million: 242.617
+  new_cases_smoothed_per_million: 197.382
+  total_deaths_per_million: 3281.543
+  new_deaths_per_million: 1.621
+  new_deaths_smoothed_per_million: 1.158
