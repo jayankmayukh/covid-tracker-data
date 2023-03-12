@@ -8016,7 +8016,6 @@ timeseries:
     - FIN
     - FRA
     - DEU
-    - ISL
     - IRL
     - ISR
     - ITA
@@ -8024,7 +8023,6 @@ timeseries:
     - LVA
     - LUX
     - MYS
-    - MLT
     - NLD
     - PRT
     - ROU
@@ -8055,7 +8053,6 @@ timeseries:
     - FIN
     - FRA
     - DEU
-    - ISL
     - IRL
     - ISR
     - ITA
@@ -8063,7 +8060,6 @@ timeseries:
     - LVA
     - LUX
     - MYS
-    - MLT
     - NLD
     - PRT
     - ROU
@@ -8091,17 +8087,13 @@ timeseries:
     - EST
     - FIN
     - FRA
-    - HUN
-    - ISL
     - IRL
     - ISR
     - ITA
     - JPN
-    - LVA
     - LTU
     - LUX
     - MYS
-    - MLT
     - NLD
     - NOR
     - POL
@@ -8131,17 +8123,13 @@ timeseries:
     - EST
     - FIN
     - FRA
-    - HUN
-    - ISL
     - IRL
     - ISR
     - ITA
     - JPN
-    - LVA
     - LTU
     - LUX
     - MYS
-    - MLT
     - NLD
     - NOR
     - POL
@@ -8168,6 +8156,7 @@ timeseries:
     - FRA
     - DEU
     - GRC
+    - HUN
     - ISL
     - IRL
     - ISR
@@ -8200,6 +8189,7 @@ timeseries:
     - FRA
     - DEU
     - GRC
+    - HUN
     - ISL
     - IRL
     - ISR
@@ -8229,6 +8219,7 @@ timeseries:
     - FRA
     - DEU
     - GRC
+    - HUN
     - IRL
     - ISR
     - ITA
@@ -8251,6 +8242,7 @@ timeseries:
     - FRA
     - DEU
     - GRC
+    - HUN
     - IRL
     - ISR
     - ITA
@@ -13253,8 +13245,6 @@ countries:
       - new_cases_smoothed_per_million
       - new_deaths_smoothed_per_million
       - stringency_index
-      - hosp_patients
-      - hosp_patients_per_million
       - total_cases
       - total_cases_per_million
       - total_tests
@@ -13282,6 +13272,10 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - total_boosters
       - total_boosters_per_hundred
+      - weekly_icu_admissions
+      - weekly_icu_admissions_per_million
+      - weekly_hosp_admissions
+      - weekly_hosp_admissions_per_million
     total_cases: 2195926
   ISL:
     values:
@@ -13315,8 +13309,6 @@ countries:
       - new_cases_smoothed_per_million
       - new_deaths_smoothed_per_million
       - stringency_index
-      - hosp_patients
-      - hosp_patients_per_million
       - total_tests
       - new_tests
       - total_tests_per_thousand
@@ -13342,8 +13334,6 @@ countries:
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
       - new_vaccinations
-      - icu_patients
-      - icu_patients_per_million
       - total_boosters
       - total_boosters_per_hundred
     total_cases: 209137
@@ -13610,11 +13600,15 @@ countries:
       - excess_mortality_cumulative_per_million
       - total_cases
       - total_cases_per_million
+      - weekly_icu_admissions
+      - weekly_icu_admissions_per_million
+      - weekly_hosp_admissions
+      - weekly_hosp_admissions_per_million
       - total_deaths
       - total_deaths_per_million
+      - reproduction_rate
       - hosp_patients
       - hosp_patients_per_million
-      - reproduction_rate
       - total_tests
       - total_tests_per_thousand
       - positive_rate
@@ -13624,12 +13618,6 @@ countries:
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
       - tests_per_case
-      - icu_patients
-      - icu_patients_per_million
-      - weekly_icu_admissions
-      - weekly_icu_admissions_per_million
-      - weekly_hosp_admissions
-      - weekly_hosp_admissions_per_million
       - total_vaccinations
       - people_vaccinated
       - people_fully_vaccinated
@@ -13641,6 +13629,8 @@ countries:
       - new_vaccinations_smoothed_per_million
       - new_people_vaccinated_smoothed
       - new_people_vaccinated_smoothed_per_hundred
+      - icu_patients
+      - icu_patients_per_million
       - total_boosters
       - total_boosters_per_hundred
     total_cases: 1703850
@@ -14401,8 +14391,6 @@ countries:
       - positive_rate
       - tests_per_case
       - reproduction_rate
-      - hosp_patients
-      - hosp_patients_per_million
       - total_deaths
       - total_deaths_per_million
       - total_vaccinations
@@ -15173,12 +15161,8 @@ countries:
       - new_cases_smoothed_per_million
       - new_deaths_smoothed_per_million
       - stringency_index
-      - hosp_patients
-      - hosp_patients_per_million
       - total_cases
       - total_cases_per_million
-      - icu_patients
-      - icu_patients_per_million
       - weekly_hosp_admissions
       - weekly_hosp_admissions_per_million
       - reproduction_rate
