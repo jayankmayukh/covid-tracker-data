@@ -22,6 +22,8 @@
   new_deaths: 0
   new_cases_per_million: 0
   new_deaths_per_million: 0
+  weekly_icu_admissions: 0
+  weekly_icu_admissions_per_million: 0
 - date: '2020-01-07'
   new_cases: 0
   new_deaths: 0
@@ -130,6 +132,8 @@
   new_cases_smoothed_per_million: 0
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
+  weekly_icu_admissions: 0
+  weekly_icu_admissions_per_million: 0
 - date: '2020-01-19'
   new_cases: 0
   new_cases_smoothed: 0
@@ -392,6 +396,8 @@
   new_cases_smoothed_per_million: 0
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
+  weekly_icu_admissions: 0
+  weekly_icu_admissions_per_million: 0
   stringency_index: 0
 - date: '2020-02-13'
   new_cases: 0
@@ -588,6 +594,8 @@
   new_cases_smoothed_per_million: 0.069
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
+  weekly_icu_admissions: 0
+  weekly_icu_admissions_per_million: 0
   stringency_index: 19.44
   excess_mortality_cumulative_absolute: -87.000015
   excess_mortality_cumulative: -0.35
@@ -980,8 +988,8 @@
   new_deaths_per_million: 0.289
   new_deaths_smoothed_per_million: 0.138
   reproduction_rate: 1.32
-  weekly_icu_admissions: 43
-  weekly_icu_admissions_per_million: 4.111
+  weekly_icu_admissions: 42
+  weekly_icu_admissions_per_million: 4.015
   total_tests: 8006
   new_tests: 176
   total_tests_per_thousand: 0.766
@@ -35026,8 +35034,8 @@
   total_deaths_per_million: 3516.331
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 1.032
-  weekly_icu_admissions: 16
-  weekly_icu_admissions_per_million: 1.53
+  weekly_icu_admissions: 17
+  weekly_icu_admissions_per_million: 1.625
   weekly_hosp_admissions: 686
   weekly_hosp_admissions_per_million: 66.063
   total_vaccinations: 22117231
@@ -35212,6 +35220,10 @@
   total_deaths_per_million: 3522.59
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0.894
+  weekly_icu_admissions: 15
+  weekly_icu_admissions_per_million: 1.434
+  weekly_hosp_admissions: 662
+  weekly_hosp_admissions_per_million: 63.768
   total_vaccinations: 22118504
   people_vaccinated: 7934529
   people_fully_vaccinated: 7644996
@@ -35302,4 +35314,30 @@
   total_boosters_per_hundred: 68.55
   new_vaccinations_smoothed_per_million: 17
   new_people_vaccinated_smoothed: 20
+  new_people_vaccinated_smoothed_per_hundred: 0
+- date: '2023-04-06'
+  total_cases: 5965643
+  new_cases: 0
+  new_cases_smoothed: 0
+  total_deaths: 36582
+  new_deaths: 0
+  new_deaths_smoothed: 0
+  total_cases_per_million: 574449.599
+  new_cases_per_million: 0
+  new_cases_smoothed_per_million: 0
+  total_deaths_per_million: 3522.59
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0
+  total_vaccinations: 22119375
+  people_vaccinated: 7934650
+  people_fully_vaccinated: 7645078
+  total_boosters: 7118560
+  new_vaccinations: 214
+  new_vaccinations_smoothed: 161
+  total_vaccinations_per_hundred: 212.99
+  people_vaccinated_per_hundred: 76.41
+  people_fully_vaccinated_per_hundred: 73.62
+  total_boosters_per_hundred: 68.55
+  new_vaccinations_smoothed_per_million: 16
+  new_people_vaccinated_smoothed: 21
   new_people_vaccinated_smoothed_per_hundred: 0
