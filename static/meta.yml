@@ -8101,6 +8101,7 @@ timeseries:
     - NOR
     - POL
     - PRT
+    - ROU
     - SRB
     - SVK
     - SVN
@@ -8136,6 +8137,7 @@ timeseries:
     - NOR
     - POL
     - PRT
+    - ROU
     - SRB
     - SVK
     - SVN
@@ -17417,6 +17419,8 @@ countries:
       - icu_patients_per_million
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
+      - hosp_patients
+      - hosp_patients_per_million
     total_cases: 3385092
   RUS:
     values:
@@ -18403,6 +18407,8 @@ countries:
       - tests_units
       - new_tests_smoothed
       - new_tests_smoothed_per_thousand
+      - weekly_hosp_admissions
+      - weekly_hosp_admissions_per_million
       - positive_rate
       - total_cases
       - total_cases_per_million
@@ -18416,8 +18422,6 @@ countries:
       - total_deaths_per_million
       - weekly_icu_admissions
       - weekly_icu_admissions_per_million
-      - weekly_hosp_admissions
-      - weekly_hosp_admissions_per_million
       - total_vaccinations
       - people_vaccinated
       - total_vaccinations_per_hundred
