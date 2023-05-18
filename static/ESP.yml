@@ -3,16 +3,19 @@
   new_deaths: 0
   new_cases_per_million: 0
   new_deaths_per_million: 0
+  stringency_index: 0
 - date: '2020-01-04'
   new_cases: 0
   new_deaths: 0
   new_cases_per_million: 0
   new_deaths_per_million: 0
+  stringency_index: 0
 - date: '2020-01-05'
   new_cases: 0
   new_deaths: 0
   new_cases_per_million: 0
   new_deaths_per_million: 0
+  stringency_index: 0
   excess_mortality_cumulative_absolute: -1205
   excess_mortality_cumulative: -12.15
   excess_mortality: -12.15
@@ -22,11 +25,13 @@
   new_deaths: 0
   new_cases_per_million: 0
   new_deaths_per_million: 0
+  stringency_index: 0
 - date: '2020-01-07'
   new_cases: 0
   new_deaths: 0
   new_cases_per_million: 0
   new_deaths_per_million: 0
+  stringency_index: 0
 - date: '2020-01-08'
   new_cases: 0
   new_cases_smoothed: 0
@@ -36,6 +41,7 @@
   new_cases_smoothed_per_million: 0
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
+  stringency_index: 0
 - date: '2020-01-09'
   new_cases: 0
   new_cases_smoothed: 0
@@ -45,6 +51,7 @@
   new_cases_smoothed_per_million: 0
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
+  stringency_index: 0
 - date: '2020-01-10'
   new_cases: 0
   new_cases_smoothed: 0
@@ -54,6 +61,7 @@
   new_cases_smoothed_per_million: 0
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
+  stringency_index: 0
 - date: '2020-01-11'
   total_cases: 1
   new_cases: 1
@@ -65,6 +73,7 @@
   new_cases_smoothed_per_million: 0.003
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
+  stringency_index: 0
 - date: '2020-01-12'
   total_cases: 2
   new_cases: 1
@@ -76,6 +85,7 @@
   new_cases_smoothed_per_million: 0.006
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
+  stringency_index: 0
   excess_mortality_cumulative_absolute: -2144
   excess_mortality_cumulative: -10.59
   excess_mortality: -9.08
@@ -91,6 +101,7 @@
   new_cases_smoothed_per_million: 0.006
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
+  stringency_index: 0
 - date: '2020-01-14'
   total_cases: 3
   new_cases: 1
@@ -102,6 +113,7 @@
   new_cases_smoothed_per_million: 0.009
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
+  stringency_index: 0
 - date: '2020-01-15'
   total_cases: 3
   new_cases: 0
@@ -113,6 +125,7 @@
   new_cases_smoothed_per_million: 0.009
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
+  stringency_index: 0
 - date: '2020-01-16'
   total_cases: 3
   new_cases: 0
@@ -124,6 +137,7 @@
   new_cases_smoothed_per_million: 0.009
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
+  stringency_index: 0
 - date: '2020-01-17'
   total_cases: 3
   new_cases: 0
@@ -135,6 +149,7 @@
   new_cases_smoothed_per_million: 0.009
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
+  stringency_index: 0
 - date: '2020-01-18'
   total_cases: 3
   new_cases: 0
@@ -146,6 +161,7 @@
   new_cases_smoothed_per_million: 0.006
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
+  stringency_index: 0
 - date: '2020-01-19'
   total_cases: 3
   new_cases: 0
@@ -157,6 +173,7 @@
   new_cases_smoothed_per_million: 0.003
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
+  stringency_index: 0
   excess_mortality_cumulative_absolute: -2742
   excess_mortality_cumulative: -8.91
   excess_mortality: -5.69
@@ -172,6 +189,7 @@
   new_cases_smoothed_per_million: 0.006
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
+  stringency_index: 0
 - date: '2020-01-21'
   total_cases: 4
   new_cases: 0
@@ -183,6 +201,7 @@
   new_cases_smoothed_per_million: 0.003
   new_deaths_per_million: 0
   new_deaths_smoothed_per_million: 0
+  stringency_index: 0
 - date: '2020-01-22'
   total_cases: 4
   new_cases: 0
@@ -39894,9 +39913,17 @@
   weekly_hosp_admissions_per_million: 44.682
 - date: '2023-05-06'
   total_cases: 13845825
+  new_cases: 0
+  new_cases_smoothed: 1692.429
   total_deaths: 120964
+  new_deaths: 0
+  new_deaths_smoothed: 9.286
   total_cases_per_million: 291131.692
+  new_cases_per_million: 0
+  new_cases_smoothed_per_million: 35.586
   total_deaths_per_million: 2543.471
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0.195
   icu_patients: 119
   icu_patients_per_million: 2.502
   hosp_patients: 2322
@@ -39907,9 +39934,17 @@
   weekly_hosp_admissions_per_million: 45.207
 - date: '2023-05-07'
   total_cases: 13845825
+  new_cases: 0
+  new_cases_smoothed: 1692.429
   total_deaths: 120964
+  new_deaths: 0
+  new_deaths_smoothed: 9.286
   total_cases_per_million: 291131.692
+  new_cases_per_million: 0
+  new_cases_smoothed_per_million: 35.586
   total_deaths_per_million: 2543.471
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0.195
   icu_patients: 128
   icu_patients_per_million: 2.691
   hosp_patients: 2339
@@ -39920,9 +39955,17 @@
   weekly_hosp_admissions_per_million: 46.28
 - date: '2023-05-08'
   total_cases: 13845825
+  new_cases: 0
+  new_cases_smoothed: 1692.429
   total_deaths: 120964
+  new_deaths: 0
+  new_deaths_smoothed: 9.286
   total_cases_per_million: 291131.692
+  new_cases_per_million: 0
+  new_cases_smoothed_per_million: 35.586
   total_deaths_per_million: 2543.471
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0.195
   icu_patients: 111
   icu_patients_per_million: 2.334
   hosp_patients: 2341
@@ -39933,9 +39976,17 @@
   weekly_hosp_admissions_per_million: 46.953
 - date: '2023-05-09'
   total_cases: 13845825
+  new_cases: 0
+  new_cases_smoothed: 1692.429
   total_deaths: 120964
+  new_deaths: 0
+  new_deaths_smoothed: 9.286
   total_cases_per_million: 291131.692
+  new_cases_per_million: 0
+  new_cases_smoothed_per_million: 35.586
   total_deaths_per_million: 2543.471
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0.195
   icu_patients: 109
   icu_patients_per_million: 2.292
   hosp_patients: 2309
@@ -39946,9 +39997,17 @@
   weekly_hosp_admissions_per_million: 46.448
 - date: '2023-05-10'
   total_cases: 13845825
+  new_cases: 0
+  new_cases_smoothed: 1692.429
   total_deaths: 120964
+  new_deaths: 0
+  new_deaths_smoothed: 9.286
   total_cases_per_million: 291131.692
+  new_cases_per_million: 0
+  new_cases_smoothed_per_million: 35.586
   total_deaths_per_million: 2543.471
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0.195
   icu_patients: 111
   icu_patients_per_million: 2.334
   hosp_patients: 2291
@@ -39958,6 +40017,18 @@
   weekly_hosp_admissions: 2162
   weekly_hosp_admissions_per_million: 45.46
 - date: '2023-05-11'
+  total_cases: 13845825
+  new_cases: 0
+  new_cases_smoothed: 1692.429
+  total_deaths: 120964
+  new_deaths: 0
+  new_deaths_smoothed: 9.286
+  total_cases_per_million: 291131.692
+  new_cases_per_million: 0
+  new_cases_smoothed_per_million: 35.586
+  total_deaths_per_million: 2543.471
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0.195
   icu_patients: 112
   icu_patients_per_million: 2.355
   hosp_patients: 2210
@@ -39967,6 +40038,18 @@
   weekly_hosp_admissions: 2103
   weekly_hosp_admissions_per_million: 44.219
 - date: '2023-05-12'
+  total_cases: 13845825
+  new_cases: 0
+  new_cases_smoothed: 0
+  total_deaths: 120964
+  new_deaths: 0
+  new_deaths_smoothed: 0
+  total_cases_per_million: 291131.692
+  new_cases_per_million: 0
+  new_cases_smoothed_per_million: 0
+  total_deaths_per_million: 2543.471
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0
   icu_patients: 111
   icu_patients_per_million: 2.334
   hosp_patients: 2210
@@ -39976,6 +40059,18 @@
   weekly_hosp_admissions: 2049
   weekly_hosp_admissions_per_million: 43.084
 - date: '2023-05-13'
+  total_cases: 13845825
+  new_cases: 0
+  new_cases_smoothed: 0
+  total_deaths: 120964
+  new_deaths: 0
+  new_deaths_smoothed: 0
+  total_cases_per_million: 291131.692
+  new_cases_per_million: 0
+  new_cases_smoothed_per_million: 0
+  total_deaths_per_million: 2543.471
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0
   icu_patients: 111
   icu_patients_per_million: 2.334
   hosp_patients: 2212
@@ -39985,6 +40080,18 @@
   weekly_hosp_admissions: 1995
   weekly_hosp_admissions_per_million: 41.948
 - date: '2023-05-14'
+  total_cases: 13845825
+  new_cases: 0
+  new_cases_smoothed: 0
+  total_deaths: 120964
+  new_deaths: 0
+  new_deaths_smoothed: 0
+  total_cases_per_million: 291131.692
+  new_cases_per_million: 0
+  new_cases_smoothed_per_million: 0
+  total_deaths_per_million: 2543.471
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0
   icu_patients: 118
   icu_patients_per_million: 2.481
   hosp_patients: 2297
@@ -39994,6 +40101,18 @@
   weekly_hosp_admissions: 1951
   weekly_hosp_admissions_per_million: 41.023
 - date: '2023-05-15'
+  total_cases: 13845825
+  new_cases: 0
+  new_cases_smoothed: 0
+  total_deaths: 120964
+  new_deaths: 0
+  new_deaths_smoothed: 0
+  total_cases_per_million: 291131.692
+  new_cases_per_million: 0
+  new_cases_smoothed_per_million: 0
+  total_deaths_per_million: 2543.471
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0
   icu_patients: 119
   icu_patients_per_million: 2.502
   hosp_patients: 2299
@@ -40002,3 +40121,29 @@
   weekly_icu_admissions_per_million: 2.397
   weekly_hosp_admissions: 1911
   weekly_hosp_admissions_per_million: 40.182
+- date: '2023-05-16'
+  total_cases: 13845825
+  new_cases: 0
+  new_cases_smoothed: 0
+  total_deaths: 120964
+  new_deaths: 0
+  new_deaths_smoothed: 0
+  total_cases_per_million: 291131.692
+  new_cases_per_million: 0
+  new_cases_smoothed_per_million: 0
+  total_deaths_per_million: 2543.471
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0
+- date: '2023-05-17'
+  total_cases: 13845825
+  new_cases: 0
+  new_cases_smoothed: 0
+  total_deaths: 120964
+  new_deaths: 0
+  new_deaths_smoothed: 0
+  total_cases_per_million: 291131.692
+  new_cases_per_million: 0
+  new_cases_smoothed_per_million: 0
+  total_deaths_per_million: 2543.471
+  new_deaths_per_million: 0
+  new_deaths_smoothed_per_million: 0
