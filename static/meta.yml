@@ -2271,6 +2271,7 @@ timeseries:
     - TUN
     - TUR
     - TCA
+    - TUV
     - UGA
     - UKR
     - ARE
@@ -2502,6 +2503,7 @@ timeseries:
     - TUN
     - TUR
     - TCA
+    - TUV
     - UGA
     - UKR
     - ARE
@@ -2728,6 +2730,7 @@ timeseries:
     - TUN
     - TUR
     - TCA
+    - TUV
     - UGA
     - UKR
     - ARE
@@ -2953,6 +2956,7 @@ timeseries:
     - TUN
     - TUR
     - TCA
+    - TUV
     - UGA
     - UKR
     - ARE
@@ -12230,7 +12234,7 @@ countries:
       - total_cases_per_million
       - total_deaths
       - total_deaths_per_million
-    total_cases: 94196
+    total_cases: 98041
   PYF:
     values:
       - continent
@@ -12243,22 +12247,22 @@ countries:
       - diabetes_prevalence
       - life_expectancy
     timeseries:
-      - total_cases
       - new_cases
       - new_deaths
-      - total_cases_per_million
       - new_cases_per_million
       - new_deaths_per_million
       - new_cases_smoothed
       - new_deaths_smoothed
       - new_cases_smoothed_per_million
       - new_deaths_smoothed_per_million
-      - total_deaths
-      - total_deaths_per_million
       - excess_mortality_cumulative_absolute
       - excess_mortality_cumulative
       - excess_mortality
       - excess_mortality_cumulative_per_million
+      - total_cases
+      - total_cases_per_million
+      - total_deaths
+      - total_deaths_per_million
       - total_vaccinations
       - people_vaccinated
       - total_vaccinations_per_hundred
@@ -12272,7 +12276,7 @@ countries:
       - new_vaccinations
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 78615
+    total_cases: 78616
   GAB:
     values:
       - continent
@@ -12672,7 +12676,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 5340268
+    total_cases: 5342258
   GRL:
     values:
       - continent
@@ -12824,7 +12828,7 @@ countries:
       - tests_per_case
       - total_deaths
       - total_deaths_per_million
-    total_cases: 51759
+    total_cases: 51765
   GTM:
     values:
       - continent
@@ -12883,7 +12887,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 1266928
+    total_cases: 1269049
   GGY:
     values:
       - continent
@@ -13339,7 +13343,7 @@ countries:
       - new_vaccinations
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 208751
+    total_cases: 208757
   IND:
     values:
       - continent
@@ -13396,7 +13400,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 44994955
+    total_cases: 44995332
   IDN:
     values:
       - continent
@@ -19791,10 +19795,14 @@ countries:
       - new_people_vaccinated_smoothed_per_hundred
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
+      - total_cases
+      - total_cases_per_million
       - total_boosters
       - total_boosters_per_hundred
       - reproduction_rate
-    total_cases: -1
+      - total_deaths
+      - total_deaths_per_million
+    total_cases: 2943
   UGA:
     values:
       - continent
@@ -19815,10 +19823,20 @@ countries:
       - life_expectancy
       - human_development_index
     timeseries:
+      - new_cases
+      - new_deaths
+      - new_cases_per_million
+      - new_deaths_per_million
+      - stringency_index
+      - new_cases_smoothed
+      - new_deaths_smoothed
+      - new_cases_smoothed_per_million
+      - new_deaths_smoothed_per_million
+      - total_cases
+      - total_cases_per_million
       - total_tests
       - total_tests_per_thousand
       - tests_units
-      - stringency_index
       - new_tests
       - new_tests_per_thousand
       - new_tests_smoothed
@@ -19826,6 +19844,8 @@ countries:
       - positive_rate
       - tests_per_case
       - reproduction_rate
+      - total_deaths
+      - total_deaths_per_million
       - total_vaccinations
       - people_vaccinated
       - total_vaccinations_per_hundred
@@ -19837,18 +19857,6 @@ countries:
       - new_vaccinations
       - people_fully_vaccinated
       - people_fully_vaccinated_per_hundred
-      - total_cases
-      - new_cases
-      - total_deaths
-      - new_deaths
-      - total_cases_per_million
-      - new_cases_per_million
-      - total_deaths_per_million
-      - new_deaths_per_million
-      - new_cases_smoothed
-      - new_deaths_smoothed
-      - new_cases_smoothed_per_million
-      - new_deaths_smoothed_per_million
       - total_boosters
       - total_boosters_per_hundred
     total_cases: 171729
@@ -20138,7 +20146,7 @@ countries:
       - total_deaths_per_million
       - positive_rate
       - tests_per_case
-    total_cases: 25298
+    total_cases: 25325
   URY:
     values:
       - continent
@@ -20248,7 +20256,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 171240
+    total_cases: 171400
   VUT:
     values:
       - continent
@@ -20419,7 +20427,7 @@ countries:
       - tests_per_case
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: 11621347
+    total_cases: 11621626
   WLF:
     values:
       - continent
