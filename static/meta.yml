@@ -165,6 +165,7 @@ timeseries:
     - PRY
     - PER
     - PHL
+    - PCN
     - POL
     - PRT
     - PRI
@@ -398,6 +399,7 @@ timeseries:
     - PRY
     - PER
     - PHL
+    - PCN
     - POL
     - PRT
     - PRI
@@ -631,6 +633,7 @@ timeseries:
     - PRY
     - PER
     - PHL
+    - PCN
     - POL
     - PRT
     - PRI
@@ -864,6 +867,7 @@ timeseries:
     - PRY
     - PER
     - PHL
+    - PCN
     - POL
     - PRT
     - PRI
@@ -1097,6 +1101,7 @@ timeseries:
     - PRY
     - PER
     - PHL
+    - PCN
     - POL
     - PRT
     - PRI
@@ -1330,6 +1335,7 @@ timeseries:
     - PRY
     - PER
     - PHL
+    - PCN
     - POL
     - PRT
     - PRI
@@ -1563,6 +1569,7 @@ timeseries:
     - PRY
     - PER
     - PHL
+    - PCN
     - POL
     - PRT
     - PRI
@@ -1796,6 +1803,7 @@ timeseries:
     - PRY
     - PER
     - PHL
+    - PCN
     - POL
     - PRT
     - PRI
@@ -2214,6 +2222,7 @@ timeseries:
     - PRY
     - PER
     - PHL
+    - PCN
     - POL
     - PRT
     - PRI
@@ -2447,6 +2456,7 @@ timeseries:
     - PRY
     - PER
     - PHL
+    - PCN
     - POL
     - PRT
     - PRI
@@ -2680,6 +2690,7 @@ timeseries:
     - PRY
     - PER
     - PHL
+    - PCN
     - POL
     - PRT
     - PRI
@@ -2913,6 +2924,7 @@ timeseries:
     - PRY
     - PER
     - PHL
+    - PCN
     - POL
     - PRT
     - PRI
@@ -17205,6 +17217,18 @@ countries:
       - location
       - population
     timeseries:
+      - total_cases
+      - new_cases
+      - total_deaths
+      - new_deaths
+      - total_cases_per_million
+      - new_cases_per_million
+      - total_deaths_per_million
+      - new_deaths_per_million
+      - new_cases_smoothed
+      - new_deaths_smoothed
+      - new_cases_smoothed_per_million
+      - new_deaths_smoothed_per_million
       - total_vaccinations
       - people_vaccinated
       - total_vaccinations_per_hundred
@@ -17217,7 +17241,7 @@ countries:
       - people_fully_vaccinated_per_hundred
       - total_boosters
       - total_boosters_per_hundred
-    total_cases: -1
+    total_cases: 4
   POL:
     values:
       - continent
